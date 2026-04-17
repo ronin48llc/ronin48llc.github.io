@@ -1,9 +1,9 @@
-title: ronin48llc Blog
-description: Tech blog
+title: "Ronin 48"
+description: Tech blog by Ronin48
 baseurl: ""
 url: "https://ronin48llc.github.io"
 
-theme: minima
+remote_theme: riggraz/no-style-please
 
 permalink: /:year/:month/:day/:title/
 
@@ -17,3 +17,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+theme_config:
+  mode: "auto"
+  show_description: true

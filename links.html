@@ -1,0 +1,90 @@
+---
+layout: default
+title: Links
+permalink: /links
+---
+
+<style>
+  .linktree-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+
+  .linktree-wrapper .linktree-avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+
+  .linktree-wrapper .linktree-name {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .linktree-wrapper .linktree-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .linktree-wrapper .linktree-btn {
+    display: block;
+    width: 100%;
+    padding: 0.85rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid currentColor;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: inherit;
+    background: transparent;
+    box-sizing: border-box;
+    transition: opacity 0.15s ease;
+  }
+
+  .linktree-wrapper .linktree-btn:hover {
+    opacity: 0.7;
+  }
+
+  @media (max-width: 320px) {
+    .linktree-wrapper {
+      padding: 1rem 0.5rem;
+    }
+
+    .linktree-wrapper .linktree-avatar {
+      width: 90px;
+      height: 90px;
+    }
+
+    .linktree-wrapper .linktree-name {
+      font-size: 1.2rem;
+    }
+
+    .linktree-wrapper .linktree-btn {
+      padding: 0.7rem 0.75rem;
+      font-size: 0.9rem;
+    }
+  }
+</style>
+
+<div class="linktree-wrapper">
+  <img src="{{ '/assets/img/avatar-placeholder.png' | relative_url }}" alt="Ronin 48 avatar" class="linktree-avatar">
+  <div class="linktree-name">Ronin 48</div>
+  <div class="linktree-buttons">
+    <a href="https://github.com/ronin48llc" target="_blank" rel="noopener" class="linktree-btn">GitHub</a>
+    <a href="https://linkedin.com/in/placeholder" target="_blank" rel="noopener" class="linktree-btn">LinkedIn</a>
+    <a href="https://x.com/placeholder" target="_blank" rel="noopener" class="linktree-btn">Twitter / X</a>
+    <a href="mailto:hello@example.com" target="_blank" rel="noopener" class="linktree-btn">Email</a>
+    <a href="https://example.com/link1" target="_blank" rel="noopener" class="linktree-btn">Link Placeholder 1</a>
+    <a href="https://example.com/link2" target="_blank" rel="noopener" class="linktree-btn">Link Placeholder 2</a>
+  </div>
+</div>

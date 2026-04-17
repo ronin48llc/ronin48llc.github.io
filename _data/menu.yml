@@ -1,0 +1,25 @@
+entries:
+  - title: home
+    post_list:
+      limit: 5
+      show_more: true
+      show_more_url: /archive
+      show_more_text: "see all posts"
+  - title: links
+    url: /links
+  - title: bio
+    url: /bio
+  - title: resume
+    entries:
+      - title: work experience
+        url: /resume/work-experience
+      - title: education
+        url: /resume/education
+      - title: skills
+        url: /resume/skills
+      - title: projects
+        url: /resume/projects
+      - title: awards
+        url: /resume/awards
+      - title: download pdf
+        url: /assets/resume.pdf
