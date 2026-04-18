@@ -1,19 +1,27 @@
 ---
 layout: page
-title: Education
+title: Memberships & Contributions
 permalink: /resume/education
 ---
 
-### B.S. Computer Science — State University
+### Memberships
 
-_Graduated May 2017_
+- AWS Community Builder
+- AWS User Group Leader
+- FinOps Foundation
+- ISC2 Member
+- InfraGard Member
 
-Relevant coursework: Data Structures, Algorithms, Operating Systems, Distributed Systems, Database Design.
+### Former Roles
 
----
+- AWS Certification SME Specialty
+- AWS APN Ambassador
+- AWS Partner Network (APN) Immersion Day Practitioner
+- AWS Partner Well-Architected Lead
 
-### A.S. Information Technology — Community College
+### Contributions
 
-_Graduated May 2015_
-
-Foundation in programming, networking, and systems administration.
+- CIS Benchmark Contributor
+- AWS Whitepaper Co-Author
+- AWS Re:Invent Presenter
+- South Florida Tech Hub, ITExpo, ITPalooza, ISACA Presenter

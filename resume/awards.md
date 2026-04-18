@@ -1,27 +1,33 @@
 ---
 layout: page
-title: Awards
+title: Awards & Recognition
 permalink: /resume/awards
 ---
 
-### Employee of the Quarter — Acme Corp
+### AWS Ambassador Program — First Employee Accepted
 
-_Q3 2023_
-
-Recognized for outstanding contributions to the platform migration project.
+Multi-year renewals with recognition in certifications and evangelization of AWS, including contribution to certification exams as a subject matter expert.
 
 ---
 
-### Hackathon Winner — TechConf 2021
+### AWS Re:Invent Presenter
 
-_November 2021_
-
-First place for building a real-time collaboration tool in 48 hours.
+Presented at AWS Re:Invent, the largest cloud computing conference.
 
 ---
 
-### Dean's List — State University
+### AWS Whitepaper Co-Author
 
-_2015 – 2017_
+Co-authored AWS whitepapers contributing to the broader AWS knowledge base.
 
-Maintained a GPA of 3.8+ across all semesters.
+---
+
+### AWS Certified — All Available Certifications
+
+Achieved and maintained all available AWS certifications including early adopter badges for AI Practitioner, ML Engineer Associate, and Generative AI Developer Professional.
+
+---
+
+### SOC & PCI Audit Principal
+
+Principal during SOC and PCI Audits validating Managed Security Service and Managed Service Provider services at CloudHesive.

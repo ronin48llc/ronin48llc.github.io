@@ -1,0 +1,19 @@
+# Add presentations here. Each entry will appear on the /presentations page.
+# Place files in assets/presentations/ and thumbnails in assets/presentations/thumbs/
+#
+# Fields:
+#   title:       (required) Presentation title
+#   date:        (required) Date in YYYY-MM-DD format
+#   description: (optional) Short description
+#   pdf:         (required) Filename of the PDF in assets/presentations/
+#   pptx:        (optional) Filename of the PPTX in assets/presentations/
+#   thumbnail:   (optional) Filename of thumbnail in assets/presentations/thumbs/
+#                           If omitted, a placeholder is shown.
+#
+# Example:
+# - title: "Cloud Migration Strategies"
+#   date: 2024-12-01
+#   description: "Presented at AWS Re:Invent 2024"
+#   pdf: "cloud-migration-strategies.pdf"
+#   pptx: "cloud-migration-strategies.pptx"
+#   thumbnail: "cloud-migration-strategies.png"

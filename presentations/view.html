@@ -1,0 +1,173 @@
+---
+layout: default
+title: Slide Viewer
+permalink: /presentations/view
+---
+
+<style>
+  .viewer-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .viewer-wrapper .viewer-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .viewer-wrapper .viewer-controls button {
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    font-size: 0.9rem;
+  }
+
+  .viewer-wrapper .viewer-controls button:hover {
+    opacity: 0.7;
+  }
+
+  .viewer-wrapper .viewer-controls button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+  }
+
+  .viewer-wrapper #page-info {
+    font-size: 0.9rem;
+    min-width: 80px;
+    text-align: center;
+  }
+
+  .viewer-wrapper #slide-canvas {
+    width: 100%;
+    border: 1px solid currentColor;
+    display: block;
+  }
+
+  .viewer-wrapper .viewer-loading {
+    padding: 2rem 0;
+  }
+
+  .viewer-wrapper .viewer-error {
+    padding: 2rem 0;
+  }
+
+  .viewer-wrapper .viewer-back {
+    margin-top: 1rem;
+    display: inline-block;
+  }
+
+  .viewer-wrapper .viewer-download {
+    margin-left: auto;
+  }
+</style>
+
+<div class="viewer-wrapper">
+  <div id="viewer-status" class="viewer-loading">Loading slides...</div>
+
+  <div id="viewer-ui" style="display: none;">
+    <div class="viewer-controls">
+      <button id="prev-btn" disabled>← Prev</button>
+      <span id="page-info">1 / 1</span>
+      <button id="next-btn" disabled>Next →</button>
+      <a id="download-link" href="#" download class="viewer-download">Download PDF</a>
+    </div>
+    <canvas id="slide-canvas"></canvas>
+  </div>
+
+  <a href="{{ '/presentations' | relative_url }}" class="viewer-back">← Back to presentations</a>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+(function () {
+  "use strict";
+
+  var params = new URLSearchParams(window.location.search);
+  var file = params.get("file");
+  var status = document.getElementById("viewer-status");
+  var ui = document.getElementById("viewer-ui");
+
+  if (!file) {
+    status.innerHTML = '<p class="viewer-error">No file specified.</p>';
+    return;
+  }
+
+  var pdfUrl = "{{ '/assets/presentations/' | relative_url }}" + file;
+  var downloadLink = document.getElementById("download-link");
+  downloadLink.href = pdfUrl;
+
+  var canvas = document.getElementById("slide-canvas");
+  var ctx = canvas.getContext("2d");
+  var prevBtn = document.getElementById("prev-btn");
+  var nextBtn = document.getElementById("next-btn");
+  var pageInfo = document.getElementById("page-info");
+
+  var pdfDoc = null;
+  var currentPage = 1;
+  var totalPages = 0;
+  var rendering = false;
+
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+
+  function renderPage(num) {
+    rendering = true;
+    pdfDoc.getPage(num).then(function (page) {
+      var containerWidth = canvas.parentElement.clientWidth - 2; // account for border
+      var unscaledViewport = page.getViewport({ scale: 1 });
+      var scale = containerWidth / unscaledViewport.width;
+      var viewport = page.getViewport({ scale: scale });
+
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      var renderContext = { canvasContext: ctx, viewport: viewport };
+      page.render(renderContext).promise.then(function () {
+        rendering = false;
+        updateControls();
+      });
+    });
+    pageInfo.textContent = num + " / " + totalPages;
+  }
+
+  function updateControls() {
+    prevBtn.disabled = currentPage <= 1;
+    nextBtn.disabled = currentPage >= totalPages;
+  }
+
+  prevBtn.addEventListener("click", function () {
+    if (currentPage <= 1 || rendering) return;
+    currentPage--;
+    renderPage(currentPage);
+  });
+
+  nextBtn.addEventListener("click", function () {
+    if (currentPage >= totalPages || rendering) return;
+    currentPage++;
+    renderPage(currentPage);
+  });
+
+  // Keyboard navigation
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "ArrowLeft" || e.key === "ArrowUp") {
+      prevBtn.click();
+    } else if (e.key === "ArrowRight" || e.key === "ArrowDown" || e.key === " ") {
+      nextBtn.click();
+    }
+  });
+
+  pdfjsLib.getDocument(pdfUrl).promise.then(function (pdf) {
+    pdfDoc = pdf;
+    totalPages = pdf.numPages;
+    status.style.display = "none";
+    ui.style.display = "block";
+    renderPage(1);
+  }).catch(function (err) {
+    status.innerHTML = '<p class="viewer-error">Could not load PDF. <a href="' + pdfUrl + '" download>Download it instead</a>.</p>';
+  });
+})();
+</script>

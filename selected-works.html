@@ -1,0 +1,226 @@
+---
+layout: default
+title: Selected Works
+permalink: /selected-works
+---
+
+<style>
+  .works-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .works-wrapper .works-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .works-wrapper .tag-btn {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+  }
+
+  .works-wrapper .tag-btn:hover {
+    opacity: 1;
+  }
+
+  .works-wrapper .tag-btn.active {
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  .works-wrapper .works-count {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+
+  .works-wrapper .work-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .works-wrapper .work-item:last-child {
+    border-bottom: none;
+  }
+
+  .works-wrapper .work-title a {
+    font-weight: bold;
+  }
+
+  .works-wrapper .work-summary {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+    opacity: 0.85;
+  }
+
+  .works-wrapper .work-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.4rem;
+  }
+
+  .works-wrapper .work-tag {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .works-wrapper .work-tag:hover {
+    opacity: 1;
+  }
+
+  .works-wrapper .work-item.hidden {
+    display: none;
+  }
+
+  .works-wrapper .tag-groups {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+  }
+
+  .works-wrapper .tag-groups summary {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  .works-wrapper .tag-groups table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .works-wrapper .tag-groups td {
+    padding: 0.3rem 0.5rem;
+    border-bottom: 1px solid currentColor;
+    vertical-align: top;
+  }
+
+  .works-wrapper .tag-groups td:first-child {
+    font-weight: bold;
+    white-space: nowrap;
+    width: 30%;
+  }
+</style>
+
+<div class="works-wrapper">
+  <p class="works-count"><span id="visible-count">{{ site.data.selected-works.size }}</span> of {{ site.data.selected-works.size }} works shown</p>
+
+  <div class="works-filters" id="tag-filters">
+    <button class="tag-btn active" data-tag="all">All</button>
+  </div>
+
+  <div id="works-list">
+  {% for work in site.data.selected-works %}
+    <div class="work-item" data-tags="{{ work.tags | join: ' ' }}">
+      <div class="work-title"><a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a></div>
+      <div class="work-summary">{{ work.summary }}</div>
+      <div class="work-tags">
+        {% for tag in work.tags %}
+          <span class="work-tag" data-tag="{{ tag }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+  <details class="tag-groups">
+    <summary>Tag Legend</summary>
+    <table>
+      <tr><td>CloudHesive</td><td>cloudhesive, case-study, consulting-offer, connectpath</td></tr>
+      <tr><td>AWS Partner Network</td><td>aws-partner-network, apn-recognition, competencies, partner-announcements, partner-of-the-year, aws-ambassador, partner-profile, partner-directory, partner-programs</td></tr>
+      <tr><td>Amazon Connect</td><td>amazon-connect, contact-center, ivr, customer-experience, voicemail</td></tr>
+      <tr><td>Security</td><td>security, vulnerability-management, amazon-inspector, amazon-guardduty, managed-detection-response, zero-trust, devsecops, cybersecurity</td></tr>
+      <tr><td>Public Sector</td><td>public-sector, government, education, latin-america, healthcare</td></tr>
+      <tr><td>Events</td><td>aws-reinvent, conference, events, webinar, south-florida</td></tr>
+      <tr><td>DevOps</td><td>devops, cloudformation, infrastructure-as-code, microservices</td></tr>
+      <tr><td>MSP</td><td>msp, managed-services, monitoring</td></tr>
+      <tr><td>Migration</td><td>cloud-adoption, cloud-migration, migration, ecommerce</td></tr>
+      <tr><td>Messaging</td><td>messaging, email, sms, ses, amazon-chime</td></tr>
+    </table>
+  </details>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var items = document.querySelectorAll(".work-item");
+  var filtersContainer = document.getElementById("tag-filters");
+  var countEl = document.getElementById("visible-count");
+
+  // Collect all unique tags
+  var tagSet = {};
+  items.forEach(function (item) {
+    var tags = (item.getAttribute("data-tags") || "").split(" ");
+    tags.forEach(function (t) { if (t) tagSet[t] = true; });
+  });
+
+  // Create filter buttons sorted alphabetically
+  Object.keys(tagSet).sort().forEach(function (tag) {
+    var btn = document.createElement("button");
+    btn.className = "tag-btn";
+    btn.setAttribute("data-tag", tag);
+    btn.textContent = tag;
+    filtersContainer.appendChild(btn);
+  });
+
+  var activeTag = "all";
+
+  filtersContainer.addEventListener("click", function (e) {
+    if (!e.target.classList.contains("tag-btn")) return;
+    activeTag = e.target.getAttribute("data-tag");
+
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+
+    filterItems();
+  });
+
+  // Clicking a tag on a work item also filters
+  document.getElementById("works-list").addEventListener("click", function (e) {
+    if (!e.target.classList.contains("work-tag")) return;
+    activeTag = e.target.getAttribute("data-tag");
+
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+
+    filterItems();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  function filterItems() {
+    var visible = 0;
+    items.forEach(function (item) {
+      if (activeTag === "all") {
+        item.classList.remove("hidden");
+        visible++;
+      } else {
+        var tags = (item.getAttribute("data-tags") || "").split(" ");
+        if (tags.indexOf(activeTag) !== -1) {
+          item.classList.remove("hidden");
+          visible++;
+        } else {
+          item.classList.add("hidden");
+        }
+      }
+    });
+    countEl.textContent = visible;
+  }
+})();
+</script>

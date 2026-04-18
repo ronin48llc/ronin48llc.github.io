@@ -1,0 +1,123 @@
+---
+layout: default
+title: Presentations
+permalink: /presentations
+---
+
+<style>
+  .pres-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .pres-wrapper .pres-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .pres-wrapper .pres-card {
+    border: 1px solid currentColor;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pres-wrapper .pres-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .pres-wrapper .pres-thumb-placeholder {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid currentColor;
+    font-size: 2rem;
+    opacity: 0.4;
+  }
+
+  .pres-wrapper .pres-info {
+    padding: 0.75rem;
+  }
+
+  .pres-wrapper .pres-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .pres-wrapper .pres-date {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+
+  .pres-wrapper .pres-desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .pres-wrapper .pres-links {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .pres-wrapper .pres-links a {
+    font-size: 0.85rem;
+  }
+
+  .pres-wrapper .pres-empty {
+    padding: 2rem 0;
+    opacity: 0.6;
+  }
+
+  @media (max-width: 320px) {
+    .pres-wrapper .pres-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+
+<div class="pres-wrapper">
+
+{% if site.data.presentations and site.data.presentations.size > 0 %}
+  <div class="pres-grid">
+  {% assign sorted = site.data.presentations | sort: "date" | reverse %}
+  {% for pres in sorted %}
+    <div class="pres-card">
+      {% if pres.thumbnail %}
+        <img src="{{ '/assets/presentations/thumbs/' | append: pres.thumbnail | relative_url }}" alt="{{ pres.title }}" class="pres-thumb" loading="lazy">
+      {% else %}
+        <div class="pres-thumb-placeholder">📊</div>
+      {% endif %}
+      <div class="pres-info">
+        <div class="pres-title">{{ pres.title }}</div>
+        {% if pres.date %}
+          <div class="pres-date">{{ pres.date | date: "%B %d, %Y" }}</div>
+        {% endif %}
+        {% if pres.description %}
+          <div class="pres-desc">{{ pres.description }}</div>
+        {% endif %}
+        <div class="pres-links">
+          <a href="{{ '/presentations/view?file=' | append: pres.pdf | relative_url }}">View Slides</a>
+          <a href="{{ '/assets/presentations/' | append: pres.pdf | relative_url }}" download>PDF</a>
+          {% if pres.pptx %}
+            <a href="{{ '/assets/presentations/' | append: pres.pptx | relative_url }}" download>PPTX</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+  <p class="pres-empty">No presentations yet. Check back soon!</p>
+{% endif %}
+
+</div>
