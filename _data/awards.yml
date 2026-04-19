@@ -27,3 +27,34 @@
 - title: "SOC & PCI Audit Principal"
   summary: "Principal during SOC and PCI Audits validating Managed Security Service and Managed Service Provider services at CloudHesive."
   tags: [security, compliance, managed-services]
+
+# G2 Awards — ConnectPath
+- title: "G2 High Performer — Winter 2026"
+  summary: "ConnectPath recognized as a G2 High Performer for Winter 2026."
+  image: "g2-high-performer-winter-2026.png"
+  tags: [g2, connectpath, saas, contact-center, product-award]
+
+- title: "G2 High Performer — Fall 2025"
+  summary: "ConnectPath recognized as a G2 High Performer for Fall 2025."
+  image: "g2-high-performer-fall-2025.png"
+  tags: [g2, connectpath, saas, contact-center, product-award]
+
+- title: "G2 High Performer — Spring 2026"
+  summary: "ConnectPath recognized as a G2 High Performer for Spring 2026."
+  image: "g2-high-performer-spring-2026.png"
+  tags: [g2, connectpath, saas, contact-center, product-award]
+
+- title: "G2 High Performer — Spring 2023"
+  summary: "ConnectPath recognized as a G2 High Performer for Spring 2023."
+  image: "g2-high-performer-spring-2023.png"
+  tags: [g2, connectpath, saas, contact-center, product-award]
+
+- title: "G2 Highest User Adoption — Spring 2026"
+  summary: "ConnectPath recognized for Highest User Adoption on G2 for Spring 2026."
+  image: "g2-highest-user-adoption-spring-2026.png"
+  tags: [g2, connectpath, saas, contact-center, product-award]
+
+- title: "G2 Users Love Us — Milestone"
+  summary: "ConnectPath earned the G2 Users Love Us milestone badge based on customer reviews."
+  image: "g2-users-love-us.png"
+  tags: [g2, connectpath, saas, contact-center, product-award]

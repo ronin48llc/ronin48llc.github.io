@@ -82,6 +82,41 @@ permalink: /resume/awards
 
   .resume-wrapper .work-tag:hover { opacity: 1; }
   .resume-wrapper .work-item.hidden { display: none; }
+
+  /* Badge grid for awards with images */
+  .resume-wrapper .badge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .resume-wrapper .badge-card {
+    text-align: center;
+  }
+
+  .resume-wrapper .badge-card img {
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .resume-wrapper .badge-card .badge-label {
+    font-size: 0.75rem;
+    margin-top: 0.4rem;
+    opacity: 0.7;
+  }
+
+  .resume-wrapper .badge-card .work-tags {
+    justify-content: center;
+    margin-top: 0.3rem;
+  }
+
+  .resume-wrapper .badge-card.hidden { display: none; }
 </style>
 
 <div class="resume-wrapper">
@@ -96,7 +131,27 @@ permalink: /resume/awards
   </div>
 
   <div id="works-list">
+  <!-- Badge grid for awards with images -->
+  {% assign image_awards = site.data.awards | where_exp: "a", "a.image" %}
+  {% if image_awards.size > 0 %}
+  <div class="badge-grid" id="badge-grid">
+    {% for award in image_awards %}
+    <div class="badge-card work-item" data-tags="{{ award.tags | join: ' ' }}" title="{{ award.summary }}">
+      <img src="{{ '/assets/img/awards/' | relative_url }}{{ award.image }}" alt="{{ award.title }}" loading="lazy">
+      <div class="badge-label">{{ award.title }}</div>
+      <div class="work-tags">
+        {% for tag in award.tags %}
+          <span class="work-tag" data-tag="{{ tag }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Text list for awards without images -->
   {% for award in site.data.awards %}
+    {% unless award.image %}
     <div class="work-item" data-tags="{{ award.tags | join: ' ' }}">
       <div class="work-title">{{ award.title }}</div>
       <div class="work-summary">{{ award.summary }}</div>
@@ -106,6 +161,7 @@ permalink: /resume/awards
         {% endfor %}
       </div>
     </div>
+    {% endunless %}
   {% endfor %}
   </div>
 </div>

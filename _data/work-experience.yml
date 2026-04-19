@@ -1,12 +1,5 @@
 # Work Experience entries with tags for filtering
 
-- title: "Founder — Ronin 48"
-  period: "April 2026 – Present"
-  location: "Atlanta, GA"
-  bullets:
-    - "Technology advisory, implementation, and operational improvement across engagement platforms, cloud, AI, security, infrastructure, and enterprise architecture."
-  tags: [consulting, cloud, ai, security, enterprise-architecture]
-
 - title: "CTO — CloudHesive"
   period: "September 2014 – March 2026"
   location: "Fort Lauderdale, FL / Atlanta, GA (Remote)"

@@ -6,9 +6,9 @@ permalink: /bio
 
 ## Patrick Hannah
 
-Founder, [Ronin 48](https://ronin48.io) · Atlanta, GA
+Freelance · Atlanta, GA
 
-Patrick Hannah is the Founder of Ronin 48, a consulting firm focused on technology advisory, implementation, and operational improvement across engagement platforms, cloud, AI, security, infrastructure, and enterprise architecture.
+Patrick Hannah is the former CTO and co-founder of CloudHesive, a cloud consulting and managed services provider where he spent over a decade building products, growing teams, and helping customers migrate, secure, and operate workloads on AWS. At CloudHesive, he led product management and development for SaaS platforms including ConnectPath, Centricity, and Dextr, and progressed the company's AWS partnership to Premier Tier with 17 programs and competencies.
 
 Prior to CloudHesive, Patrick was the Senior Manager of the Cloud Engineering team at Pegasystems, an enterprise software company located in Cambridge, Massachusetts. While at Pega he helped grow their cloud platform into a solution capable of supporting their enterprise and government customers' stringent security requirements.
 
