@@ -265,3 +265,53 @@
   url: "https://www.youtube.com/watch?v=cvoQzPM6pvE&feature=share"
   summary: "YouTube recording of the SFTA Microservices Summit covering microservices architecture."
   tags: [video, microservices, conference, south-florida, architecture, events]
+
+- title: "Touch the Cloud"
+  url: "https://www.cloudhesive.com/blog-posts/touch-the-cloud/"
+  summary: "Blog post reflecting on the physical infrastructure behind AWS cloud services, from undersea fiber to data centers."
+  tags: [cloudhesive, aws, blog, cloud-adoption, authored]
+
+- title: "re:Invent Survival Guide"
+  url: "https://www.cloudhesive.com/blog-posts/reinvent-survival-guide/"
+  summary: "Practical tips and advice for getting the most out of attending AWS Re:Invent, authored by Patrick Hannah."
+  tags: [cloudhesive, aws-reinvent, conference, events, blog, authored]
+
+- title: "CloudHesive to Host a Meet-Up with AWS User Group of Florida"
+  url: "https://www.cloudhesive.com/blog-posts/cloudhesive-to-host-a-meet-up-in-association-with-amazon-web-services-user-group-of-florida/"
+  summary: "Announcement of an AWS User Group meetup hosted by CloudHesive, featuring Patrick Hannah presenting on Amazon EC2."
+  tags: [cloudhesive, aws, community, events, south-florida, authored]
+
+- title: "Microservice Deployment on Amazon EC2 Container Service — AWS Meet Up"
+  url: "https://www.cloudhesive.com/blog-posts/learn-everything-you-need-to-know-about-microservice-deployment-on-amazon-ec2-container-service-at-septembers-aws-meet-up-in-weston-fl/"
+  summary: "AWS User Group meetup covering microservice deployment on ECS, presented by Patrick Hannah."
+  tags: [cloudhesive, aws, microservices, ecs, events, south-florida, devops, authored]
+
+- title: "CloudHesive at ITExpo 2025: Major Enhancements to ConnectPathCX for Amazon Connect"
+  url: "https://www.cloudhesive.com/news/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpathcx/"
+  summary: "Patrick Hannah presents ConnectPathCX enhancements for Amazon Connect at ITExpo 2025."
+  tags: [cloudhesive, connectpath, amazon-connect, contact-center, conference, events, authored]
+
+- title: "CloudHesive Accelerates Amazon Connect Growth with ConnectPath CX"
+  url: "https://www.cloudhesive.com/news/cloudhesive-accelerates-amazon-connect-growth-with-connectpath-cx-and-strengthens-its-leadership-in-aws-contact-centers/"
+  summary: "CloudHesive strengthens its position in the cloud contact center ecosystem with ConnectPath CX built on Amazon Connect."
+  tags: [cloudhesive, connectpath, amazon-connect, contact-center, partner-announcements]
+
+- title: "CloudHesive Named Top 10 Fastest Growing DevOps Solutions Providers"
+  url: "https://www.cloudhesive.com/blog-posts/cloudhesive-named-as-one-of-the-top-10-fastest-growing-devops-solutions-providers/"
+  summary: "CloudHesive recognized by Insights Success magazine as a leading DevOps solutions provider."
+  tags: [cloudhesive, devops, apn-recognition, awards]
+
+- title: "Patrick Hannah — CMMC Day Speaker"
+  url: "https://cmmcday.org/speaker/patrick-hannah/"
+  summary: "Speaker profile for Patrick Hannah at CMMC Day in Washington, DC, covering cloud compliance and managed services."
+  tags: [conference, events, security, compliance, cmmc, speaking, authored]
+
+- title: "CloudHesive CTO to Present at ITExpo 2025 (Press Release)"
+  url: "https://www.prweb.com/releases/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpath-302373795.html/"
+  summary: "Press release announcing Patrick Hannah's ITExpo 2025 presentation on ConnectPathCX enhancements."
+  tags: [cloudhesive, connectpath, amazon-connect, conference, events, press-release]
+
+- title: "CloudHesive Cuts Alert Volume by 50% with Arctic Wolf and AWS (CloudHesive)"
+  url: "https://www.cloudhesive.com/news/cloudhesive-cuts-alert-volume-by-50-and-strengthens-customer-security-with-arctic-wolf-and-aws/"
+  summary: "CloudHesive's own announcement on partnering with Arctic Wolf to reduce security alert noise by 50%."
+  tags: [cloudhesive, security, managed-detection-response, arctic-wolf, msp, partner-announcements]

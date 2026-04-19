@@ -1,0 +1,29 @@
+# Awards & Recognition entries with tags for filtering
+
+- title: "AWS Ambassador Program — Top Ambassador Award"
+  summary: "First employee accepted into the program. Multi-year renewals with recognition in certifications and evangelization of AWS, including contribution to certification exams as a subject matter expert. Received the Top Ambassador Award in September 2023."
+  tags: [aws, leadership, thought-leadership, ambassador]
+
+- title: "AWS Re:Invent Presenter"
+  summary: "Presented at AWS Re:Invent, the largest cloud computing conference. Talks include \"DVC03 — Scaling and Supporting your Production App\" at Re:Invent 2018."
+  tags: [aws, speaking, conference, devops]
+
+- title: "ITExpo 2025 Speaker"
+  summary: "Presented on ConnectPathCX enhancements for Amazon Connect at ITExpo 2025 (February 2025, Fort Lauderdale)."
+  tags: [speaking, conference, contact-center, saas]
+
+- title: "CMMC Day Speaker"
+  summary: "Invited speaker at CMMC Day in Washington, DC on cloud compliance and managed services topics."
+  tags: [speaking, compliance, security, cloud]
+
+- title: "AWS Whitepaper Co-Author"
+  summary: "Co-authored AWS whitepapers contributing to the broader AWS knowledge base."
+  tags: [aws, thought-leadership, writing]
+
+- title: "AWS Certified — All Available Certifications"
+  summary: "Achieved and maintained all available AWS certifications including early adopter badges for AI Practitioner, ML Engineer Associate, and Generative AI Developer Professional."
+  tags: [aws, certification, ai]
+
+- title: "SOC & PCI Audit Principal"
+  summary: "Principal during SOC and PCI Audits validating Managed Security Service and Managed Service Provider services at CloudHesive."
+  tags: [security, compliance, managed-services]

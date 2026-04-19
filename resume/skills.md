@@ -1,88 +1,176 @@
 ---
-layout: page
+layout: default
 title: Skills & Certifications
 permalink: /resume/skills
 ---
 
-### AWS Certifications
+<style>
+  .resume-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
 
-- AWS Certified AI Practitioner (Early Adopter)
-- AWS Certified Machine Learning Engineer – Associate (Early Adopter)
-- AWS Certified Generative AI Developer – Professional (Early Adopter)
-- AWS Certified CloudOps Engineer
-- AWS Certified Data Engineer – Associate (Beta)
-- AWS Certified Cloud Practitioner (Renewed 2023)
-- AWS Certified Solutions Architect – Associate (Renewed 2023)
-- AWS Certified SysOps Administrator – Associate (Renewed 2023)
-- AWS Certified Developer – Associate (Renewed 2023)
-- AWS Certified DevOps Engineer – Professional (Renewed 2023)
-- AWS Certified Solutions Architect – Professional (Renewed 2023)
-- AWS Certified Advanced Networking – Specialty (Renewed 2023)
-- AWS Certified Big Data – Specialty (Issued at Release)
-- AWS Certified Security – Specialty (Issued at Release, Renewed 2023)
-- AWS Certified Alexa Skill Builder – Specialty (Issued at Release)
-- AWS Certified Machine Learning – Specialty (Renewed 2023)
-- AWS Certified Data Analytics – Specialty (Renewed 2023)
-- AWS Certified Database – Specialty (Renewed 2023)
+  .resume-wrapper h1 { margin-bottom: 0.5rem; }
 
-### Other Certifications
+  .resume-wrapper .works-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
 
-- ISC2 Certified Cloud Security Professional (CCSP)
-- ISC2 Certified Information Systems Security Professional (CISSP)
-- Cloud Security Alliance (CSA) Certificate of Cloud Security Knowledge (CCSK)
-- CMMC Registered Practitioner
-- FinOps Certified Practitioner
-- ITIL V3 Practitioner Certified
-- Datadog Certified: Datadog Fundamentals
-- Datadog Certified: CloudSIEM for AWS Fundamentals
-- Amazon Connect Ambassador
-- EUC on AWS Ambassador
-- Anynode Basic and Advanced
+  .resume-wrapper .tag-btn {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+  }
 
-### Cloud & Virtualization
+  .resume-wrapper .tag-btn:hover { opacity: 1; }
+  .resume-wrapper .tag-btn.active { opacity: 1; font-weight: bold; }
 
-AWS, Microsoft Azure, Microsoft 365, IBM Cloud, Google Cloud (GCP), Citrix XenApp/XenDesktop, VMWare (On Premises and Cloud), CloudFlare, Akamai
+  .resume-wrapper .narrative {
+    font-size: 0.92rem;
+    line-height: 1.6;
+    opacity: 0.85;
+    margin-bottom: 1.5rem;
+    border-left: 2px solid currentColor;
+    padding-left: 1rem;
+  }
 
-### Software Development & DevOps
+  .resume-wrapper .works-count {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
 
-Jira, Confluence, BitBucket, GitHub, Stash, RPM, Artifactory, NPM, Packer, Jenkins, Ansible, Octopus, Gradle, jMeter, BlazeMeter, Docker, Elastic, PowerShell (Windows), Bash (Linux), Python, JavaScript (Node.js), Data Formats, Serverless
+  .resume-wrapper .skill-category {
+    margin-bottom: 1.5rem;
+  }
 
-### Application & Database
+  .resume-wrapper .skill-category h3 {
+    margin-bottom: 0.5rem;
+  }
 
-Microsoft SQL Server, Oracle, DB2, MySQL, Postgres, Apache, Nginx, HAProxy, Tomcat, Weblogic, Websphere, IIS, MongoDB, Redis, Public Cloud Services including Bedrock and Q
+  .resume-wrapper .work-item {
+    margin-bottom: 0.5rem;
+    padding: 0.4rem 0;
+  }
 
-### Security
+  .resume-wrapper .work-title {
+    font-size: 0.9rem;
+  }
 
-AlertLogic, Trend Micro Deep Security/Cloud Conformity, Thales/Vormetric DSM, Safenet/CryptoCard, Duo, Okta, Tenable.io/Nessus Security Center and Manager
+  .resume-wrapper .work-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-left: 0.5rem;
+  }
 
-### Monitoring & Analysis
+  .resume-wrapper .work-tag {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.35rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
 
-CloudCheckr, Cloudability, CloudHealth, Datadog, SumoLogic, NewRelic, OpsGenie, Zenoss, Splunk, tcpdump/Wireshark
+  .resume-wrapper .work-tag:hover { opacity: 1; }
+  .resume-wrapper .work-item.hidden { display: none; }
+  .resume-wrapper .skill-category.all-hidden { display: none; }
+</style>
 
-### Network Services
+<div class="resume-wrapper">
+  <h1>Skills & Certifications</h1>
+  <div class="narrative">
+    <p>I've never been someone who collects certifications for the sake of it. Every cert here represents a problem I was trying to solve or a domain I needed to go deeper in. When I earned all available AWS certifications — including early adopter badges for the AI and generative AI tracks — it wasn't a checkbox exercise. It was the natural result of spending a decade building on AWS across security, networking, data, machine learning, and contact center. The CISSP and CCSP came from years of being the person in the room during SOC and PCI audits. The FinOps cert came from needing to have honest conversations with customers about what cloud actually costs. The tools and platforms listed here aren't things I've read about — they're things I've deployed, debugged at 2 AM, and built products on top of.</p>
+  </div>
+  <p class="works-count"><span id="visible-count">{{ site.data.skills.size }}</span> of {{ site.data.skills.size }} items shown</p>
 
-Microsoft Windows Services (DNS, DHCP, SMTP, RDP, Active Directory), Linux Services (BIND, cPanel/WHM), Routing, Firewalling, Subnetting, SNMP, WMI
+  <div class="works-filters" id="tag-filters">
+    <button class="tag-btn active" data-tag="all">All</button>
+  </div>
 
-### Storage
+  <div id="works-list">
+  {% assign categories = site.data.skills | map: "category" | uniq %}
+  {% for cat in categories %}
+    <div class="skill-category" data-category="{{ cat }}">
+      <h3>{{ cat }}</h3>
+      {% for skill in site.data.skills %}
+        {% if skill.category == cat %}
+        <div class="work-item" data-tags="{{ skill.tags | join: ' ' }}">
+          <span class="work-title">{{ skill.title }}</span>
+          <span class="work-tags">
+            {% for tag in skill.tags %}
+              <span class="work-tag" data-tag="{{ tag }}">{{ tag }}</span>
+            {% endfor %}
+          </span>
+        </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+  </div>
+</div>
 
-SoftNAS, Zadara, CommVault, Veeam, Druva
-
-### Operating Systems
-
-Windows, Linux (Amazon, RHEL, OEL, CentOS)
-
-### Firewalls, Load Balancers, Routers, Switches & Wireless
-
-Checkpoint, Juniper (JunOS/ScreenOS), Cisco (IOS/ASA), Brocade Vyatta, Brocade Virtual Traffic Manager (f/k/a Riverbed SteelApp), Citrix Netscaler, Cohesive Networks Products
-
-### Contact Center, CRM & ERP
-
-Oracle ContactCenter@nywhere (CCA), Oracle CRM On Demand, Oracle Contact Center On Demand, Siebel CRM, SalesForce, Verint, PegaRules Process Commander (PRPC) and various Frameworks (AES, BIX, IAC, CPM, DSM, legacy Chordiant), NetSuite, RingCentral, Amazon Connect, Lex, Salesforce, ServiceNow, Microsoft Dynamics
-
-### Telephony
-
-Nortel Meridian, MeridianMail, Avaya Communication Manager, Modular Messaging, IP Agent, IP SoftPhone, CMS Supervisor, EMMC, Integrated Management & BCMSVu, Brooktrout & Dialogic T1 cards, Biscom Faxcom, Quintum Tenor CMS & DX, Adtran MX Series Muxes & Total Access IADs, Asterisk, Brekeke SIP Proxy
-
-### Office Productivity
-
-Slack, Joan, Lucid
+<script>
+(function () {
+  "use strict";
+  var items = document.querySelectorAll(".work-item");
+  var categories = document.querySelectorAll(".skill-category");
+  var filtersContainer = document.getElementById("tag-filters");
+  var countEl = document.getElementById("visible-count");
+  var tagSet = {};
+  items.forEach(function (item) {
+    (item.getAttribute("data-tags") || "").split(" ").forEach(function (t) { if (t) tagSet[t] = true; });
+  });
+  Object.keys(tagSet).sort().forEach(function (tag) {
+    var btn = document.createElement("button");
+    btn.className = "tag-btn";
+    btn.setAttribute("data-tag", tag);
+    btn.textContent = tag;
+    filtersContainer.appendChild(btn);
+  });
+  var activeTag = "all";
+  filtersContainer.addEventListener("click", function (e) {
+    if (!e.target.classList.contains("tag-btn")) return;
+    activeTag = e.target.getAttribute("data-tag");
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+    filterItems();
+  });
+  document.getElementById("works-list").addEventListener("click", function (e) {
+    if (!e.target.classList.contains("work-tag")) return;
+    activeTag = e.target.getAttribute("data-tag");
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+    filterItems();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  function filterItems() {
+    var visible = 0;
+    items.forEach(function (item) {
+      if (activeTag === "all") { item.classList.remove("hidden"); visible++; }
+      else {
+        var tags = (item.getAttribute("data-tags") || "").split(" ");
+        if (tags.indexOf(activeTag) !== -1) { item.classList.remove("hidden"); visible++; }
+        else { item.classList.add("hidden"); }
+      }
+    });
+    countEl.textContent = visible;
+    // Hide category headers when all their items are hidden
+    categories.forEach(function (cat) {
+      var visibleItems = cat.querySelectorAll(".work-item:not(.hidden)");
+      cat.classList.toggle("all-hidden", visibleItems.length === 0);
+    });
+  }
+})();
+</script>
