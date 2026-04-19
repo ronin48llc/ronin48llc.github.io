@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Memberships & Contributions
-permalink: /resume/education
+permalink: /resume/memberships
 ---
 
 <style>

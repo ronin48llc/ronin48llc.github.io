@@ -315,3 +315,29 @@
   url: "https://www.cloudhesive.com/news/cloudhesive-cuts-alert-volume-by-50-and-strengthens-customer-security-with-arctic-wolf-and-aws/"
   summary: "CloudHesive's own announcement on partnering with Arctic Wolf to reduce security alert noise by 50%."
   tags: [cloudhesive, security, managed-detection-response, arctic-wolf, msp, partner-announcements]
+
+# Portfolio Case Studies
+- title: "AWS Modernization and Managed Cloud Delivery"
+  url: ""
+  summary: "Supported migration and modernization initiatives across AWS architecture, delivery, and operational planning. Aligned implementation decisions with customer support models, security expectations, and resilience requirements to create more repeatable and supportable cloud environments."
+  tags: [cloudhesive, aws, cloud-migration, managed-services, security, case-study, portfolio]
+
+- title: "Application Modernization and DevOps Enablement"
+  url: ""
+  summary: "Improved CI/CD, release automation, and deployment workflows to reduce friction in software delivery. Supported application modernization work enabling cloud-native deployment models and more consistent delivery practices on AWS."
+  tags: [cloudhesive, aws, devops, cloudformation, microservices, case-study, portfolio]
+
+- title: "Amazon Connect and Contact Center Transformation"
+  url: ""
+  summary: "Supported Amazon Connect implementations and enhancements across customer environments. Shaped omnichannel workflows spanning voice and digital engagement channels, including routing, reporting, and supervisor-oriented operational tooling."
+  tags: [cloudhesive, amazon-connect, contact-center, customer-experience, case-study, portfolio]
+
+- title: "ConnectPath CX Product and Platform Engineering"
+  url: ""
+  summary: "Built and evolved ConnectPath CX as a practical extension of Amazon Connect — agent desktop, supervisor dashboard, monitoring, reporting, and deployment enablement. Strengthened the platform to accelerate customer adoption and improve day-to-day operational tooling."
+  tags: [cloudhesive, connectpath, amazon-connect, contact-center, saas, case-study, portfolio]
+
+- title: "Public Sector and Enterprise Customer Delivery"
+  url: ""
+  summary: "Supported AWS and Amazon Connect implementation and onboarding across enterprise and public sector customers. Bridged technical execution with practical operational success through enablement, post-launch optimization, and operational support."
+  tags: [cloudhesive, aws, amazon-connect, public-sector, government, case-study, portfolio]

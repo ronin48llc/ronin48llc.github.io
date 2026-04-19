@@ -1,5 +1,5 @@
 title: "Ronin 48"
-description: Tech blog by Ronin48
+description: "Cloud, contact centers, and building things that work — thoughts from 25 years in the field"
 baseurl: ""
 url: "https://ronin48llc.github.io"
 
@@ -21,3 +21,4 @@ defaults:
 theme_config:
   mode: "auto"
   show_description: true
+  show_tags: true

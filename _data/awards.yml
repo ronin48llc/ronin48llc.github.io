@@ -21,7 +21,7 @@
   tags: [aws, thought-leadership, writing]
 
 - title: "AWS Certified — All Available Certifications"
-  summary: "Achieved and maintained all available AWS certifications including early adopter badges for AI Practitioner, ML Engineer Associate, and Generative AI Developer Professional."
+  summary: "Achieved and maintained all available AWS certifications including early adopter badges for AI Practitioner, ML Engineer Associate, Generative AI Developer Professional, and SAP on AWS Specialty."
   tags: [aws, certification, ai]
 
 - title: "SOC & PCI Audit Principal"
@@ -58,3 +58,11 @@
   summary: "ConnectPath earned the G2 Users Love Us milestone badge based on customer reviews."
   image: "g2-users-love-us.png"
   tags: [g2, connectpath, saas, contact-center, product-award]
+
+- title: "2025 Certification All Stars Recognition"
+  summary: "Recognized in the 2025 AWS Certification All Stars program for outstanding achievement in AWS certifications."
+  tags: [aws, certification, apn-recognition]
+
+- title: "CloudHesive Recognized in Omdia Rankings"
+  summary: "CloudHesive recognized in Omdia industry rankings for cloud and managed services capabilities."
+  tags: [cloudhesive, managed-services, apn-recognition, third-party-validation]

@@ -72,6 +72,10 @@
   category: "AWS Certifications"
   tags: [aws, certification, data]
 
+- title: "AWS Certified SAP on AWS – Specialty"
+  category: "AWS Certifications"
+  tags: [aws, certification, enterprise]
+
 - title: "ISC2 Certified Cloud Security Professional (CCSP)"
   category: "Other Certifications"
   tags: [certification, security, cloud]

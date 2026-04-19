@@ -114,6 +114,26 @@ permalink: /selected-works
     white-space: nowrap;
     width: 30%;
   }
+
+  .works-wrapper .participation-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    margin-left: 0.4rem;
+    vertical-align: middle;
+    opacity: 0.8;
+  }
+
+  .works-wrapper .participation-badge.authored {
+    border: 1px solid #52b788;
+    color: #52b788;
+  }
+
+  .works-wrapper .participation-badge.mentioned {
+    border: 1px solid currentColor;
+    opacity: 0.4;
+  }
 </style>
 
 <div class="works-wrapper">
@@ -126,7 +146,14 @@ permalink: /selected-works
   <div id="works-list">
   {% for work in site.data.selected-works %}
     <div class="work-item" data-tags="{{ work.tags | join: ' ' }}">
-      <div class="work-title"><a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a></div>
+      <div class="work-title">
+        {% if work.url and work.url != "" %}<a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}
+        {% if work.tags contains 'authored' or work.tags contains 'portfolio' %}
+          <span class="participation-badge authored">authored</span>
+        {% else %}
+          <span class="participation-badge mentioned">mentioned</span>
+        {% endif %}
+      </div>
       <div class="work-summary">{{ work.summary }}</div>
       <div class="work-tags">
         {% for tag in work.tags %}
