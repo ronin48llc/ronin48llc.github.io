@@ -14,6 +14,78 @@
 #   password:    (optional) Password for protected content
 #   tags:        (optional) Array of tag strings
 
+- title: "CloudHesive Launches Avaya Rapid Replacement Program"
+  date: "2025-02-20"
+  description: "Launched program to support businesses affected by Avaya's 200-seat minimum policy, offering migration to ConnectPath CX powered by Amazon Connect."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-launches-avaya-rapid-replacement-program-to-support-businesses-affected-by-avayas-200-seat-minimum-policy-302381085.html/"
+  tags: [cloudhesive, contact-center, avaya, connectpath, press]
+
+- title: "CloudHesive CTO to Present at ITExpo 2025"
+  date: "2025-02-11"
+  description: "Patrick Hannah presented at ITExpo 2025 and announced major enhancements to ConnectPath."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpath-302373795.html/"
+  tags: [cloudhesive, connectpath, contact-center, speaking, press]
+
+- title: "ConnectPath CX Salesforce Integration"
+  date: "2024-12-17"
+  description: "Announced full Salesforce integration for ConnectPath CX to boost customer experience and agent efficiency."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-enhances-connectpath-cx-with-seamless-salesforce-integration-to-boost-quality-of-customer-experience-and-agent-efficiency-302333694.html"
+  tags: [cloudhesive, connectpath, salesforce, contact-center, press]
+
+- title: "CloudHesive Named Top 100 Private Companies of 2024"
+  date: "2024-10-29"
+  description: "Recognized as one of the Top 100 Private Companies in 2024 by the South Florida Business Journal."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-named-one-of-south-florida-business-journals-top-100-private-companies-of-2024-302289720.html/"
+  tags: [cloudhesive, award, press]
+
+- title: "CloudHesive Achieves AWS WAF Delivery Validation"
+  date: "2024-10-23"
+  description: "Achieved AWS Web Application Firewall (WAF) Delivery validation, reinforcing commitment to cloud security."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-aws-web-application-firewall-waf-delivery-validation-reinforcing-its-commitment-to-cloud-security-302284267.html/"
+  tags: [cloudhesive, aws, security, waf, press]
+
+- title: "Ace Rent A Car Partners with CloudHesive"
+  date: "2024-10-04"
+  description: "Ace Rent A Car selected CloudHesive and ConnectPath CX to transform customer service operations."
+  eventUrl: "https://www.prweb.com/releases/ace-rent-a-car-partners-with-cloudhesive-to-transform-customer-service-operations-302266545.html"
+  tags: [cloudhesive, connectpath, contact-center, press]
+
+- title: "CloudHesive Ranks #9 Fastest-Growing — South Florida Business Journal"
+  date: "2024-08-27"
+  description: "Ranked #9 among the fastest-growing companies by the South Florida Business Journal."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive--an-aws-premier-partner-headquartered-in-south-florida-ranks-9-among-the-fastest-growing-companies-by-the-south-florida-business-journal-302231268.html"
+  tags: [cloudhesive, award, press]
+
+- title: "CloudHesive Achieves Amazon ECS Competency Designation"
+  date: "2024-08-21"
+  description: "Achieved Amazon Elastic Container Service (ECS) Competency Designation."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-amazon-elastic-container-service-competency-designation-302227169.html"
+  tags: [cloudhesive, aws, containers, ecs, press]
+
+- title: "CloudHesive Inc. 5000 — Fifth Consecutive Year (#1305)"
+  date: "2024-08-14"
+  description: "Ranked #1305 on the 2024 Inc. 5000 list, marking the fifth consecutive year on the list."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-ranks-no-1305-among-americas-5000-fastest-growing-private-companies-and-lands-on-the-inc-5000-list-for-the-fifth-consecutive-year-302222113.html"
+  tags: [cloudhesive, award, inc-5000, press]
+
+- title: "CloudHesive Achieves AWS MSP Partner Program Renewal"
+  date: "2024-08-08"
+  description: "Renewed AWS Managed Service Provider (MSP) Partner Program status."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-aws-managed-service-provider-msp-partner-program-renewal-302217522.html"
+  tags: [cloudhesive, aws, managed-services, msp, press]
+
+- title: "CloudHesive Ranks #12 — Top 25 Fastest Growing Solution Providers"
+  date: "2024-08-06"
+  description: "Ranked #12 among the Top 25 Fastest Growing Solution Providers."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-ranks-12-among-the-top-25-fastest-growing-solution-providers-302215246.html"
+  tags: [cloudhesive, award, press]
+
+- title: "CloudHesive Achieves AWS Generative AI Competency"
+  date: "2024-08-01"
+  description: "Achieved Amazon Web Services (AWS) Generative AI Competency."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-amazon-web-services-aws-generative-ai-competency-302211948.html"
+  tags: [cloudhesive, aws, generative-ai, ai, press]
+
 - title: "Rethink Your Contact Center with CloudHesive"
   date: "2024-06-06"
   description: "Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI services on AWS."
@@ -32,6 +104,12 @@
   description: "Featured on AWS This is My Architecture series."
   videoUrl: "https://www.youtube.com/watch?v=weT3nKnOFDg"
   tags: [aws, architecture, video, speaking]
+
+- title: "CloudHesive Wins Deloitte Technology Fast 500 Award"
+  date: "2023-11-17"
+  description: "Recognized as a Deloitte Technology Fast 500 award recipient, acknowledging CloudHesive among the 500 fastest-growing technology companies in North America."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-wins-prestigious-deloitte-technology-fast-500-award-301992127.html"
+  tags: [cloudhesive, award, deloitte, press]
 
 - title: "Know Before You Go: An AWS Partner's Guide to re:Invent 2023"
   date: "2023-11-16"
@@ -53,6 +131,18 @@
   eventUrl: "https://cloud.marketing.cloudhesive.com/GenAIandCX"
   tags: [aws, contact-center, ai, speaking]
 
+- title: "CloudHesive Acquires Dextr Cloud"
+  date: "2022-04-25"
+  description: "CloudHesive acquired Dextr Cloud, adding the industry's most powerful customer service and performance dashboard to its portfolio."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-acquires-dextr-cloud-the-industry-s-most-powerful-customer-service-and-performance-dashboard-860281582.html"
+  tags: [cloudhesive, acquisition, contact-center, press]
+
+- title: "Dextr Flex Evolves to ConnectPath CX"
+  date: "2023-08-01"
+  description: "Announced the rebranding of Dextr Flex to ConnectPath CX, the next generation CCaaS platform powered by Amazon Connect."
+  eventUrl: "https://www.prweb.com/releases/the-next-generation-of-contact-center-as-a-service-ccaas-platforms-dextr-flex-evolves-to-connectpath-cx-885134371.html"
+  tags: [cloudhesive, connectpath, contact-center, press]
+
 - title: "AWS SaaS Factory Studio New York 2023"
   date: "2023-07-27"
   description: "Participated in AWS SaaS Factory Studio event."
@@ -71,6 +161,12 @@
   description: "Presented with Carahsoft/AWS on cloud-based collaboration and analytics."
   eventUrl: "https://carahevents.carahsoft.com/Event/Details/374043-aws"
   tags: [aws, data, cloud, speaking]
+
+- title: "CloudHesive Acquires Eplexity"
+  date: "2023-05-22"
+  description: "Acquired fellow AWS Premier Partner Eplexity, with additional investment from Strattam Capital."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-an-amazon-web-services-aws-premier-partner-acquires-eplexity-819202941.html"
+  tags: [cloudhesive, acquisition, press]
 
 - title: "AWS Georgia Public Sector Innovation Day"
   date: "2023-05-19"
@@ -93,6 +189,12 @@
   eventUrl: "https://awsendusercomputingworkshopatl.splashthat.com/"
   tags: [aws, end-user-computing, workshop, speaking]
 
+- title: "ConnectPath CX — Avaya Replacement Platform"
+  date: "2023-01-01"
+  description: "Announced ConnectPath CX as the go-to CCaaS platform to replace aging Avaya systems via Amazon Connect."
+  eventUrl: "https://www.prweb.com/releases/connectpath-cx-is-the-go-to-cloud-contact-center-as-a-service-platform-ccaas-to-replace-aging-avaya-systems-840156434.html"
+  tags: [cloudhesive, connectpath, avaya, contact-center, press]
+
 - title: "Zero Trust Fundamentals for Higher Education"
   date: "2022-10-11"
   description: "Webinar with Sumo Logic on Zero Trust for higher education."
@@ -104,6 +206,12 @@
   description: "Presented at Sumo Logic Illuminate on CMMC compliance."
   eventUrl: "https://illuminate2022.sumologicevents.com/sessions/on_demand"
   tags: [cmmc, compliance, security, monitoring, speaking]
+
+- title: "CloudHesive Named to 2022 Inc. 5000 (Fourth Consecutive Year)"
+  date: "2022-08-16"
+  description: "Ranked #1740 on the 2022 Inc. 5000 list, marking the fourth consecutive appearance."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-named-to-the-2022-inc-5000-annual-list-of-fastest-growing-private-companies-899555772.html"
+  tags: [cloudhesive, award, inc-5000, press]
 
 - title: "Leveraging New Cloud Management Strategies to Drive MSP Profit Margins"
   date: "2022-06-09"
@@ -125,11 +233,23 @@
   eventUrl: "https://techhubsouthflorida.org/meetups/soflodevcon/"
   tags: [aws, serverless, lambda, speaking, conference]
 
+- title: "CloudHesive Achieves AWS Service Ready Designation for Amazon Connect"
+  date: "2022-01-01"
+  description: "Achieved AWS Service Ready Designation for Amazon Connect, verifying best practices and production customer success."
+  eventUrl: "https://www.prweb.com/releases/CloudHesive_Achieves_AWS_Service_Ready_Designation_for_Amazon_Connect/prweb19453891.htm"
+  tags: [cloudhesive, aws, contact-center, amazon-connect, press]
+
 - title: "NIST Cybersecurity Framework (CSF) on the Public Cloud"
   date: "2021-12-09"
   description: "Presented at CAMP IT Conferences on NIST CSF in the public cloud."
   eventUrl: "https://campitsince1984.com/upcoming-virtualevents/cloudsecurity2/"
   tags: [security, compliance, nist, cloud, speaking]
+
+- title: "CloudHesive Closes Growth Funding Round Led by Strattam Capital"
+  date: "2021-06-03"
+  description: "Announced the closing of a growth financing round led by Strattam Capital."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-closes-growth-funding-round-led-by-strattam-capital-820667613.html"
+  tags: [cloudhesive, funding, press]
 
 - title: "The Reclaim Your Cloud Virtual Event — Service Provider Day"
   date: "2021-03-31"
@@ -155,11 +275,29 @@
   eventUrl: "https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf"
   tags: [aws, migration, whitepaper, writing]
 
+- title: "CloudHesive Inc. 5000 — #1001"
+  date: "2019-08-14"
+  description: "Ranked #1001 on the Inc. 5000 annual list of the nation's fastest-growing private companies."
+  eventUrl: "https://www.prweb.com/releases/inc-magazine-today-revealed-that-cloudhesive-is-no-1001-on-its-annual-inc-5000-list-805315281.html"
+  tags: [cloudhesive, award, inc-5000, press]
+
 - title: "AWS Education Competency Partners Help with AI & ML"
   date: "2019-10-01"
   description: "Interview on APN TV about AWS Education Competency and AI/ML."
   eventUrl: "https://pages.awscloud.com/other-ep-023.html"
   tags: [aws, ai, machine-learning, education, video, speaking]
+
+- title: "CloudHesive Achieves End User Computing (EUC) Competency"
+  date: "2019-08-13"
+  description: "Achieved AWS End User Computing (EUC) Competency status."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-end-user-computing-euc-competency-status-837699424.html"
+  tags: [cloudhesive, aws, end-user-computing, press]
+
+- title: "CloudHesive Achieves AWS Premier Consulting Partner Status"
+  date: "2019-08-06"
+  description: "Achieved Premier Consulting Partner status in the Amazon Web Services Partner Network."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-premier-consulting-partner-status-in-the-amazon-web-services-partner-network-899846926.html"
+  tags: [cloudhesive, aws, partner, press]
 
 - title: "Build and Manage a Highly Secure Cloud Environment on AWS"
   date: "2019-08-01"
@@ -173,10 +311,28 @@
   eventUrl: "https://www.datadoghq.com/customers/"
   tags: [monitoring, datadog, testimonial]
 
+- title: "CloudHesive Achieves AWS Digital Customer Experience Competency"
+  date: "2019-03-07"
+  description: "Achieved AWS Digital Customer Experience Competency status."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-achieves-aws-digital-customer-experience-competency-status-898956074.html"
+  tags: [cloudhesive, aws, ecommerce, press]
+
+- title: "CloudHesive Achieves AWS Education Competency"
+  date: "2019-02-25"
+  description: "Achieved AWS Education Competency status for higher education, K-12, research, and publishing customers."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-announces-that-it-has-achieved-aws-education-competency-status-828084833.html"
+  tags: [cloudhesive, aws, education, press]
+
 - title: "Manage Media Transmission Overhead with AWS Media Services"
   date: "2019-03-01"
   description: "Published by CloudHesive on AWS Media Services."
   tags: [aws, media, writing]
+
+- title: "CloudHesive Achieves AWS DevOps Competency"
+  date: "2018-12-01"
+  description: "Achieved AWS DevOps Competency status for continuous integration, continuous delivery, and configuration management."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-announces-that-it-has-achieved-aws-devops-competency-status-872921799.html"
+  tags: [cloudhesive, aws, devops, press]
 
 - title: "DVC03 — Scaling and Supporting your Production App"
   date: "2018-11-27"
@@ -203,6 +359,18 @@
   location: "South Florida"
   eventUrl: "https://www.southfloridatech.org/event/sfta-presents-services-and-microservices-summit/"
   tags: [microservices, architecture, speaking, conference]
+
+- title: "CloudHesive Named Top 100 Public Cloud MSP for 2018"
+  date: "2018-06-01"
+  description: "Named a Top 100 Public Cloud MSP for 2018."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-is-thrilled-to-be-named-a-top-100-public-cloud-msp-for-2018-876000467.html"
+  tags: [cloudhesive, award, managed-services, press]
+
+- title: "CloudHesive Recognized on 2018 CRN Next-Gen 250 List"
+  date: "2018-06-01"
+  description: "Recognized on the 2018 CRN Next-Gen 250 List."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive-is-recognized-on-the-2018-crn-next-gen-250-list-873829729.html"
+  tags: [cloudhesive, award, press]
 
 - title: "Winning Governance Strategies for the Technology Disruptions of our Time"
   date: "2018-06-22"
@@ -234,6 +402,18 @@
   description: "Multiple blog posts published on the CloudHesive blog."
   eventUrl: "https://cloudhesive.com/author/patrick-hannahcloudhesive-com/"
   tags: [writing, cloud, aws]
+
+- title: "CloudHesive Achieves SOC 2 Type 2"
+  date: "2017-01-31"
+  description: "Completed the Service Organization Control (SOC 2) Type 2 examination for cloud security and managed services."
+  eventUrl: "https://www.prweb.com/releases/aws_partner_cloudhesive_will_knock_your_soc_s_off_with_its_cloud_security_and_cloud_managed_services/prweb14019874.htm"
+  tags: [cloudhesive, security, compliance, soc2, press]
+
+- title: "CloudHesive Achieves AWS Public Sector Partner and Government Reseller Status"
+  date: "2017-02-15"
+  description: "Achieved AWS Public Sector Partner Program and Authorized Government Reseller status."
+  eventUrl: "https://www.prweb.com/releases/cloudhesive_an_aws_msp_partner_headquartered_in_fort_lauderdale_miami_florida_gets_noticed_for_its_stellar_cloud_managed_services_for_the_public_sector/prweb14075201.htm"
+  tags: [cloudhesive, aws, government, public-sector, press]
 
 - title: "Developer Lightning Talks and Happy Hour (DCS204)"
   date: "2016-11-28"

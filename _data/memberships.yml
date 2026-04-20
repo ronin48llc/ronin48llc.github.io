@@ -1,77 +1,116 @@
-# Memberships & Contributions entries with tags for filtering
-
-- title: "AWS Community Builder"
-  category: "Memberships"
-  tags: [aws, community]
-
-- title: "AWS User Group Leader"
-  category: "Memberships"
-  tags: [aws, community, leadership]
-
-- title: "FinOps Foundation"
-  category: "Memberships"
-  tags: [finops, cloud]
-
-- title: "ISC2 Member"
-  category: "Memberships"
-  tags: [security]
-
-- title: "InfraGard Member"
-  category: "Memberships"
-  tags: [security, government]
-
-- title: "AWS Certification SME — Data Analytics Specialty Item Development (Dec 2019)"
-  category: "Former Roles"
-  tags: [aws, certification, data]
-
-- title: "AWS Certification SME — Item Development Workshop (Aug 2020)"
-  category: "Former Roles"
-  tags: [aws, certification]
-
-- title: "AWS Certification SME — Item Development Workshop (Mar 2021)"
-  category: "Former Roles"
-  tags: [aws, certification]
-
-- title: "AWS APN Ambassador"
-  category: "Former Roles"
-  tags: [aws, ambassador, leadership]
-
-- title: "AWS Partner Network (APN) Immersion Day Practitioner"
-  category: "Former Roles"
-  tags: [aws, consulting]
-
-- title: "AWS Partner Well-Architected Lead"
-  category: "Former Roles"
-  tags: [aws, architecture]
-
-- title: "CIS Benchmark Contributor"
-  category: "Contributions"
-  tags: [security, compliance, thought-leadership]
-
-- title: "AWS Whitepaper Co-Author"
-  category: "Contributions"
-  tags: [aws, thought-leadership, writing]
-
-- title: "AWS Re:Invent Presenter (DVC03 — Scaling and Supporting your Production App, 2018)"
-  category: "Contributions"
-  tags: [aws, speaking, conference]
-
-- title: "ITExpo 2025 Presenter (ConnectPathCX for Amazon Connect)"
-  category: "Contributions"
-  tags: [speaking, conference, contact-center]
-
-- title: "CMMC Day Speaker (Washington, DC)"
-  category: "Contributions"
-  tags: [speaking, compliance, security]
-
-- title: "South Florida Tech Hub, ITPalooza, ISACA Presenter"
-  category: "Contributions"
-  tags: [speaking, community]
-
-- title: "CMMC Day Program Committee Member"
-  category: "Memberships"
-  tags: [cmmc, compliance, security, community]
-
-- title: "Blood Donor — OneBlood (2013–2022)"
-  category: "Volunteering"
-  tags: [community, volunteering]
+- title: AWS Community Builder
+  category: Memberships
+  tags:
+    - aws
+    - community
+- title: AWS User Group Leader
+  category: Memberships
+  tags:
+    - aws
+    - community
+    - leadership
+- title: FinOps Foundation
+  category: Memberships
+  tags:
+    - finops
+    - cloud
+- title: ISC2 Member
+  category: Memberships
+  tags:
+    - security
+- title: InfraGard Member
+  category: Memberships
+  tags:
+    - security
+    - government
+- title: AWS Certification SME — Data Analytics Specialty Item Development (Dec 2019)
+  category: Former Roles
+  tags:
+    - aws
+    - certification
+    - data
+- title: AWS Certification SME — Item Development Workshop (Aug 2020)
+  category: Former Roles
+  tags:
+    - aws
+    - certification
+- title: AWS Certification SME — Item Development Workshop (Mar 2021)
+  category: Former Roles
+  tags:
+    - aws
+    - certification
+- title: AWS APN Ambassador
+  category: Former Roles
+  tags:
+    - aws
+    - ambassador
+    - leadership
+- title: AWS Partner Network (APN) Immersion Day Practitioner
+  category: Former Roles
+  tags:
+    - aws
+    - consulting
+- title: AWS Partner Well-Architected Lead
+  category: Former Roles
+  tags:
+    - aws
+    - architecture
+- title: CIS Benchmark Contributor
+  category: Contributions
+  tags:
+    - security
+    - compliance
+    - thought-leadership
+- title: AWS Whitepaper Co-Author
+  category: Contributions
+  tags:
+    - aws
+    - thought-leadership
+    - writing
+- title: AWS Re:Invent Presenter (DVC03 — Scaling and Supporting your Production App, 2018)
+  category: Contributions
+  tags:
+    - aws
+    - speaking
+    - conference
+- title: ITExpo 2025 Presenter (ConnectPathCX for Amazon Connect)
+  category: Contributions
+  tags:
+    - speaking
+    - conference
+    - contact-center
+- title: CMMC Day Speaker (Washington, DC)
+  category: Contributions
+  tags:
+    - speaking
+    - compliance
+    - security
+- title: South Florida Tech Hub, ITPalooza, ISACA Presenter
+  category: Contributions
+  tags:
+    - speaking
+    - community
+- title: CMMC Day Program Committee Member
+  category: Memberships
+  tags:
+    - cmmc
+    - compliance
+    - security
+    - community
+- title: Blood Donor — OneBlood (2013–2022)
+  category: Volunteering
+  tags:
+    - community
+    - volunteering
+- title: IEEE
+  category: ''
+  tags: []
+- title: ACM
+  category: ''
+  tags: []
+- title: Usenix
+  category: ''
+  tags: []
+- title: OWASP
+  category: ''
+  tags: []
