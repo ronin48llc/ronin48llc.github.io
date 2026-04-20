@@ -2,16 +2,22 @@
 
 - title: "ConnectPath / Centricity / Dextr"
   summary: "SaaS products built at CloudHesive spanning 10 years, evolving from Java/MySQL to Serverless. Integrated with AWS Connect, Lex, Bedrock and Q for contact center, analytics and generative AI capabilities."
+  start: "2016-01"
   tags: [saas, aws, contact-center, ai, serverless, development]
 
 - title: "Encryption as a Service (EaaS)"
   summary: "Global deployment of Vormetric DSM appliances on AWS as a migration path from Cloudera Gazzang, serving as the foundation for CloudHesive's Managed Security Service."
+  start: "2015-06"
   tags: [security, aws, cloud, managed-services]
 
 - title: "Pega Cloud Platform"
   summary: "Built and managed the Pega Cloud offering with over 1000 instances on AWS in a managed service provider model, including full security architecture and onboarding of 50+ enterprise and government customers."
+  start: "2011-06"
+  end: "2014-09"
   tags: [aws, cloud, managed-services, security, compliance]
 
 - title: "Contact Center PaaS (Arise Virtual Solutions)"
   summary: "Architected, implemented and managed the contact center platform enabling expansion from South Florida to national and international presence with 2000+ ports and 5000+ remote agents."
+  start: "2006-07"
+  end: "2010-07"
   tags: [contact-center, telephony, architecture]

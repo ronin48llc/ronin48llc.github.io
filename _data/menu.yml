@@ -29,6 +29,8 @@ entries:
         url: /resume/work-experience
       - title: memberships
         url: /resume/memberships
+      - title: timeline
+        url: /resume/timeline
       - title: skills
         url: /resume/skills
       - title: projects

@@ -1,5 +1,6 @@
 - title: AWS Ambassador Program — Top Ambassador Award
   summary: First employee accepted into the program. Multi-year renewals with recognition in certifications and evangelization of AWS, including contribution to certification exams as a subject matter expert. Received the Top Ambassador Award in September 2023.
+  start: "2023-09"
   tags:
     - aws
     - leadership
@@ -7,6 +8,7 @@
     - ambassador
 - title: AWS Re:Invent Presenter
   summary: Presented at AWS Re:Invent, the largest cloud computing conference. Talks include "DVC03 — Scaling and Supporting your Production App" at Re:Invent 2018.
+  start: "2018-11"
   tags:
     - aws
     - speaking
@@ -15,6 +17,7 @@
 - title: G2 High Performer — Winter 2026
   summary: ConnectPath recognized as a G2 High Performer for Winter 2026.
   image: g2-high-performer-winter-2026.png
+  start: "2026-01"
   tags:
     - g2
     - connectpath
@@ -24,6 +27,7 @@
 - title: G2 High Performer — Fall 2025
   summary: ConnectPath recognized as a G2 High Performer for Fall 2025.
   image: g2-high-performer-fall-2025.png
+  start: "2025-09"
   tags:
     - g2
     - connectpath
@@ -33,6 +37,7 @@
 - title: G2 High Performer — Spring 2026
   summary: ConnectPath recognized as a G2 High Performer for Spring 2026.
   image: g2-high-performer-spring-2026.png
+  start: "2026-03"
   tags:
     - g2
     - connectpath
@@ -42,6 +47,7 @@
 - title: G2 High Performer — Spring 2023
   summary: ConnectPath recognized as a G2 High Performer for Spring 2023.
   image: g2-high-performer-spring-2023.png
+  start: "2023-03"
   tags:
     - g2
     - connectpath
@@ -51,6 +57,7 @@
 - title: G2 Highest User Adoption — Spring 2026
   summary: ConnectPath recognized for Highest User Adoption on G2 for Spring 2026.
   image: g2-highest-user-adoption-spring-2026.png
+  start: "2026-03"
   tags:
     - g2
     - connectpath
@@ -60,6 +67,7 @@
 - title: G2 Users Love Us — Milestone
   summary: ConnectPath earned the G2 Users Love Us milestone badge based on customer reviews.
   image: g2-users-love-us.png
+  start: "2023-01"
   tags:
     - g2
     - connectpath
@@ -68,12 +76,14 @@
     - product-award
 - title: 2025 Certification All Stars Recognition
   summary: Recognized in the 2025 AWS Certification All Stars program for outstanding achievement in AWS certifications.
+  start: "2025-01"
   tags:
     - aws
     - certification
     - apn-recognition
 - title: CloudHesive Recognized in Omdia Rankings
   summary: CloudHesive recognized in Omdia industry rankings for cloud and managed services capabilities.
+  start: "2024-01"
   tags:
     - cloudhesive
     - managed-services
@@ -81,11 +91,13 @@
     - third-party-validation
 - title: Employee of the Month — Pegasystems
   summary: Recognized as Employee of the Month at Pegasystems in August 2012.
+  start: "2012-08"
   tags:
     - leadership
     - pegasystems
 - title: AWS Ambassador — Certification All-Star Award
   summary: Awarded to AWS Ambassadors who possessed all active AWS certifications at the date issued (September 2022).
+  start: "2022-09"
   tags:
     - aws
     - certification
