@@ -34,6 +34,24 @@ Getting into 3D printing — designing and printing parts, enclosures, and whate
 
 ---
 
+### SDR & Radio
+
+Software-defined radio, scanner monitoring, and exploring the RF spectrum. Considering getting a ham/FCC license to go deeper — HF, VHF, digital modes, the whole thing.
+
+---
+
+### Gadgetry — Raspberry Pi & M5Stack
+
+Always have a Pi or M5 doing something. Sensor dashboards, home automation glue, portable tools, display widgets. The kind of stuff that starts as "let me just try this real quick" and ends up permanently mounted somewhere.
+
+---
+
+### Media & Streaming
+
+Experimenting with home media setups, streaming workflows, and content pipelines. Overlaps with the professional side (AWS Elemental, OBS, encoding) but at home it's more about building something that just works for the family.
+
+---
+
 ### Camping
 
 Maybe. Too soon to tell. But the gear research has started, which is usually how these things begin.

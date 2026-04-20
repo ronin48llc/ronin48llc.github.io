@@ -22,3 +22,4 @@ theme_config:
   mode: "auto"
   show_description: true
   show_tags: true
+  date_format: "%B %-d, %Y"

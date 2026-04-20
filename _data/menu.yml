@@ -11,24 +11,22 @@ entries:
         url: /blog
       - title: feed
         url: /feed.xml
-  - title: links
-    url: /links
+  - title: timeline
+    url: /timeline
   - title: selected works
     url: /selected-works
   - title: media
     url: /media
-  - title: timeline
-    url: /timeline
   - title: work experience
     url: /work-experience
-  - title: memberships
-    url: /memberships
   - title: skills
     url: /skills
   - title: projects
     url: /projects
   - title: awards
     url: /awards
+  - title: memberships
+    url: /memberships
   - title: bio
     url: /bio
   - title: now
@@ -37,5 +35,7 @@ entries:
     url: /personal-projects
   - title: reading
     url: /reading
+  - title: links
+    url: /links
   - title: contact
     url: /contact
