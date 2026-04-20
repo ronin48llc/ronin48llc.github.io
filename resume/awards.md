@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Awards & Recognition
-permalink: /resume/awards
+permalink: /awards
 ---
 
 <style>

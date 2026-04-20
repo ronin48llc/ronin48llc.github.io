@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Timeline
-permalink: /resume/timeline
+permalink: /timeline
 ---
 
 {% include timeline.html %}
@@ -144,10 +144,10 @@ permalink: /resume/timeline
 
   // Memberships
   {% for item in site.data.memberships %}
-  {% if item.category == "Memberships" or item.category == "" or item.category == "Volunteering" %}
+  {% if item.category == "Memberships" or item.category == "Volunteering" %}
   items.push({ title: {{ item.title | jsonify }}, type: "membership", start: {{ item.start | jsonify }}, end: {{ item.end | default: nil | jsonify }}, tags: {{ item.tags | jsonify }} });
-  {% elsif item.category == "Contributions" or item.category == "Former Roles" %}
-  items.push({ title: {{ item.title | jsonify }}, type: "contribution", start: {{ item.start | jsonify }}, end: {{ item.end | default: nil | jsonify }}, tags: {{ item.tags | jsonify }} });
+  {% elsif item.category == "Former Roles" %}
+  items.push({ title: {{ item.title | jsonify }}, type: "membership", start: {{ item.start | jsonify }}, end: {{ item.end | default: nil | jsonify }}, tags: {{ item.tags | jsonify }} });
   {% endif %}
   {% endfor %}
 

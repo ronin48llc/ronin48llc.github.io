@@ -13,6 +13,18 @@ entries:
     url: /selected-works
   - title: media
     url: /media
+  - title: timeline
+    url: /timeline
+  - title: work experience
+    url: /work-experience
+  - title: memberships
+    url: /memberships
+  - title: skills
+    url: /skills
+  - title: projects
+    url: /projects
+  - title: awards
+    url: /awards
   - title: bio
     url: /bio
   - title: now
@@ -23,19 +35,3 @@ entries:
     url: /reading
   - title: contact
     url: /contact
-  - title: resume
-    entries:
-      - title: work experience
-        url: /resume/work-experience
-      - title: memberships
-        url: /resume/memberships
-      - title: timeline
-        url: /resume/timeline
-      - title: skills
-        url: /resume/skills
-      - title: projects
-        url: /resume/projects
-      - title: awards
-        url: /resume/awards
-      - title: download pdf
-        url: /assets/resume.pdf

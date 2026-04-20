@@ -1,3 +1,6 @@
+# Memberships & Former Program Roles
+# Contributions/speaking/writing events live in media.yml
+
 - title: AWS Community Builder
   category: Memberships
   tags:
@@ -28,6 +31,51 @@
     - security
     - government
   start: "2015-05"
+- title: South Florida Tech Hub
+  category: Memberships
+  tags:
+    - community
+  start: "2020-01"
+  end: "2022-07"
+- title: CMMC Day Program Committee Member
+  category: Memberships
+  tags:
+    - cmmc
+    - compliance
+    - security
+    - community
+  start: "2024-01"
+- title: IEEE
+  category: Memberships
+  tags:
+    - engineering
+    - computing
+  start: "2026-03"
+- title: ACM
+  category: Memberships
+  tags:
+    - computing
+    - research
+  start: "2026-03"
+- title: Usenix
+  category: Memberships
+  tags:
+    - computing
+    - systems
+  start: "2026-03"
+- title: OWASP
+  category: Memberships
+  tags:
+    - security
+    - appsec
+  start: "2026-03"
+- title: Blood Donor — OneBlood (2013–2022)
+  category: Volunteering
+  tags:
+    - community
+    - volunteering
+  start: "2013-01"
+  end: "2022-12"
 - title: AWS Certification SME — Data Analytics Specialty Item Development (Dec 2019)
   category: Former Roles
   tags:
@@ -70,103 +118,3 @@
     - aws
     - architecture
   start: "2020-01"
-- title: CIS Benchmark Contributor
-  category: Contributions
-  tags:
-    - security
-    - compliance
-    - thought-leadership
-  start: "2020-01"
-- title: AWS Whitepaper Co-Author
-  category: Contributions
-  tags:
-    - aws
-    - thought-leadership
-    - writing
-  start: "2019-01"
-- title: AWS Re:Invent Presenter (DVC03 — Scaling and Supporting your Production App, 2018)
-  category: Contributions
-  tags:
-    - aws
-    - speaking
-    - conference
-  start: "2018-11"
-- title: ITExpo 2025 Presenter (ConnectPathCX for Amazon Connect)
-  category: Contributions
-  tags:
-    - speaking
-    - conference
-    - contact-center
-  start: "2025-02"
-- title: CMMC Day Speaker (Washington, DC)
-  category: Contributions
-  tags:
-    - speaking
-    - compliance
-    - security
-  start: "2024-06"
-- title: ITPalooza 2015 — Adopting AWS: Strategy & Organization
-  category: Contributions
-  tags:
-    - speaking
-    - community
-    - aws
-  start: "2015-12"
-- title: ITPalooza 2017 — AWS 101: Benefits of Migrating to the Cloud
-  category: Contributions
-  tags:
-    - speaking
-    - community
-    - aws
-  start: "2017-12"
-- title: South Florida Tech Hub
-  category: Memberships
-  tags:
-    - community
-  start: "2020-01"
-  end: "2022-07"
-- title: ISACA Presenter
-  category: Contributions
-  tags:
-    - speaking
-    - security
-  start: "2019-01"
-- title: CMMC Day Program Committee Member
-  category: Memberships
-  tags:
-    - cmmc
-    - compliance
-    - security
-    - community
-  start: "2024-01"
-- title: Blood Donor — OneBlood (2013–2022)
-  category: Volunteering
-  tags:
-    - community
-    - volunteering
-  start: "2013-01"
-  end: "2022-12"
-- title: IEEE
-  category: Memberships
-  tags:
-    - engineering
-    - computing
-  start: "2026-03"
-- title: ACM
-  category: Memberships
-  tags:
-    - computing
-    - research
-  start: "2026-03"
-- title: Usenix
-  category: Memberships
-  tags:
-    - computing
-    - systems
-  start: "2026-03"
-- title: OWASP
-  category: Memberships
-  tags:
-    - security
-    - appsec
-  start: "2026-03"

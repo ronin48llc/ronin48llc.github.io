@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Work Experience
-permalink: /resume/work-experience
+permalink: /work-experience
 ---
 
 <style>

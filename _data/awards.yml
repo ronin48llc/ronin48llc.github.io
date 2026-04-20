@@ -6,14 +6,6 @@
     - leadership
     - thought-leadership
     - ambassador
-- title: AWS Re:Invent Presenter
-  summary: Presented at AWS Re:Invent, the largest cloud computing conference. Talks include "DVC03 — Scaling and Supporting your Production App" at Re:Invent 2018.
-  start: "2018-11"
-  tags:
-    - aws
-    - speaking
-    - conference
-    - devops
 - title: G2 High Performer — Winter 2026
   summary: ConnectPath recognized as a G2 High Performer for Winter 2026.
   image: g2-high-performer-winter-2026.png

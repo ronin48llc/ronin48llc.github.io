@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Skills & Certifications
-permalink: /resume/skills
+permalink: /skills
 ---
 
 <style>

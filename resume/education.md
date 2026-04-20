@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Memberships & Contributions
-permalink: /resume/memberships
+title: Memberships & Community
+permalink: /memberships
 ---
 
 <style>
@@ -87,7 +87,7 @@ permalink: /resume/memberships
 </style>
 
 <div class="resume-wrapper">
-  <h1>Memberships & Contributions</h1>
+  <h1>Memberships & Community</h1>
   <div class="narrative">
     <p>Community has always been the part of this career that energizes me the most. Leading the AWS User Group in South Florida, presenting at local meetups, and eventually speaking at Re:Invent and ITExpo — those experiences reminded me that the best way to learn something deeply is to teach it. Contributing to CIS Benchmarks and co-authoring AWS whitepapers gave me a way to take hard-won operational knowledge and make it useful to people I'd never meet. Being an APN Ambassador and Well-Architected Lead meant I could bridge the gap between what AWS builds and what customers actually need. And the memberships — ISC2, InfraGard, FinOps Foundation — aren't just lines on a resume. They're communities where I've found peers who care about the same things I do: doing the work right, and helping others do the same.</p>
   </div>
