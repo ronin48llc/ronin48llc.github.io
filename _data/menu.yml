@@ -1,10 +1,4 @@
 entries:
-  - title: home
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_url: /blog
-      show_more_text: "all posts"
   - title: blog
     entries:
       - title: all posts
@@ -13,16 +7,18 @@ entries:
         url: /feed.xml
   - title: timeline
     url: /timeline
-  - title: selected works
-    url: /selected-works
-  - title: media
-    url: /media
   - title: work experience
     url: /work-experience
   - title: skills
     url: /skills
   - title: projects
     url: /projects
+  - title: selected works
+    url: /selected-works
+  - title: media
+    url: /media
+  - title: presentations
+    url: /presentations
   - title: awards
     url: /awards
   - title: memberships

@@ -1,19 +1,434 @@
-# Add presentations here. Each entry will appear on the /presentations page.
-# Place files in assets/presentations/ and thumbnails in assets/presentations/thumbs/
-#
-# Fields:
-#   title:       (required) Presentation title
-#   date:        (required) Date in YYYY-MM-DD format
-#   description: (optional) Short description
-#   pdf:         (required) Filename of the PDF in assets/presentations/
-#   pptx:        (optional) Filename of the PPTX in assets/presentations/
-#   thumbnail:   (optional) Filename of thumbnail in assets/presentations/thumbs/
-#                           If omitted, a placeholder is shown.
-#
-# Example:
-# - title: "Cloud Migration Strategies"
-#   date: 2024-12-01
-#   description: "Presented at AWS Re:Invent 2024"
-#   pdf: "cloud-migration-strategies.pdf"
-#   pptx: "cloud-migration-strategies.pptx"
-#   thumbnail: "cloud-migration-strategies.png"
+# Presentations, slides, videos, and PDFs
+# Hosted on cdn.ronin48.io with same directory structure as media-assets/
+# CDN base: https://cdn.ronin48.io
+
+# --- Slides (PPTX from SlideShare) ---
+
+- title: "Modernization of Your AWS-Based SaaS Platform (Fort Lauderdale)"
+  date: 2024-07-26
+  description: "Presented at AWS User Groups of Florida Meetup on modernizing AWS-based SaaS platforms."
+  pptx: "slides/modernizationofyourawsbasedsaasplatform-240726013959-863fb305.pptx"
+  tags: [aws, saas, modernization, speaking, south-florida]
+
+- title: "Modernization of Your AWS-Based SaaS Platform (New York)"
+  date: 2024-08-26
+  description: "Presented at AWS New York Official Meetup on modernizing AWS-based SaaS platforms."
+  pptx: "slides/modernizationofyourawsbasedsaasplatform-short-jorgespeakernotes-240826132719-575a8b02.pptx"
+  tags: [aws, saas, modernization, speaking]
+
+- title: "CloudHesive x Datadog Webinar"
+  date: 2024-09-13
+  description: "Security, operations and observability on AWS with Datadog."
+  pptx: "slides/cloudhesivexdatadogwebinar-240913173854-99e03cea.pptx"
+  tags: [aws, security, monitoring, datadog, webinar]
+
+- title: "Serverless and Generative AI on AWS"
+  date: 2024-02-28
+  description: "Presented at AWS User Groups of Florida on serverless and generative AI services."
+  pptx: "slides/serverlessgenerativeai-edit-240228015114-d976e79d.pptx"
+  tags: [aws, serverless, generative-ai, speaking, south-florida]
+
+- title: "Amazon Connect AI — Shaping the Future of Customer Interactions (Nov 2023)"
+  date: 2023-12-30
+  description: "Presented on GenAI and the future of customer experience with Amazon Connect."
+  pptx: "slides/amazonconnectai-shapingthefutureofcustomerinteractions-genaiandthefutureofcustomerexperience-231230111748-eec7e8df.pptx"
+  tags: [aws, amazon-connect, generative-ai, contact-center, speaking]
+
+- title: "Amazon Connect AI — GenAI and the Future of Customer Experience (Oct 2023)"
+  date: 2023-10-12
+  description: "Co-presented with AWS on Generative AI and Amazon Connect."
+  pptx: "slides/amazonconnectai-shapingthefutureofcustomerinteractions-genaiandthefutureofcustomerexperience-aws-231230111343-05a805d2.pptx"
+  tags: [aws, amazon-connect, generative-ai, contact-center, speaking]
+
+- title: "Accelerating Business and Research Through AI in the CMMC Domain"
+  date: 2023-05-19
+  description: "Presented at CMMC Day in Washington, DC on automation and AI."
+  pptx: "slides/acceleratingbusinessandresearchthroughautomationandartificialintelligenceinthecmmcdomain-230519210933-eb3b94ce.pptx"
+  tags: [cmmc, compliance, ai, security, speaking, conference]
+
+- title: "Amazon Connect — Rethink Your Contact Center with CloudHesive"
+  date: 2023-05-19
+  description: "Presented to a public sector audience on Contact Center as a Service with Amazon Connect."
+  pptx: "slides/amazonconnectrethinkyourcontactcenterwithcloudhesive-230519210635-b62f28d6.pptx"
+  tags: [aws, amazon-connect, contact-center, public-sector, speaking]
+
+- title: "ConnectPath Introduction"
+  date: 2023-03-31
+  description: "Overview of Amazon Connect and the ConnectPath platform built on AWS Serverless."
+  pptx: "slides/connectpathintroduction-230331205042-3d8d436c.pptx"
+  tags: [connectpath, amazon-connect, serverless, product]
+
+- title: "End User Computing at CloudHesive"
+  date: 2023-02-02
+  description: "Presented at AWS End User Computing Workshop in Atlanta."
+  pptx: "slides/endusercomputingatcloudhesive-230202191243-a6cc755f.pptx"
+  tags: [aws, end-user-computing, workshop, speaking]
+
+- title: "Analytics at CloudHesive"
+  date: 2023-01-18
+  description: "Hosted and presented at community event in South Florida on AWS Analytics Services."
+  pptx: "slides/analyticsatcloudhesive-230118234548-c8e1864d.pptx"
+  tags: [aws, analytics, speaking, south-florida]
+
+- title: "DEV301 — Serverless Data and Analytics on AWS"
+  date: 2022-05-20
+  description: "Presented on serverless data and analytics at AWS Summit Atlanta."
+  pptx: "slides/dev301patrickserverlessdataandanalyticsonawsforoperations-sc-220520141540-5d0d444d.pptx"
+  tags: [aws, serverless, data, analytics, speaking, conference]
+
+- title: "re:Invent Recap 2022"
+  date: 2022-04-19
+  description: "Hosted and presented a recap of AWS Re:Invent at AWS User Group Virtual Meetup."
+  pptx: "slides/reinventrecap2022-220419215617.pptx"
+  tags: [aws, reinvent, community, speaking]
+
+- title: "Serverless Without Code — Lambda"
+  date: 2022-04-18
+  description: "Created and presented on serverless at SoFlo DevCon."
+  pptx: "slides/serverlesswithoutcode-220418222046.pptx"
+  tags: [aws, serverless, lambda, speaking, south-florida]
+
+- title: "Supporting Your CMMC Initiatives with Sumo Logic"
+  date: 2022-09-15
+  description: "Overview of CMMC, its impact, and how AWS services help address compliance controls."
+  pptx: "slides/rackmultipart20220820-4-zaz4ve-220915132502-bfdaa54d.pptx"
+  tags: [cmmc, compliance, security, monitoring, speaking]
+
+- title: "NIST Cybersecurity Framework (CSF) on the Public Cloud"
+  date: 2021-12-14
+  description: "Presented at CAMP IT Conferences on NIST CSF in the public cloud."
+  pptx: "slides/nistcybersecurityframeworkcsfonthepubliccloud-211214153120.pptx"
+  tags: [security, compliance, nist, cloud, speaking]
+
+- title: "Security on AWS (2021)"
+  date: 2021-12-14
+  description: "Security on AWS presentation for user group meetup."
+  pptx: "slides/securityonaws-211214153405.pptx"
+  tags: [aws, security, speaking]
+
+- title: "Security on AWS — 2021 Edition Meetup"
+  date: 2021-04-09
+  description: "Security on AWS presentation for community meetup."
+  pptx: "slides/securityonaws2021editionmeetup-211214153520.pptx"
+  tags: [aws, security, speaking, community]
+
+- title: "5 Minutes on Security"
+  date: 2021-12-14
+  description: "Quick security overview presentation."
+  pptx: "slides/5minutesonsecurity-211214153303.pptx"
+  tags: [security, aws, speaking]
+
+- title: "Amazon Connect Bootcamp"
+  date: 2021-04-09
+  description: "Amazon Connect bootcamp presentation."
+  pptx: "slides/amazonconnectbootcamppresentation-210409223727.pptx"
+  tags: [aws, amazon-connect, contact-center, workshop]
+
+- title: "AWS 2020 Year in Review — Re:Invent Recap"
+  date: 2021-04-09
+  description: "Recap of AWS Re:Invent 2020 and year in review."
+  pptx: "slides/aws2020yearinreviewreinventrecap-210409223018.pptx"
+  tags: [aws, reinvent, community, speaking]
+
+- title: "AWS Spotlight Series — Modernization and Security with AWS"
+  date: 2021-04-09
+  description: "Presented on modernization and security with AWS."
+  pptx: "slides/awsspotlightseries-modernizationandsecuritywithaws-210409223154.pptx"
+  tags: [aws, security, modernization, speaking]
+
+- title: "Exploring Contact Lens and Amazon Connect"
+  date: 2021-04-09
+  description: "Exploring Contact Lens analytics capabilities with Amazon Connect."
+  pptx: "slides/exploringcontactlensandamazonconnect-210409222941.pptx"
+  tags: [aws, amazon-connect, contact-center, analytics]
+
+- title: "Fort Lauderdale Tech Talks — The Future is the Cloud"
+  date: 2021-04-09
+  description: "Presented at Fort Lauderdale Tech Talks on cloud adoption."
+  pptx: "slides/fortlauderdaletechtalks-thefutureisthecloud-210409223524.pptx"
+  tags: [aws, cloud, speaking, south-florida]
+
+- title: "Best Practices in Secure Cloud Migration"
+  date: 2019-12-16
+  description: "Presented at Secure World Expo on secure cloud migration with Thales."
+  pptx: "slides/bestpracticesinsecurecloudmigration-191216214503.pptx"
+  tags: [security, migration, cloud, speaking, conference]
+
+- title: "AWS Elemental Partner Forum Miami"
+  date: 2019-12-16
+  description: "Presented at AWS Elemental Partner Forum in Miami."
+  pptx: "slides/awselementalpartnerforummiami-191216214340.pptx"
+  tags: [aws, media, streaming, speaking, south-florida]
+
+- title: "Best Practices — AWS Elemental and Media Services"
+  date: 2019-12-16
+  description: "Best practices for AWS Elemental and Media Services."
+  pptx: "slides/cloudhesive-bestpracticesawselementalandmediaservices-191216213926.pptx"
+  tags: [aws, media, streaming, best-practices]
+
+- title: "Build and Manage a Highly Secure Cloud Environment on AWS"
+  date: 2019-12-16
+  description: "Webinar with CloudCheckr on building secure cloud environments."
+  pptx: "slides/cloudhesive-buildandmanageahighlysecurecloudenvironmentonawsandazure-191216213405.pptx"
+  tags: [aws, security, cloud, speaking]
+
+- title: "Driving Business Agility with AWS Serverless (Atlanta)"
+  date: 2019-12-16
+  description: "Presented on AWS Serverless for business agility."
+  pptx: "slides/cloudhesive-drivingbusinessagilitywithawsserverless-atlanta-191216214108.pptx"
+  tags: [aws, serverless, speaking]
+
+- title: "The Value of Next Generation Managed Services"
+  date: 2019-12-16
+  description: "Presented on next-generation managed services."
+  pptx: "slides/cloudhesive-thevalueofnextgenerationmanagedservices-191216213209.pptx"
+  tags: [managed-services, cloud, speaking]
+
+- title: "Winning Governance Strategies for the Technology Disruptions of our Time"
+  date: 2019-12-16
+  description: "Presented at ISACA South Florida Chapter on governance strategies."
+  pptx: "slides/winninggovernancestrategiesforthetechnologydisruptionsofourtime-191216214635.pptx"
+  tags: [governance, compliance, speaking, security]
+
+- title: "Microsoft on AWS — Implementation Guidance and Best Practices"
+  date: 2019-03-19
+  description: "Implementation guidance for Microsoft workloads on AWS."
+  pptx: "slides/cloudhesive-microsoftonaws-implementationguidanceandbestpractices-190319174610.pptx"
+  tags: [aws, windows, migration, best-practices]
+
+- title: "Add IoT to Your Machine Learning Powered Blockchain Contact Center"
+  date: 2019-03-19
+  description: "Lighthearted buzzword-laden presentation on emerging AWS services."
+  pptx: "slides/cloudhesive-addiottoyourmachinelearningpoweredblockchaincontactcenter-190319163540.pptx"
+  tags: [aws, iot, machine-learning, contact-center, speaking]
+
+- title: "EMX 2019"
+  date: 2019-04-01
+  description: "CloudHesive presentation at EMX 2019."
+  pptx: "slides/emx2019-chlogo1-190401042422.pptx"
+  tags: [cloudhesive, conference, speaking]
+
+- title: "DVC03 — Scaling and Supporting your Production App (Re:Invent 2018)"
+  date: 2019-01-24
+  description: "Presented at AWS Re:Invent 2018 on scaling and supporting production applications."
+  pptx: "slides/reinvent2018-scalingandsupportingyourproductionapp-190124145317.pptx"
+  tags: [aws, reinvent, devops, scaling, speaking, conference]
+
+- title: "AWS Re:Invent 2018 Recap"
+  date: 2018-12-12
+  description: "Recap of AWS Re:Invent 2018 for user group meetup."
+  pptx: "slides/awsreinvent2018recap-181212153256.pptx"
+  tags: [aws, reinvent, community, speaking]
+
+- title: "Big Data and Machine Learning on AWS"
+  date: 2018-04-20
+  description: "Presented on big data and machine learning services on AWS."
+  pptx: "slides/bigdataandmachinelearningonaws-180420134608.pptx"
+  tags: [aws, data, machine-learning, speaking]
+
+- title: "Re:Invent Recap — AWS Meetup (2017)"
+  date: 2017-12-20
+  description: "Recap of AWS Re:Invent 2017 for user group meetup."
+  pptx: "slides/reinventrecap-awsmeetup-171220183641.pptx"
+  tags: [aws, reinvent, community, speaking]
+
+- title: "Amazon Connect — Technical Introduction and Use Cases"
+  date: 2017-12-11
+  description: "Technical introduction to Amazon Connect with use cases."
+  pptx: "slides/amazonconnecttechnicalintroductionusecases-171211221607.pptx"
+  tags: [aws, amazon-connect, contact-center, speaking]
+
+- title: "AWS 101 and the Benefits of Migrating to the Cloud"
+  date: 2017-12-11
+  description: "ITPalooza 2017 — AWS 101 and cloud migration benefits."
+  pptx: "slides/aws101andthebenefitsofmigratingtothecloud-171211221330.pptx"
+  tags: [aws, cloud, migration, speaking, community]
+
+- title: "AWS 101 — An Introduction to the Amazon Cloud"
+  date: 2017-09-28
+  description: "Introduction to AWS cloud services for beginners."
+  pptx: "slides/aws101-anintroductiontotheamazoncloud-170928124708.pptx"
+  tags: [aws, cloud, speaking, community]
+
+- title: "Re:Invent Lightning Talk — The Survival Guide"
+  date: 2017-07-18
+  description: "Lightning talk at AWS Re:Invent on surviving the conference."
+  pptx: "slides/reinvent-lightningtalk-thesurvivalguide-170718204033.pptx"
+  tags: [aws, reinvent, speaking, conference]
+
+- title: "Introduction to AWS and Docker on ECS"
+  date: 2017-07-18
+  description: "Introduction to Docker containers on Amazon ECS."
+  pptx: "slides/introductiontoawsanddockeronecs-170718203544.pptx"
+  tags: [aws, containers, ecs, docker, speaking]
+
+- title: "Introduction to AWS (July 2017)"
+  date: 2017-07-18
+  description: "General introduction to AWS services."
+  pptx: "slides/introductiontoawsjuly-170718203634.pptx"
+  tags: [aws, cloud, speaking, community]
+
+- title: "AWS Summit New York Recap 2016"
+  date: 2017-07-18
+  description: "Recap of AWS Summit New York 2016."
+  pptx: "slides/awssummitnewyorkrecap2016-170718203217.pptx"
+  tags: [aws, conference, community, speaking]
+
+- title: "Cloudifying Your Security Operations on AWS"
+  date: 2017-07-18
+  description: "Presented on cloud security operations on AWS."
+  pptx: "slides/cloudifyingyoursecurityoperationsonaws-170718203412.pptx"
+  tags: [aws, security, operations, speaking]
+
+- title: "Automating Operations with Machine Learning on AWS"
+  date: 2017-07-18
+  description: "Presented on using ML to automate cloud operations."
+  pptx: "slides/automatingoperationswithmachinelearningonaws-170718202625.pptx"
+  tags: [aws, machine-learning, operations, automation, speaking]
+
+- title: "Modernizing DevOps"
+  date: 2017-07-18
+  description: "Presented on modern DevOps practices."
+  pptx: "slides/modernizingdevops-170718203740.pptx"
+  tags: [devops, aws, speaking]
+
+- title: "Modernizing Your AWS Deployment (2017)"
+  date: 2017-07-18
+  description: "Presented on modernizing AWS deployments."
+  pptx: "slides/modernizingyourawsdeployment-170718203939.pptx"
+  tags: [aws, devops, deployment, speaking]
+
+- title: "Modernizing Your AWS Deployment (January 2017)"
+  date: 2017-01-18
+  description: "Earlier version of the AWS deployment modernization talk."
+  pptx: "slides/modernizingyourawsdeployment-january2017-170718203834.pptx"
+  tags: [aws, devops, deployment, speaking]
+
+- title: "DevOps on AWS"
+  date: 2017-07-18
+  description: "Presented on DevOps practices on AWS."
+  pptx: "slides/devopsonaws-170718201342.pptx"
+  tags: [aws, devops, speaking]
+
+- title: "Amazon Connect Overview"
+  date: 2017-07-18
+  description: "Overview of Amazon Connect for CloudHesive."
+  pptx: "slides/amazonconnectoverview-cloudhesive-170718201557.pptx"
+  tags: [aws, amazon-connect, contact-center, product]
+
+- title: "Amazon WorkSpaces Overview"
+  date: 2017-07-18
+  description: "Overview of Amazon WorkSpaces for end user computing."
+  pptx: "slides/amazonworkspacesoverview-cloudhesive-170718201557.pptx"
+  tags: [aws, end-user-computing, workspaces]
+
+- title: "What it Means to be a Next Generation MSP"
+  date: 2017-07-18
+  description: "Webinar on next generation managed service providers."
+  pptx: "slides/whatitmeanstobeanext-generationmsp-cloudhesive-170718201047.pptx"
+  tags: [managed-services, cloud, speaking]
+
+- title: "Adopting AWS in Your Organization — ITPalooza 2015"
+  date: 2015-12-01
+  description: "ITPalooza 2015 — Adopting AWS: Strategy and Organization."
+  pptx: "slides/adoptingawsinyourorganization-itpalooza2015-170718202432.pptx"
+  tags: [aws, cloud, strategy, speaking, community, conference]
+
+# --- PDFs ---
+
+- title: "CMMC Day — Accelerating Business and Research Through Automation and AI"
+  date: 2023-05-15
+  description: "PDF of the CMMC Day presentation on cloud, security and AI/ML."
+  pdf: "pdfs/cmmc-day-accelerating-business-and-research-through-automation-and-ai.pdf"
+  tags: [cmmc, compliance, ai, security, conference]
+
+- title: "Migrating Magento to AWS — Whitepaper"
+  date: 2020-04-21
+  description: "Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS."
+  pdf: "pdfs/migrating-magento-to-aws-whitepaper-pdf.pdf"
+  tags: [aws, migration, whitepaper, ecommerce, writing]
+
+# --- Videos (self-hosted) ---
+
+- title: "This Is My Architecture — ConnectPath on AWS"
+  date: 2024-01-23
+  description: "Featured on AWS This is My Architecture series describing ConnectPath platform architecture."
+  video: "videos/CloudHesive： Improved Omnichannel Experience for Amazon Connect through ConnectPath.webm"
+  videoUrl: "https://www.youtube.com/watch?v=weT3nKnOFDg"
+  tags: [aws, reinvent, connectpath, amazon-connect, architecture, video]
+
+- title: "Datadog x CloudHesive — Security, Operations and Observability"
+  date: 2024-09-13
+  description: "Presented on security, operations and observability on AWS with Datadog."
+  video: "videos/Datadog x CloudHesive.webm"
+  videoUrl: "https://www.youtube.com/watch?v=FzQmEG7onUg"
+  tags: [aws, security, monitoring, datadog, video, webinar]
+
+- title: "AWS User Groups of Florida — Contact Center on AWS"
+  date: 2023-01-01
+  description: "Lunch & Learn on AWS Re:Invent Updates and ConnectPath CX."
+  video: "videos/LUNCH & LEARN ｜  ＂AWS re：Invent Updates & Connect Path CX＂.webm"
+  videoUrl: "https://www.youtube.com/watch?v=n7Vwn1kZxb4"
+  tags: [aws, amazon-connect, contact-center, reinvent, video, community]
+
+- title: "Multigenerational Observability and Security for Evolving Cloud Operations"
+  date: 2022-01-01
+  description: "Presentation on observability and security across cloud generations."
+  video: "videos/Multigenerational Obrservability and Security for Evolving Cloud Operations [biHa3m2_Eck].webm"
+  videoUrl: "https://www.youtube.com/watch?v=biHa3m2_Eck"
+  tags: [aws, security, monitoring, cloud, video]
+
+- title: "AWS 2020 Year in Review — Re:Invent Recap"
+  date: 2021-01-01
+  description: "Video recap of AWS Re:Invent 2020."
+  video: "videos/AWS 2020 Year in Review reInvent ReCap [YRPTcE0RwYg].mkv"
+  videoUrl: "https://www.youtube.com/watch?v=YRPTcE0RwYg"
+  tags: [aws, reinvent, community, video]
+
+- title: "Security on AWS — 2021 Edition Meetup"
+  date: 2021-04-09
+  description: "Security on AWS presentation recorded at community meetup."
+  video: "videos/Security on AWS, 2021 Edition Meetup [my2h2TLMzPE].mkv"
+  videoUrl: "https://www.youtube.com/watch?v=my2h2TLMzPE"
+  tags: [aws, security, speaking, video, community]
+
+- title: "Exploring Contact Lens and Amazon Connect"
+  date: 2021-04-09
+  description: "Exploring Contact Lens analytics with Amazon Connect."
+  video: "videos/Exploring Contact Lens and Amazon Connect [SD4vQNfNgn4].mkv"
+  videoUrl: "https://www.youtube.com/watch?v=SD4vQNfNgn4"
+  tags: [aws, amazon-connect, contact-center, analytics, video]
+
+- title: "Supporting your CMMC Initiatives with Sumo Logic"
+  date: 2022-09-13
+  description: "Presented at Sumo Logic Illuminate on CMMC compliance."
+  video: "videos/Supporting your CMMC initiatives with Sumo Logic [MfTKWwTztG8].mkv"
+  videoUrl: "https://www.youtube.com/watch?v=MfTKWwTztG8"
+  tags: [cmmc, compliance, security, monitoring, video]
+
+- title: "Accelerating CMMC Compliance with the Cloud"
+  date: 2023-06-21
+  description: "Case study webinar with PreVeil on CMMC compliance."
+  video: "videos/Accelerating CMMC Compliance with the Cloud [gzms-Ragj9Y].mkv"
+  videoUrl: "https://www.youtube.com/watch?v=gzms-Ragj9Y"
+  tags: [cmmc, compliance, security, cloud, video, webinar]
+
+- title: "SFTA Microservices Summit — September 2018"
+  date: 2018-09-27
+  description: "Presented at South Florida Technology Alliance Microservices Summit."
+  video: "videos/SFTA Microservices Summit September 27 2018.webm"
+  videoUrl: "https://www.youtube.com/watch?v=cvoQzPM6pvE"
+  tags: [microservices, architecture, speaking, conference, video, south-florida]
+
+- title: "What it Means to be a Next Generation Managed Service Provider"
+  date: 2017-07-12
+  description: "Webinar on next generation managed service providers."
+  video: "videos/What it Means to be a Next Generation Managed Service Provider.mp4"
+  videoUrl: "https://www.youtube.com/watch?v=MKoJNAiz3rE"
+  tags: [managed-services, cloud, speaking, video]
+
+- title: "Rethink Your Contact Center with CloudHesive"
+  date: 2024-06-06
+  description: "Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI."
+  video: "videos/Rethink Your Webinar with CloudHesive.mp4"
+  tags: [aws, amazon-connect, contact-center, ai, video, speaking]

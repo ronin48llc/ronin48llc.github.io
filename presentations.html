@@ -10,6 +10,33 @@ permalink: /presentations
     margin: 0 auto;
   }
 
+  .pres-wrapper .pres-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .pres-wrapper .tag-btn {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+  }
+
+  .pres-wrapper .tag-btn:hover { opacity: 1; }
+  .pres-wrapper .tag-btn.active { opacity: 1; font-weight: bold; }
+
+  .pres-wrapper .pres-count {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+
   .pres-wrapper .pres-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -24,13 +51,7 @@ permalink: /presentations
     flex-direction: column;
   }
 
-  .pres-wrapper .pres-thumb {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    object-fit: cover;
-    display: block;
-    border-bottom: 1px solid currentColor;
-  }
+  .pres-wrapper .pres-card.hidden { display: none; }
 
   .pres-wrapper .pres-thumb-placeholder {
     width: 100%;
@@ -50,28 +71,49 @@ permalink: /presentations
   .pres-wrapper .pres-title {
     font-weight: bold;
     margin-bottom: 0.25rem;
+    font-size: 0.92rem;
   }
 
   .pres-wrapper .pres-date {
-    font-size: 0.8rem;
-    opacity: 0.7;
-    margin-bottom: 0.5rem;
+    font-size: 0.78rem;
+    opacity: 0.6;
+    margin-bottom: 0.4rem;
   }
 
   .pres-wrapper .pres-desc {
-    font-size: 0.9rem;
-    margin-bottom: 0.75rem;
+    font-size: 0.85rem;
+    margin-bottom: 0.6rem;
+    opacity: 0.85;
+    line-height: 1.4;
   }
 
   .pres-wrapper .pres-links {
     display: flex;
-    gap: 0.75rem;
+    gap: 0.6rem;
     flex-wrap: wrap;
   }
 
   .pres-wrapper .pres-links a {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
   }
+
+  .pres-wrapper .pres-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.5rem;
+  }
+
+  .pres-wrapper .pres-tag {
+    font-size: 0.68rem;
+    padding: 0.05rem 0.3rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    opacity: 0.4;
+    cursor: pointer;
+  }
+
+  .pres-wrapper .pres-tag:hover { opacity: 1; }
 
   .pres-wrapper .pres-empty {
     padding: 2rem 0;
@@ -79,39 +121,57 @@ permalink: /presentations
   }
 
   @media (max-width: 320px) {
-    .pres-wrapper .pres-grid {
-      grid-template-columns: 1fr;
-    }
+    .pres-wrapper .pres-grid { grid-template-columns: 1fr; }
   }
 </style>
+
+{% assign cdn = "https://cdn.ronin48.io" %}
 
 <div class="pres-wrapper">
 
 {% if site.data.presentations and site.data.presentations.size > 0 %}
-  <div class="pres-grid">
+  <p class="pres-count"><span id="visible-count">{{ site.data.presentations.size }}</span> of {{ site.data.presentations.size }} items shown</p>
+
+  <div class="pres-filters" id="tag-filters">
+    <button class="tag-btn active" data-tag="all">All</button>
+  </div>
+
+  <div class="pres-grid" id="pres-list">
   {% assign sorted = site.data.presentations | sort: "date" | reverse %}
   {% for pres in sorted %}
-    <div class="pres-card">
-      {% if pres.thumbnail %}
-        <img src="{{ '/assets/presentations/thumbs/' | append: pres.thumbnail | relative_url }}" alt="{{ pres.title }}" class="pres-thumb" loading="lazy">
-      {% else %}
-        <div class="pres-thumb-placeholder">📊</div>
-      {% endif %}
+    <div class="pres-card" data-tags="{{ pres.tags | join: ' ' }}">
+      <div class="pres-thumb-placeholder">
+        {% if pres.video %}🎬{% elsif pres.pdf %}📄{% else %}📊{% endif %}
+      </div>
       <div class="pres-info">
         <div class="pres-title">{{ pres.title }}</div>
         {% if pres.date %}
-          <div class="pres-date">{{ pres.date | date: "%B %d, %Y" }}</div>
+          <div class="pres-date">{{ pres.date | date: "%B %-d, %Y" }}</div>
         {% endif %}
         {% if pres.description %}
           <div class="pres-desc">{{ pres.description }}</div>
         {% endif %}
         <div class="pres-links">
-          <a href="{{ '/presentations/view?file=' | append: pres.pdf | relative_url }}">View Slides</a>
-          <a href="{{ '/assets/presentations/' | append: pres.pdf | relative_url }}" download>PDF</a>
           {% if pres.pptx %}
-            <a href="{{ '/assets/presentations/' | append: pres.pptx | relative_url }}" download>PPTX</a>
+            <a href="{{ cdn }}/{{ pres.pptx }}" download>⬇ PPTX</a>
+          {% endif %}
+          {% if pres.pdf %}
+            <a href="{{ cdn }}/{{ pres.pdf }}" target="_blank">📄 PDF</a>
+          {% endif %}
+          {% if pres.video %}
+            <a href="{{ cdn }}/{{ pres.video }}" target="_blank">🎬 Video</a>
+          {% endif %}
+          {% if pres.videoUrl %}
+            <a href="{{ pres.videoUrl }}" target="_blank" rel="noopener">▶ YouTube</a>
           {% endif %}
         </div>
+        {% if pres.tags and pres.tags.size > 0 %}
+          <div class="pres-tags">
+            {% for tag in pres.tags %}
+              <span class="pres-tag" data-tag="{{ tag }}">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
       </div>
     </div>
   {% endfor %}
@@ -121,3 +181,58 @@ permalink: /presentations
 {% endif %}
 
 </div>
+
+<script>
+(function () {
+  "use strict";
+  var cards = document.querySelectorAll(".pres-card");
+  var filtersContainer = document.getElementById("tag-filters");
+  var countEl = document.getElementById("visible-count");
+  if (!filtersContainer || !cards.length) return;
+
+  var tagSet = {};
+  cards.forEach(function (card) {
+    (card.getAttribute("data-tags") || "").split(" ").forEach(function (t) { if (t) tagSet[t] = true; });
+  });
+  Object.keys(tagSet).sort().forEach(function (tag) {
+    var btn = document.createElement("button");
+    btn.className = "tag-btn";
+    btn.setAttribute("data-tag", tag);
+    btn.textContent = tag;
+    filtersContainer.appendChild(btn);
+  });
+
+  var activeTag = "all";
+  filtersContainer.addEventListener("click", function (e) {
+    if (!e.target.classList.contains("tag-btn")) return;
+    activeTag = e.target.getAttribute("data-tag");
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+    filterCards();
+  });
+
+  document.getElementById("pres-list").addEventListener("click", function (e) {
+    if (!e.target.classList.contains("pres-tag")) return;
+    activeTag = e.target.getAttribute("data-tag");
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+    filterCards();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+
+  function filterCards() {
+    var visible = 0;
+    cards.forEach(function (card) {
+      if (activeTag === "all") { card.classList.remove("hidden"); visible++; }
+      else {
+        var tags = (card.getAttribute("data-tags") || "").split(" ");
+        if (tags.indexOf(activeTag) !== -1) { card.classList.remove("hidden"); visible++; }
+        else { card.classList.add("hidden"); }
+      }
+    });
+    if (countEl) countEl.textContent = visible;
+  }
+})();
+</script>
