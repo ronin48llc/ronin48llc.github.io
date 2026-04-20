@@ -3,12 +3,16 @@ entries:
     post_list:
       limit: 5
       show_more: true
-      show_more_url: /archive
-      show_more_text: "see all posts"
+      show_more_url: /blog
+      show_more_text: "all posts"
+  - title: blog
+    entries:
+      - title: all posts
+        url: /blog
+      - title: feed
+        url: /feed.xml
   - title: links
     url: /links
-  - title: feed
-    url: /feed.xml
   - title: selected works
     url: /selected-works
   - title: media
