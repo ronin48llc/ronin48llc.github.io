@@ -1,0 +1,106 @@
+<!-- Timeline rendering script — call after defining window.__tlItems array -->
+<script>
+(function () {
+  "use strict";
+  var items = window.__tlItems || [];
+  if (!items.length) return;
+
+  // Sort by start date descending
+  items.sort(function (a, b) {
+    return (b.start || "").localeCompare(a.start || "");
+  });
+
+  var container = document.getElementById("tl-container");
+  var currentYear = "";
+  var html = "";
+
+  items.forEach(function (item) {
+    var year = (item.start || "").slice(0, 4);
+    if (year && year !== currentYear) {
+      currentYear = year;
+      html += '<div class="tl-year-marker" data-year="' + year + '"><span>' + year + '</span></div>';
+    }
+
+    var isActive = !item.end;
+    var cls = "tl-entry" + (isActive ? " tl-active" : "");
+    var tagsStr = (item.tags || []).join(" ");
+
+    html += '<div class="' + cls + '" data-tags="' + tagsStr + '">';
+    html += '<div class="tl-entry-title">' + item.title + '</div>';
+
+    var meta = item.start || "";
+    if (item.end && item.end !== "event") meta += " → " + item.end;
+    else if (!item.end && item.start) meta += " → present";
+    html += '<div class="tl-entry-meta">' + meta + '</div>';
+
+    if (item.tags && item.tags.length) {
+      html += '<div class="tl-entry-tags">';
+      item.tags.forEach(function (tag) {
+        html += '<span class="tl-entry-tag" data-tag="' + tag + '">' + tag + '</span>';
+      });
+      html += '</div>';
+    }
+    html += '</div>';
+  });
+
+  container.innerHTML = html;
+
+  // Tag filtering within timeline
+  var entries = container.querySelectorAll(".tl-entry");
+  var yearMarkers = container.querySelectorAll(".tl-year-marker");
+  var activeTag = "all";
+
+  // Connect to page-level tag filters if they exist
+  var pageFilters = document.getElementById("tag-filters");
+  if (pageFilters) {
+    pageFilters.addEventListener("click", function (e) {
+      if (!e.target.classList.contains("tag-btn")) return;
+      activeTag = e.target.getAttribute("data-tag");
+      filterTimeline();
+    });
+  }
+
+  // Also handle clicks on timeline tags
+  container.addEventListener("click", function (e) {
+    if (!e.target.classList.contains("tl-entry-tag")) return;
+    activeTag = e.target.getAttribute("data-tag");
+    // Sync with page filters if present
+    if (pageFilters) {
+      pageFilters.querySelectorAll(".tag-btn").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+      });
+    }
+    filterTimeline();
+    // Also trigger page-level filter
+    if (typeof window.__tlFilterSync === "function") {
+      window.__tlFilterSync(activeTag);
+    }
+  });
+
+  // Listen for page-level filter changes
+  window.__tlSetFilter = function (tag) {
+    activeTag = tag;
+    filterTimeline();
+  };
+
+  function filterTimeline() {
+    entries.forEach(function (el) {
+      var show = activeTag === "all" ||
+        (el.getAttribute("data-tags") || "").split(" ").indexOf(activeTag) !== -1;
+      el.classList.toggle("tl-hidden", !show);
+    });
+    yearMarkers.forEach(function (ym) {
+      var next = ym.nextElementSibling;
+      var hasVisible = false;
+      while (next && !next.classList.contains("tl-year-marker")) {
+        if (next.classList.contains("tl-entry") && !next.classList.contains("tl-hidden")) {
+          hasVisible = true;
+          break;
+        }
+        next = next.nextElementSibling;
+      }
+      ym.classList.toggle("tl-hidden", !hasVisible);
+    });
+  }
+})();
+</script>

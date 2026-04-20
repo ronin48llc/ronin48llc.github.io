@@ -325,6 +325,7 @@ permalink: /media
         b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
       });
       filterCards();
+      if (window.__tlSetFilter) window.__tlSetFilter(activeTag);
     });
 
     document.getElementById("media-list").addEventListener("click", function (e) {
@@ -334,8 +335,17 @@ permalink: /media
         b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
       });
       filterCards();
+      if (window.__tlSetFilter) window.__tlSetFilter(activeTag);
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+
+    window.__tlFilterSync = function (tag) {
+      activeTag = tag;
+      filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+      });
+      filterCards();
+    };
 
     function filterCards() {
       var visible = 0;
@@ -420,3 +430,23 @@ permalink: /media
     });
 })();
 </script>
+
+{% include timeline.html %}
+
+<div class="tl-section">
+  <h2>Timeline</h2>
+  <div class="tl-legend">
+    <span class="tl-legend-item"><span class="tl-legend-dot filled"></span> Recent</span>
+    <span class="tl-legend-item"><span class="tl-legend-dot"></span> Past</span>
+  </div>
+  <div class="tl-container" id="tl-container"></div>
+</div>
+
+<script>
+window.__tlItems = [
+  {% for entry in site.data.media %}
+  { title: {{ entry.title | jsonify }}, start: "{{ entry.date | date: '%Y-%m' }}", end: "event", tags: {{ entry.tags | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+</script>
+{% include timeline-script.html %}

@@ -1,0 +1,164 @@
+<!-- Timeline component — include with: {% include timeline.html items=items %} -->
+<!-- Expects `include.items` to be a JSON-compatible array built in the calling page -->
+
+<style>
+  .tl-section {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid currentColor;
+  }
+
+  .tl-section h2 {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+  }
+
+  .tl-toggle-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .tl-toggle-btn {
+    padding: 0.2rem 0.5rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    font-size: 0.75rem;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+  }
+
+  .tl-toggle-btn:hover { opacity: 1; }
+  .tl-toggle-btn.active { opacity: 1; font-weight: bold; }
+
+  .tl-container {
+    position: relative;
+    padding-left: 2rem;
+  }
+
+  .tl-container::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: currentColor;
+    opacity: 0.15;
+  }
+
+  .tl-year-marker {
+    position: relative;
+    margin-top: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .tl-year-marker span {
+    font-size: 0.82rem;
+    font-weight: bold;
+    opacity: 0.4;
+    letter-spacing: 0.04em;
+  }
+
+  .tl-year-marker::before {
+    content: '';
+    position: absolute;
+    left: -1.5rem;
+    top: 0.2rem;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.3;
+  }
+
+  .tl-entry {
+    position: relative;
+    margin-bottom: 0.6rem;
+    padding: 0.5rem 0.7rem;
+    border-left: 3px solid currentColor;
+    border-radius: 3px;
+    opacity: 0.85;
+    transition: opacity 0.15s, transform 0.15s;
+  }
+
+  .tl-entry:hover {
+    opacity: 1;
+    transform: translateX(2px);
+  }
+
+  .tl-entry::before {
+    content: '';
+    position: absolute;
+    left: -1.72rem;
+    top: 0.7rem;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+    background: var(--bg, #fff);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .tl-entry::before { background: var(--bg, #1a1a1a); }
+  }
+
+  .tl-entry.tl-active::before { background: currentColor; }
+
+  .tl-entry.tl-hidden { display: none; }
+  .tl-year-marker.tl-hidden { display: none; }
+
+  .tl-entry-title {
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+
+  .tl-entry-meta {
+    font-size: 0.73rem;
+    opacity: 0.5;
+    margin-top: 0.1rem;
+  }
+
+  .tl-entry-tags {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    margin-top: 0.2rem;
+  }
+
+  .tl-entry-tag {
+    font-size: 0.63rem;
+    padding: 0.05rem 0.25rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    opacity: 0.4;
+    cursor: pointer;
+  }
+
+  .tl-entry-tag:hover { opacity: 1; }
+
+  .tl-legend {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 0.73rem;
+    opacity: 0.6;
+  }
+
+  .tl-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .tl-legend-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid currentColor;
+  }
+
+  .tl-legend-dot.filled { background: currentColor; }
+</style>

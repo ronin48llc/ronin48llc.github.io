@@ -135,6 +135,7 @@ permalink: /resume/projects
       b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
     });
     filterItems();
+    if (window.__tlSetFilter) window.__tlSetFilter(activeTag);
   });
   document.getElementById("works-list").addEventListener("click", function (e) {
     if (!e.target.classList.contains("work-tag")) return;
@@ -143,8 +144,16 @@ permalink: /resume/projects
       b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
     });
     filterItems();
+    if (window.__tlSetFilter) window.__tlSetFilter(activeTag);
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
+  window.__tlFilterSync = function (tag) {
+    activeTag = tag;
+    filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+      b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+    });
+    filterItems();
+  };
   function filterItems() {
     var visible = 0;
     items.forEach(function (item) {
@@ -159,3 +168,23 @@ permalink: /resume/projects
   }
 })();
 </script>
+
+{% include timeline.html %}
+
+<div class="tl-section">
+  <h2>Timeline</h2>
+  <div class="tl-legend">
+    <span class="tl-legend-item"><span class="tl-legend-dot filled"></span> Active</span>
+    <span class="tl-legend-item"><span class="tl-legend-dot"></span> Past</span>
+  </div>
+  <div class="tl-container" id="tl-container"></div>
+</div>
+
+<script>
+window.__tlItems = [
+  {% for item in site.data.projects %}
+  { title: {{ item.title | jsonify }}, start: {{ item.start | jsonify }}, end: {{ item.end | default: nil | jsonify }}, tags: {{ item.tags | jsonify }} }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+];
+</script>
+{% include timeline-script.html %}
