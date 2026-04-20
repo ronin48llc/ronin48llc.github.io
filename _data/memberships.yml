@@ -20,7 +20,15 @@
   category: "Memberships"
   tags: [security, government]
 
-- title: "AWS Certification SME Specialty"
+- title: "AWS Certification SME — Data Analytics Specialty Item Development (Dec 2019)"
+  category: "Former Roles"
+  tags: [aws, certification, data]
+
+- title: "AWS Certification SME — Item Development Workshop (Aug 2020)"
+  category: "Former Roles"
+  tags: [aws, certification]
+
+- title: "AWS Certification SME — Item Development Workshop (Mar 2021)"
   category: "Former Roles"
   tags: [aws, certification]
 
@@ -59,3 +67,11 @@
 - title: "South Florida Tech Hub, ITPalooza, ISACA Presenter"
   category: "Contributions"
   tags: [speaking, community]
+
+- title: "CMMC Day Program Committee Member"
+  category: "Memberships"
+  tags: [cmmc, compliance, security, community]
+
+- title: "Blood Donor — OneBlood (2013–2022)"
+  category: "Volunteering"
+  tags: [community, volunteering]

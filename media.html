@@ -1,0 +1,422 @@
+---
+layout: default
+title: Media
+permalink: /media
+---
+
+<style>
+  .media-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  /* Tag filter bar */
+  .media-wrapper .media-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .media-wrapper .tag-btn {
+    padding: 0.25rem 0.6rem;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border-radius: 3px;
+    opacity: 0.6;
+  }
+
+  .media-wrapper .tag-btn:hover {
+    opacity: 1;
+  }
+
+  .media-wrapper .tag-btn.active {
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  .media-wrapper .media-count {
+    font-size: 0.85rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+  }
+
+  /* Media card grid */
+  .media-wrapper .media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .media-wrapper .media-card {
+    border: 1px solid currentColor;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media-wrapper .media-thumb {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid currentColor;
+  }
+
+  .media-wrapper .media-thumb-placeholder {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid currentColor;
+    font-size: 2rem;
+    opacity: 0.4;
+  }
+
+  .media-wrapper .media-info {
+    padding: 0.75rem;
+  }
+
+  .media-wrapper .media-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+
+  .media-wrapper .media-date {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 0.25rem;
+  }
+
+  .media-wrapper .media-location {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: 0.5rem;
+  }
+
+  .media-wrapper .media-desc {
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .media-wrapper .media-password {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.8;
+  }
+
+  .media-wrapper .media-links {
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .media-wrapper .media-links a {
+    font-size: 0.85rem;
+  }
+
+  .media-wrapper .media-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .media-wrapper .media-tag {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    opacity: 0.5;
+    cursor: pointer;
+  }
+
+  .media-wrapper .media-tag:hover {
+    opacity: 1;
+  }
+
+  .media-wrapper .media-card.hidden {
+    display: none;
+  }
+
+  .media-wrapper .media-empty {
+    padding: 2rem 0;
+    opacity: 0.6;
+  }
+
+  /* YouTube section */
+  .media-wrapper .yt-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid currentColor;
+  }
+
+  .media-wrapper .yt-section h2 {
+    margin-bottom: 1rem;
+  }
+
+  .media-wrapper .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .media-wrapper .video-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .media-wrapper .video-card img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border: 1px solid currentColor;
+  }
+
+  .media-wrapper .video-card .video-title {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.3;
+  }
+
+  .media-wrapper .video-card .video-date {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 0.25rem;
+  }
+
+  .media-wrapper .video-card:hover img {
+    opacity: 0.8;
+  }
+
+  .media-wrapper .videos-loading,
+  .media-wrapper .videos-error {
+    padding: 2rem 0;
+  }
+
+  .media-wrapper .channel-link {
+    margin-top: 2rem;
+    display: block;
+  }
+
+  @media (max-width: 320px) {
+    .media-wrapper .media-grid {
+      grid-template-columns: 1fr;
+    }
+    .media-wrapper .video-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+</style>
+
+<div class="media-wrapper">
+
+{% assign media_entries = site.data.media | sort: "date" | reverse %}
+{% assign media_size = site.data.media | size %}
+
+{% if media_entries and media_size > 0 %}
+  <p class="media-count"><span id="visible-count">{{ media_size }}</span> of {{ media_size }} items shown</p>
+
+  <div class="media-filters" id="tag-filters">
+    <button class="tag-btn active" data-tag="all">All</button>
+  </div>
+
+  <div class="media-grid" id="media-list">
+  {% for entry in media_entries %}
+    <div class="media-card" data-tags="{{ entry.tags | join: ' ' }}">
+      {% if entry.thumbnail %}
+        <img src="{{ '/assets/presentations/thumbs/' | append: entry.thumbnail | relative_url }}" alt="{{ entry.title }}" class="media-thumb" loading="lazy">
+      {% elsif entry.videoUrl %}
+        <img src="" alt="{{ entry.title }}" class="media-thumb" data-video-url="{{ entry.videoUrl }}" loading="lazy">
+      {% else %}
+        <div class="media-thumb-placeholder">📊</div>
+      {% endif %}
+      <div class="media-info">
+        <div class="media-title">{{ entry.title }}</div>
+        {% if entry.date %}
+          <div class="media-date">{{ entry.date | date: "%B %d, %Y" }}</div>
+        {% endif %}
+        {% if entry.location %}
+          <div class="media-location">{{ entry.location }}</div>
+        {% endif %}
+        {% if entry.description %}
+          <div class="media-desc">{{ entry.description }}</div>
+        {% endif %}
+        {% if entry.password %}
+          <div class="media-password">Password: <code>{{ entry.password }}</code></div>
+        {% endif %}
+        <div class="media-links">
+          {% if entry.pdf %}
+            <a href="{{ '/presentations/view?file=' | append: entry.pdf | relative_url }}">View Slides</a>
+            <a href="{{ '/assets/presentations/' | append: entry.pdf | relative_url }}" download>PDF</a>
+          {% endif %}
+          {% if entry.pptx %}
+            <a href="{{ '/assets/presentations/' | append: entry.pptx | relative_url }}" download>PPTX</a>
+          {% endif %}
+          {% if entry.videoUrl %}
+            <a href="{{ entry.videoUrl }}" target="_blank" rel="noopener">Video</a>
+          {% endif %}
+          {% if entry.eventUrl %}
+            <a href="{{ entry.eventUrl }}" target="_blank" rel="noopener">Event</a>
+          {% endif %}
+        </div>
+        {% if entry.tags and entry.tags.size > 0 %}
+          <div class="media-tags">
+            {% for tag in entry.tags %}
+              <span class="media-tag" data-tag="{{ tag }}">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+{% else %}
+  <p class="media-empty">No media yet. Check back soon!</p>
+{% endif %}
+
+  <div class="yt-section">
+    <h2>Latest from YouTube</h2>
+    <div id="videos-content" class="videos-loading">Loading videos...</div>
+    <a href="https://www.youtube.com/@patricklovesaws" target="_blank" rel="noopener" class="channel-link">
+      View all videos on YouTube →
+    </a>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  // --- Tag filtering (same pattern as selected-works) ---
+  var cards = document.querySelectorAll(".media-card");
+  var filtersContainer = document.getElementById("tag-filters");
+  var countEl = document.getElementById("visible-count");
+
+  if (filtersContainer && cards.length > 0) {
+    var tagSet = {};
+    cards.forEach(function (card) {
+      var tags = (card.getAttribute("data-tags") || "").split(" ");
+      tags.forEach(function (t) { if (t) tagSet[t] = true; });
+    });
+
+    Object.keys(tagSet).sort().forEach(function (tag) {
+      var btn = document.createElement("button");
+      btn.className = "tag-btn";
+      btn.setAttribute("data-tag", tag);
+      btn.textContent = tag;
+      filtersContainer.appendChild(btn);
+    });
+
+    var activeTag = "all";
+
+    filtersContainer.addEventListener("click", function (e) {
+      if (!e.target.classList.contains("tag-btn")) return;
+      activeTag = e.target.getAttribute("data-tag");
+      filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+      });
+      filterCards();
+    });
+
+    document.getElementById("media-list").addEventListener("click", function (e) {
+      if (!e.target.classList.contains("media-tag")) return;
+      activeTag = e.target.getAttribute("data-tag");
+      filtersContainer.querySelectorAll(".tag-btn").forEach(function (b) {
+        b.classList.toggle("active", b.getAttribute("data-tag") === activeTag);
+      });
+      filterCards();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+
+    function filterCards() {
+      var visible = 0;
+      cards.forEach(function (card) {
+        if (activeTag === "all") {
+          card.classList.remove("hidden");
+          visible++;
+        } else {
+          var tags = (card.getAttribute("data-tags") || "").split(" ");
+          if (tags.indexOf(activeTag) !== -1) {
+            card.classList.remove("hidden");
+            visible++;
+          } else {
+            card.classList.add("hidden");
+          }
+        }
+      });
+      if (countEl) countEl.textContent = visible;
+    }
+  }
+
+  // --- YouTube thumbnail auto-generation ---
+  document.querySelectorAll("[data-video-url]").forEach(function (img) {
+    var url = img.getAttribute("data-video-url");
+    var videoId = "";
+    var match = url.match(/[?&]v=([^&]+)/);
+    if (match) {
+      videoId = match[1];
+    } else {
+      match = url.match(/youtu\.be\/([^?&]+)/);
+      if (match) videoId = match[1];
+    }
+    if (videoId) {
+      img.src = "https://img.youtube.com/vi/" + videoId + "/mqdefault.jpg";
+    } else {
+      var placeholder = document.createElement("div");
+      placeholder.className = "media-thumb-placeholder";
+      placeholder.textContent = "🎬";
+      img.parentNode.replaceChild(placeholder, img);
+    }
+  });
+
+  // --- Latest from YouTube RSS feed ---
+  var CHANNEL_ID = "REPLACE_WITH_YOUR_CHANNEL_ID";
+  var container = document.getElementById("videos-content");
+
+  var feedUrl = "https://www.youtube.com/feeds/videos.xml?channel_id=" + CHANNEL_ID;
+  var proxyUrl = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(feedUrl);
+
+  fetch(proxyUrl)
+    .then(function (res) {
+      if (!res.ok) throw new Error("Failed to fetch");
+      return res.json();
+    })
+    .then(function (data) {
+      if (!data.items || data.items.length === 0) {
+        container.innerHTML = "<p>No videos found. Check back soon!</p>";
+        return;
+      }
+
+      var html = '<div class="video-grid">';
+      data.items.forEach(function (item) {
+        var videoId = "";
+        var match = item.link && item.link.match(/[?&]v=([^&]+)/);
+        if (match) videoId = match[1];
+
+        var thumbnail = item.thumbnail || "https://img.youtube.com/vi/" + videoId + "/mqdefault.jpg";
+        var title = item.title || "Untitled";
+        var pubDate = item.pubDate ? new Date(item.pubDate).toLocaleDateString() : "";
+
+        html += '<a href="' + item.link + '" target="_blank" rel="noopener" class="video-card">';
+        html += '<img src="' + thumbnail + '" alt="' + title.replace(/"/g, "&quot;") + '" loading="lazy">';
+        html += '<div class="video-title">' + title + '</div>';
+        if (pubDate) html += '<div class="video-date">' + pubDate + '</div>';
+        html += '</a>';
+      });
+      html += '</div>';
+      container.innerHTML = html;
+    })
+    .catch(function () {
+      container.innerHTML = '<p class="videos-error">Could not load videos. <a href="https://www.youtube.com/@patricklovesaws" target="_blank" rel="noopener">Visit the channel directly</a>.</p>';
+    });
+})();
+</script>

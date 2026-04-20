@@ -120,6 +120,18 @@
   category: "Other Certifications"
   tags: [certification, telephony]
 
+- title: "Datadog Demo Certification"
+  category: "Other Certifications"
+  tags: [certification, monitoring]
+
+- title: "DPN Support Specialist Certification"
+  category: "Other Certifications"
+  tags: [certification, monitoring]
+
+- title: "K8SUG Certified Awstronaut"
+  category: "Other Certifications"
+  tags: [certification, kubernetes, community]
+
 - title: "AWS, Microsoft Azure, Microsoft 365, IBM Cloud, Google Cloud (GCP), Citrix XenApp/XenDesktop, VMWare, CloudFlare, Akamai"
   category: "Cloud & Virtualization"
   tags: [cloud, aws, azure, virtualization]

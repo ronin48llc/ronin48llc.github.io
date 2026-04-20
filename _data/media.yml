@@ -1,0 +1,249 @@
+# Media entries — presentations, videos, and hybrid items.
+# Each entry appears on the /media page with tag filtering.
+#
+# Fields:
+#   title:       (required) Title
+#   description: (optional) Short description
+#   location:    (optional) Event location
+#   date:        (optional) Date in YYYY-MM-DD format
+#   thumbnail:   (optional) Filename in assets/presentations/thumbs/
+#   pdf:         (optional) Filename in assets/presentations/
+#   pptx:        (optional) Filename in assets/presentations/
+#   videoUrl:    (optional) URL to video (YouTube, etc.)
+#   eventUrl:    (optional) URL to event page
+#   password:    (optional) Password for protected content
+#   tags:        (optional) Array of tag strings
+
+- title: "Rethink Your Contact Center with CloudHesive"
+  date: "2024-06-06"
+  description: "Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI services on AWS."
+  location: "Carahsoft"
+  eventUrl: "https://www.carahsoft.com/learn/event/54246"
+  tags: [aws, contact-center, ai, generative-ai, speaking]
+
+- title: "Mastering AWS Security — Second Edition (Technical Reviewer)"
+  date: "2024-04-26"
+  description: "Technical reviewer for Packt Publishing."
+  eventUrl: "https://www.amazon.com/Mastering-AWS-Security-Strengthen-environment/dp/1805125443"
+  tags: [aws, security, book, review]
+
+- title: "This is My Architecture"
+  date: "2024-01-23"
+  description: "Featured on AWS This is My Architecture series."
+  videoUrl: "https://www.youtube.com/watch?v=weT3nKnOFDg"
+  tags: [aws, architecture, video, speaking]
+
+- title: "Know Before You Go: An AWS Partner's Guide to re:Invent 2023"
+  date: "2023-11-16"
+  description: "Contributed to the AWS Partner Network blog."
+  eventUrl: "https://aws.amazon.com/blogs/apn/know-before-you-go-an-aws-partners-guide-to-reinvent-2023/"
+  tags: [aws, reinvent, apn, writing]
+
+- title: "Amazon Connect & AI: Shaping the Future of Customer Interactions (Chicago)"
+  date: "2023-11-09"
+  description: "Presented on Amazon Connect and AI for customer experience."
+  location: "Chicago, IL"
+  eventUrl: "https://cloud.marketing.cloudhesive.com/GenAIndCX_Chicago"
+  tags: [aws, contact-center, ai, speaking]
+
+- title: "Amazon Connect & AI: Shaping the Future of Customer Interactions"
+  date: "2023-10-12"
+  description: "Presented on Amazon Connect and AI for customer experience."
+  location: "CloudHesive"
+  eventUrl: "https://cloud.marketing.cloudhesive.com/GenAIandCX"
+  tags: [aws, contact-center, ai, speaking]
+
+- title: "AWS SaaS Factory Studio New York 2023"
+  date: "2023-07-27"
+  description: "Participated in AWS SaaS Factory Studio event."
+  location: "New York, NY"
+  eventUrl: "https://aws-saas-factory-studio-ny-2023.splashthat.com/"
+  tags: [aws, saas, speaking]
+
+- title: "Webinar: Accelerating CMMC Compliance with the Cloud"
+  date: "2023-06-21"
+  description: "Case study webinar with PreVeil on CMMC compliance."
+  eventUrl: "https://www.preveil.com/webinar-accelerating-cmmc-compliance-with-the-cloud-a-case-study/"
+  tags: [compliance, cmmc, security, cloud, speaking]
+
+- title: "Utilizing Cloud-based Resources: Efficiently Collaborate & Analyze Data"
+  date: "2023-06-20"
+  description: "Presented with Carahsoft/AWS on cloud-based collaboration and analytics."
+  eventUrl: "https://carahevents.carahsoft.com/Event/Details/374043-aws"
+  tags: [aws, data, cloud, speaking]
+
+- title: "AWS Georgia Public Sector Innovation Day"
+  date: "2023-05-19"
+  description: "Presented at AWS Georgia Public Sector Innovation Day."
+  location: "Georgia"
+  eventUrl: "https://carahevents.carahsoft.com/Event/Details/359341-govevents"
+  tags: [aws, government, public-sector, speaking]
+
+- title: "Accelerating Business and Research Through AI in the CMMC Domain"
+  date: "2023-05-15"
+  description: "Presented at CMMC Day on automation and AI in the CMMC domain."
+  location: "Washington, DC"
+  eventUrl: "https://cmmcday.org/session/accelerating-business-and-research-through-automation-and-artificial-intelligence-in-the-cmmc-domain-e02a/"
+  tags: [cmmc, compliance, ai, security, speaking]
+
+- title: "AWS End User Computing Workshop (Atlanta)"
+  date: "2023-02-02"
+  description: "Led AWS End User Computing workshop."
+  location: "Atlanta, GA"
+  eventUrl: "https://awsendusercomputingworkshopatl.splashthat.com/"
+  tags: [aws, end-user-computing, workshop, speaking]
+
+- title: "Zero Trust Fundamentals for Higher Education"
+  date: "2022-10-11"
+  description: "Webinar with Sumo Logic on Zero Trust for higher education."
+  eventUrl: "https://info.sumologic.com/2022-10-11-AWSMP-ZeroTrustHigherEdWebinar.Registration.html"
+  tags: [security, zero-trust, education, speaking]
+
+- title: "Supporting your CMMC Initiatives with Sumo Logic"
+  date: "2022-09-13"
+  description: "Presented at Sumo Logic Illuminate on CMMC compliance."
+  eventUrl: "https://illuminate2022.sumologicevents.com/sessions/on_demand"
+  tags: [cmmc, compliance, security, monitoring, speaking]
+
+- title: "Leveraging New Cloud Management Strategies to Drive MSP Profit Margins"
+  date: "2022-06-09"
+  description: "Roundtable participant with CloudCheckr on cloud management strategies."
+  eventUrl: "https://cloudcheckr.com/webinar/leveraging-new-cloud-management-strategies-to-drive-msp-profit-margins-2/"
+  tags: [cloud, managed-services, finops, speaking]
+
+- title: "AWS Summit Atlanta 2022 — DEV301: Serverless Data and Analytics"
+  date: "2022-05-19"
+  description: "Presented on serverless data and analytics at AWS Summit Atlanta."
+  location: "Atlanta, GA"
+  eventUrl: "https://aws.amazon.com/events/summits/atlanta/agenda?amer-summit-card.q=dev301"
+  tags: [aws, serverless, data, analytics, speaking, conference]
+
+- title: "SoFlo DevCon 2022 — Serverless without Code (Lambda)"
+  date: "2022-04-16"
+  description: "Presented on serverless without code at SoFlo DevCon."
+  location: "South Florida"
+  eventUrl: "https://techhubsouthflorida.org/meetups/soflodevcon/"
+  tags: [aws, serverless, lambda, speaking, conference]
+
+- title: "NIST Cybersecurity Framework (CSF) on the Public Cloud"
+  date: "2021-12-09"
+  description: "Presented at CAMP IT Conferences on NIST CSF in the public cloud."
+  eventUrl: "https://campitsince1984.com/upcoming-virtualevents/cloudsecurity2/"
+  tags: [security, compliance, nist, cloud, speaking]
+
+- title: "The Reclaim Your Cloud Virtual Event — Service Provider Day"
+  date: "2021-03-31"
+  description: "Presented at CloudCheckr's Reclaim Your Cloud event."
+  eventUrl: "https://cloudcheckr.com/event/reclaim-your-public-cloud-event-service-provider-day-cloudcheckr/"
+  tags: [cloud, managed-services, finops, speaking]
+
+- title: "CIS Benchmark for AWS End User Compute Services"
+  date: "2020-11-01"
+  description: "Contributor to the CIS Benchmark for AWS End User Compute Services."
+  eventUrl: "https://www.cisecurity.org/cis-benchmarks/"
+  tags: [aws, security, compliance, end-user-computing, writing]
+
+- title: "AWS Spotlight Series — Modernization and Security with AWS"
+  date: "2020-07-16"
+  description: "Presented on modernization and security with AWS."
+  eventUrl: "https://carahsoft2.adobeconnect.com/p6x4wol9b4o8/"
+  tags: [aws, security, modernization, speaking]
+
+- title: "Migrating Magento eCommerce Platform to AWS"
+  date: "2020-04-21"
+  description: "Co-authored AWS whitepaper on migrating Magento to AWS."
+  eventUrl: "https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf"
+  tags: [aws, migration, whitepaper, writing]
+
+- title: "AWS Education Competency Partners Help with AI & ML"
+  date: "2019-10-01"
+  description: "Interview on APN TV about AWS Education Competency and AI/ML."
+  eventUrl: "https://pages.awscloud.com/other-ep-023.html"
+  tags: [aws, ai, machine-learning, education, video, speaking]
+
+- title: "Build and Manage a Highly Secure Cloud Environment on AWS"
+  date: "2019-08-01"
+  description: "Webinar with CloudCheckr on building secure cloud environments."
+  eventUrl: "https://www.brighttalk.com/webcast/15451/362133/build-and-manage-a-highly-secure-cloud-environment-on-aws-and-azure"
+  tags: [aws, security, cloud, speaking]
+
+- title: "Customer Testimonial — Datadog"
+  date: "2019-08-01"
+  description: "Featured customer testimonial on Datadog's website."
+  eventUrl: "https://www.datadoghq.com/customers/"
+  tags: [monitoring, datadog, testimonial]
+
+- title: "Manage Media Transmission Overhead with AWS Media Services"
+  date: "2019-03-01"
+  description: "Published by CloudHesive on AWS Media Services."
+  tags: [aws, media, writing]
+
+- title: "DVC03 — Scaling and Supporting your Production App"
+  date: "2018-11-27"
+  description: "Presented at AWS Re:Invent 2018."
+  location: "Las Vegas, NV"
+  tags: [aws, reinvent, devops, scaling, speaking, conference]
+
+- title: "WIN324 — Design, Deploy, and Optimize Microsoft SQL Server on AWS"
+  date: "2018-11-01"
+  description: "Quoted in AWS Re:Invent 2018 presentation."
+  location: "Las Vegas, NV"
+  eventUrl: "https://www.slideshare.net/AmazonWebServices/design-deploy-and-optimize-microsoft-sql-server-on-aws-win324r1-aws-reinvent-2018"
+  tags: [aws, reinvent, sql-server, database, conference]
+
+- title: "Best Practices in Secure Cloud Migration"
+  date: "2018-10-30"
+  description: "Presented at Secure World Expo on secure cloud migration."
+  eventUrl: "https://www.secureworldexpo.com/resources/secure-cloud-migration-thales"
+  tags: [security, migration, cloud, speaking, conference]
+
+- title: "2018 Microservices Summit"
+  date: "2018-09-27"
+  description: "Presented at South Florida Technology Alliance Microservices Summit."
+  location: "South Florida"
+  eventUrl: "https://www.southfloridatech.org/event/sfta-presents-services-and-microservices-summit/"
+  tags: [microservices, architecture, speaking, conference]
+
+- title: "Winning Governance Strategies for the Technology Disruptions of our Time"
+  date: "2018-06-22"
+  description: "Presented at ISACA South Florida Chapter."
+  location: "South Florida"
+  eventUrl: "http://isacasfl.org/publications/"
+  tags: [governance, compliance, speaking]
+
+- title: "GovLoop Virtual Summit: Tech Trends in Government"
+  date: "2018-03-21"
+  description: "Presented at GovLoop Virtual Summit on technology trends in government."
+  eventUrl: "https://www.govloop.com/training/govloop-virtual-summit-tech-trends-need-know-government/"
+  tags: [government, public-sector, speaking]
+
+- title: "CloudBees Launches New DevOps Managed Services Program"
+  date: "2017-08-30"
+  description: "Quoted in CloudBees press release on DevOps managed services."
+  eventUrl: "https://www.cloudbees.com/press/cloudbees-launches-new-devops-managed-services-program-delivered-premium-managed-service"
+  tags: [devops, managed-services, press]
+
+- title: "What it Means to be a Next Generation Managed Service Provider"
+  date: "2017-07-12"
+  description: "Webinar on next generation managed service providers."
+  videoUrl: "https://www.youtube.com/watch?v=MKoJNAiz3rE"
+  tags: [managed-services, cloud, speaking, video]
+
+- title: "Various Blog Posts — CloudHesive Blog"
+  date: "2017-09-12"
+  description: "Multiple blog posts published on the CloudHesive blog."
+  eventUrl: "https://cloudhesive.com/author/patrick-hannahcloudhesive-com/"
+  tags: [writing, cloud, aws]
+
+- title: "Developer Lightning Talks and Happy Hour (DCS204)"
+  date: "2016-11-28"
+  description: "Presented at AWS Re:Invent 2016 Developer Lightning Talks."
+  location: "Las Vegas, NV"
+  eventUrl: "http://www.slideshare.net/AmazonWebServices/aws-reinvent-2016-developer-lightning-talks-and-happy-hour-dcs204"
+  tags: [aws, reinvent, speaking, conference]
+
+- title: "Amazon Redshift Review Reveals Quirks, Frustrations"
+  date: "2016-01-01"
+  description: "Quoted in Tech Target article on Amazon Redshift."
+  eventUrl: "http://searchaws.techtarget.com/tip/Amazon-Redshift-review-reveals-quirks-frustrations"
+  tags: [aws, data, redshift, press]

@@ -341,3 +341,215 @@
   url: ""
   summary: "Supported AWS and Amazon Connect implementation and onboarding across enterprise and public sector customers. Bridged technical execution with practical operational success through enablement, post-launch optimization, and operational support."
   tags: [cloudhesive, aws, amazon-connect, public-sector, government, case-study, portfolio]
+
+# From APN/CB Contributions Data — Presentations & Talks
+- title: "This Is My Architecture — ConnectPath on AWS"
+  url: "https://www.youtube.com/watch?v=weT3nKnOFDg&list=PLhr1KZpdzukdeX8mQ2qO73bg6UKQHYsHb&index=1"
+  summary: "Recorded a 'This Is My Architecture' segment at AWS Re:Invent describing the architecture of the ConnectPath platform."
+  tags: [aws-reinvent, connectpath, amazon-connect, architecture, video, authored]
+
+- title: "Modernization of Your AWS-Based SaaS Platform (Fort Lauderdale)"
+  url: "https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform-short/271322724"
+  summary: "Presented at AWS User Groups of Florida Meetup in Fort Lauderdale on modernizing AWS-based SaaS platforms."
+  tags: [cloudhesive, aws, saas, modernization, events, south-florida, authored]
+
+- title: "Modernization of Your AWS-Based SaaS Platform (New York)"
+  url: "https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform/270515907"
+  summary: "Presented at AWS New York Official Meetup on modernizing AWS-based SaaS platforms."
+  tags: [cloudhesive, aws, saas, modernization, events, authored]
+
+- title: "Serverless and Generative AI on AWS — AWS User Groups of Florida"
+  url: "https://www.slideshare.net/slideshows/serverless-generative-ai-on-aws-aws-user-groups-of-florida/266528455"
+  summary: "Presented at AWS User Group on serverless and generative AI services on AWS."
+  tags: [aws, serverless, generative-ai, events, south-florida, authored]
+
+- title: "Amazon Connect AI — Shaping the Future of Customer Interactions (Nov 2023)"
+  url: "https://www.slideshare.net/CloudHesive/amazon-connect-ai-shaping-the-future-of-customer-interactions-genai-and-the-future-of-customer-experience-2892"
+  summary: "Presented on the application of Generative AI in the Contact Center space using AWS services."
+  tags: [cloudhesive, amazon-connect, generative-ai, contact-center, events, authored]
+
+- title: "Amazon Connect AI — GenAI and the Future of Customer Experience (Oct 2023)"
+  url: "https://www.slideshare.net/CloudHesive/amazon-connect-ai-shaping-the-future-of-customer-interactions-genai-and-the-future-of-customer-experience"
+  summary: "Co-presented with AWS at an in-person event on Generative AI and Amazon Connect."
+  tags: [cloudhesive, amazon-connect, generative-ai, contact-center, events, authored]
+
+- title: "Amazon Connect — Rethink Your Contact Center with CloudHesive"
+  url: "https://www.slideshare.net/CloudHesive/amazon-connect-rethink-your-contact-center-with-cloudhesivepptx"
+  summary: "Presented to a public sector audience on the history and trends of Contact Center as a Service with Amazon Connect."
+  tags: [cloudhesive, amazon-connect, contact-center, public-sector, events, authored]
+
+- title: "CMMC Day — Accelerating Business and Research Through Automation and AI"
+  url: "https://cmmcday.org/wp-content/uploads/2023/05/E02a-HannahP.pdf"
+  summary: "Presented on Cloud, Security and AI/ML at CMMC Day industry conference in Washington, DC."
+  tags: [security, compliance, cmmc, ai, events, authored]
+
+- title: "End User Computing at CloudHesive"
+  url: "https://www.slideshare.net/CloudHesive/end-user-computing-at-cloudhesivepptx"
+  summary: "Presented at AWS End User Computing Workshop in Atlanta."
+  tags: [cloudhesive, aws, end-user-computing, events, authored]
+
+- title: "Analytics at CloudHesive"
+  url: "https://www.slideshare.net/CloudHesive/analytics-at-cloudhesive"
+  summary: "Coordinated, hosted and presented at community event in South Florida focused on AWS Analytics Services."
+  tags: [cloudhesive, aws, analytics, events, south-florida, authored]
+
+- title: "ConnectPath Introduction"
+  url: "https://www.slideshare.net/CloudHesive/connectpath-introduction"
+  summary: "Overview of Amazon Connect and the ConnectPath platform built on AWS Serverless Services."
+  tags: [cloudhesive, connectpath, amazon-connect, serverless, authored]
+
+- title: "Serverless Without Code — Lambda"
+  url: "https://www.slideshare.net/CloudHesive/serverless-without-code-lambda"
+  summary: "Created and presented on serverless at SoFlo DevCon."
+  tags: [aws, serverless, lambda, events, south-florida, authored]
+
+- title: "re:Invent Recap 2022"
+  url: "https://www.slideshare.net/CloudHesive/reinvent-recap-2022"
+  summary: "Hosted, prepared and presented a recap of AWS Re:Invent 2021 at AWS User Group Virtual Meetup."
+  tags: [aws-reinvent, events, community, authored]
+
+- title: "Supporting Your CMMC Initiatives with Sumo Logic"
+  url: "https://www.slideshare.net/CloudHesive/supporting-your-cmmc-initiatives-with-sumo-logic"
+  summary: "Overview of CMMC, its impact, and how AWS services help address compliance controls."
+  tags: [security, compliance, cmmc, monitoring, events, authored]
+
+# From APN/CB Contributions Data — Videos & Webinars
+- title: "Security, Operations and Observability on AWS with Datadog"
+  url: "https://www.youtube.com/watch?v=FzQmEG7onUg"
+  summary: "Presented on security, operations and observability on AWS with a co-presenter from Datadog."
+  tags: [cloudhesive, aws, security, monitoring, datadog, webinar, authored]
+
+- title: "AWS in the Contact Center — Carahsoft Webinar"
+  url: "https://vimeo.com/956496240/d211c00469?share=copy"
+  summary: "Presented on AWS in the Contact Center with a co-presenter from AWS, covering Amazon Connect and AI/ML/GenAI services."
+  tags: [aws, amazon-connect, contact-center, ai, webinar, authored]
+
+- title: "Accelerating CMMC Compliance with the Cloud — PreVeil Webinar"
+  url: "https://www.preveil.com/resources/webinar-accelerating-cmmc-compliance-with-the-cloud/"
+  summary: "Presented with AWS ISV Partner PreVeil on providing a secure research compute environment on AWS for a university."
+  tags: [aws, security, compliance, cmmc, public-sector, webinar, authored]
+
+- title: "AWS User Groups of Florida — Contact Center on AWS"
+  url: "https://www.youtube.com/watch?v=n7Vwn1kZxb4"
+  summary: "Presented at AWS User Groups of Florida virtual meetup on Contact Center technology on AWS."
+  tags: [aws, amazon-connect, contact-center, events, south-florida, video, authored]
+
+- title: "Security on AWS — AWS User Group Meetup 2020"
+  url: "https://www.youtube.com/watch?v=qR8Jv_pixWk"
+  summary: "Presented at AWS User Group meetup on security topics on AWS."
+  tags: [aws, security, events, south-florida, video, authored]
+
+- title: "MSP Day 2025 — Partner Panel"
+  url: "https://app.events.ringcentral.com/events/msp-day-2025/replay/cut_10825d4a-fbf0-4d17-b513-4c91c2cb9ffb"
+  summary: "Panelist at MSP Day 2025 Partner Panel discussing managed services on AWS."
+  tags: [aws, managed-services, msp, events, video, authored]
+
+# From APN/CB Contributions Data — Blog Posts
+- title: "Amazon Inspector — Service Launch Blog"
+  url: "https://www.cloudhesive.com/blog-posts/amazon-inspector"
+  summary: "Wrote a service launch blog based on work with the AWS service team utilizing Amazon Inspector pre-GA."
+  tags: [cloudhesive, aws, security, amazon-inspector, blog, authored]
+
+- title: "CloudFormation Disable Rollback — Feature Launch Blog"
+  url: "https://www.cloudhesive.com/blog-posts/cloudformation-disable-rollback"
+  summary: "Blog about CloudFormation's Disable Rollback feature with background and example."
+  tags: [cloudhesive, aws, cloudformation, devops, blog, authored]
+
+- title: "A Discussion on Migrating to AWS"
+  url: "https://www.cloudhesive.com/blog-posts/a-discussion-on-migrating-to-aws/"
+  summary: "Described AWS approach to migration including MAP, MRA, Well Architected and specific services."
+  tags: [cloudhesive, aws, cloud-migration, blog, authored]
+
+- title: "9 Things You Wish You Knew About Securing Your Services on AWS"
+  url: "https://www.cloudhesive.com/blog-posts/9-things-you-wish-you-knew-about-securing-your-services-on-aws/"
+  summary: "Co-authored blog on securing workloads on AWS based on a previous presentation."
+  tags: [cloudhesive, aws, security, blog, authored]
+
+- title: "New GuardDuty Malware Protection — Service Launch Blog"
+  url: "https://www.cloudhesive.com/blog-posts/new-guardduty-malware-protection/"
+  summary: "Service launch blog for Amazon GuardDuty Malware Protection."
+  tags: [cloudhesive, aws, security, amazon-guardduty, blog, authored]
+
+- title: "Hybrid Compute Services for Your SaaS App"
+  url: "https://www.cloudhesive.com/blog-posts/hybrid-compute-services-for-your-saas-app/"
+  summary: "Blog on hybrid compute approaches for SaaS applications on AWS."
+  tags: [cloudhesive, aws, saas, blog, authored]
+
+- title: "You Built a SaaS App, Now What?"
+  url: "https://www.cloudhesive.com/blog-posts/you-built-a-saas-app-now-what/"
+  summary: "Blog on next steps after building a SaaS application on AWS."
+  tags: [cloudhesive, aws, saas, blog, authored]
+
+- title: "How to Decide — Avaya Edition"
+  url: "https://www.cloudhesive.com/blog-posts/how-to-decide-avaya-edition/"
+  summary: "Described the difference between on-premises communications services versus services like Amazon Connect."
+  tags: [cloudhesive, amazon-connect, contact-center, blog, authored]
+
+# From APN/CB Contributions Data — Open Source
+- title: "Fix: PSTN Dial-In for Amazon Chime SDK with SIP Media Application"
+  url: "https://github.com/aws-samples/chime-sipmediaapplication-samples/pull/1"
+  summary: "Contributed documentation updates to PSTN dial-in for Amazon Chime SDK with SIP Media Application."
+  tags: [aws, open-source, amazon-chime, github, authored]
+
+- title: "Fix: Voicemail for Amazon Connect"
+  url: "https://github.com/amazon-connect/voicemail-for-amazon-connect/pull/43"
+  summary: "Pull request fixing issues in the Voicemail for Amazon Connect open source project."
+  tags: [aws, open-source, amazon-connect, github, authored]
+
+- title: "Fix: CFN QuickStart — Connect Integration Perficient MS Dynamics"
+  url: "https://github.com/aws-ia/cfn-ps-connect-integration-perficient-msdynamics/pull/24"
+  summary: "Corrected issues in the CloudFormation QuickStart for Amazon Connect and MS Dynamics integration."
+  tags: [aws, open-source, amazon-connect, cloudformation, github, authored]
+
+- title: "Fix: WithSecure Cloud Security Wiki"
+  url: "https://github.com/WithSecureLabs/cloud-wiki"
+  summary: "Pull request correcting content in open source cloud security knowledge base."
+  tags: [open-source, security, github, authored]
+
+# From APN/CB Contributions Data — Whitepapers & Case Studies
+- title: "Migrating Magento to AWS — Whitepaper (PDF)"
+  url: "https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf"
+  summary: "Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS."
+  tags: [aws, whitepaper, ecommerce, migration, authored]
+
+- title: "Dallas College Modernizes Its Call Center with AWS"
+  url: "https://aws.amazon.com/blogs/publicsector/transforming-student-communications-how-dallas-college-modernized-its-call-center-with-aws/"
+  summary: "Launched customer on Amazon Connect and ConnectPath SaaS platform."
+  tags: [case-study, amazon-connect, contact-center, public-sector, education, cloudhesive, authored]
+
+# From APN/CB Contributions Data — AWS Events
+- title: "AWS SaaS Factory Studio NYC 2023 — Fireside Chat"
+  url: "https://aws-saas-factory-studio-ny-2023.splashthat.com/"
+  summary: "Participated in fireside chat with AWS and customer, plus presented on SaaS compliance and cost optimization."
+  tags: [aws, saas, compliance, cost-optimization, events, authored]
+
+- title: "AWS Summit Atlanta 2022 — Presentation"
+  url: "https://aws.amazon.com/events/summits/atlanta/agenda/?amer-summit-card.q=dev301"
+  summary: "Presented at AWS Summit Atlanta 2022."
+  tags: [aws, events, conference, authored]
+
+- title: "CIS Benchmark Contributor — AWS End User Compute Services"
+  url: "https://www.cisecurity.org/cis-benchmarks/"
+  summary: "Contributor to CIS Benchmark for AWS End User Compute Services."
+  tags: [security, compliance, cis, aws, end-user-computing, authored]
+
+# Additional items from contributions data
+- title: "AWS Spotlight Series — Modernization and Security with AWS"
+  url: "https://carahsoft2.adobeconnect.com/p6x4wol9b4o8/?proto=true"
+  summary: "Presented on modernization and security with AWS as part of the AWS Spotlight Series webinar."
+  tags: [aws, security, cloud-migration, webinar, authored]
+
+- title: "Reclaim Your Cloud Virtual Event — Service Provider Day"
+  url: "https://cloudcheckr.com/event/reclaim-your-public-cloud-event-service-provider-day-cloudcheckr/"
+  summary: "Participated in the Reclaim Your Cloud Virtual Event Service Provider Day with CloudCheckr."
+  tags: [aws, cloud-migration, managed-services, msp, webinar, authored]
+
+- title: "Amazon Connect Bootcamp — Multi-Day Training Delivery"
+  url: ""
+  summary: "Coordinated development and presentation of multi-day beginner and advanced Amazon Connect Bootcamp, including introduction, content creation/review, facilitation and advanced discussions."
+  tags: [aws, amazon-connect, contact-center, training, authored]
+
+- title: "Technical Review — Mastering AWS Security"
+  url: "https://www.amazon.com/Mastering-AWS-Security-Strengthen-environment/dp/1805125443"
+  summary: "Technical reviewer for 'Mastering AWS Security' by a fellow AWS Community Builder."
+  tags: [aws, security, book, review, authored]
