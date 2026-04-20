@@ -25,26 +25,48 @@ permalink: /links
   .linktree-wrapper .linktree-name {
     font-size: 1.4rem;
     font-weight: bold;
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
+
+  .linktree-wrapper .linktree-tagline {
+    font-size: 0.85rem;
+    opacity: 0.6;
     margin-bottom: 1.5rem;
     text-align: center;
+  }
+
+  .linktree-wrapper .linktree-section {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  .linktree-wrapper .linktree-section-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    opacity: 0.4;
+    margin-bottom: 0.5rem;
+    padding-left: 0.25rem;
   }
 
   .linktree-wrapper .linktree-buttons {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 0.6rem;
     width: 100%;
   }
 
   .linktree-wrapper .linktree-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
     width: 100%;
-    padding: 0.85rem 1rem;
-    text-align: center;
+    padding: 0.75rem 1rem;
     text-decoration: none;
     border: 2px solid currentColor;
     border-radius: 6px;
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: inherit;
     background: transparent;
     box-sizing: border-box;
@@ -53,6 +75,19 @@ permalink: /links
 
   .linktree-wrapper .linktree-btn:hover {
     opacity: 0.7;
+  }
+
+  .linktree-wrapper .linktree-btn svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    fill: currentColor;
+  }
+
+  .linktree-wrapper .linktree-btn span {
+    flex: 1;
+    text-align: center;
+    padding-right: 20px; /* offset for icon to keep text centered */
   }
 
   @media (max-width: 320px) {
@@ -70,8 +105,8 @@ permalink: /links
     }
 
     .linktree-wrapper .linktree-btn {
-      padding: 0.7rem 0.75rem;
-      font-size: 0.9rem;
+      padding: 0.6rem 0.75rem;
+      font-size: 0.85rem;
     }
   }
 </style>
@@ -79,22 +114,98 @@ permalink: /links
 <div class="linktree-wrapper">
   <img src="{{ '/assets/img/avatar.png' | relative_url }}" alt="Patrick Hannah" class="linktree-avatar" onerror="this.style.display='none'">
   <div class="linktree-name">Patrick Hannah</div>
-  <div class="linktree-buttons">
-    <a href="https://www.linkedin.com/in/patrickjhannah/" target="_blank" rel="noopener" class="linktree-btn">LinkedIn</a>
-    <a href="https://x.com/pjhannah1" target="_blank" rel="noopener" class="linktree-btn">Twitter / X</a>
-    <a href="https://www.youtube.com/@patricklovesaws" target="_blank" rel="noopener" class="linktree-btn">YouTube</a>
-    <a href="https://github.com/patrickhannah" target="_blank" rel="noopener" class="linktree-btn">GitHub (Personal)</a>
-    <a href="https://github.com/ronin48llc" target="_blank" rel="noopener" class="linktree-btn">GitHub (Ronin 48)</a>
-    <a href="https://ronin48.hashnode.dev/" target="_blank" rel="noopener" class="linktree-btn">Hashnode</a>
-    <a href="https://dev.to/pjhannah1" target="_blank" rel="noopener" class="linktree-btn">DEV.to</a>
-    <a href="https://builder.aws.com/community/@patricklovesaws?tab=badges" target="_blank" rel="noopener" class="linktree-btn">AWS Community Builder</a>
-    <a href="https://patricklovesaws.substack.com/" target="_blank" rel="noopener" class="linktree-btn">Substack</a>
-    <a href="https://patricklovesaws.medium.com/" target="_blank" rel="noopener" class="linktree-btn">Medium</a>
-    <a href="https://blog.ronin48.io/" target="_blank" rel="noopener" class="linktree-btn">Blog</a>
-    <a href="https://www.credly.com/users/patrick-hannah/badges" target="_blank" rel="noopener" class="linktree-btn">Credly Badges</a>
-    <a href="https://www.goodreads.com/user/show/157844736-patrick-hannah" target="_blank" rel="noopener" class="linktree-btn">Goodreads</a>
-    <a href="https://www.meetup.com/members/171771262/" target="_blank" rel="noopener" class="linktree-btn">Meetup</a>
-    <a href="mailto:patrick@ronin48.io" target="_blank" rel="noopener" class="linktree-btn">Email</a>
-    <a href="https://ronin48.io" target="_blank" rel="noopener" class="linktree-btn">Ronin 48 Consulting</a>
+  <div class="linktree-tagline">Cloud, contact centers, and building things that work</div>
+
+  <!-- Professional -->
+  <div class="linktree-section">
+    <div class="linktree-section-title">Professional</div>
+    <div class="linktree-buttons">
+      <a href="https://www.linkedin.com/in/patrickjhannah/" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        <span>LinkedIn</span>
+      </a>
+      <a href="https://ronin48.io" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        <span>Ronin 48 Consulting</span>
+      </a>
+      <a href="mailto:patrick@ronin48.io" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <span>Email</span>
+      </a>
+      <a href="https://www.credly.com/users/patrick-hannah/badges" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        <span>Credly Badges</span>
+      </a>
+      <a href="https://builder.aws.com/community/@patricklovesaws?tab=badges" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M18.75 11.35a.25.25 0 00-.08-.38l-2.1-1.22a.25.25 0 01-.12-.22V7.5a.25.25 0 00-.25-.25h-2.43a.25.25 0 01-.22-.12l-1.22-2.1a.25.25 0 00-.38-.08L9.88 6.3a.25.25 0 01-.25 0L7.55 4.95a.25.25 0 00-.38.08l-1.22 2.1a.25.25 0 01-.22.12H3.3a.25.25 0 00-.25.25v2.03c0 .09-.05.17-.12.22l-2.1 1.22a.25.25 0 00-.08.38L2.1 13.4c.04.08.04.17 0 .25L.75 15.73a.25.25 0 00.08.38l2.1 1.22c.07.05.12.13.12.22v2.03c0 .14.11.25.25.25h2.43c.09 0 .17.05.22.12l1.22 2.1a.25.25 0 00.38.08l2.07-1.35a.25.25 0 01.25 0l2.08 1.35a.25.25 0 00.38-.08l1.22-2.1a.25.25 0 01.22-.12h2.43a.25.25 0 00.25-.25v-2.03c0-.09.05-.17.12-.22l2.1-1.22a.25.25 0 00.08-.38l-1.35-2.08a.25.25 0 010-.25l1.35-2.05zM12 15.5a3.5 3.5 0 110-7 3.5 3.5 0 010 7z"/></svg>
+        <span>AWS Community Builder</span>
+      </a>
+    </div>
   </div>
+
+  <!-- Writing & Content -->
+  <div class="linktree-section">
+    <div class="linktree-section-title">Writing & Content</div>
+    <div class="linktree-buttons">
+      <a href="https://blog.ronin48.io/" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+        <span>Blog</span>
+      </a>
+      <a href="https://patricklovesaws.substack.com/" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+        <span>Substack</span>
+      </a>
+      <a href="https://patricklovesaws.medium.com/" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/></svg>
+        <span>Medium</span>
+      </a>
+      <a href="https://ronin48.hashnode.dev/" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M22.351 8.019l-6.37-6.37a5.63 5.63 0 00-7.962 0l-6.37 6.37a5.63 5.63 0 000 7.962l6.37 6.37a5.63 5.63 0 007.962 0l6.37-6.37a5.63 5.63 0 000-7.962zM12 15.953a3.953 3.953 0 110-7.906 3.953 3.953 0 010 7.906z"/></svg>
+        <span>Hashnode</span>
+      </a>
+      <a href="https://dev.to/pjhannah1" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6v4.36h.58c.37 0 .67-.08.84-.23.2-.17.31-.47.31-.95v-2c0-.48-.12-.77-.31-.95zm16.17-7.24H.41C.18 2.81 0 3.02 0 3.27v17.46c0 .25.18.46.41.46h23.18c.23 0 .41-.21.41-.46V3.27c0-.25-.18-.46-.41-.46zM8.82 14.05c0 .87-.31 1.67-1.57 1.67H5.14V8.28h2.14c1.22 0 1.55.8 1.55 1.67v4.1zm4.56-3.22H11.3v1.7h1.28v1.37H11.3v1.7h2.08v1.37H10.6c-.4 0-.74-.32-.74-.72V8.95c0-.4.34-.67.74-.67h2.82v1.37h-.04zm5.97 4.87c-.39.93-1.13 1.07-1.6.07l-2.1-7.49h1.66l1.28 5.11 1.28-5.11h1.66l-2.18 7.42z"/></svg>
+        <span>DEV.to</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Social -->
+  <div class="linktree-section">
+    <div class="linktree-section-title">Social</div>
+    <div class="linktree-buttons">
+      <a href="https://x.com/pjhannah1" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        <span>X (Twitter)</span>
+      </a>
+      <a href="https://www.youtube.com/@patricklovesaws" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        <span>YouTube</span>
+      </a>
+      <a href="https://www.meetup.com/members/171771262/" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M18.71 12.21c-.17-.59-.78-1.01-1.4-.87-.63.14-1.01.75-.87 1.4.28 1.21-.06 2.09-.93 2.42-.87.33-1.97-.12-2.39-.97l-4.26-8.7c-.34-.68-1.16-.96-1.84-.62-.68.34-.96 1.16-.62 1.84l1.28 2.62-1.65-.82c-.68-.34-1.5-.06-1.84.62-.34.68-.06 1.5.62 1.84l1.65.82-1.65.82c-.68.34-.96 1.16-.62 1.84.23.46.69.73 1.17.73.22 0 .45-.05.67-.17l1.65-.82-.82 1.65c-.34.68-.06 1.5.62 1.84.19.1.4.14.61.14.5 0 .98-.28 1.23-.73l.82-1.65.82 1.65c.25.45.73.73 1.23.73.21 0 .42-.05.61-.14.68-.34.96-1.16.62-1.84l-.82-1.65 1.65.82c.22.11.45.17.67.17.48 0 .94-.27 1.17-.73.34-.68.06-1.5-.62-1.84l-1.65-.82 2.44-1.22c1.49-.74 2.2-2.47 1.59-4.1zM6.5 5.5a2 2 0 114 0 2 2 0 01-4 0z"/></svg>
+        <span>Meetup</span>
+      </a>
+      <a href="https://www.goodreads.com/user/show/157844736-patrick-hannah" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M11.43 23.995c-3.608-.208-6.274-2.077-7.56-5.296C2.65 15.99 2.71 12.842 3.9 9.87c1.313-3.28 3.77-5.28 6.907-5.762 1.783-.274 3.448.102 4.957 1.097.142.094.28.194.437.303V.5h1.6v13.4c-.01 1.23-.063 2.46-.2 3.68-.2 1.79-.72 3.46-1.94 4.87-1.34 1.55-3.06 2.2-5.04 2.12-.34-.01-.68-.04-1.19-.07zm6.1-12.5v-1.6c-.08-.15-.17-.38-.3-.58-1.24-1.88-3.02-2.78-5.26-2.58-2.08.18-3.62 1.29-4.6 3.13-.88 1.66-1.08 3.46-.82 5.31.2 1.42.7 2.72 1.66 3.81 1.38 1.57 3.14 2.13 5.17 1.82 1.9-.29 3.3-1.38 4.15-3.11v-6.2z"/></svg>
+        <span>Goodreads</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Code -->
+  <div class="linktree-section">
+    <div class="linktree-section-title">Code</div>
+    <div class="linktree-buttons">
+      <a href="https://github.com/patrickhannah" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        <span>GitHub (Personal)</span>
+      </a>
+      <a href="https://github.com/ronin48llc" target="_blank" rel="noopener" class="linktree-btn">
+        <svg viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        <span>GitHub (Ronin 48)</span>
+      </a>
+    </div>
+  </div>
+
 </div>
