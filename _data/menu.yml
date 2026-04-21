@@ -5,17 +5,17 @@ entries:
         url: /blog
       - title: feed
         url: /feed.xml
-  - title: timeline
+  - title: career timeline
     url: /timeline
   - title: work experience
     url: /work-experience
-  - title: skills
+  - title: certifications and skills
     url: /skills
   - title: projects
     url: /projects
   - title: selected works
     url: /selected-works
-  - title: media
+  - title: media references
     url: /media
   - title: presentations
     url: /presentations
@@ -31,7 +31,5 @@ entries:
     url: /personal-projects
   - title: reading
     url: /reading
-  - title: links
+  - title: links and contact
     url: /links
-  - title: contact
-    url: /contact

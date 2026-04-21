@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Skills & Certifications
+title: Certifications & Skills
 permalink: /skills
 ---
 
@@ -87,7 +87,7 @@ permalink: /skills
 </style>
 
 <div class="resume-wrapper">
-  <h1>Skills & Certifications</h1>
+  <h1>Certifications & Skills</h1>
   <div class="narrative">
     <p>I've never been someone who collects certifications for the sake of it. Every cert here represents a problem I was trying to solve or a domain I needed to go deeper in. When I earned all available AWS certifications — including early adopter badges for the AI and generative AI tracks — it wasn't a checkbox exercise. It was the natural result of spending a decade building on AWS across security, networking, data, machine learning, and contact center. The CISSP and CCSP came from years of being the person in the room during SOC and PCI audits. The FinOps cert came from needing to have honest conversations with customers about what cloud actually costs. The tools and platforms listed here aren't things I've read about — they're things I've deployed, debugged at 2 AM, and built products on top of.</p>
   </div>

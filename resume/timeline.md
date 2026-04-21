@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Timeline
+title: Career Timeline
 permalink: /timeline
 ---
 
@@ -107,7 +107,7 @@ permalink: /timeline
 </style>
 
 <div class="timeline-wrapper">
-  <h1>Timeline</h1>
+  <h1>Career Timeline</h1>
   <p class="timeline-intro">A chronological view across roles, memberships, contributions, awards, and projects.</p>
 
   <div class="tl-full-legend">
