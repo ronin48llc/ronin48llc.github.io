@@ -1,11 +1,11 @@
 # Selected Works — press, publications, mentions, and references
-# Sorted: authored content first, then press/awards (newest first), then mentions (alphabetical)
+# Sorted: authored content (alphabetical), then dated items (newest first), then mentions (alphabetical)
 #
 # Fields:
 #   title:   (required) Title
 #   url:     (optional) Link
 #   summary: (optional) Short description
-#   date:    (optional) Date in YYYY-MM-DD format (used for press/awards sorting)
+#   date:    (optional) Date in YYYY-MM-DD format
 #   tags:    (optional) Array of tag strings
 
 - title: 9 Things You Wish You Knew About Securing Your Services on AWS
@@ -539,6 +539,16 @@
     - generative-ai
     - ai
     - press
+- title: Rethink Your Contact Center with CloudHesive
+  url: https://www.carahsoft.com/learn/event/54246
+  summary: Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI services on AWS.
+  date: '2024-06-06'
+  tags:
+    - aws
+    - contact-center
+    - ai
+    - generative-ai
+    - speaking
 - title: CloudHesive Wins Deloitte Technology Fast 500 Award
   url: https://www.prweb.com/releases/cloudhesive-wins-prestigious-deloitte-technology-fast-500-award-301992127.html
   summary: Recognized as a Deloitte Technology Fast 500 award recipient, acknowledging CloudHesive among the 500 fastest-growing technology companies in North America.
@@ -548,6 +558,24 @@
     - award
     - deloitte
     - press
+- title: 'Amazon Connect & AI: Shaping the Future of Customer Interactions (Chicago)'
+  url: https://cloud.marketing.cloudhesive.com/GenAIndCX_Chicago
+  summary: Presented on Amazon Connect and AI for customer experience.
+  date: '2023-11-09'
+  tags:
+    - aws
+    - contact-center
+    - ai
+    - speaking
+- title: 'Amazon Connect & AI: Shaping the Future of Customer Interactions'
+  url: https://cloud.marketing.cloudhesive.com/GenAIandCX
+  summary: Presented on Amazon Connect and AI for customer experience.
+  date: '2023-10-12'
+  tags:
+    - aws
+    - contact-center
+    - ai
+    - speaking
 - title: Dextr Flex Evolves to ConnectPath CX
   url: https://www.prweb.com/releases/the-next-generation-of-contact-center-as-a-service-ccaas-platforms-dextr-flex-evolves-to-connectpath-cx-885134371.html
   summary: Announced the rebranding of Dextr Flex to ConnectPath CX, the next generation CCaaS platform powered by Amazon Connect.
@@ -557,6 +585,25 @@
     - connectpath
     - contact-center
     - press
+- title: 'Webinar: Accelerating CMMC Compliance with the Cloud'
+  url: https://www.preveil.com/webinar-accelerating-cmmc-compliance-with-the-cloud-a-case-study/
+  summary: Case study webinar with PreVeil on CMMC compliance.
+  date: '2023-06-21'
+  tags:
+    - compliance
+    - cmmc
+    - security
+    - cloud
+    - speaking
+- title: 'Utilizing Cloud-based Resources: Efficiently Collaborate & Analyze Data'
+  url: https://carahevents.carahsoft.com/Event/Details/374043-aws
+  summary: Presented with Carahsoft/AWS on cloud-based collaboration and analytics.
+  date: '2023-06-20'
+  tags:
+    - aws
+    - data
+    - cloud
+    - speaking
 - title: CloudHesive Acquires Eplexity
   url: https://www.prweb.com/releases/cloudhesive-an-amazon-web-services-aws-premier-partner-acquires-eplexity-819202941.html
   summary: Acquired fellow AWS Premier Partner Eplexity, with additional investment from Strattam Capital.
@@ -565,6 +612,34 @@
     - cloudhesive
     - acquisition
     - press
+- title: AWS Georgia Public Sector Innovation Day
+  url: https://carahevents.carahsoft.com/Event/Details/359341-govevents
+  summary: Presented at AWS Georgia Public Sector Innovation Day.
+  date: '2023-05-19'
+  tags:
+    - aws
+    - government
+    - public-sector
+    - speaking
+- title: Accelerating Business and Research Through AI in the CMMC Domain
+  url: https://cmmcday.org/session/accelerating-business-and-research-through-automation-and-artificial-intelligence-in-the-cmmc-domain-e02a/
+  summary: Presented at CMMC Day on automation and AI in the CMMC domain.
+  date: '2023-05-15'
+  tags:
+    - cmmc
+    - compliance
+    - ai
+    - security
+    - speaking
+- title: AWS End User Computing Workshop (Atlanta)
+  url: https://awsendusercomputingworkshopatl.splashthat.com/
+  summary: Led AWS End User Computing workshop.
+  date: '2023-02-02'
+  tags:
+    - aws
+    - end-user-computing
+    - workshop
+    - speaking
 - title: ConnectPath CX — Avaya Replacement Platform
   url: https://www.prweb.com/releases/connectpath-cx-is-the-go-to-cloud-contact-center-as-a-service-platform-ccaas-to-replace-aging-avaya-systems-840156434.html
   summary: Announced ConnectPath CX as the go-to CCaaS platform to replace aging Avaya systems via Amazon Connect.
@@ -575,6 +650,25 @@
     - avaya
     - contact-center
     - press
+- title: Zero Trust Fundamentals for Higher Education
+  url: https://info.sumologic.com/2022-10-11-AWSMP-ZeroTrustHigherEdWebinar.Registration.html
+  summary: Webinar with Sumo Logic on Zero Trust for higher education.
+  date: '2022-10-11'
+  tags:
+    - security
+    - zero-trust
+    - education
+    - speaking
+- title: Supporting your CMMC Initiatives with Sumo Logic
+  url: https://illuminate2022.sumologicevents.com/sessions/on_demand
+  summary: Presented at Sumo Logic Illuminate on CMMC compliance.
+  date: '2022-09-13'
+  tags:
+    - cmmc
+    - compliance
+    - security
+    - monitoring
+    - speaking
 - title: CloudHesive Named to 2022 Inc. 5000 (Fourth Consecutive Year)
   url: https://www.prweb.com/releases/cloudhesive-named-to-the-2022-inc-5000-annual-list-of-fastest-growing-private-companies-899555772.html
   summary: 'Ranked #1740 on the 2022 Inc. 5000 list, marking the fourth consecutive appearance.'
@@ -584,6 +678,26 @@
     - award
     - inc-5000
     - press
+- title: Leveraging New Cloud Management Strategies to Drive MSP Profit Margins
+  url: https://cloudcheckr.com/webinar/leveraging-new-cloud-management-strategies-to-drive-msp-profit-margins-2/
+  summary: Roundtable participant with CloudCheckr on cloud management strategies.
+  date: '2022-06-09'
+  tags:
+    - cloud
+    - managed-services
+    - finops
+    - speaking
+- title: 'AWS Summit Atlanta 2022 — DEV301: Serverless Data and Analytics'
+  url: https://aws.amazon.com/events/summits/atlanta/agenda?amer-summit-card.q=dev301
+  summary: Presented on serverless data and analytics at AWS Summit Atlanta.
+  date: '2022-05-19'
+  tags:
+    - aws
+    - serverless
+    - data
+    - analytics
+    - speaking
+    - conference
 - title: CloudHesive Acquires Dextr Cloud
   url: https://www.prweb.com/releases/cloudhesive-acquires-dextr-cloud-the-industry-s-most-powerful-customer-service-and-performance-dashboard-860281582.html
   summary: CloudHesive acquired Dextr Cloud, adding the industry's most powerful customer service and performance dashboard to its portfolio.
@@ -593,6 +707,16 @@
     - acquisition
     - contact-center
     - press
+- title: SoFlo DevCon 2022 — Serverless without Code (Lambda)
+  url: https://techhubsouthflorida.org/meetups/soflodevcon/
+  summary: Presented on serverless without code at SoFlo DevCon.
+  date: '2022-04-16'
+  tags:
+    - aws
+    - serverless
+    - lambda
+    - speaking
+    - conference
 - title: CloudHesive Achieves AWS Service Ready Designation for Amazon Connect
   url: https://www.prweb.com/releases/CloudHesive_Achieves_AWS_Service_Ready_Designation_for_Amazon_Connect/prweb19453891.htm
   summary: Achieved AWS Service Ready Designation for Amazon Connect, verifying best practices and production customer success.
@@ -603,6 +727,16 @@
     - contact-center
     - amazon-connect
     - press
+- title: NIST Cybersecurity Framework (CSF) on the Public Cloud
+  url: https://campitsince1984.com/upcoming-virtualevents/cloudsecurity2/
+  summary: Presented at CAMP IT Conferences on NIST CSF in the public cloud.
+  date: '2021-12-09'
+  tags:
+    - security
+    - compliance
+    - nist
+    - cloud
+    - speaking
 - title: CloudHesive Closes Growth Funding Round Led by Strattam Capital
   url: https://www.prweb.com/releases/cloudhesive-closes-growth-funding-round-led-by-strattam-capital-820667613.html
   summary: Announced the closing of a growth financing round led by Strattam Capital.
@@ -611,6 +745,26 @@
     - cloudhesive
     - funding
     - press
+- title: AWS Spotlight Series — Modernization and Security with AWS
+  url: https://carahsoft2.adobeconnect.com/p6x4wol9b4o8/
+  summary: Presented on modernization and security with AWS.
+  date: '2020-07-16'
+  tags:
+    - aws
+    - security
+    - modernization
+    - speaking
+- title: AWS Education Competency Partners Help with AI & ML
+  url: https://pages.awscloud.com/other-ep-023.html
+  summary: Interview on APN TV about AWS Education Competency and AI/ML.
+  date: '2019-10-01'
+  tags:
+    - aws
+    - ai
+    - machine-learning
+    - education
+    - video
+    - speaking
 - title: 'CloudHesive Inc. 5000 — #1001'
   url: https://www.prweb.com/releases/inc-magazine-today-revealed-that-cloudhesive-is-no-1001-on-its-annual-inc-5000-list-805315281.html
   summary: 'Ranked #1001 on the Inc. 5000 annual list of the nation''s fastest-growing private companies.'
@@ -638,6 +792,23 @@
     - aws
     - partner
     - press
+- title: Build and Manage a Highly Secure Cloud Environment on AWS
+  url: https://www.brighttalk.com/webcast/15451/362133/build-and-manage-a-highly-secure-cloud-environment-on-aws-and-azure
+  summary: Webinar with CloudCheckr on building secure cloud environments.
+  date: '2019-08-01'
+  tags:
+    - aws
+    - security
+    - cloud
+    - speaking
+- title: Customer Testimonial — Datadog
+  url: https://www.datadoghq.com/customers/
+  summary: Featured customer testimonial on Datadog's website.
+  date: '2019-08-01'
+  tags:
+    - monitoring
+    - datadog
+    - testimonial
 - title: CloudHesive Achieves AWS Digital Customer Experience Competency
   url: https://www.prweb.com/releases/cloudhesive-achieves-aws-digital-customer-experience-competency-status-898956074.html
   summary: Achieved AWS Digital Customer Experience Competency status.
@@ -647,6 +818,14 @@
     - aws
     - ecommerce
     - press
+- title: Manage Media Transmission Overhead with AWS Media Services
+  url: ''
+  summary: Published by CloudHesive on AWS Media Services.
+  date: '2019-03-01'
+  tags:
+    - aws
+    - media
+    - writing
 - title: CloudHesive Achieves AWS Education Competency
   url: https://www.prweb.com/releases/cloudhesive-announces-that-it-has-achieved-aws-education-competency-status-828084833.html
   summary: Achieved AWS Education Competency status for higher education, K-12, research, and publishing customers.
@@ -665,6 +844,44 @@
     - aws
     - devops
     - press
+- title: DVC03 — Scaling and Supporting your Production App
+  url: ''
+  summary: Presented at AWS Re:Invent 2018.
+  date: '2018-11-27'
+  tags:
+    - aws
+    - reinvent
+    - devops
+    - scaling
+    - speaking
+    - conference
+- title: WIN324 — Design, Deploy, and Optimize Microsoft SQL Server on AWS
+  url: https://www.slideshare.net/AmazonWebServices/design-deploy-and-optimize-microsoft-sql-server-on-aws-win324r1-aws-reinvent-2018
+  summary: Quoted in AWS Re:Invent 2018 presentation.
+  date: '2018-11-01'
+  tags:
+    - aws
+    - reinvent
+    - sql-server
+    - database
+    - conference
+- title: 2018 Microservices Summit
+  url: https://www.southfloridatech.org/event/sfta-presents-services-and-microservices-summit/
+  summary: Presented at South Florida Technology Alliance Microservices Summit.
+  date: '2018-09-27'
+  tags:
+    - microservices
+    - architecture
+    - speaking
+    - conference
+- title: Winning Governance Strategies for the Technology Disruptions of our Time
+  url: http://isacasfl.org/publications/
+  summary: Presented at ISACA South Florida Chapter.
+  date: '2018-06-22'
+  tags:
+    - governance
+    - compliance
+    - speaking
 - title: CloudHesive Named Top 100 Public Cloud MSP for 2018
   url: https://www.prweb.com/releases/cloudhesive-is-thrilled-to-be-named-a-top-100-public-cloud-msp-for-2018-876000467.html
   summary: Named a Top 100 Public Cloud MSP for 2018.
@@ -682,6 +899,22 @@
     - cloudhesive
     - award
     - press
+- title: 'GovLoop Virtual Summit: Tech Trends in Government'
+  url: https://www.govloop.com/training/govloop-virtual-summit-tech-trends-need-know-government/
+  summary: Presented at GovLoop Virtual Summit on technology trends in government.
+  date: '2018-03-21'
+  tags:
+    - government
+    - public-sector
+    - speaking
+- title: Various Blog Posts — CloudHesive Blog
+  url: https://cloudhesive.com/author/patrick-hannahcloudhesive-com/
+  summary: Multiple blog posts published on the CloudHesive blog.
+  date: '2017-09-12'
+  tags:
+    - writing
+    - cloud
+    - aws
 - title: CloudBees Launches New DevOps Managed Services Program
   url: https://www.cloudbees.com/press/cloudbees-launches-new-devops-managed-services-program-delivered-premium-managed-service
   summary: Quoted in CloudBees press release on DevOps managed services.
@@ -710,6 +943,15 @@
     - compliance
     - soc2
     - press
+- title: Developer Lightning Talks and Happy Hour (DCS204)
+  url: http://www.slideshare.net/AmazonWebServices/aws-reinvent-2016-developer-lightning-talks-and-happy-hour-dcs204
+  summary: Presented at AWS Re:Invent 2016 Developer Lightning Talks.
+  date: '2016-11-28'
+  tags:
+    - aws
+    - reinvent
+    - speaking
+    - conference
 - title: Amazon Redshift Review Reveals Quirks, Frustrations
   url: http://searchaws.techtarget.com/tip/Amazon-Redshift-review-reveals-quirks-frustrations
   summary: Quoted in Tech Target article on Amazon Redshift.
@@ -719,16 +961,6 @@
     - data
     - redshift
     - press
-- title: CloudHesive CTO to Present at ITExpo 2025 (Press Release)
-  url: https://www.prweb.com/releases/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpath-302373795.html/
-  summary: Press release announcing Patrick Hannah's ITExpo 2025 presentation on ConnectPathCX enhancements.
-  tags:
-    - cloudhesive
-    - connectpath
-    - amazon-connect
-    - conference
-    - events
-    - press-release
 - title: 20 Public Sector Partners Achieve Government and Education Competencies
   url: https://aws.amazon.com/blogs/publicsector/20-public-sector-partners-achieve-government-and-education-competencies/
   summary: Highlights 20 AWS partners that achieved government and education competencies in the AWS Partner Network.
@@ -739,15 +971,6 @@
     - government
     - education
     - apn-recognition
-- title: 2018 Microservices Summit
-  url: https://www.southfloridatech.org/event/sfta-presents-services-and-microservices-summit/
-  summary: Presented at South Florida Technology Alliance Microservices Summit.
-  date: '2018-09-27'
-  tags:
-    - microservices
-    - architecture
-    - speaking
-    - conference
 - title: 'A Visit to Latin America: Collaboration with the Cloud'
   url: https://aws.amazon.com/blogs/publicsector/a-visit-to-latin-america-collaboration-with-the-cloud/
   summary: Explores AWS cloud collaboration and expansion initiatives across Latin America for the public sector.
@@ -757,16 +980,6 @@
     - latin-america
     - cloud-adoption
     - cloudhesive
-- title: Accelerating Business and Research Through AI in the CMMC Domain
-  url: https://cmmcday.org/session/accelerating-business-and-research-through-automation-and-artificial-intelligence-in-the-cmmc-domain-e02a/
-  summary: Presented at CMMC Day on automation and AI in the CMMC domain.
-  date: '2023-05-15'
-  tags:
-    - cmmc
-    - compliance
-    - ai
-    - security
-    - speaking
 - title: AJE Group Optimizes Analytics Workloads by Adopting AWS
   url: https://aws.amazon.com/solutions/case-studies/aje-case-study/
   summary: AWS case study on how AJE Group modernized its contact center with Amazon Connect and GenAI, achieving 60% reduction in wait times.
@@ -787,24 +1000,6 @@
     - communications
     - messaging
     - sdk
-- title: 'Amazon Connect & AI: Shaping the Future of Customer Interactions'
-  url: https://cloud.marketing.cloudhesive.com/GenAIandCX
-  summary: Presented on Amazon Connect and AI for customer experience.
-  date: '2023-10-12'
-  tags:
-    - aws
-    - contact-center
-    - ai
-    - speaking
-- title: 'Amazon Connect & AI: Shaping the Future of Customer Interactions (Chicago)'
-  url: https://cloud.marketing.cloudhesive.com/GenAIndCX_Chicago
-  summary: Presented on Amazon Connect and AI for customer experience.
-  date: '2023-11-09'
-  tags:
-    - aws
-    - contact-center
-    - ai
-    - speaking
 - title: Amazon FSx for Windows File Server Partners
   url: https://aws.amazon.com/fsx/windows/partners/
   summary: Official directory of AWS partners offering solutions around Amazon FSx for Windows File Server.
@@ -864,17 +1059,6 @@
     - security
     - vulnerability-management
     - amazon-inspector
-- title: AWS Education Competency Partners Help with AI & ML
-  url: https://pages.awscloud.com/other-ep-023.html
-  summary: Interview on APN TV about AWS Education Competency and AI/ML.
-  date: '2019-10-01'
-  tags:
-    - aws
-    - ai
-    - machine-learning
-    - education
-    - video
-    - speaking
 - title: AWS Elemental Partner Forum Miami
   url: https://awselemental-forum-miami.splashthat.com/
   summary: Event landing page for the AWS Elemental Partner Forum in Miami.
@@ -884,24 +1068,6 @@
     - media-streaming
     - conference
     - south-florida
-- title: AWS End User Computing Workshop (Atlanta)
-  url: https://awsendusercomputingworkshopatl.splashthat.com/
-  summary: Led AWS End User Computing workshop.
-  date: '2023-02-02'
-  tags:
-    - aws
-    - end-user-computing
-    - workshop
-    - speaking
-- title: AWS Georgia Public Sector Innovation Day
-  url: https://carahevents.carahsoft.com/Event/Details/359341-govevents
-  summary: Presented at AWS Georgia Public Sector Innovation Day.
-  date: '2023-05-19'
-  tags:
-    - aws
-    - government
-    - public-sector
-    - speaking
 - title: 'AWS Partner: Trend Micro Incorporated'
   url: https://partners.amazonaws.com/partners/001E000000Rl0yAIAR/
   summary: Official AWS Partner Network profile page for Trend Micro.
@@ -919,26 +1085,6 @@
     - security
     - amazon-inspector
     - aws-partner-network
-- title: AWS Spotlight Series — Modernization and Security with AWS
-  url: https://carahsoft2.adobeconnect.com/p6x4wol9b4o8/
-  summary: Presented on modernization and security with AWS.
-  date: '2020-07-16'
-  tags:
-    - aws
-    - security
-    - modernization
-    - speaking
-- title: 'AWS Summit Atlanta 2022 — DEV301: Serverless Data and Analytics'
-  url: https://aws.amazon.com/events/summits/atlanta/agenda?amer-summit-card.q=dev301
-  summary: Presented on serverless data and analytics at AWS Summit Atlanta.
-  date: '2022-05-19'
-  tags:
-    - aws
-    - serverless
-    - data
-    - analytics
-    - speaking
-    - conference
 - title: Best Practices in Secure Cloud Migration (SecureWorld / Thales)
   url: https://www.secureworldexpo.com/resources/secure-cloud-migration-thales
   summary: SecureWorld resource on best practices for secure cloud migration.
@@ -948,15 +1094,6 @@
     - best-practices
     - webinar
     - thales
-- title: Build and Manage a Highly Secure Cloud Environment on AWS
-  url: https://www.brighttalk.com/webcast/15451/362133/build-and-manage-a-highly-secure-cloud-environment-on-aws-and-azure
-  summary: Webinar with CloudCheckr on building secure cloud environments.
-  date: '2019-08-01'
-  tags:
-    - aws
-    - security
-    - cloud
-    - speaking
 - title: CloudBees Launches New DevOps Managed Services Program — DEVOPSdigest
   url: http://www.devopsdigest.com/cloudbees-launches-new-devops-managed-services-program
   summary: News coverage of CloudBees' launch of a new DevOps managed services program.
@@ -991,6 +1128,16 @@
     - amazon-connect
     - contact-center
     - partner-announcements
+- title: CloudHesive CTO to Present at ITExpo 2025 (Press Release)
+  url: https://www.prweb.com/releases/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpath-302373795.html/
+  summary: Press release announcing Patrick Hannah's ITExpo 2025 presentation on ConnectPathCX enhancements.
+  tags:
+    - cloudhesive
+    - connectpath
+    - amazon-connect
+    - conference
+    - events
+    - press-release
 - title: CloudHesive Cuts Alert Volume by 50% with Arctic Wolf and AWS
   url: https://aws.amazon.com/solutions/case-studies/cloudhesive-case-study/
   summary: AWS case study on how CloudHesive partnered with Arctic Wolf to reduce security alert noise by 50%.
@@ -1056,23 +1203,6 @@
     - magento
     - adobe-commerce
     - cloudhesive
-- title: Customer Testimonial — Datadog
-  url: https://www.datadoghq.com/customers/
-  summary: Featured customer testimonial on Datadog's website.
-  date: '2019-08-01'
-  tags:
-    - monitoring
-    - datadog
-    - testimonial
-- title: Developer Lightning Talks and Happy Hour (DCS204)
-  url: http://www.slideshare.net/AmazonWebServices/aws-reinvent-2016-developer-lightning-talks-and-happy-hour-dcs204
-  summary: Presented at AWS Re:Invent 2016 Developer Lightning Talks.
-  date: '2016-11-28'
-  tags:
-    - aws
-    - reinvent
-    - speaking
-    - conference
 - title: Doubling Down on Cloud Security (GovLoop)
   url: https://www.govloop.com/doubling-cloud-security/
   summary: GovLoop article on strategies for strengthening cloud security posture.
@@ -1081,25 +1211,6 @@
     - government
     - cloud-adoption
     - public-sector
-- title: DVC03 — Scaling and Supporting your Production App
-  url: ''
-  summary: Presented at AWS Re:Invent 2018.
-  date: '2018-11-27'
-  tags:
-    - aws
-    - reinvent
-    - devops
-    - scaling
-    - speaking
-    - conference
-- title: 'GovLoop Virtual Summit: Tech Trends in Government'
-  url: https://www.govloop.com/training/govloop-virtual-summit-tech-trends-need-know-government/
-  summary: Presented at GovLoop Virtual Summit on technology trends in government.
-  date: '2018-03-21'
-  tags:
-    - government
-    - public-sector
-    - speaking
 - title: How the City of Atlanta Transformed Its Customer Service with Amazon Connect
   url: https://aws.amazon.com/blogs/publicsector/how-the-city-of-atlanta-transformed-its-department-of-customer-service-with-amazon-connect/
   summary: Atlanta's 311 contact center modernized with Amazon Connect and ConnectPath, cutting after-call work by 50%.
@@ -1164,23 +1275,6 @@
     - conference
     - aws-partner-network
     - events
-- title: Leveraging New Cloud Management Strategies to Drive MSP Profit Margins
-  url: https://cloudcheckr.com/webinar/leveraging-new-cloud-management-strategies-to-drive-msp-profit-margins-2/
-  summary: Roundtable participant with CloudCheckr on cloud management strategies.
-  date: '2022-06-09'
-  tags:
-    - cloud
-    - managed-services
-    - finops
-    - speaking
-- title: Manage Media Transmission Overhead with AWS Media Services
-  url: ''
-  summary: Published by CloudHesive on AWS Media Services.
-  date: '2019-03-01'
-  tags:
-    - aws
-    - media
-    - writing
 - title: New APN Programs Available for AWS for Windows Partners
   url: https://aws.amazon.com/blogs/apn/new-apn-programs-available-for-aws-for-windows-partners/
   summary: Announces new APN program offerings for AWS partners specializing in Windows workloads.
@@ -1235,16 +1329,6 @@
     - infrastructure-as-code
     - devops
     - blog
-- title: NIST Cybersecurity Framework (CSF) on the Public Cloud
-  url: https://campitsince1984.com/upcoming-virtualevents/cloudsecurity2/
-  summary: Presented at CAMP IT Conferences on NIST CSF in the public cloud.
-  date: '2021-12-09'
-  tags:
-    - security
-    - compliance
-    - nist
-    - cloud
-    - speaking
 - title: ON24 Webinar Event
   url: https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?eventid=1593397&sessionid=1
   summary: Registration console for an ON24-hosted webinar event.
@@ -1303,16 +1387,6 @@
     - remote-work
     - public-sector
     - cybersecurity
-- title: Rethink Your Contact Center with CloudHesive
-  url: https://www.carahsoft.com/learn/event/54246
-  summary: Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI services on AWS.
-  date: '2024-06-06'
-  tags:
-    - aws
-    - contact-center
-    - ai
-    - generative-ai
-    - speaking
 - title: Say Hello to 165 AWS Specialization Partners Added or Returning in January
   url: https://aws.amazon.com/blogs/apn/say-hello-to-165-aws-specialization-partners-added-or-returning-in-january/
   summary: Monthly APN roundup welcoming 165 partners with AWS specialization designations.
@@ -1360,16 +1434,6 @@
     - south-florida
     - architecture
     - events
-- title: SoFlo DevCon 2022 — Serverless without Code (Lambda)
-  url: https://techhubsouthflorida.org/meetups/soflodevcon/
-  summary: Presented on serverless without code at SoFlo DevCon.
-  date: '2022-04-16'
-  tags:
-    - aws
-    - serverless
-    - lambda
-    - speaking
-    - conference
 - title: South Florida Tech Hub — Facebook Photo Album
   url: https://www.facebook.com/media/set/?vanity=SouthFloridaTechHub&set=a.1756461174539544
   summary: Facebook photo album from the South Florida Tech Hub community event.
@@ -1379,16 +1443,6 @@
     - south-florida
     - tech-hub
     - cloudhesive
-- title: Supporting your CMMC Initiatives with Sumo Logic
-  url: https://illuminate2022.sumologicevents.com/sessions/on_demand
-  summary: Presented at Sumo Logic Illuminate on CMMC compliance.
-  date: '2022-09-13'
-  tags:
-    - cmmc
-    - compliance
-    - security
-    - monitoring
-    - speaking
 - title: 'Transforming Student Communications: Dallas College Modernizes Its Call Center with AWS'
   url: https://aws.amazon.com/blogs/publicsector/transforming-student-communications-how-dallas-college-modernized-its-call-center-with-aws/
   summary: Case study on how Dallas College modernized its student communications call center.
@@ -1398,33 +1452,6 @@
     - contact-center
     - education
     - public-sector
-- title: 'Utilizing Cloud-based Resources: Efficiently Collaborate & Analyze Data'
-  url: https://carahevents.carahsoft.com/Event/Details/374043-aws
-  summary: Presented with Carahsoft/AWS on cloud-based collaboration and analytics.
-  date: '2023-06-20'
-  tags:
-    - aws
-    - data
-    - cloud
-    - speaking
-- title: Various Blog Posts — CloudHesive Blog
-  url: https://cloudhesive.com/author/patrick-hannahcloudhesive-com/
-  summary: Multiple blog posts published on the CloudHesive blog.
-  date: '2017-09-12'
-  tags:
-    - writing
-    - cloud
-    - aws
-- title: 'Webinar: Accelerating CMMC Compliance with the Cloud'
-  url: https://www.preveil.com/webinar-accelerating-cmmc-compliance-with-the-cloud-a-case-study/
-  summary: Case study webinar with PreVeil on CMMC compliance.
-  date: '2023-06-21'
-  tags:
-    - compliance
-    - cmmc
-    - security
-    - cloud
-    - speaking
 - title: Why Next-Generation MSPs Need Next-Generation Monitoring
   url: https://aws.amazon.com/blogs/apn/why-next-generation-msps-need-next-generation-monitoring/
   summary: APN blog on why modern MSPs need advanced monitoring tools.
@@ -1434,30 +1461,3 @@
     - managed-services
     - aws-partner-network
     - blog
-- title: WIN324 — Design, Deploy, and Optimize Microsoft SQL Server on AWS
-  url: https://www.slideshare.net/AmazonWebServices/design-deploy-and-optimize-microsoft-sql-server-on-aws-win324r1-aws-reinvent-2018
-  summary: Quoted in AWS Re:Invent 2018 presentation.
-  date: '2018-11-01'
-  tags:
-    - aws
-    - reinvent
-    - sql-server
-    - database
-    - conference
-- title: Winning Governance Strategies for the Technology Disruptions of our Time
-  url: http://isacasfl.org/publications/
-  summary: Presented at ISACA South Florida Chapter.
-  date: '2018-06-22'
-  tags:
-    - governance
-    - compliance
-    - speaking
-- title: Zero Trust Fundamentals for Higher Education
-  url: https://info.sumologic.com/2022-10-11-AWSMP-ZeroTrustHigherEdWebinar.Registration.html
-  summary: Webinar with Sumo Logic on Zero Trust for higher education.
-  date: '2022-10-11'
-  tags:
-    - security
-    - zero-trust
-    - education
-    - speaking

@@ -16,4 +16,4 @@ Prior to Pega, Patrick spent 8 years at Arise Virtual Solutions, a work-at-home 
 
 ## What's Next
 
-Patrick is currently available for consulting engagements across operations, security, infrastructure, cloud, AI/ML, and contact center. If you're looking for hands-on help with AWS modernization, Amazon Connect implementations, platform engineering, or operational improvement — [get in touch](/contact).
+Patrick is currently available for consulting engagements across operations, security, infrastructure, cloud, AI/ML, and contact center. If you're looking for hands-on help with AWS modernization, Amazon Connect implementations, platform engineering, or operational improvement — [get in touch](/links).

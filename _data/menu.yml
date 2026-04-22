@@ -5,29 +5,31 @@ entries:
         url: /blog
       - title: feed
         url: /feed.xml
-  - title: career timeline
-    url: /timeline
-  - title: work experience
-    url: /work-experience
-  - title: certifications and skills
-    url: /skills
-  - title: projects
-    url: /projects
-  - title: selected works
-    url: /selected-works
-  - title: presentations
-    url: /presentations
-  - title: awards
-    url: /awards
-  - title: memberships
-    url: /memberships
   - title: bio
     url: /bio
   - title: now
     url: /now
+  - title: work experience
+    url: /work-experience
+  - title: projects
+    url: /projects
+  - title: certifications and skills
+    url: /skills
+  - title: awards
+    url: /awards
+  - title: memberships
+    url: /memberships
+  - title: career timeline
+    url: /timeline
+  - title: presentations
+    url: /presentations
+  - title: videos
+    url: /videos
+  - title: selected works
+    url: /selected-works
   - title: personal projects
     url: /personal-projects
   - title: reading
     url: /reading
-  - title: links and contact
+  - title: links
     url: /links

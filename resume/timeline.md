@@ -161,8 +161,8 @@ permalink: /timeline
   items.push({ title: {{ item.title | jsonify }}, type: "project", start: {{ item.start | jsonify }}, end: {{ item.end | default: nil | jsonify }}, tags: {{ item.tags | jsonify }} });
   {% endfor %}
 
-  // Media (presentations, press, speaking)
-  {% for item in site.data.media %}
+  // Presentations (speaking, content)
+  {% for item in site.data.presentations %}
   items.push({ title: {{ item.title | jsonify }}, type: "contribution", start: "{{ item.date | date: '%Y-%m' }}", end: "event", tags: {{ item.tags | jsonify }} });
   {% endfor %}
 

@@ -18,4 +18,4 @@ After spending over a decade as CTO and co-founder of CloudHesive, I'm now consu
 
 I'm also writing more — sharing what I've learned across 25 years of building and operating platforms at scale.
 
-If any of this overlaps with what you're working on, [let's talk](/contact).
+If any of this overlaps with what you're working on, [let's talk](/links).
