@@ -63,6 +63,12 @@ permalink: /selected-works
     opacity: 0.85;
   }
 
+  .works-wrapper .work-date {
+    font-size: 0.8rem;
+    opacity: 0.6;
+    margin-bottom: 0.3rem;
+  }
+
   .works-wrapper .work-tags {
     display: flex;
     flex-wrap: wrap;
@@ -155,6 +161,9 @@ permalink: /selected-works
         {% endif %}
       </div>
       <div class="work-summary">{{ work.summary }}</div>
+      {% if work.date %}
+        <div class="work-date">{{ work.date | date: "%B %Y" }}</div>
+      {% endif %}
       <div class="work-tags">
         {% for tag in work.tags %}
           <span class="work-tag" data-tag="{{ tag }}">{{ tag }}</span>
