@@ -7,12 +7,14 @@
   description: Promotional video for This Is My Architecture segment at AWS Re:Invent.
   video: videos/TMA_ReIn_Cloudhesive_011124_Promo_FINAL.mov
   tags:
-  - aws
-  - reinvent
-  - connectpath
   - architecture
-  - video
+  - aws
+  - connectpath
+  - contact-center
+  - generative-ai
   - promo
+  - reinvent
+  - video
 - title: CloudHesive x Datadog Webinar
   date: '2024-09-13'
   description: Security, operations and observability on AWS with Datadog.
@@ -55,10 +57,41 @@
   video: videos/Datadog x CloudHesive.webm
   videoUrl: https://www.youtube.com/watch?v=FzQmEG7onUg
   tags:
+  - api-gateway
+  - auto-scaling
   - aws
-  - security
-  - monitoring
+  - cmmc
+  - contact-center
+  - customer-experience
   - datadog
+  - devops
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - fargate
+  - fedramp
+  - healthcare
+  - hipaa
+  - iam
+  - kubernetes
+  - lambda
+  - lex
+  - machine-learning
+  - managed-services
+  - microservices
+  - migration
+  - monitoring
+  - observability
+  - omnichannel
+  - pci-dss
+  - public-sector
+  - rds
+  - s3
+  - security
+  - serverless
+  - sns
+  - sqs
   - video
   - webinar
 - title: Modernization of Your AWS-Based SaaS Platform (New York)
@@ -145,12 +178,35 @@
   description: Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI.
   video: videos/Rethink Your Webinar with CloudHesive.mp4
   tags:
-  - aws
-  - amazon-connect
-  - contact-center
   - ai
-  - video
+  - amazon-connect
+  - aws
+  - connectpath
+  - contact-center
+  - cost-optimization
+  - customer-experience
+  - ecr
+  - eks
+  - encryption
+  - generative-ai
+  - government
+  - iam
+  - ivr
+  - lambda
+  - lex
+  - llm
+  - machine-learning
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - omnichannel
+  - public-sector
+  - rds
   - speaking
+  - transcribe
+  - video
+  - well-architected
 - title: The Future of Contact Centers — Generative AI + AWS
   date: '2024-06-01'
   description: Presentation on the future of contact centers with Generative AI and AWS services.
@@ -230,11 +286,19 @@
   video: videos/CloudHesive： Improved Omnichannel Experience for Amazon Connect through ConnectPath.webm
   videoUrl: https://www.youtube.com/watch?v=weT3nKnOFDg
   tags:
-  - aws
-  - reinvent
-  - connectpath
   - amazon-connect
   - architecture
+  - aws
+  - bedrock
+  - connectpath
+  - dynamodb
+  - ecr
+  - lambda
+  - managed-services
+  - omnichannel
+  - rds
+  - reinvent
+  - s3
   - video
 - title: Amazon Connect AI — Shaping the Future of Customer Interactions (Nov 2023)
   date: '2023-12-30'
@@ -306,12 +370,29 @@
   video: videos/Accelerating CMMC Compliance with the Cloud [gzms-Ragj9Y].mkv
   videoUrl: https://www.youtube.com/watch?v=gzms-Ragj9Y
   tags:
+  - cloud
   - cmmc
   - compliance
+  - customer-experience
+  - direct-connect
+  - ec2
+  - education
+  - encryption
+  - fedramp
+  - government
+  - high-availability
+  - hipaa
+  - iam
+  - lex
+  - managed-services
+  - nist
+  - rds
+  - s3
   - security
-  - cloud
   - video
+  - vpc
   - webinar
+  - workspaces
 - title: Accelerating Business and Research Through AI in the CMMC Domain
   date: '2023-05-19'
   description: Presented at CMMC Day in Washington, DC on automation and AI.
@@ -571,12 +652,45 @@
   video: videos/LUNCH & LEARN ｜  ＂AWS re：Invent Updates & Connect Path CX＂.webm
   videoUrl: https://www.youtube.com/watch?v=n7Vwn1kZxb4
   tags:
-  - aws
   - amazon-connect
-  - contact-center
-  - reinvent
-  - video
+  - api-gateway
+  - aws
+  - cloudfront
+  - cloudwatch
   - community
+  - connectpath
+  - contact-center
+  - contact-lens
+  - cost-optimization
+  - customer-experience
+  - devops
+  - disaster-recovery
+  - dynamodb
+  - ec2
+  - ecr
+  - ecs
+  - education
+  - eks
+  - encryption
+  - glue
+  - iac
+  - iam
+  - inspector
+  - kinesis
+  - kms
+  - kubernetes
+  - lambda
+  - lex
+  - machine-learning
+  - migration
+  - monitoring
+  - rds
+  - reinvent
+  - s3
+  - serverless
+  - video
+  - vpc
+  - workspaces
 - title: Lightning Talk — Culture, Communications and Presenting
   date: '2023-01-01'
   description: Internal lightning talk on culture, communications and presenting.
@@ -648,7 +762,13 @@
   description: AWS Partner program equip video featuring Patrick Hannah.
   video: videos/Patrick_partner_Equip_Video.mp4
   tags:
+  - amazon-connect
   - aws
+  - bedrock
+  - connectpath
+  - data-lake
+  - generative-ai
+  - omnichannel
   - partner
   - video
 - title: AWS User Group — Live Recording
@@ -658,28 +778,70 @@
   tags:
   - aws
   - community
+  - education
+  - south-florida
   - speaking
   - video
-  - south-florida
 - title: Re:Invent Recap — Meeting Recording
   date: '2022-12-01'
   description: Meeting recording of Re:Invent recap session.
   video: videos/Meeting Recording - reCap.mp4
   tags:
+  - amazon-connect
+  - auto-scaling
   - aws
-  - reinvent
+  - cloudformation
+  - cloudwatch
   - community
+  - contact-center
+  - contact-lens
+  - devops
+  - docker
+  - ec2
+  - ecr
+  - eks
+  - eventbridge
+  - iam
+  - kubernetes
+  - lambda
+  - lex
+  - machine-learning
+  - microservices
+  - migration
+  - monitoring
+  - rds
+  - reinvent
+  - s3
+  - sagemaker
+  - serverless
+  - sqs
   - video
+  - vpc
 - title: Zero Trust Fundamentals for Higher Education
   date: '2022-10-11'
   description: Webinar recording on Zero Trust for higher education with Sumo Logic.
   video: videos/GMT20221011-170046_Recording_2560x1440.mp4
   tags:
-  - security
-  - zero-trust
+  - cmmc
+  - ecr
   - education
+  - encryption
+  - fedramp
+  - government
+  - iam
+  - kms
+  - lex
+  - monitoring
+  - nist
+  - pci-dss
+  - rds
+  - s3
+  - security
+  - serverless
+  - sumo-logic
   - video
   - webinar
+  - zero-trust
 - title: Supporting Your CMMC Initiatives with Sumo Logic
   date: '2022-09-15'
   description: Overview of CMMC, its impact, and how AWS services help address compliance controls.
@@ -711,10 +873,22 @@
   video: videos/Supporting your CMMC initiatives with Sumo Logic [MfTKWwTztG8].mkv
   videoUrl: https://www.youtube.com/watch?v=MfTKWwTztG8
   tags:
+  - api-gateway
   - cmmc
   - compliance
-  - security
+  - ecr
+  - encryption
+  - government
+  - lex
+  - managed-services
   - monitoring
+  - nist
+  - rds
+  - s3
+  - security
+  - serverless
+  - step-functions
+  - sumo-logic
   - video
 - title: DEV301 — Serverless Data and Analytics on AWS
   date: '2022-05-20'
@@ -852,17 +1026,55 @@
   video: videos/Doubling Down on Cloud Security.mp4
   tags:
   - aws
-  - security
+  - cis-benchmarks
   - cloud
-  - video
+  - cloudtrail
+  - cost-optimization
+  - direct-connect
+  - education
+  - fedramp
+  - government
+  - guardduty
+  - high-availability
+  - iac
+  - iam
+  - inspector
+  - kms
+  - lambda
+  - managed-services
+  - monitoring
+  - nist
+  - pci-dss
+  - rds
+  - s3
+  - security
   - speaking
+  - video
+  - waf
 - title: CloudHesive Demo Reel
   date: '2022-01-01'
   description: CloudHesive product and services demo reel.
   video: videos/vlc-output.mp4
   tags:
+  - amazon-connect
+  - auto-scaling
   - cloudhesive
+  - contact-center
+  - customer-experience
+  - disaster-recovery
+  - ec2
+  - eks
+  - elb
+  - generative-ai
+  - healthcare
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
   - product
+  - public-sector
+  - rds
+  - systems-manager
   - video
 - title: NIST Cybersecurity Framework (CSF) on the Public Cloud
   date: '2021-12-14'
@@ -1248,21 +1460,76 @@
   video: videos/Security on AWS, 2021 Edition Meetup [my2h2TLMzPE].mkv
   videoUrl: https://www.youtube.com/watch?v=my2h2TLMzPE
   tags:
+  - api-gateway
+  - athena
+  - auto-scaling
   - aws
-  - security
-  - speaking
-  - video
+  - cis-benchmarks
+  - cloudformation
+  - cloudtrail
+  - cloudwatch
   - community
+  - control-tower
+  - cost-optimization
+  - ec2
+  - ecr
+  - ecs
+  - education
+  - eks
+  - elb
+  - encryption
+  - guardduty
+  - iam
+  - inspector
+  - kms
+  - kubernetes
+  - lambda
+  - lex
+  - managed-services
+  - monitoring
+  - nist
+  - pci-dss
+  - public-sector
+  - rds
+  - s3
+  - secrets-manager
+  - security
+  - serverless
+  - shield
+  - speaking
+  - streaming
+  - systems-manager
+  - trend-micro
+  - video
+  - vpc
+  - waf
+  - workspaces
 - title: Exploring Contact Lens and Amazon Connect
   date: '2021-04-09'
   description: Exploring Contact Lens analytics with Amazon Connect.
   video: videos/Exploring Contact Lens and Amazon Connect [SD4vQNfNgn4].mkv
   videoUrl: https://www.youtube.com/watch?v=SD4vQNfNgn4
   tags:
-  - aws
   - amazon-connect
-  - contact-center
   - analytics
+  - aws
+  - comprehend
+  - contact-center
+  - contact-lens
+  - customer-experience
+  - ecs
+  - eks
+  - ivr
+  - kinesis
+  - lambda
+  - lex
+  - monitoring
+  - rds
+  - redshift
+  - s3
+  - serverless
+  - streaming
+  - transcribe
   - video
 - title: Security on AWS — 2021 Edition (User Group)
   date: '2021-04-09'
@@ -1323,20 +1590,64 @@
   video: videos/AWS 2020 Year in Review reInvent ReCap [YRPTcE0RwYg].mkv
   videoUrl: https://www.youtube.com/watch?v=YRPTcE0RwYg
   tags:
+  - ai
+  - amazon-connect
+  - auto-scaling
   - aws
-  - reinvent
   - community
+  - contact-center
+  - contact-lens
+  - data-lake
+  - devops
+  - direct-connect
+  - docker
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elastic-beanstalk
+  - elb
+  - fargate
+  - glue
+  - government
+  - guardduty
+  - healthcare
+  - ivr
+  - kubernetes
+  - lambda
+  - lex
+  - migration
+  - monitoring
+  - pci-dss
+  - rds
+  - redshift
+  - reinvent
+  - route53
+  - s3
+  - serverless
+  - streaming
+  - systems-manager
+  - transit-gateway
   - video
+  - vpc
+  - workspaces
 - title: Introduction to Virtual Private Cloud (VPC)
   date: '2021-01-01'
   description: Introduction to AWS VPC networking concepts.
   video: videos/Introduction to Virtual Private Cloud (VPC).mp4
   tags:
   - aws
+  - direct-connect
+  - dynamodb
+  - ec2
+  - kinesis
+  - lambda
   - networking
-  - vpc
-  - video
+  - rds
+  - s3
   - speaking
+  - video
+  - vpc
 - title: Migrating Magento to AWS — Whitepaper
   date: '2020-04-21'
   description: Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS.
@@ -1872,12 +2183,26 @@
   video: videos/SFTA Microservices Summit September 27 2018.webm
   videoUrl: https://www.youtube.com/watch?v=cvoQzPM6pvE
   tags:
-  - microservices
   - architecture
-  - speaking
+  - cicd
   - conference
-  - video
+  - customer-experience
+  - devops
+  - docker
+  - ecr
+  - education
+  - government
+  - iam
+  - kubernetes
+  - lex
+  - managed-services
+  - microservices
+  - monitoring
+  - rds
+  - serverless
   - south-florida
+  - speaking
+  - video
 - title: Big Data and Machine Learning on AWS
   date: '2018-04-20'
   description: Presented on big data and machine learning services on AWS.
@@ -2476,9 +2801,29 @@
   video: videos/What it Means to be a Next Generation Managed Service Provider.mp4
   videoUrl: https://www.youtube.com/watch?v=MKoJNAiz3rE
   tags:
-  - managed-services
+  - ansible
+  - auto-scaling
   - cloud
+  - cloudtrail
+  - cloudwatch
+  - contact-center
+  - datadog
+  - devops
+  - devsecops
+  - encryption
+  - fedramp
+  - iac
+  - kms
+  - lambda
+  - managed-services
+  - microservices
+  - migration
+  - monitoring
+  - pci-dss
+  - rds
+  - sns
   - speaking
+  - sumo-logic
   - video
 - title: Modernizing Your AWS Deployment (January 2017)
   date: '2017-01-18'
