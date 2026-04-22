@@ -1,5 +1,5 @@
-# Presentations — slides, videos, and PDFs with actual content
-# Sorted newest to oldest by date
+# Presentations, slides, videos, and PDFs
+# Hosted on cdn.ronin48.io with same directory structure as media-assets/
 # CDN base: https://cdn.ronin48.io
 
 - title: This Is My Architecture — Re:Invent Promo
@@ -7,825 +7,2569 @@
   description: Promotional video for This Is My Architecture segment at AWS Re:Invent.
   video: videos/TMA_ReIn_Cloudhesive_011124_Promo_FINAL.mov
   tags:
-    - aws
-    - reinvent
-    - connectpath
-    - architecture
-    - video
-    - promo
+  - aws
+  - reinvent
+  - connectpath
+  - architecture
+  - video
+  - promo
 - title: CloudHesive x Datadog Webinar
   date: '2024-09-13'
   description: Security, operations and observability on AWS with Datadog.
   pdf: slides-pdf/cloudhesivexdatadogwebinar-240913173854-99e03cea.pdf
   tags:
-    - aws
-    - security
-    - monitoring
-    - datadog
-    - webinar
+  - active-directory
+  - aws
+  - cloudfront
+  - cloudwatch
+  - cmmc
+  - cost-optimization
+  - datadog
+  - devops
+  - ec2
+  - fargate
+  - fedramp
+  - generative-ai
+  - hipaa
+  - iam
+  - lambda
+  - lex
+  - llm
+  - mfa
+  - migration
+  - monitoring
+  - observability
+  - organizations
+  - pci-dss
+  - rds
+  - security
+  - serverless
+  - service-catalog
+  - systems-manager
+  - trusted-advisor
+  - webinar
+  - well-architected
 - title: Datadog x CloudHesive — Security, Operations and Observability
   date: '2024-09-13'
   description: Presented on security, operations and observability on AWS with Datadog.
   video: videos/Datadog x CloudHesive.webm
   videoUrl: https://www.youtube.com/watch?v=FzQmEG7onUg
   tags:
-    - aws
-    - security
-    - monitoring
-    - datadog
-    - video
-    - webinar
+  - aws
+  - security
+  - monitoring
+  - datadog
+  - video
+  - webinar
 - title: Modernization of Your AWS-Based SaaS Platform (New York)
   date: '2024-08-26'
   description: Presented at AWS New York Official Meetup on modernizing AWS-based SaaS platforms.
   pdf: slides-pdf/modernizationofyourawsbasedsaasplatform-short-jorgespeakernotes-240826132719-575a8b02.pdf
   tags:
-    - aws
-    - saas
-    - modernization
-    - speaking
+  - active-directory
+  - aws
+  - aws-backup
+  - cloudformation
+  - cloudfront
+  - cloudwatch
+  - cmmc
+  - control-tower
+  - cost-optimization
+  - devops
+  - ec2
+  - ecs
+  - eks
+  - fargate
+  - fedramp
+  - generative-ai
+  - hipaa
+  - iac
+  - lambda
+  - lex
+  - managed-services
+  - mfa
+  - modernization
+  - monitoring
+  - organizations
+  - pci-dss
+  - rds
+  - saas
+  - serverless
+  - service-catalog
+  - speaking
+  - systems-manager
+  - trusted-advisor
+  - well-architected
 - title: Modernization of Your AWS-Based SaaS Platform (Fort Lauderdale)
   date: '2024-07-26'
   description: Presented at AWS User Groups of Florida Meetup on modernizing AWS-based SaaS platforms.
   pdf: slides-pdf/modernizationofyourawsbasedsaasplatform-240726013959-863fb305.pdf
   tags:
-    - aws
-    - saas
-    - modernization
-    - speaking
-    - south-florida
+  - active-directory
+  - amazon-connect
+  - aws
+  - aws-marketplace
+  - cloudfront
+  - cloudwatch
+  - cmmc
+  - cost-optimization
+  - devops
+  - ec2
+  - fargate
+  - fedramp
+  - finops
+  - generative-ai
+  - hipaa
+  - lambda
+  - lex
+  - llm
+  - managed-services
+  - mfa
+  - migration
+  - modernization
+  - nist
+  - pci-dss
+  - rds
+  - saas
+  - serverless
+  - soc2
+  - south-florida
+  - speaking
+  - sso
+  - systems-manager
+  - trusted-advisor
+  - well-architected
+  - workspaces
 - title: Rethink Your Contact Center with CloudHesive
   date: '2024-06-06'
   description: Presented on AWS in the Contact Center including Amazon Connect and AI/ML/Gen AI.
   video: videos/Rethink Your Webinar with CloudHesive.mp4
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - ai
-    - video
-    - speaking
+  - aws
+  - amazon-connect
+  - contact-center
+  - ai
+  - video
+  - speaking
 - title: The Future of Contact Centers — Generative AI + AWS
   date: '2024-06-01'
   description: Presentation on the future of contact centers with Generative AI and AWS services.
   pdf: slides-pdf/The Future of Contact Centers Generative AI + AWS.pdf
   tags:
-    - aws
-    - amazon-connect
-    - generative-ai
-    - contact-center
-    - speaking
+  - ai
+  - amazon-connect
+  - aws
+  - bedrock
+  - contact-center
+  - ecommerce
+  - generative-ai
+  - iam
+  - omnichannel
+  - quicksight
+  - rds
+  - speaking
 - title: Serverless and Generative AI on AWS
   date: '2024-02-28'
   description: Presented at AWS User Groups of Florida on serverless and generative AI services.
   pdf: slides-pdf/serverlessgenerativeai-edit-240228015114-d976e79d.pdf
   tags:
-    - aws
-    - serverless
-    - generative-ai
-    - speaking
-    - south-florida
+  - ai
+  - amazon-connect
+  - api-gateway
+  - athena
+  - aws
+  - aws-backup
+  - bedrock
+  - blockchain
+  - cdn
+  - cloudformation
+  - cloudfront
+  - cloudwatch
+  - comprehend
+  - control-tower
+  - cost-optimization
+  - devops
+  - docker
+  - dynamodb
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elb
+  - eventbridge
+  - fargate
+  - generative-ai
+  - glue
+  - iac
+  - iot
+  - kubernetes
+  - lambda
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
+  - monitoring
+  - organizations
+  - polly
+  - quicksight
+  - rds
+  - redshift
+  - rekognition
+  - s3
+  - sagemaker
+  - serverless
+  - service-catalog
+  - south-florida
+  - speaking
+  - step-functions
+  - transcribe
+  - well-architected
 - title: This Is My Architecture — ConnectPath on AWS
   date: '2024-01-23'
   description: Featured on AWS This is My Architecture series describing ConnectPath platform architecture.
   video: videos/CloudHesive： Improved Omnichannel Experience for Amazon Connect through ConnectPath.webm
   videoUrl: https://www.youtube.com/watch?v=weT3nKnOFDg
   tags:
-    - aws
-    - reinvent
-    - connectpath
-    - amazon-connect
-    - architecture
-    - video
+  - aws
+  - reinvent
+  - connectpath
+  - amazon-connect
+  - architecture
+  - video
 - title: Amazon Connect AI — Shaping the Future of Customer Interactions (Nov 2023)
   date: '2023-12-30'
   description: Presented on GenAI and the future of customer experience with Amazon Connect.
   pdf: slides-pdf/amazonconnectai-shapingthefutureofcustomerinteractions-genaiandthefutureofcustomerexperience-231230111748-eec7e8df.pdf
   tags:
-    - aws
-    - amazon-connect
-    - generative-ai
-    - contact-center
-    - speaking
+  - ai
+  - amazon-connect
+  - aws
+  - bedrock
+  - comprehend
+  - contact-center
+  - customer-experience
+  - devops
+  - education
+  - generative-ai
+  - iot
+  - kubernetes
+  - lex
+  - machine-learning
+  - managed-services
+  - monitoring
+  - nist
+  - omnichannel
+  - organizations
+  - polly
+  - quicksight
+  - rds
+  - rekognition
+  - sagemaker
+  - speaking
+  - sso
+  - transcribe
 - title: Amazon Connect AI — GenAI and the Future of Customer Experience (Oct 2023)
   date: '2023-10-12'
   description: Co-presented with AWS on Generative AI and Amazon Connect.
   pdf: slides-pdf/amazonconnectai-shapingthefutureofcustomerinteractions-genaiandthefutureofcustomerexperience-aws-231230111343-05a805d2.pdf
   tags:
-    - aws
-    - amazon-connect
-    - generative-ai
-    - contact-center
-    - speaking
+  - ai
+  - amazon-connect
+  - aws
+  - aws-config
+  - bedrock
+  - contact-center
+  - gdpr
+  - generative-ai
+  - healthcare
+  - hipaa
+  - lex
+  - llm
+  - machine-learning
+  - rds
+  - serverless
+  - speaking
+  - vpc
 - title: AWS User Group Meetup Recording (Sep 2023)
   date: '2023-09-19'
   description: Recording from AWS User Group meetup.
   video: videos/20230919_183133.mp4
   tags:
-    - aws
-    - community
-    - speaking
-    - video
-    - south-florida
+  - aws
+  - community
+  - speaking
+  - video
+  - south-florida
 - title: Accelerating CMMC Compliance with the Cloud
   date: '2023-06-21'
   description: Case study webinar with PreVeil on CMMC compliance.
   video: videos/Accelerating CMMC Compliance with the Cloud [gzms-Ragj9Y].mkv
   videoUrl: https://www.youtube.com/watch?v=gzms-Ragj9Y
   tags:
-    - cmmc
-    - compliance
-    - security
-    - cloud
-    - video
-    - webinar
+  - cmmc
+  - compliance
+  - security
+  - cloud
+  - video
+  - webinar
 - title: Accelerating Business and Research Through AI in the CMMC Domain
   date: '2023-05-19'
   description: Presented at CMMC Day in Washington, DC on automation and AI.
   pdf: slides-pdf/acceleratingbusinessandresearchthroughautomationandartificialintelligenceinthecmmcdomain-230519210933-eb3b94ce.pdf
   tags:
-    - cmmc
-    - compliance
-    - ai
-    - security
-    - speaking
-    - conference
+  - ai
+  - blockchain
+  - cdn
+  - cmmc
+  - compliance
+  - comprehend
+  - conference
+  - cost-optimization
+  - devops
+  - ecr
+  - ecs
+  - education
+  - eks
+  - generative-ai
+  - government
+  - guardduty
+  - iam
+  - iot
+  - kubernetes
+  - lex
+  - llm
+  - machine-learning
+  - macie
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - polly
+  - rds
+  - rekognition
+  - sagemaker
+  - security
+  - serverless
+  - speaking
+  - sso
+  - systems-manager
+  - transcribe
+  - well-architected
+  - windows
 - title: Amazon Connect — Rethink Your Contact Center with CloudHesive
   date: '2023-05-19'
   description: Presented to a public sector audience on Contact Center as a Service with Amazon Connect.
   pdf: slides-pdf/amazonconnectrethinkyourcontactcenterwithcloudhesive-230519210635-b62f28d6.pdf
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - public-sector
-    - speaking
+  - active-directory
+  - ai
+  - amazon-connect
+  - appstream
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloudwatch
+  - contact-center
+  - cost-optimization
+  - customer-experience
+  - direct-connect
+  - ecommerce
+  - ecr
+  - ecs
+  - elemental
+  - encryption
+  - gdpr
+  - healthcare
+  - hipaa
+  - iam
+  - iot
+  - ivr
+  - kinesis
+  - kms
+  - lambda
+  - landing-zone
+  - lex
+  - managed-services
+  - migration
+  - nist
+  - omnichannel
+  - organizations
+  - pci-dss
+  - public-sector
+  - rds
+  - s3
+  - sip-protocol
+  - speaking
+  - sso
+  - streaming
+  - systems-manager
+  - well-architected
+  - workspaces
 - title: CMMC Day — Accelerating Business and Research Through Automation and AI
   date: '2023-05-15'
   description: PDF of the CMMC Day presentation on cloud, security and AI/ML.
   pdf: pdfs/cmmc-day-accelerating-business-and-research-through-automation-and-ai.pdf
   tags:
-    - cmmc
-    - compliance
-    - ai
-    - security
-    - conference
+  - ai
+  - blockchain
+  - cdn
+  - cmmc
+  - compliance
+  - comprehend
+  - conference
+  - cost-optimization
+  - devops
+  - ecr
+  - ecs
+  - education
+  - eks
+  - generative-ai
+  - government
+  - guardduty
+  - iam
+  - iot
+  - kubernetes
+  - lex
+  - llm
+  - machine-learning
+  - macie
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - polly
+  - rds
+  - rekognition
+  - sagemaker
+  - security
+  - serverless
+  - sso
+  - systems-manager
+  - transcribe
+  - well-architected
+  - windows
 - title: ConnectPath Introduction
   date: '2023-03-31'
   description: Overview of Amazon Connect and the ConnectPath platform built on AWS Serverless.
   pdf: slides-pdf/connectpathintroduction-230331205042-3d8d436c.pdf
   tags:
-    - connectpath
-    - amazon-connect
-    - serverless
-    - product
+  - active-directory
+  - amazon-connect
+  - api-gateway
+  - aws-config
+  - aws-marketplace
+  - cloudformation
+  - cloudfront
+  - cloudwatch
+  - cognito
+  - connectpath
+  - contact-center
+  - control-tower
+  - data-lake
+  - datadog
+  - direct-connect
+  - dynamodb
+  - ecr
+  - encryption
+  - eventbridge
+  - iam
+  - ivr
+  - kinesis
+  - kms
+  - lambda
+  - lex
+  - llm
+  - nist
+  - organizations
+  - product
+  - rds
+  - route53
+  - s3
+  - serverless
+  - sns
+  - sqs
+  - sso
+  - well-architected
 - title: End User Computing at CloudHesive
   date: '2023-02-02'
   description: Presented at AWS End User Computing Workshop in Atlanta.
   pdf: slides-pdf/endusercomputingatcloudhesive-230202191243-a6cc755f.pdf
   tags:
-    - aws
-    - end-user-computing
-    - workshop
-    - speaking
+  - active-directory
+  - amazon-connect
+  - appstream
+  - aws
+  - aws-marketplace
+  - cdn
+  - citrix
+  - cmmc
+  - contact-center
+  - cost-explorer
+  - cost-optimization
+  - disaster-recovery
+  - ec2
+  - ecr
+  - eks
+  - elemental
+  - end-user-computing
+  - healthcare
+  - iac
+  - iam
+  - landing-zone
+  - lex
+  - managed-services
+  - mfa
+  - migration
+  - monitoring
+  - public-sector
+  - rds
+  - soc2
+  - speaking
+  - streaming
+  - systems-manager
+  - well-architected
+  - workshop
+  - workspaces
 - title: Analytics at CloudHesive
   date: '2023-01-18'
   description: Hosted and presented at community event in South Florida on AWS Analytics Services.
   pdf: slides-pdf/analyticsatcloudhesive-230118234548-c8e1864d.pdf
   tags:
-    - aws
-    - analytics
-    - speaking
-    - south-florida
+  - amazon-connect
+  - analytics
+  - aws
+  - cmmc
+  - contact-center
+  - data-lake
+  - data-warehouse
+  - devops
+  - ecommerce
+  - ecr
+  - eks
+  - elemental
+  - iam
+  - kinesis
+  - landing-zone
+  - lex
+  - managed-services
+  - migration
+  - public-sector
+  - rds
+  - redshift
+  - south-florida
+  - speaking
+  - streaming
+  - systems-manager
+  - vpc
+  - workspaces
 - title: AWS User Groups of Florida — Contact Center on AWS
   date: '2023-01-01'
   description: Lunch & Learn on AWS Re:Invent Updates and ConnectPath CX.
   video: videos/LUNCH & LEARN ｜  ＂AWS re：Invent Updates & Connect Path CX＂.webm
   videoUrl: https://www.youtube.com/watch?v=n7Vwn1kZxb4
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - reinvent
-    - video
-    - community
+  - aws
+  - amazon-connect
+  - contact-center
+  - reinvent
+  - video
+  - community
 - title: Lightning Talk — Culture, Communications and Presenting
   date: '2023-01-01'
   description: Internal lightning talk on culture, communications and presenting.
   pdf: slides-pdf/Lightning Talk - Culture, Communications and Presenting.pdf
   tags:
-    - leadership
-    - speaking
-    - lightning-talk
+  - aws-backup
+  - generative-ai
+  - leadership
+  - lightning-talk
+  - speaking
 - title: Lightning Talk — Safe Experimentation in Production
   date: '2023-01-01'
   description: Lightning talk on safe experimentation in production environments.
   pdf: slides-pdf/Lightning Talk - Safe Experimentation in Production.pdf
   tags:
-    - devops
-    - operations
-    - lightning-talk
+  - bedrock
+  - devops
+  - education
+  - eks
+  - generative-ai
+  - lightning-talk
+  - monitoring
+  - omnichannel
+  - operations
+  - serverless
 - title: Lightning Talk — Streaming Media
   date: '2023-01-01'
   description: Lightning talk on streaming media services.
   pdf: slides-pdf/Lightning Talk - Streaming Media.pdf
   tags:
-    - aws
-    - media
-    - streaming
-    - lightning-talk
+  - ai
+  - amazon-connect
+  - aws
+  - cloudfront
+  - elemental
+  - generative-ai
+  - lightning-talk
+  - media
+  - rekognition
+  - streaming
 - title: Lightning Talk — Value Creation
   date: '2023-01-01'
   description: Lightning talk on value creation in cloud services.
   pdf: slides-pdf/Lightning Talk - Value Creation.pdf
   tags:
-    - cloud
-    - strategy
-    - lightning-talk
+  - cloud
+  - lex
+  - lightning-talk
+  - sso
+  - strategy
 - title: Lightning Talk — Patrick
   date: '2023-01-01'
   description: Lightning talk presentation.
   pdf: slides-pdf/Lightning Talk - Patrick.pdf
   tags:
-    - speaking
-    - lightning-talk
+  - iac
+  - lex
+  - lightning-talk
+  - speaking
 - title: Pecha Kucha — Patrick Hannah
   date: '2023-01-01'
   description: Pecha Kucha style rapid-fire presentation.
   pdf: slides-pdf/Pecha Kucha Patrick.pdf
   tags:
-    - speaking
-    - pecha-kucha
+  - speaking
+  - pecha-kucha
 - title: AWS Partner Equip Video
   date: '2023-01-01'
   description: AWS Partner program equip video featuring Patrick Hannah.
   video: videos/Patrick_partner_Equip_Video.mp4
   tags:
-    - aws
-    - partner
-    - video
+  - aws
+  - partner
+  - video
 - title: AWS User Group — Live Recording
   date: '2023-01-01'
   description: Live recording from AWS User Group event.
   video: videos/IMG_6856.MOV
   tags:
-    - aws
-    - community
-    - speaking
-    - video
-    - south-florida
+  - aws
+  - community
+  - speaking
+  - video
+  - south-florida
 - title: Re:Invent Recap — Meeting Recording
   date: '2022-12-01'
   description: Meeting recording of Re:Invent recap session.
   video: videos/Meeting Recording - reCap.mp4
   tags:
-    - aws
-    - reinvent
-    - community
-    - video
+  - aws
+  - reinvent
+  - community
+  - video
 - title: Zero Trust Fundamentals for Higher Education
   date: '2022-10-11'
   description: Webinar recording on Zero Trust for higher education with Sumo Logic.
   video: videos/GMT20221011-170046_Recording_2560x1440.mp4
   tags:
-    - security
-    - zero-trust
-    - education
-    - video
-    - webinar
+  - security
+  - zero-trust
+  - education
+  - video
+  - webinar
 - title: Supporting Your CMMC Initiatives with Sumo Logic
   date: '2022-09-15'
   description: Overview of CMMC, its impact, and how AWS services help address compliance controls.
   pdf: slides-pdf/rackmultipart20220820-4-zaz4ve-220915132502-bfdaa54d.pdf
   tags:
-    - cmmc
-    - compliance
-    - security
-    - monitoring
-    - speaking
+  - aws-backup
+  - aws-config
+  - cmmc
+  - compliance
+  - ecr
+  - government
+  - high-availability
+  - lex
+  - managed-services
+  - monitoring
+  - nist
+  - organizations
+  - rds
+  - security
+  - sip-protocol
+  - speaking
+  - sso
+  - sumo-logic
+  - systems-manager
+  - windows
 - title: Supporting your CMMC Initiatives with Sumo Logic
   date: '2022-09-13'
   description: Presented at Sumo Logic Illuminate on CMMC compliance.
   video: videos/Supporting your CMMC initiatives with Sumo Logic [MfTKWwTztG8].mkv
   videoUrl: https://www.youtube.com/watch?v=MfTKWwTztG8
   tags:
-    - cmmc
-    - compliance
-    - security
-    - monitoring
-    - video
+  - cmmc
+  - compliance
+  - security
+  - monitoring
+  - video
 - title: DEV301 — Serverless Data and Analytics on AWS
   date: '2022-05-20'
   description: Presented on serverless data and analytics at AWS Summit Atlanta.
   pdf: slides-pdf/dev301patrickserverlessdataandanalyticsonawsforoperations-sc-220520141540-5d0d444d.pdf
   tags:
-    - aws
-    - serverless
-    - data
-    - analytics
-    - speaking
-    - conference
+  - amazon-connect
+  - analytics
+  - api-gateway
+  - athena
+  - aws
+  - cloudwatch
+  - conference
+  - data
+  - data-lake
+  - dynamodb
+  - ecs
+  - eks
+  - emr
+  - eventbridge
+  - fargate
+  - glue
+  - kinesis
+  - lambda
+  - machine-learning
+  - monitoring
+  - organizations
+  - quicksight
+  - s3
+  - sagemaker
+  - serverless
+  - sns
+  - speaking
+  - sqs
+  - sso
+  - step-functions
 - title: re:Invent Recap 2022
   date: '2022-04-19'
   description: Hosted and presented a recap of AWS Re:Invent at AWS User Group Virtual Meetup.
   pdf: slides-pdf/reinventrecap2022-220419215617.pdf
   tags:
-    - aws
-    - reinvent
-    - community
-    - speaking
+  - ai
+  - amazon-connect
+  - aws
+  - aws-backup
+  - aws-config
+  - cloudwatch
+  - community
+  - devops
+  - ec2
+  - ecr
+  - eks
+  - encryption
+  - eventbridge
+  - iam
+  - kubernetes
+  - landing-zone
+  - lex
+  - machine-learning
+  - managed-services
+  - microservices
+  - migration
+  - migration-hub
+  - monitoring
+  - organizations
+  - rds
+  - redshift
+  - reinvent
+  - s3
+  - sagemaker
+  - speaking
+  - sqs
+  - sso
+  - systems-manager
+  - well-architected
 - title: Serverless Without Code — Lambda
   date: '2022-04-18'
   description: Created and presented on serverless at SoFlo DevCon.
   pdf: slides-pdf/serverlesswithoutcode-220418222046.pdf
   tags:
-    - aws
-    - serverless
-    - lambda
-    - speaking
-    - south-florida
+  - amazon-connect
+  - api-gateway
+  - athena
+  - aws
+  - cloudfront
+  - cloudwatch
+  - devops
+  - docker
+  - dynamodb
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elb
+  - emr
+  - encryption
+  - eventbridge
+  - fargate
+  - glue
+  - iam
+  - iot
+  - kinesis
+  - kms
+  - lambda
+  - landing-zone
+  - managed-services
+  - migration
+  - monitoring
+  - rds
+  - s3
+  - sagemaker
+  - serverless
+  - sns
+  - south-florida
+  - speaking
+  - sqs
+  - step-functions
+  - systems-manager
+  - waf
+  - well-architected
 - title: Multigenerational Observability and Security for Evolving Cloud Operations
   date: '2022-01-01'
   description: Presentation on observability and security across cloud generations.
   video: videos/Multigenerational Obrservability and Security for Evolving Cloud Operations [biHa3m2_Eck].webm
   videoUrl: https://www.youtube.com/watch?v=biHa3m2_Eck
   tags:
-    - aws
-    - security
-    - monitoring
-    - cloud
-    - video
+  - aws
+  - security
+  - monitoring
+  - cloud
+  - video
 - title: Doubling Down on Cloud Security
   date: '2022-01-01'
   description: Presentation on strengthening cloud security posture.
   video: videos/Doubling Down on Cloud Security.mp4
   tags:
-    - aws
-    - security
-    - cloud
-    - video
-    - speaking
+  - aws
+  - security
+  - cloud
+  - video
+  - speaking
 - title: CloudHesive Demo Reel
   date: '2022-01-01'
   description: CloudHesive product and services demo reel.
   video: videos/vlc-output.mp4
   tags:
-    - cloudhesive
-    - product
-    - video
+  - cloudhesive
+  - product
+  - video
 - title: NIST Cybersecurity Framework (CSF) on the Public Cloud
   date: '2021-12-14'
   description: Presented at CAMP IT Conferences on NIST CSF in the public cloud.
   pdf: slides-pdf/nistcybersecurityframeworkcsfonthepubliccloud-211214153120.pdf
   tags:
-    - security
-    - compliance
-    - nist
-    - cloud
-    - speaking
+  - active-directory
+  - aws-backup
+  - aws-config
+  - blockchain
+  - cdn
+  - cis-benchmarks
+  - cloud
+  - cloudformation
+  - compliance
+  - control-tower
+  - ecs
+  - eks
+  - iac
+  - iot
+  - kubernetes
+  - machine-learning
+  - mfa
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - rds
+  - security
+  - serverless
+  - service-catalog
+  - speaking
+  - windows
+  - workspaces
 - title: Security on AWS (2021)
   date: '2021-12-14'
   description: Security on AWS presentation for user group meetup.
   pdf: slides-pdf/securityonaws-211214153405.pdf
   tags:
-    - aws
-    - security
-    - speaking
+  - active-directory
+  - aws
+  - aws-backup
+  - aws-config
+  - blockchain
+  - cdn
+  - cis-benchmarks
+  - cloudformation
+  - control-tower
+  - cost-optimization
+  - devops
+  - ecr
+  - ecs
+  - eks
+  - encryption
+  - iac
+  - iam
+  - iot
+  - kubernetes
+  - landing-zone
+  - machine-learning
+  - managed-services
+  - mfa
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - rds
+  - security
+  - serverless
+  - service-catalog
+  - speaking
+  - systems-manager
+  - waf
+  - well-architected
+  - windows
+  - workspaces
 - title: 5 Minutes on Security
   date: '2021-12-14'
   description: Quick security overview presentation.
   pdf: slides-pdf/5minutesonsecurity-211214153303.pdf
   tags:
-    - security
-    - aws
-    - speaking
+  - acm
+  - active-directory
+  - amazon-connect
+  - athena
+  - auto-scaling
+  - aws
+  - aws-backup
+  - aws-config
+  - blockchain
+  - cdn
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elastic-beanstalk
+  - elb
+  - guardduty
+  - iam
+  - inspector
+  - iot
+  - kinesis
+  - kms
+  - kubernetes
+  - machine-learning
+  - macie
+  - mfa
+  - migration
+  - nist
+  - organizations
+  - personal-health-dashboard
+  - rds
+  - s3
+  - secrets-manager
+  - security
+  - serverless
+  - service-catalog
+  - shield
+  - speaking
+  - sso
+  - systems-manager
+  - trusted-advisor
+  - vpc
+  - waf
+  - well-architected
+  - workspaces
 - title: Security on AWS — 2021 Edition Meetup
   date: '2021-04-09'
   description: Security on AWS presentation for community meetup.
   pdf: slides-pdf/securityonaws2021editionmeetup-211214153520.pdf
   tags:
-    - aws
-    - security
-    - speaking
-    - community
+  - active-directory
+  - aws
+  - aws-backup
+  - aws-config
+  - blockchain
+  - cdn
+  - cis-benchmarks
+  - cloudformation
+  - community
+  - control-tower
+  - devops
+  - ecr
+  - ecs
+  - eks
+  - encryption
+  - iac
+  - iam
+  - iot
+  - kubernetes
+  - landing-zone
+  - machine-learning
+  - managed-services
+  - mfa
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - rds
+  - security
+  - serverless
+  - service-catalog
+  - speaking
+  - systems-manager
+  - waf
+  - well-architected
+  - windows
+  - workspaces
 - title: Amazon Connect Bootcamp
   date: '2021-04-09'
   description: Amazon Connect bootcamp presentation.
   pdf: slides-pdf/amazonconnectbootcamppresentation-210409223727.pdf
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - workshop
+  - acm
+  - amazon-connect
+  - avaya
+  - aws
+  - aws-backup
+  - contact-center
+  - customer-experience
+  - devops
+  - disaster-recovery
+  - dynamodb
+  - eks
+  - encryption
+  - iot
+  - ivr
+  - kinesis
+  - lambda
+  - landing-zone
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - omnichannel
+  - organizations
+  - polly
+  - rds
+  - redshift
+  - s3
+  - sso
+  - systems-manager
+  - transcribe
+  - workshop
+  - workspaces
 - title: AWS 2020 Year in Review — Re:Invent Recap
   date: '2021-04-09'
   description: Recap of AWS Re:Invent 2020 and year in review.
   pdf: slides-pdf/aws2020yearinreviewreinventrecap-210409223018.pdf
   tags:
-    - aws
-    - reinvent
-    - community
-    - speaking
+  - acm
+  - active-directory
+  - ai
+  - amazon-connect
+  - appstream
+  - aws
+  - cloudfront
+  - community
+  - contact-center
+  - devops
+  - direct-connect
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elb
+  - emr
+  - fargate
+  - glue
+  - iam
+  - lex
+  - machine-learning
+  - macie
+  - migration
+  - monitoring
+  - personal-health-dashboard
+  - polly
+  - quicksight
+  - rds
+  - redshift
+  - reinvent
+  - route53
+  - s3
+  - serverless
+  - service-catalog
+  - sns
+  - speaking
+  - sso
+  - streaming
+  - transit-gateway
+  - vpc
+  - well-architected
+  - windows
+  - workspaces
 - title: AWS Spotlight Series — Modernization and Security with AWS
   date: '2021-04-09'
   description: Presented on modernization and security with AWS.
   pdf: slides-pdf/awsspotlightseries-modernizationandsecuritywithaws-210409223154.pdf
   tags:
-    - aws
-    - security
-    - modernization
-    - speaking
+  - acm
+  - amazon-connect
+  - auto-scaling
+  - aws
+  - aws-backup
+  - aws-config
+  - blockchain
+  - cdn
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - control-tower
+  - cost-optimization
+  - devops
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elastic-beanstalk
+  - elb
+  - encryption
+  - guardduty
+  - iac
+  - iam
+  - inspector
+  - iot
+  - kinesis
+  - kms
+  - kubernetes
+  - landing-zone
+  - machine-learning
+  - macie
+  - managed-services
+  - migration
+  - modernization
+  - monitoring
+  - nist
+  - organizations
+  - personal-health-dashboard
+  - rds
+  - s3
+  - secrets-manager
+  - security
+  - serverless
+  - service-catalog
+  - shield
+  - speaking
+  - sso
+  - systems-manager
+  - trusted-advisor
+  - vpc
+  - waf
+  - well-architected
+  - workspaces
 - title: Exploring Contact Lens and Amazon Connect
   date: '2021-04-09'
   description: Exploring Contact Lens analytics capabilities with Amazon Connect.
   pdf: slides-pdf/exploringcontactlensandamazonconnect-210409222941.pdf
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - analytics
+  - active-directory
+  - amazon-connect
+  - analytics
+  - aws
+  - aws-config
+  - cloudwatch
+  - contact-center
+  - devops
+  - direct-connect
+  - encryption
+  - healthcare
+  - iam
+  - ivr
+  - kinesis
+  - kms
+  - lambda
+  - landing-zone
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - rds
+  - redshift
+  - s3
+  - splunk
+  - streaming
+  - systems-manager
+  - transcribe
 - title: Fort Lauderdale Tech Talks — The Future is the Cloud
   date: '2021-04-09'
   description: Presented at Fort Lauderdale Tech Talks on cloud adoption.
   pdf: slides-pdf/fortlauderdaletechtalks-thefutureisthecloud-210409223524.pdf
   tags:
-    - aws
-    - cloud
-    - speaking
-    - south-florida
+  - amazon-connect
+  - aws
+  - aws-config
+  - cloud
+  - devops
+  - ec2
+  - encryption
+  - iac
+  - iam
+  - landing-zone
+  - lex
+  - managed-services
+  - microservices
+  - migration
+  - monitoring
+  - serverless
+  - south-florida
+  - speaking
+  - systems-manager
 - title: Security on AWS — 2021 Edition Meetup
   date: '2021-04-09'
   description: Security on AWS presentation recorded at community meetup.
   video: videos/Security on AWS, 2021 Edition Meetup [my2h2TLMzPE].mkv
   videoUrl: https://www.youtube.com/watch?v=my2h2TLMzPE
   tags:
-    - aws
-    - security
-    - speaking
-    - video
-    - community
+  - aws
+  - security
+  - speaking
+  - video
+  - community
 - title: Exploring Contact Lens and Amazon Connect
   date: '2021-04-09'
   description: Exploring Contact Lens analytics with Amazon Connect.
   video: videos/Exploring Contact Lens and Amazon Connect [SD4vQNfNgn4].mkv
   videoUrl: https://www.youtube.com/watch?v=SD4vQNfNgn4
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - analytics
-    - video
+  - aws
+  - amazon-connect
+  - contact-center
+  - analytics
+  - video
 - title: Security on AWS — 2021 Edition (User Group)
   date: '2021-04-09'
   description: Security on AWS presentation for AWS User Group meetup (alternate version).
   pdf: slides-pdf/securityonaws2021editionmeetup-210409222224.pdf
   tags:
-    - aws
-    - security
-    - speaking
-    - community
+  - active-directory
+  - aws
+  - aws-backup
+  - aws-config
+  - blockchain
+  - cdn
+  - cis-benchmarks
+  - cloudformation
+  - community
+  - control-tower
+  - devops
+  - ecr
+  - ecs
+  - eks
+  - encryption
+  - iac
+  - iam
+  - iot
+  - kubernetes
+  - landing-zone
+  - machine-learning
+  - managed-services
+  - mfa
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - rds
+  - security
+  - serverless
+  - service-catalog
+  - speaking
+  - systems-manager
+  - waf
+  - well-architected
+  - windows
+  - workspaces
 - title: Exploring Contact Lens and Amazon Connect (Extended)
   date: '2021-04-09'
   description: Extended recording of Contact Lens and Amazon Connect exploration.
   video: videos/Exploring Contact Lens and Amazon Connect [UUSsg2GN1K4].mkv
   videoUrl: https://www.youtube.com/watch?v=UUSsg2GN1K4
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - analytics
-    - video
+  - aws
+  - amazon-connect
+  - contact-center
+  - analytics
+  - video
 - title: AWS 2020 Year in Review — Re:Invent Recap
   date: '2021-01-01'
   description: Video recap of AWS Re:Invent 2020.
   video: videos/AWS 2020 Year in Review reInvent ReCap [YRPTcE0RwYg].mkv
   videoUrl: https://www.youtube.com/watch?v=YRPTcE0RwYg
   tags:
-    - aws
-    - reinvent
-    - community
-    - video
+  - aws
+  - reinvent
+  - community
+  - video
 - title: Introduction to Virtual Private Cloud (VPC)
   date: '2021-01-01'
   description: Introduction to AWS VPC networking concepts.
   video: videos/Introduction to Virtual Private Cloud (VPC).mp4
   tags:
-    - aws
-    - networking
-    - vpc
-    - video
-    - speaking
+  - aws
+  - networking
+  - vpc
+  - video
+  - speaking
 - title: Migrating Magento to AWS — Whitepaper
   date: '2020-04-21'
   description: Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS.
   pdf: pdfs/migrating-magento-to-aws-whitepaper-pdf.pdf
   tags:
-    - aws
-    - migration
-    - whitepaper
-    - ecommerce
-    - writing
+  - amazon-connect
+  - ansible
+  - application-migration-service
+  - auto-scaling
+  - aws
+  - aws-backup
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cicd
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - cost-explorer
+  - devops
+  - direct-connect
+  - docker
+  - dynamodb
+  - ec2
+  - ecommerce
+  - ecr
+  - ecs
+  - eks
+  - elastic-beanstalk
+  - elb
+  - emr
+  - encryption
+  - fargate
+  - guardduty
+  - high-availability
+  - iac
+  - iam
+  - kubernetes
+  - lambda
+  - landing-zone
+  - lex
+  - machine-learning
+  - magento
+  - managed-services
+  - mfa
+  - migration
+  - monitoring
+  - nist
+  - observability
+  - organizations
+  - pci-dss
+  - rds
+  - s3
+  - sagemaker
+  - secrets-manager
+  - serverless
+  - shield
+  - sip-protocol
+  - sso
+  - systems-manager
+  - terraform
+  - transit-gateway
+  - vpc
+  - waf
+  - whitepaper
+  - writing
 - title: Best Practices in Secure Cloud Migration
   date: '2019-12-16'
   description: Presented at Secure World Expo on secure cloud migration with Thales.
   pdf: slides-pdf/bestpracticesinsecurecloudmigration-191216214503.pdf
   tags:
-    - security
-    - migration
-    - cloud
-    - speaking
-    - conference
+  - amazon-connect
+  - auto-scaling
+  - aws-config
+  - cloud
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - conference
+  - cost-optimization
+  - ec2
+  - ecs
+  - education
+  - elastic-beanstalk
+  - encryption
+  - fedramp
+  - government
+  - guardduty
+  - iam
+  - inspector
+  - kms
+  - lambda
+  - macie
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - pci-dss
+  - s3
+  - security
+  - service-catalog
+  - shield
+  - speaking
+  - sso
+  - trusted-advisor
+  - vpc
+  - waf
+  - well-architected
+  - workspaces
 - title: AWS Elemental Partner Forum Miami
   date: '2019-12-16'
   description: Presented at AWS Elemental Partner Forum in Miami.
   pdf: slides-pdf/awselementalpartnerforummiami-191216214340.pdf
   tags:
-    - aws
-    - media
-    - streaming
-    - speaking
-    - south-florida
+  - amazon-connect
+  - appstream
+  - aws
+  - cdn
+  - cloudfront
+  - contact-center
+  - devops
+  - elemental
+  - iam
+  - managed-services
+  - media
+  - medialive
+  - s3
+  - south-florida
+  - speaking
+  - streaming
+  - waf
+  - workspaces
 - title: Best Practices — AWS Elemental and Media Services
   date: '2019-12-16'
   description: Best practices for AWS Elemental and Media Services.
   pdf: slides-pdf/cloudhesive-bestpracticesawselementalandmediaservices-191216213926.pdf
   tags:
-    - aws
-    - media
-    - streaming
-    - best-practices
+  - amazon-connect
+  - aws
+  - aws-marketplace
+  - best-practices
+  - cdn
+  - cloudfront
+  - cloudwatch
+  - comprehend
+  - customer-experience
+  - ec2
+  - ecr
+  - education
+  - eks
+  - elemental
+  - fsx
+  - government
+  - iac
+  - iam
+  - kinesis
+  - lex
+  - machine-learning
+  - managed-services
+  - media
+  - mediaconvert
+  - medialive
+  - monitoring
+  - rds
+  - rekognition
+  - s3
+  - streaming
+  - transcribe
+  - waf
+  - windows
 - title: Build and Manage a Highly Secure Cloud Environment on AWS
   date: '2019-12-16'
   description: Webinar with CloudCheckr on building secure cloud environments.
   pdf: slides-pdf/cloudhesive-buildandmanageahighlysecurecloudenvironmentonawsandazure-191216213405.pdf
   tags:
-    - aws
-    - security
-    - cloud
-    - speaking
+  - amazon-connect
+  - athena
+  - auto-scaling
+  - aws
+  - aws-backup
+  - aws-config
+  - cloud
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - control-tower
+  - cost-optimization
+  - deep-security
+  - ec2
+  - ecr
+  - ecs
+  - elastic-beanstalk
+  - elb
+  - government
+  - guardduty
+  - iam
+  - inspector
+  - iot
+  - kinesis
+  - kms
+  - macie
+  - monitoring
+  - nist
+  - organizations
+  - pci-dss
+  - rds
+  - s3
+  - secrets-manager
+  - security
+  - serverless
+  - service-catalog
+  - shield
+  - speaking
+  - sso
+  - systems-manager
+  - trend-micro
+  - trusted-advisor
+  - vpc
+  - waf
+  - well-architected
+  - workspaces
 - title: Driving Business Agility with AWS Serverless (Atlanta)
   date: '2019-12-16'
   description: Presented on AWS Serverless for business agility.
   pdf: slides-pdf/cloudhesive-drivingbusinessagilitywithawsserverless-atlanta-191216214108.pdf
   tags:
-    - aws
-    - serverless
-    - speaking
+  - amazon-connect
+  - api-gateway
+  - aws
+  - aws-backup
+  - aws-marketplace
+  - cloudwatch
+  - customer-experience
+  - devops
+  - dynamodb
+  - ec2
+  - eks
+  - elemental
+  - emr
+  - fsx
+  - iam
+  - kms
+  - lambda
+  - landing-zone
+  - managed-services
+  - rds
+  - serverless
+  - speaking
+  - sso
+  - vpc
+  - waf
+  - windows
 - title: The Value of Next Generation Managed Services
   date: '2019-12-16'
   description: Presented on next-generation managed services.
   pdf: slides-pdf/cloudhesive-thevalueofnextgenerationmanagedservices-191216213209.pdf
   tags:
-    - managed-services
-    - cloud
-    - speaking
+  - application-migration-service
+  - cicd
+  - cloud
+  - cost-optimization
+  - devops
+  - ec2
+  - ecs
+  - eks
+  - encryption
+  - iac
+  - iam
+  - kubernetes
+  - landing-zone
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
+  - monitoring
+  - serverless
+  - speaking
+  - systems-manager
+  - trusted-advisor
+  - well-architected
 - title: Winning Governance Strategies for the Technology Disruptions of our Time
   date: '2019-12-16'
   description: Presented at ISACA South Florida Chapter on governance strategies.
   pdf: slides-pdf/winninggovernancestrategiesforthetechnologydisruptionsofourtime-191216214635.pdf
   tags:
-    - governance
-    - compliance
-    - speaking
-    - security
+  - acm
+  - amazon-connect
+  - auto-scaling
+  - aws-config
+  - blockchain
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - compliance
+  - cost-optimization
+  - devops
+  - ec2
+  - ecs
+  - education
+  - elastic-beanstalk
+  - encryption
+  - fedramp
+  - governance
+  - government
+  - guardduty
+  - iam
+  - inspector
+  - iot
+  - kms
+  - lambda
+  - lex
+  - macie
+  - managed-services
+  - migration
+  - monitoring
+  - nist
+  - organizations
+  - pci-dss
+  - s3
+  - security
+  - serverless
+  - service-catalog
+  - shield
+  - speaking
+  - sso
+  - systems-manager
+  - trusted-advisor
+  - vpc
+  - waf
+  - well-architected
+  - workspaces
 - title: EMX 2019
   date: '2019-04-01'
   description: CloudHesive presentation at EMX 2019.
   pdf: slides-pdf/emx2019-chlogo1-190401042422.pdf
   tags:
-    - cloudhesive
-    - conference
-    - speaking
+  - amazon-connect
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloudhesive
+  - cloudwatch
+  - conference
+  - customer-experience
+  - direct-connect
+  - ec2
+  - education
+  - eks
+  - elemental
+  - encryption
+  - fsx
+  - government
+  - iac
+  - kinesis
+  - lex
+  - managed-services
+  - medialive
+  - rds
+  - serverless
+  - speaking
+  - streaming
+  - windows
 - title: Microsoft on AWS — Implementation Guidance and Best Practices
   date: '2019-03-19'
   description: Implementation guidance for Microsoft workloads on AWS.
   pdf: slides-pdf/cloudhesive-microsoftonaws-implementationguidanceandbestpractices-190319174610.pdf
   tags:
-    - aws
-    - windows
-    - migration
-    - best-practices
+  - amazon-connect
+  - aws
+  - aws-config
+  - aws-marketplace
+  - best-practices
+  - contact-center
+  - disaster-recovery
+  - ec2
+  - ecommerce
+  - elb
+  - elemental
+  - fsx
+  - high-availability
+  - iam
+  - landing-zone
+  - managed-services
+  - migration
+  - monitoring
+  - rds
+  - serverless
+  - systems-manager
+  - windows
 - title: Add IoT to Your Machine Learning Powered Blockchain Contact Center
   date: '2019-03-19'
   description: Lighthearted buzzword-laden presentation on emerging AWS services.
   pdf: slides-pdf/cloudhesive-addiottoyourmachinelearningpoweredblockchaincontactcenter-190319163540.pdf
   tags:
-    - aws
-    - iot
-    - machine-learning
-    - contact-center
-    - speaking
+  - active-directory
+  - amazon-connect
+  - aws
+  - aws-config
+  - aws-marketplace
+  - blockchain
+  - cloudwatch
+  - comprehend
+  - contact-center
+  - direct-connect
+  - ec2
+  - eks
+  - elemental
+  - encryption
+  - fsx
+  - iam
+  - iot
+  - ivr
+  - kinesis
+  - kms
+  - lambda
+  - lex
+  - machine-learning
+  - macie
+  - managed-services
+  - nist
+  - polly
+  - quicksight
+  - rds
+  - rekognition
+  - s3
+  - sagemaker
+  - speaking
+  - transcribe
+  - windows
 - title: DVC03 — Scaling and Supporting your Production App (Re:Invent 2018)
   date: '2019-01-24'
   description: Presented at AWS Re:Invent 2018 on scaling and supporting production applications.
   pdf: slides-pdf/reinvent2018-scalingandsupportingyourproductionapp-190124145317.pdf
   tags:
-    - aws
-    - reinvent
-    - devops
-    - scaling
-    - speaking
-    - conference
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cloudfront
+  - conference
+  - devops
+  - ecs
+  - eks
+  - elb
+  - encryption
+  - iac
+  - iam
+  - lambda
+  - managed-services
+  - migration
+  - nist
+  - reinvent
+  - s3
+  - scaling
+  - serverless
+  - speaking
+  - systems-manager
+  - waf
 - title: AWS Re:Invent 2018 Recap
   date: '2018-12-12'
   description: Recap of AWS Re:Invent 2018 for user group meetup.
   pdf: slides-pdf/awsreinvent2018recap-181212153256.pdf
   tags:
-    - aws
-    - reinvent
-    - community
-    - speaking
+  - active-directory
+  - amazon-connect
+  - api-gateway
+  - athena
+  - aws
+  - aws-config
+  - aws-marketplace
+  - blockchain
+  - cdn
+  - cloudwatch
+  - community
+  - comprehend
+  - control-tower
+  - data-lake
+  - datasync
+  - devops
+  - disaster-recovery
+  - dynamodb
+  - ec2
+  - ecr
+  - ecs
+  - eks
+  - elb
+  - elemental
+  - emr
+  - encryption
+  - fargate
+  - fsx
+  - glue
+  - hipaa
+  - iac
+  - iam
+  - iot
+  - kinesis
+  - kms
+  - lake-formation
+  - lambda
+  - lex
+  - machine-learning
+  - managed-services
+  - microservices
+  - migration
+  - monitoring
+  - nist
+  - observability
+  - quicksight
+  - rds
+  - redshift
+  - reinvent
+  - s3
+  - sagemaker
+  - serverless
+  - sns
+  - speaking
+  - sqs
+  - sso
+  - step-functions
+  - streaming
+  - systems-manager
+  - transit-gateway
+  - vpc
+  - windows
 - title: SFTA Microservices Summit — September 2018
   date: '2018-09-27'
   description: Presented at South Florida Technology Alliance Microservices Summit.
   video: videos/SFTA Microservices Summit September 27 2018.webm
   videoUrl: https://www.youtube.com/watch?v=cvoQzPM6pvE
   tags:
-    - microservices
-    - architecture
-    - speaking
-    - conference
-    - video
-    - south-florida
+  - microservices
+  - architecture
+  - speaking
+  - conference
+  - video
+  - south-florida
 - title: Big Data and Machine Learning on AWS
   date: '2018-04-20'
   description: Presented on big data and machine learning services on AWS.
   pdf: slides-pdf/bigdataandmachinelearningonaws-180420134608.pdf
   tags:
-    - aws
-    - data
-    - machine-learning
-    - speaking
+  - ai
+  - aws
+  - comprehend
+  - data
+  - data-warehouse
+  - devops
+  - encryption
+  - kinesis
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
+  - polly
+  - rekognition
+  - sagemaker
+  - sns
+  - speaking
+  - sso
+  - streaming
+  - systems-manager
+  - transcribe
+  - windows
 - title: Re:Invent Recap — AWS Meetup (2017)
   date: '2017-12-20'
   description: Recap of AWS Re:Invent 2017 for user group meetup.
   pdf: slides-pdf/reinventrecap-awsmeetup-171220183641.pdf
   tags:
-    - aws
-    - reinvent
-    - community
-    - speaking
+  - ai
+  - amazon-connect
+  - auto-scaling
+  - aws
+  - aws-backup
+  - cicd
+  - community
+  - comprehend
+  - devops
+  - dynamodb
+  - ec2
+  - ecs
+  - eks
+  - elemental
+  - encryption
+  - fargate
+  - guardduty
+  - iam
+  - iot
+  - kinesis
+  - kubernetes
+  - lambda
+  - lex
+  - machine-learning
+  - managed-services
+  - migration
+  - monitoring
+  - rds
+  - reinvent
+  - rekognition
+  - s3
+  - sagemaker
+  - serverless
+  - speaking
+  - streaming
+  - systems-manager
+  - transcribe
+  - vpc
 - title: Amazon Connect — Technical Introduction and Use Cases
   date: '2017-12-11'
   description: Technical introduction to Amazon Connect with use cases.
   pdf: slides-pdf/amazonconnecttechnicalintroductionusecases-171211221607.pdf
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - speaking
+  - active-directory
+  - amazon-connect
+  - athena
+  - aws
+  - aws-config
+  - cloudwatch
+  - contact-center
+  - customer-experience
+  - direct-connect
+  - dynamodb
+  - encryption
+  - iam
+  - ivr
+  - kinesis
+  - kms
+  - lambda
+  - lex
+  - nist
+  - polly
+  - quicksight
+  - rds
+  - redshift
+  - s3
+  - speaking
 - title: AWS 101 and the Benefits of Migrating to the Cloud
   date: '2017-12-11'
   description: ITPalooza 2017 — AWS 101 and cloud migration benefits.
   pdf: slides-pdf/aws101andthebenefitsofmigratingtothecloud-171211221330.pdf
   tags:
-    - aws
-    - cloud
-    - migration
-    - speaking
-    - community
+  - active-directory
+  - appstream
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - citrix
+  - cloud
+  - cloudformation
+  - cloudfront
+  - community
+  - contact-center
+  - cost-optimization
+  - data-warehouse
+  - devops
+  - disaster-recovery
+  - dynamodb
+  - ec2
+  - ecommerce
+  - ecr
+  - ecs
+  - elastic-beanstalk
+  - elb
+  - encryption
+  - high-availability
+  - iam
+  - lambda
+  - magento
+  - managed-services
+  - microservices
+  - migration
+  - migration-hub
+  - monitoring
+  - rds
+  - redshift
+  - route53
+  - s3
+  - speaking
+  - sqs
+  - sso
+  - streaming
+  - systems-manager
+  - trusted-advisor
+  - vpc
+  - well-architected
+  - windows
+  - workspaces
 - title: AWS 101 — An Introduction to the Amazon Cloud
   date: '2017-09-28'
   description: Introduction to AWS cloud services for beginners.
   pdf: slides-pdf/aws101-anintroductiontotheamazoncloud-170928124708.pdf
   tags:
-    - aws
-    - cloud
-    - speaking
-    - community
+  - acm
+  - ai
+  - amazon-connect
+  - api-gateway
+  - appstream
+  - athena
+  - auto-scaling
+  - aws
+  - aws-backup
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloud
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - cognito
+  - community
+  - contact-center
+  - devops
+  - direct-connect
+  - dynamodb
+  - ec2
+  - elastic-beanstalk
+  - emr
+  - glue
+  - iam
+  - inspector
+  - iot
+  - kinesis
+  - lambda
+  - lex
+  - machine-learning
+  - macie
+  - managed-services
+  - migration
+  - migration-hub
+  - monitoring
+  - nist
+  - polly
+  - public-sector
+  - quicksight
+  - rds
+  - redshift
+  - rekognition
+  - route53
+  - s3
+  - service-catalog
+  - shield
+  - sns
+  - speaking
+  - sqs
+  - step-functions
+  - streaming
+  - trusted-advisor
+  - vpc
+  - waf
+  - well-architected
+  - workspaces
 - title: Re:Invent Lightning Talk — The Survival Guide
   date: '2017-07-18'
   description: Lightning talk at AWS Re:Invent on surviving the conference.
   pdf: slides-pdf/reinvent-lightningtalk-thesurvivalguide-170718204033.pdf
   tags:
-    - aws
-    - reinvent
-    - speaking
-    - conference
+  - amazon-connect
+  - aws
+  - conference
+  - direct-connect
+  - elb
+  - reinvent
+  - speaking
+  - vpc
 - title: Introduction to AWS and Docker on ECS
   date: '2017-07-18'
   description: Introduction to Docker containers on Amazon ECS.
   pdf: slides-pdf/introductiontoawsanddockeronecs-170718203544.pdf
   tags:
-    - aws
-    - containers
-    - ecs
-    - docker
-    - speaking
+  - acm
+  - amazon-connect
+  - api-gateway
+  - appstream
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - cognito
+  - containers
+  - direct-connect
+  - docker
+  - dynamodb
+  - ec2
+  - ecs
+  - elastic-beanstalk
+  - elb
+  - emr
+  - inspector
+  - iot
+  - kinesis
+  - kms
+  - lambda
+  - lex
+  - machine-learning
+  - microservices
+  - migration
+  - nist
+  - public-sector
+  - quicksight
+  - rds
+  - redshift
+  - route53
+  - s3
+  - service-catalog
+  - sns
+  - speaking
+  - sqs
+  - trusted-advisor
+  - vpc
+  - waf
+  - workspaces
 - title: Introduction to AWS (July 2017)
   date: '2017-07-18'
   description: General introduction to AWS services.
   pdf: slides-pdf/introductiontoawsjuly-170718203634.pdf
   tags:
-    - aws
-    - cloud
-    - speaking
-    - community
+  - acm
+  - amazon-connect
+  - api-gateway
+  - appstream
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloud
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - cognito
+  - community
+  - direct-connect
+  - dynamodb
+  - ec2
+  - ecs
+  - elastic-beanstalk
+  - elb
+  - emr
+  - inspector
+  - iot
+  - kinesis
+  - kms
+  - lambda
+  - lex
+  - machine-learning
+  - migration
+  - nist
+  - public-sector
+  - quicksight
+  - rds
+  - redshift
+  - route53
+  - s3
+  - service-catalog
+  - sns
+  - speaking
+  - sqs
+  - trusted-advisor
+  - vpc
+  - waf
+  - workspaces
 - title: AWS Summit New York Recap 2016
   date: '2017-07-18'
   description: Recap of AWS Summit New York 2016.
   pdf: slides-pdf/awssummitnewyorkrecap2016-170718203217.pdf
   tags:
-    - aws
-    - conference
-    - community
-    - speaking
+  - api-gateway
+  - aws
+  - community
+  - conference
+  - ecs
+  - elb
+  - iam
+  - kinesis
+  - kms
+  - public-sector
+  - rds
+  - s3
+  - speaking
+  - well-architected
 - title: Cloudifying Your Security Operations on AWS
   date: '2017-07-18'
   description: Presented on cloud security operations on AWS.
   pdf: slides-pdf/cloudifyingyoursecurityoperationsonaws-170718203412.pdf
   tags:
-    - aws
-    - security
-    - operations
-    - speaking
+  - active-directory
+  - amazon-connect
+  - api-gateway
+  - appstream
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cicd
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - cognito
+  - data-warehouse
+  - direct-connect
+  - docker
+  - dynamodb
+  - ec2
+  - elastic-beanstalk
+  - elb
+  - emr
+  - encryption
+  - iam
+  - inspector
+  - kinesis
+  - kms
+  - lambda
+  - managed-services
+  - mfa
+  - monitoring
+  - nist
+  - operations
+  - rds
+  - redshift
+  - route53
+  - s3
+  - security
+  - service-catalog
+  - sns
+  - speaking
+  - sqs
+  - streaming
+  - trusted-advisor
+  - vpc
+  - waf
+  - workspaces
 - title: Automating Operations with Machine Learning on AWS
   date: '2017-07-18'
   description: Presented on using ML to automate cloud operations.
   pdf: slides-pdf/automatingoperationswithmachinelearningonaws-170718202625.pdf
   tags:
-    - aws
-    - machine-learning
-    - operations
-    - automation
-    - speaking
+  - automation
+  - aws
+  - iam
+  - kinesis
+  - machine-learning
+  - operations
+  - sns
+  - speaking
+  - sso
+  - windows
 - title: Modernizing DevOps
   date: '2017-07-18'
   description: Presented on modern DevOps practices.
   pdf: slides-pdf/modernizingdevops-170718203740.pdf
   tags:
-    - devops
-    - aws
-    - speaking
+  - acm
+  - amazon-connect
+  - auto-scaling
+  - aws
+  - cdn
+  - cicd
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - devops
+  - direct-connect
+  - ec2
+  - ecr
+  - ecs
+  - elb
+  - iam
+  - inspector
+  - kms
+  - lambda
+  - migration
+  - monitoring
+  - rds
+  - route53
+  - s3
+  - sns
+  - speaking
+  - systems-manager
+  - trusted-advisor
+  - windows
 - title: Modernizing Your AWS Deployment (2017)
   date: '2017-07-18'
   description: Presented on modernizing AWS deployments.
   pdf: slides-pdf/modernizingyourawsdeployment-170718203939.pdf
   tags:
-    - aws
-    - devops
-    - deployment
-    - speaking
+  - active-directory
+  - amazon-connect
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - deployment
+  - devops
+  - disaster-recovery
+  - ec2
+  - elastic-beanstalk
+  - encryption
+  - high-availability
+  - iam
+  - managed-services
+  - rds
+  - route53
+  - s3
+  - speaking
+  - sso
+  - trusted-advisor
+  - vpc
+  - windows
+  - workspaces
 - title: DevOps on AWS
   date: '2017-07-18'
   description: Presented on DevOps practices on AWS.
   pdf: slides-pdf/devopsonaws-170718201342.pdf
   tags:
-    - aws
-    - devops
-    - speaking
+  - acm
+  - amazon-connect
+  - auto-scaling
+  - aws
+  - aws-backup
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - devops
+  - docker
+  - ec2
+  - ecs
+  - elastic-beanstalk
+  - elb
+  - iam
+  - kinesis
+  - kms
+  - lambda
+  - migration
+  - monitoring
+  - quicksight
+  - rds
+  - route53
+  - s3
+  - sns
+  - speaking
+  - streaming
+  - systems-manager
+  - trusted-advisor
+  - vpc
+  - windows
 - title: Amazon Connect Overview
   date: '2017-07-18'
   description: Overview of Amazon Connect for CloudHesive.
   pdf: slides-pdf/amazonconnectoverview-cloudhesive-170718201557.pdf
   tags:
-    - aws
-    - amazon-connect
-    - contact-center
-    - product
+  - active-directory
+  - amazon-connect
+  - athena
+  - aws
+  - aws-config
+  - cloudwatch
+  - contact-center
+  - direct-connect
+  - encryption
+  - ivr
+  - kinesis
+  - kms
+  - lambda
+  - lex
+  - nist
+  - product
+  - quicksight
+  - rds
+  - redshift
+  - s3
 - title: Amazon WorkSpaces Overview
   date: '2017-07-18'
   description: Overview of Amazon WorkSpaces for end user computing.
   pdf: slides-pdf/amazonworkspacesoverview-cloudhesive-170718201557.pdf
   tags:
-    - aws
-    - end-user-computing
-    - workspaces
+  - active-directory
+  - amazon-connect
+  - aws
+  - aws-config
+  - cloudwatch
+  - end-user-computing
+  - kms
+  - mfa
+  - monitoring
+  - nist
+  - vpc
+  - windows
+  - workspaces
 - title: What it Means to be a Next Generation MSP
   date: '2017-07-18'
   description: Webinar on next generation managed service providers.
   pdf: slides-pdf/whatitmeanstobeanext-generationmsp-cloudhesive-170718201047.pdf
   tags:
-    - managed-services
-    - cloud
-    - speaking
+  - auto-scaling
+  - aws-config
+  - cloud
+  - cloudtrail
+  - cloudwatch
+  - datadog
+  - devops
+  - encryption
+  - managed-services
+  - migration
+  - monitoring
+  - rds
+  - speaking
+  - systems-manager
+  - windows
 - title: What it Means to be a Next Generation Managed Service Provider
   date: '2017-07-12'
   description: Webinar on next generation managed service providers.
   video: videos/What it Means to be a Next Generation Managed Service Provider.mp4
   videoUrl: https://www.youtube.com/watch?v=MKoJNAiz3rE
   tags:
-    - managed-services
-    - cloud
-    - speaking
-    - video
+  - managed-services
+  - cloud
+  - speaking
+  - video
 - title: Modernizing Your AWS Deployment (January 2017)
   date: '2017-01-18'
   description: Earlier version of the AWS deployment modernization talk.
   pdf: slides-pdf/modernizingyourawsdeployment-january2017-170718203834.pdf
   tags:
-    - aws
-    - devops
-    - deployment
-    - speaking
+  - active-directory
+  - amazon-connect
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - deployment
+  - devops
+  - disaster-recovery
+  - ec2
+  - elastic-beanstalk
+  - elb
+  - encryption
+  - high-availability
+  - iam
+  - managed-services
+  - monitoring
+  - rds
+  - route53
+  - s3
+  - shield
+  - speaking
+  - sso
+  - systems-manager
+  - trusted-advisor
+  - vpc
+  - waf
+  - windows
+  - workspaces
 - title: Adopting AWS in Your Organization — ITPalooza 2015
   date: '2015-12-01'
   description: 'ITPalooza 2015 — Adopting AWS: Strategy and Organization.'
   pdf: slides-pdf/adoptingawsinyourorganization-itpalooza2015-170718202432.pdf
   tags:
-    - aws
-    - cloud
-    - strategy
-    - speaking
-    - community
-    - conference
+  - active-directory
+  - amazon-connect
+  - api-gateway
+  - appstream
+  - auto-scaling
+  - aws
+  - aws-config
+  - aws-marketplace
+  - cdn
+  - cicd
+  - cloud
+  - cloudformation
+  - cloudfront
+  - cloudtrail
+  - cloudwatch
+  - cognito
+  - community
+  - conference
+  - data-warehouse
+  - direct-connect
+  - docker
+  - dynamodb
+  - ec2
+  - elastic-beanstalk
+  - elb
+  - emr
+  - encryption
+  - iam
+  - inspector
+  - kinesis
+  - kms
+  - lambda
+  - migration
+  - monitoring
+  - nist
+  - rds
+  - redshift
+  - route53
+  - s3
+  - service-catalog
+  - sns
+  - speaking
+  - sqs
+  - strategy
+  - streaming
+  - trusted-advisor
+  - vpc
+  - waf
+  - windows
+  - workspaces
