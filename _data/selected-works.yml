@@ -1,555 +1,929 @@
-# Selected Works — Link Library
-# 53 links organized by tags for easy grouping and discovery.
-
-- title: "20 Public Sector Partners Achieve Government and Education Competencies"
-  url: "https://aws.amazon.com/blogs/publicsector/20-public-sector-partners-achieve-government-and-education-competencies/"
-  summary: "Highlights 20 AWS partners that achieved government and education competencies in the AWS Partner Network."
-  tags: [aws-partner-network, public-sector, competencies, government, education, apn-recognition]
-
-- title: "A Visit to Latin America: Collaboration with the Cloud"
-  url: "https://aws.amazon.com/blogs/publicsector/a-visit-to-latin-america-collaboration-with-the-cloud/"
-  summary: "Explores AWS cloud collaboration and expansion initiatives across Latin America for the public sector."
-  tags: [aws-partner-network, public-sector, latin-america, cloud-adoption, cloudhesive]
-
-- title: "AJE Group Optimizes Analytics Workloads by Adopting AWS"
-  url: "https://aws.amazon.com/solutions/case-studies/aje-case-study/"
-  summary: "AWS case study on how AJE Group modernized its contact center with Amazon Connect and GenAI, achieving 60% reduction in wait times."
-  tags: [case-study, cloudhesive, amazon-connect, contact-center, analytics, latin-america, cost-optimization]
-
-- title: "Amazon Chime SDK Partners"
-  url: "https://aws.amazon.com/chime/chime-sdk/partners/"
-  summary: "AWS partner directory for solutions built on the Amazon Chime SDK."
-  tags: [partner-directory, amazon-chime, communications, messaging, sdk]
-
-- title: "Amazon FSx for Windows File Server Partners"
-  url: "https://aws.amazon.com/fsx/windows/partners/"
-  summary: "Official directory of AWS partners offering solutions around Amazon FSx for Windows File Server."
-  tags: [partner-directory, windows, file-storage, fsx]
-
-- title: "Amazon FSx for Windows File Server Partners Help You Realize the Benefits"
-  url: "https://aws.amazon.com/blogs/apn/amazon-fsx-for-windows-file-server-partners-help-you-realize-the-benefits-of-windows-file-storage/"
-  summary: "APN blog on how certified AWS partners help customers migrate to FSx for Windows File Server."
-  tags: [aws-partner-network, windows, file-storage, fsx, blog]
-
-- title: "Amazon RDS | APN Blog Category"
-  url: "https://aws.amazon.com/blogs/apn/category/amazon-rds/"
-  summary: "APN blog category page aggregating all posts covering Amazon RDS database services."
-  tags: [aws-partner-network, database, rds, blog-category]
-
-- title: "Announcing the 2025 Geo and Global AWS Partners of the Year"
-  url: "https://aws.amazon.com/blogs/apn/announcing-the-2025-geo-and-global-aws-partners-of-the-year/"
-  summary: "Announces the 2025 geo and global AWS Partner Award winners."
-  tags: [aws-partner-awards, apn-recognition, partner-of-the-year, aws-partner-network]
-
-- title: "Announcing the Winners of the 2020 AWS Public Sector Partners Awards"
-  url: "https://aws.amazon.com/blogs/publicsector/announcing-winners-2020-aws-public-sector-partners-awards/"
-  summary: "Reveals winners of the 2020 AWS Public Sector Partner Awards."
-  tags: [aws-partner-awards, public-sector, apn-recognition, government, education]
-
-- title: "Announcing the Winners of the 2021 AWS Global Public Sector Partner Awards"
-  url: "https://aws.amazon.com/blogs/publicsector/announcing-winners-2021-aws-global-public-sector-partners-award/"
-  summary: "Announces the 2021 global public sector partner award winners."
-  tags: [aws-partner-awards, public-sector, apn-recognition, government, education]
-
-- title: "AWS Announces the New Amazon Inspector for Continual Vulnerability Management"
-  url: "https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/"
-  summary: "AWS announcement of the redesigned Amazon Inspector service for automated vulnerability scanning."
-  tags: [aws-announcement, security, vulnerability-management, amazon-inspector]
-
-- title: "AWS Partner: Trend Micro Incorporated"
-  url: "https://partners.amazonaws.com/partners/001E000000Rl0yAIAR/"
-  summary: "Official AWS Partner Network profile page for Trend Micro."
-  tags: [partner-profile, aws-partner-network, cybersecurity, trend-micro, security]
-
-- title: "AWS Shield Advanced / Amazon Inspector Partners"
-  url: "https://aws.amazon.com/inspector/partners/"
-  summary: "Directory of AWS partners offering security solutions around Amazon Inspector."
-  tags: [partner-directory, security, amazon-inspector, aws-partner-network]
-
-- title: "CloudHesive Cuts Alert Volume by 50% with Arctic Wolf and AWS"
-  url: "https://aws.amazon.com/solutions/case-studies/cloudhesive-case-study/"
-  summary: "AWS case study on how CloudHesive partnered with Arctic Wolf to reduce security alert noise by 50%."
-  tags: [case-study, cloudhesive, security, managed-detection-response, arctic-wolf, msp]
-
-- title: "CloudHesive Public Cloud IT Transformation Services — Gartner Peer Insights"
-  url: "https://www.gartner.com/reviews/market/public-cloud-it-transformation-services/vendor/cloudhesive/product/cloudhesive-public-cloud-it-transformation-services"
-  summary: "Third-party Gartner Peer Insights reviews for CloudHesive's cloud IT transformation services."
-  tags: [cloudhesive, reviews, gartner, managed-services, third-party-validation]
-
-- title: "CloudHesive | APN Blog Tag Page"
-  url: "https://aws.amazon.com/blogs/apn/tag/cloudhesive/"
-  summary: "Aggregated APN blog posts tagged with CloudHesive."
-  tags: [cloudhesive, aws-partner-network, blog-category]
-
-- title: "Congrats to Our 2024 AWS Ambassador Award Winners"
-  url: "https://aws.amazon.com/blogs/apn/congrats-to-our-2024-aws-ambassador-award-winners-and-meet-the-newest-aws-ambassadors/"
-  summary: "Announces the 2024 AWS Ambassador Award winners and newest Ambassadors."
-  tags: [aws-ambassador, apn-recognition, thought-leadership, awards, aws-partner-network]
-
-- title: "Congrats to Our 2025 AWS Ambassador Award Winners"
-  url: "https://aws.amazon.com/blogs/apn/congrats-to-our-2025-aws-ambassador-award-winners-and-meet-our-new-aws-ambassadors/"
-  summary: "Announces the 2025 AWS Ambassador Award winners and new Ambassadors."
-  tags: [aws-ambassador, apn-recognition, thought-leadership, awards, aws-partner-network]
-
-- title: "Contributors — Migrating Magento / Adobe Commerce to AWS (Whitepaper)"
-  url: "https://docs.aws.amazon.com/whitepapers/latest/migrating-magento-open-source-adobe-commerce-to-aws/contributors.html"
-  summary: "Credits page for the AWS whitepaper on migrating Magento to AWS, listing CloudHesive as contributing author."
-  tags: [whitepaper, ecommerce, migration, magento, adobe-commerce, cloudhesive]
-
-- title: "How the City of Atlanta Transformed Its Customer Service with Amazon Connect"
-  url: "https://aws.amazon.com/blogs/publicsector/how-the-city-of-atlanta-transformed-its-department-of-customer-service-with-amazon-connect/"
-  summary: "Atlanta's 311 contact center modernized with Amazon Connect and ConnectPath, cutting after-call work by 50%."
-  tags: [case-study, amazon-connect, contact-center, public-sector, government, connectpath, cloudhesive]
-
-- title: "IVR Modernization at Your Pace | Amazon Connect"
-  url: "https://aws.amazon.com/connect/amazon-connect-accelerate-ivr-modernization/"
-  summary: "AWS landing page on incremental IVR modernization using Amazon Connect."
-  tags: [amazon-connect, contact-center, ivr, modernization, product-page]
-
-- title: "Implementing and Administering Cisco Solutions 200-301 CCNA Exam Guide"
-  url: "https://www.amazon.com/-/es/Implementing-Administering-Cisco-Solutions-200-301/dp/1835887481"
-  summary: "CCNA 200-301 certification exam preparation book."
-  tags: [training-resources, networking, certification, cisco, ccna, book]
-
-- title: "Improved, Automated Vulnerability Management with a New Amazon Inspector"
-  url: "https://aws.amazon.com/blogs/aws/improved-automated-vulnerability-management-for-cloud-workloads-with-a-new-amazon-inspector/"
-  summary: "AWS News Blog on improvements to Amazon Inspector for automated vulnerability scanning."
-  tags: [aws-announcement, security, vulnerability-management, amazon-inspector, blog]
-
-- title: "Introducing the AWS Digital Customer Experience Competency"
-  url: "https://aws.amazon.com/blogs/apn/introducing-the-aws-digital-customer-experience-competency-program/"
-  summary: "APN blog introducing the AWS Digital Customer Experience Competency program."
-  tags: [aws-partner-network, competencies, customer-experience, digital-cx, amazon-connect]
-
-- title: "Know Before You Go: AWS Partner's Guide to re:Invent 2022"
-  url: "https://aws.amazon.com/blogs/apn/know-before-you-go-an-aws-partners-guide-to-reinvent-2022/"
-  summary: "Pre-conference preparation guide for AWS Partners attending re:Invent 2022."
-  tags: [aws-reinvent, conference, aws-partner-network, events]
-
-- title: "Know Before You Go: AWS Partner's Guide to re:Invent 2023"
-  url: "https://aws.amazon.com/blogs/apn/know-before-you-go-an-aws-partners-guide-to-reinvent-2023/"
-  summary: "Pre-conference preparation guide for AWS Partners attending re:Invent 2023."
-  tags: [aws-reinvent, conference, aws-partner-network, events]
-
-- title: "New APN Programs Available for AWS for Windows Partners"
-  url: "https://aws.amazon.com/blogs/apn/new-apn-programs-available-for-aws-for-windows-partners/"
-  summary: "Announces new APN program offerings for AWS partners specializing in Windows workloads."
-  tags: [aws-partner-network, windows, partner-programs, apn-programs]
-
-- title: "New AWS Partner Program Launches and Updates at re:Invent 2023"
-  url: "https://aws.amazon.com/blogs/apn/new-aws-partner-program-launches-and-updates-announced-at-reinvent-2023/"
-  summary: "Summarizes all new AWS Partner Program launches and updates at re:Invent 2023."
-  tags: [aws-reinvent, aws-partner-network, partner-programs, events]
-
-- title: "New AWS Solutions Consulting Offer — Centricity Secure Workplace for Government"
-  url: "https://aws.amazon.com/ru/about-aws/whats-new/2020/11/New-AWS-Solutions-Consulting-Offer-Centricity-Secure-Workplace-for-Government/"
-  summary: "AWS announcement of CloudHesive's Centricity Secure Workplace consulting offer for government agencies."
-  tags: [aws-announcement, security, government, remote-work, cloudhesive, consulting-offer]
-
-- title: "New AWS Solutions Consulting Offer — Voicemail Queues for Amazon Connect"
-  url: "https://aws.amazon.com/about-aws/whats-new/2021/01/new-aws-solutions-consulting-offer-voicemail-queues-for-amazon-connect/"
-  summary: "AWS announcement of CloudHesive's voicemail queues consulting offer for Amazon Connect."
-  tags: [aws-announcement, amazon-connect, contact-center, voicemail, cloudhesive, consulting-offer]
-
-- title: "New for AWS CloudFormation — Quickly Retry Stack Operations from the Point of Failure"
-  url: "https://aws.amazon.com/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/"
-  summary: "AWS News Blog on new CloudFormation capability to retry failed stack deployments from the point of failure."
-  tags: [aws-announcement, cloudformation, infrastructure-as-code, devops, blog]
-
-- title: "New for Amazon GuardDuty — Malware Protection for Amazon EBS Volumes"
-  url: "https://aws.amazon.com/blogs/aws/new-for-amazon-guardduty-malware-detection-for-amazon-ebs-volumes/"
-  summary: "Announces new Amazon GuardDuty capability for malware detection on EBS volumes."
-  tags: [aws-announcement, security, amazon-guardduty, malware-detection, blog]
-
-- title: "Optimize Your Contact Center Experience with Amazon Connect Ready Partners"
-  url: "https://aws.amazon.com/blogs/apn/optimize-your-contact-center-experience-with-amazon-connect-ready-partners/"
-  summary: "APN blog showcasing Amazon Connect Ready program partners."
-  tags: [aws-partner-network, amazon-connect, contact-center, partner-programs]
-
-- title: "Our Public Sector Partners in Action: Healthcare, Data Visualization, and Remote Work"
-  url: "https://aws.amazon.com/blogs/publicsector/public-sector-partners-healthcare-data-visualization-remote-work/"
-  summary: "Spotlights AWS public sector partners working on healthcare, data visualization, and remote work."
-  tags: [aws-partner-network, public-sector, healthcare, data-visualization, remote-work]
-
-- title: "Partners | AWS End User Messaging"
-  url: "https://aws.amazon.com/end-user-messaging/partners/"
-  summary: "Directory of AWS partners for End User Messaging (SMS, push, email)."
-  tags: [partner-directory, messaging, sms, end-user-messaging]
-
-- title: "Partners | Amazon SES"
-  url: "https://aws.amazon.com/ses/partners/"
-  summary: "Directory of AWS partners for Amazon SES email delivery."
-  tags: [partner-directory, email, ses, messaging]
-
-- title: "Reimagine Customer Experiences with AWS at Customer Contact Week 2024"
-  url: "https://aws.amazon.com/blogs/contact-center/aws-at-customer-contact-week-2024/"
-  summary: "Recap of AWS's presence at Customer Contact Week 2024."
-  tags: [amazon-connect, contact-center, customer-experience, conference, events]
-
-- title: "Remote Workforce, Web Portal, and DevSecOps: Three Focus Areas for Cybersecurity"
-  url: "https://aws.amazon.com/blogs/publicsector/remote-workforce-web-portal-devsecops-three-focus-areas-cybersecurity/"
-  summary: "AWS public sector blog on three critical cybersecurity priorities."
-  tags: [security, devsecops, remote-work, public-sector, cybersecurity]
-
-- title: "Say Hello to 165 AWS Specialization Partners Added or Returning in January"
-  url: "https://aws.amazon.com/blogs/apn/say-hello-to-165-aws-specialization-partners-added-or-returning-in-january/"
-  summary: "Monthly APN roundup welcoming 165 partners with AWS specialization designations."
-  tags: [aws-partner-network, competencies, partner-announcements, apn-recognition]
-
-- title: "Say Hello to 178 AWS Partners Added or Renewed in August"
-  url: "https://aws.amazon.com/blogs/apn/say-hello-to-178-aws-service-delivery-competency-msp-and-service-ready-partners-added-or-renewed-in-august/"
-  summary: "Monthly APN roundup welcoming 178 partners including CloudHesive."
-  tags: [aws-partner-network, msp, competencies, partner-announcements, apn-recognition, cloudhesive]
-
-- title: "Say Hello to 29 New AWS Competency, MSP, and Service Delivery Partners — January"
-  url: "https://aws.amazon.com/blogs/apn/say-hello-to-29-new-aws-competency-msp-and-service-delivery-partners-added-in-january/"
-  summary: "Monthly APN roundup welcoming 29 new partners."
-  tags: [aws-partner-network, msp, competencies, partner-announcements, apn-recognition]
-
-- title: "Say Hello to 77 New AWS Competency, MSP, and Service Delivery Partners — March"
-  url: "https://aws.amazon.com/blogs/apn/say-hello-to-77-new-aws-competency-msp-and-service-delivery-partners-added-in-march/"
-  summary: "Monthly APN roundup welcoming 77 new partners including CloudHesive."
-  tags: [aws-partner-network, msp, competencies, partner-announcements, apn-recognition, cloudhesive]
-
-- title: "Transforming Student Communications: Dallas College Modernizes Its Call Center with AWS"
-  url: "https://aws.amazon.com/blogs/publicsector/transforming-student-communications-how-dallas-college-modernized-its-call-center-with-aws/"
-  summary: "Case study on how Dallas College modernized its student communications call center."
-  tags: [case-study, amazon-connect, contact-center, education, public-sector]
-
-- title: "Why Next-Generation MSPs Need Next-Generation Monitoring"
-  url: "https://aws.amazon.com/blogs/apn/why-next-generation-msps-need-next-generation-monitoring/"
-  summary: "APN blog on why modern MSPs need advanced monitoring tools."
-  tags: [msp, monitoring, managed-services, aws-partner-network, blog]
-
-- title: "Zero Trust Fundamentals for Higher Education — Webinar Talking Points"
-  url: "https://docs.google.com/document/d/1jJ3Zd8uuzOcD1uebGLlTxBHQuyJZL11ZKf5CUvN7yGg/edit"
-  summary: "Talking points for a Zero Trust security webinar targeted at higher education."
-  tags: [security, zero-trust, education, webinar, internal-document]
-
-- title: "ON24 Webinar Event"
-  url: "https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?eventid=1593397&sessionid=1"
-  summary: "Registration console for an ON24-hosted webinar event."
-  tags: [webinar, events, on24]
-
-- title: "AWS Elemental Partner Forum Miami"
-  url: "https://awselemental-forum-miami.splashthat.com/"
-  summary: "Event landing page for the AWS Elemental Partner Forum in Miami."
-  tags: [events, aws-elemental, media-streaming, conference, south-florida]
-
-- title: "Best Practices in Secure Cloud Migration (SecureWorld / Thales)"
-  url: "https://www.secureworldexpo.com/resources/secure-cloud-migration-thales"
-  summary: "SecureWorld resource on best practices for secure cloud migration."
-  tags: [security, cloud-migration, best-practices, webinar, thales]
-
-- title: "CloudBees Launches New DevOps Managed Services Program — DEVOPSdigest"
-  url: "http://www.devopsdigest.com/cloudbees-launches-new-devops-managed-services-program"
-  summary: "News coverage of CloudBees' launch of a new DevOps managed services program."
-  tags: [devops, managed-services, cloudbees, msp, news]
-
-- title: "CloudBees Launches New DevOps Managed Services Program — Sweetcode.io"
-  url: "https://sweetcode.io/cloudbees-launches-new-devops-managed-services-program/"
-  summary: "Secondary news coverage of CloudBees' DevOps managed services program launch."
-  tags: [devops, managed-services, cloudbees, msp, news]
-
-- title: "Doubling Down on Cloud Security (GovLoop)"
-  url: "https://www.govloop.com/doubling-cloud-security/"
-  summary: "GovLoop article on strategies for strengthening cloud security posture."
-  tags: [security, government, cloud-adoption, public-sector]
-
-- title: "South Florida Tech Hub — Facebook Photo Album"
-  url: "https://www.facebook.com/media/set/?vanity=SouthFloridaTechHub&set=a.1756461174539544"
-  summary: "Facebook photo album from the South Florida Tech Hub community event."
-  tags: [community-event, social-media, south-florida, tech-hub, cloudhesive]
-
-- title: "SFTA Microservices Summit — September 27, 2018"
-  url: "https://www.youtube.com/watch?v=cvoQzPM6pvE&feature=share"
-  summary: "YouTube recording of the SFTA Microservices Summit covering microservices architecture."
-  tags: [video, microservices, conference, south-florida, architecture, events]
-
-- title: "Touch the Cloud"
-  url: "https://www.cloudhesive.com/blog-posts/touch-the-cloud/"
-  summary: "Blog post reflecting on the physical infrastructure behind AWS cloud services, from undersea fiber to data centers."
-  tags: [cloudhesive, aws, blog, cloud-adoption, authored]
-
-- title: "re:Invent Survival Guide"
-  url: "https://www.cloudhesive.com/blog-posts/reinvent-survival-guide/"
-  summary: "Practical tips and advice for getting the most out of attending AWS Re:Invent, authored by Patrick Hannah."
-  tags: [cloudhesive, aws-reinvent, conference, events, blog, authored]
-
-- title: "CloudHesive to Host a Meet-Up with AWS User Group of Florida"
-  url: "https://www.cloudhesive.com/blog-posts/cloudhesive-to-host-a-meet-up-in-association-with-amazon-web-services-user-group-of-florida/"
-  summary: "Announcement of an AWS User Group meetup hosted by CloudHesive, featuring Patrick Hannah presenting on Amazon EC2."
-  tags: [cloudhesive, aws, community, events, south-florida, authored]
-
-- title: "Microservice Deployment on Amazon EC2 Container Service — AWS Meet Up"
-  url: "https://www.cloudhesive.com/blog-posts/learn-everything-you-need-to-know-about-microservice-deployment-on-amazon-ec2-container-service-at-septembers-aws-meet-up-in-weston-fl/"
-  summary: "AWS User Group meetup covering microservice deployment on ECS, presented by Patrick Hannah."
-  tags: [cloudhesive, aws, microservices, ecs, events, south-florida, devops, authored]
-
-- title: "CloudHesive at ITExpo 2025: Major Enhancements to ConnectPathCX for Amazon Connect"
-  url: "https://www.cloudhesive.com/news/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpathcx/"
-  summary: "Patrick Hannah presents ConnectPathCX enhancements for Amazon Connect at ITExpo 2025."
-  tags: [cloudhesive, connectpath, amazon-connect, contact-center, conference, events, authored]
-
-- title: "CloudHesive Accelerates Amazon Connect Growth with ConnectPath CX"
-  url: "https://www.cloudhesive.com/news/cloudhesive-accelerates-amazon-connect-growth-with-connectpath-cx-and-strengthens-its-leadership-in-aws-contact-centers/"
-  summary: "CloudHesive strengthens its position in the cloud contact center ecosystem with ConnectPath CX built on Amazon Connect."
-  tags: [cloudhesive, connectpath, amazon-connect, contact-center, partner-announcements]
-
-- title: "CloudHesive Named Top 10 Fastest Growing DevOps Solutions Providers"
-  url: "https://www.cloudhesive.com/blog-posts/cloudhesive-named-as-one-of-the-top-10-fastest-growing-devops-solutions-providers/"
-  summary: "CloudHesive recognized by Insights Success magazine as a leading DevOps solutions provider."
-  tags: [cloudhesive, devops, apn-recognition, awards]
-
-- title: "Patrick Hannah — CMMC Day Speaker"
-  url: "https://cmmcday.org/speaker/patrick-hannah/"
-  summary: "Speaker profile for Patrick Hannah at CMMC Day in Washington, DC, covering cloud compliance and managed services."
-  tags: [conference, events, security, compliance, cmmc, speaking, authored]
-
-- title: "CloudHesive CTO to Present at ITExpo 2025 (Press Release)"
-  url: "https://www.prweb.com/releases/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpath-302373795.html/"
-  summary: "Press release announcing Patrick Hannah's ITExpo 2025 presentation on ConnectPathCX enhancements."
-  tags: [cloudhesive, connectpath, amazon-connect, conference, events, press-release]
-
-- title: "CloudHesive Cuts Alert Volume by 50% with Arctic Wolf and AWS (CloudHesive)"
-  url: "https://www.cloudhesive.com/news/cloudhesive-cuts-alert-volume-by-50-and-strengthens-customer-security-with-arctic-wolf-and-aws/"
-  summary: "CloudHesive's own announcement on partnering with Arctic Wolf to reduce security alert noise by 50%."
-  tags: [cloudhesive, security, managed-detection-response, arctic-wolf, msp, partner-announcements]
-
-# Portfolio Case Studies
-- title: "AWS Modernization and Managed Cloud Delivery"
-  url: ""
-  summary: "Supported migration and modernization initiatives across AWS architecture, delivery, and operational planning. Aligned implementation decisions with customer support models, security expectations, and resilience requirements to create more repeatable and supportable cloud environments."
-  tags: [cloudhesive, aws, cloud-migration, managed-services, security, case-study, portfolio]
-
-- title: "Application Modernization and DevOps Enablement"
-  url: ""
-  summary: "Improved CI/CD, release automation, and deployment workflows to reduce friction in software delivery. Supported application modernization work enabling cloud-native deployment models and more consistent delivery practices on AWS."
-  tags: [cloudhesive, aws, devops, cloudformation, microservices, case-study, portfolio]
-
-- title: "Amazon Connect and Contact Center Transformation"
-  url: ""
-  summary: "Supported Amazon Connect implementations and enhancements across customer environments. Shaped omnichannel workflows spanning voice and digital engagement channels, including routing, reporting, and supervisor-oriented operational tooling."
-  tags: [cloudhesive, amazon-connect, contact-center, customer-experience, case-study, portfolio]
-
-- title: "ConnectPath CX Product and Platform Engineering"
-  url: ""
-  summary: "Built and evolved ConnectPath CX as a practical extension of Amazon Connect — agent desktop, supervisor dashboard, monitoring, reporting, and deployment enablement. Strengthened the platform to accelerate customer adoption and improve day-to-day operational tooling."
-  tags: [cloudhesive, connectpath, amazon-connect, contact-center, saas, case-study, portfolio]
-
-- title: "Public Sector and Enterprise Customer Delivery"
-  url: ""
-  summary: "Supported AWS and Amazon Connect implementation and onboarding across enterprise and public sector customers. Bridged technical execution with practical operational success through enablement, post-launch optimization, and operational support."
-  tags: [cloudhesive, aws, amazon-connect, public-sector, government, case-study, portfolio]
-
-# From APN/CB Contributions Data — Presentations & Talks
-- title: "This Is My Architecture — ConnectPath on AWS"
-  url: "https://www.youtube.com/watch?v=weT3nKnOFDg&list=PLhr1KZpdzukdeX8mQ2qO73bg6UKQHYsHb&index=1"
-  summary: "Recorded a 'This Is My Architecture' segment at AWS Re:Invent describing the architecture of the ConnectPath platform."
-  tags: [aws-reinvent, connectpath, amazon-connect, architecture, video, authored]
-
-- title: "Modernization of Your AWS-Based SaaS Platform (Fort Lauderdale)"
-  url: "https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform-short/271322724"
-  summary: "Presented at AWS User Groups of Florida Meetup in Fort Lauderdale on modernizing AWS-based SaaS platforms."
-  tags: [cloudhesive, aws, saas, modernization, events, south-florida, authored]
-
-- title: "Modernization of Your AWS-Based SaaS Platform (New York)"
-  url: "https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform/270515907"
-  summary: "Presented at AWS New York Official Meetup on modernizing AWS-based SaaS platforms."
-  tags: [cloudhesive, aws, saas, modernization, events, authored]
-
-- title: "Serverless and Generative AI on AWS — AWS User Groups of Florida"
-  url: "https://www.slideshare.net/slideshows/serverless-generative-ai-on-aws-aws-user-groups-of-florida/266528455"
-  summary: "Presented at AWS User Group on serverless and generative AI services on AWS."
-  tags: [aws, serverless, generative-ai, events, south-florida, authored]
-
-- title: "Amazon Connect AI — Shaping the Future of Customer Interactions (Nov 2023)"
-  url: "https://www.slideshare.net/CloudHesive/amazon-connect-ai-shaping-the-future-of-customer-interactions-genai-and-the-future-of-customer-experience-2892"
-  summary: "Presented on the application of Generative AI in the Contact Center space using AWS services."
-  tags: [cloudhesive, amazon-connect, generative-ai, contact-center, events, authored]
-
-- title: "Amazon Connect AI — GenAI and the Future of Customer Experience (Oct 2023)"
-  url: "https://www.slideshare.net/CloudHesive/amazon-connect-ai-shaping-the-future-of-customer-interactions-genai-and-the-future-of-customer-experience"
-  summary: "Co-presented with AWS at an in-person event on Generative AI and Amazon Connect."
-  tags: [cloudhesive, amazon-connect, generative-ai, contact-center, events, authored]
-
-- title: "Amazon Connect — Rethink Your Contact Center with CloudHesive"
-  url: "https://www.slideshare.net/CloudHesive/amazon-connect-rethink-your-contact-center-with-cloudhesivepptx"
-  summary: "Presented to a public sector audience on the history and trends of Contact Center as a Service with Amazon Connect."
-  tags: [cloudhesive, amazon-connect, contact-center, public-sector, events, authored]
-
-- title: "CMMC Day — Accelerating Business and Research Through Automation and AI"
-  url: "https://cmmcday.org/wp-content/uploads/2023/05/E02a-HannahP.pdf"
-  summary: "Presented on Cloud, Security and AI/ML at CMMC Day industry conference in Washington, DC."
-  tags: [security, compliance, cmmc, ai, events, authored]
-
-- title: "End User Computing at CloudHesive"
-  url: "https://www.slideshare.net/CloudHesive/end-user-computing-at-cloudhesivepptx"
-  summary: "Presented at AWS End User Computing Workshop in Atlanta."
-  tags: [cloudhesive, aws, end-user-computing, events, authored]
-
-- title: "Analytics at CloudHesive"
-  url: "https://www.slideshare.net/CloudHesive/analytics-at-cloudhesive"
-  summary: "Coordinated, hosted and presented at community event in South Florida focused on AWS Analytics Services."
-  tags: [cloudhesive, aws, analytics, events, south-florida, authored]
-
-- title: "ConnectPath Introduction"
-  url: "https://www.slideshare.net/CloudHesive/connectpath-introduction"
-  summary: "Overview of Amazon Connect and the ConnectPath platform built on AWS Serverless Services."
-  tags: [cloudhesive, connectpath, amazon-connect, serverless, authored]
-
-- title: "Serverless Without Code — Lambda"
-  url: "https://www.slideshare.net/CloudHesive/serverless-without-code-lambda"
-  summary: "Created and presented on serverless at SoFlo DevCon."
-  tags: [aws, serverless, lambda, events, south-florida, authored]
-
-- title: "re:Invent Recap 2022"
-  url: "https://www.slideshare.net/CloudHesive/reinvent-recap-2022"
-  summary: "Hosted, prepared and presented a recap of AWS Re:Invent 2021 at AWS User Group Virtual Meetup."
-  tags: [aws-reinvent, events, community, authored]
-
-- title: "Supporting Your CMMC Initiatives with Sumo Logic"
-  url: "https://www.slideshare.net/CloudHesive/supporting-your-cmmc-initiatives-with-sumo-logic"
-  summary: "Overview of CMMC, its impact, and how AWS services help address compliance controls."
-  tags: [security, compliance, cmmc, monitoring, events, authored]
-
-# From APN/CB Contributions Data — Videos & Webinars
-- title: "Security, Operations and Observability on AWS with Datadog"
-  url: "https://www.youtube.com/watch?v=FzQmEG7onUg"
-  summary: "Presented on security, operations and observability on AWS with a co-presenter from Datadog."
-  tags: [cloudhesive, aws, security, monitoring, datadog, webinar, authored]
-
-- title: "AWS in the Contact Center — Carahsoft Webinar"
-  url: "https://vimeo.com/956496240/d211c00469?share=copy"
-  summary: "Presented on AWS in the Contact Center with a co-presenter from AWS, covering Amazon Connect and AI/ML/GenAI services."
-  tags: [aws, amazon-connect, contact-center, ai, webinar, authored]
-
-- title: "Accelerating CMMC Compliance with the Cloud — PreVeil Webinar"
-  url: "https://www.preveil.com/resources/webinar-accelerating-cmmc-compliance-with-the-cloud/"
-  summary: "Presented with AWS ISV Partner PreVeil on providing a secure research compute environment on AWS for a university."
-  tags: [aws, security, compliance, cmmc, public-sector, webinar, authored]
-
-- title: "AWS User Groups of Florida — Contact Center on AWS"
-  url: "https://www.youtube.com/watch?v=n7Vwn1kZxb4"
-  summary: "Presented at AWS User Groups of Florida virtual meetup on Contact Center technology on AWS."
-  tags: [aws, amazon-connect, contact-center, events, south-florida, video, authored]
-
-- title: "Security on AWS — AWS User Group Meetup 2020"
-  url: "https://www.youtube.com/watch?v=qR8Jv_pixWk"
-  summary: "Presented at AWS User Group meetup on security topics on AWS."
-  tags: [aws, security, events, south-florida, video, authored]
-
-- title: "MSP Day 2025 — Partner Panel"
-  url: "https://app.events.ringcentral.com/events/msp-day-2025/replay/cut_10825d4a-fbf0-4d17-b513-4c91c2cb9ffb"
-  summary: "Panelist at MSP Day 2025 Partner Panel discussing managed services on AWS."
-  tags: [aws, managed-services, msp, events, video, authored]
-
-# From APN/CB Contributions Data — Blog Posts
-- title: "Amazon Inspector — Service Launch Blog"
-  url: "https://www.cloudhesive.com/blog-posts/amazon-inspector"
-  summary: "Wrote a service launch blog based on work with the AWS service team utilizing Amazon Inspector pre-GA."
-  tags: [cloudhesive, aws, security, amazon-inspector, blog, authored]
-
-- title: "CloudFormation Disable Rollback — Feature Launch Blog"
-  url: "https://www.cloudhesive.com/blog-posts/cloudformation-disable-rollback"
-  summary: "Blog about CloudFormation's Disable Rollback feature with background and example."
-  tags: [cloudhesive, aws, cloudformation, devops, blog, authored]
-
-- title: "A Discussion on Migrating to AWS"
-  url: "https://www.cloudhesive.com/blog-posts/a-discussion-on-migrating-to-aws/"
-  summary: "Described AWS approach to migration including MAP, MRA, Well Architected and specific services."
-  tags: [cloudhesive, aws, cloud-migration, blog, authored]
-
-- title: "9 Things You Wish You Knew About Securing Your Services on AWS"
-  url: "https://www.cloudhesive.com/blog-posts/9-things-you-wish-you-knew-about-securing-your-services-on-aws/"
-  summary: "Co-authored blog on securing workloads on AWS based on a previous presentation."
-  tags: [cloudhesive, aws, security, blog, authored]
-
-- title: "New GuardDuty Malware Protection — Service Launch Blog"
-  url: "https://www.cloudhesive.com/blog-posts/new-guardduty-malware-protection/"
-  summary: "Service launch blog for Amazon GuardDuty Malware Protection."
-  tags: [cloudhesive, aws, security, amazon-guardduty, blog, authored]
-
-- title: "Hybrid Compute Services for Your SaaS App"
-  url: "https://www.cloudhesive.com/blog-posts/hybrid-compute-services-for-your-saas-app/"
-  summary: "Blog on hybrid compute approaches for SaaS applications on AWS."
-  tags: [cloudhesive, aws, saas, blog, authored]
-
-- title: "You Built a SaaS App, Now What?"
-  url: "https://www.cloudhesive.com/blog-posts/you-built-a-saas-app-now-what/"
-  summary: "Blog on next steps after building a SaaS application on AWS."
-  tags: [cloudhesive, aws, saas, blog, authored]
-
-- title: "How to Decide — Avaya Edition"
-  url: "https://www.cloudhesive.com/blog-posts/how-to-decide-avaya-edition/"
-  summary: "Described the difference between on-premises communications services versus services like Amazon Connect."
-  tags: [cloudhesive, amazon-connect, contact-center, blog, authored]
-
-# From APN/CB Contributions Data — Open Source
-- title: "Fix: PSTN Dial-In for Amazon Chime SDK with SIP Media Application"
-  url: "https://github.com/aws-samples/chime-sipmediaapplication-samples/pull/1"
-  summary: "Contributed documentation updates to PSTN dial-in for Amazon Chime SDK with SIP Media Application."
-  tags: [aws, open-source, amazon-chime, github, authored]
-
-- title: "Fix: Voicemail for Amazon Connect"
-  url: "https://github.com/amazon-connect/voicemail-for-amazon-connect/pull/43"
-  summary: "Pull request fixing issues in the Voicemail for Amazon Connect open source project."
-  tags: [aws, open-source, amazon-connect, github, authored]
-
-- title: "Fix: CFN QuickStart — Connect Integration Perficient MS Dynamics"
-  url: "https://github.com/aws-ia/cfn-ps-connect-integration-perficient-msdynamics/pull/24"
-  summary: "Corrected issues in the CloudFormation QuickStart for Amazon Connect and MS Dynamics integration."
-  tags: [aws, open-source, amazon-connect, cloudformation, github, authored]
-
-- title: "Fix: WithSecure Cloud Security Wiki"
-  url: "https://github.com/WithSecureLabs/cloud-wiki"
-  summary: "Pull request correcting content in open source cloud security knowledge base."
-  tags: [open-source, security, github, authored]
-
-# From APN/CB Contributions Data — Whitepapers & Case Studies
-- title: "Migrating Magento to AWS — Whitepaper (PDF)"
-  url: "https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf"
-  summary: "Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS."
-  tags: [aws, whitepaper, ecommerce, migration, authored]
-
-- title: "Dallas College Modernizes Its Call Center with AWS"
-  url: "https://aws.amazon.com/blogs/publicsector/transforming-student-communications-how-dallas-college-modernized-its-call-center-with-aws/"
-  summary: "Launched customer on Amazon Connect and ConnectPath SaaS platform."
-  tags: [case-study, amazon-connect, contact-center, public-sector, education, cloudhesive, authored]
-
-# From APN/CB Contributions Data — AWS Events
-- title: "AWS SaaS Factory Studio NYC 2023 — Fireside Chat"
-  url: "https://aws-saas-factory-studio-ny-2023.splashthat.com/"
-  summary: "Participated in fireside chat with AWS and customer, plus presented on SaaS compliance and cost optimization."
-  tags: [aws, saas, compliance, cost-optimization, events, authored]
-
-- title: "AWS Summit Atlanta 2022 — Presentation"
-  url: "https://aws.amazon.com/events/summits/atlanta/agenda/?amer-summit-card.q=dev301"
-  summary: "Presented at AWS Summit Atlanta 2022."
-  tags: [aws, events, conference, authored]
-
-- title: "CIS Benchmark Contributor — AWS End User Compute Services"
-  url: "https://www.cisecurity.org/cis-benchmarks/"
-  summary: "Contributor to CIS Benchmark for AWS End User Compute Services."
-  tags: [security, compliance, cis, aws, end-user-computing, authored]
-
-# Additional items from contributions data
-- title: "AWS Spotlight Series — Modernization and Security with AWS"
-  url: "https://carahsoft2.adobeconnect.com/p6x4wol9b4o8/?proto=true"
-  summary: "Presented on modernization and security with AWS as part of the AWS Spotlight Series webinar."
-  tags: [aws, security, cloud-migration, webinar, authored]
-
-- title: "Reclaim Your Cloud Virtual Event — Service Provider Day"
-  url: "https://cloudcheckr.com/event/reclaim-your-public-cloud-event-service-provider-day-cloudcheckr/"
-  summary: "Participated in the Reclaim Your Cloud Virtual Event Service Provider Day with CloudCheckr."
-  tags: [aws, cloud-migration, managed-services, msp, webinar, authored]
-
-- title: "Amazon Connect Bootcamp — Multi-Day Training Delivery"
-  url: ""
-  summary: "Coordinated development and presentation of multi-day beginner and advanced Amazon Connect Bootcamp, including introduction, content creation/review, facilitation and advanced discussions."
-  tags: [aws, amazon-connect, contact-center, training, authored]
-
-- title: "Technical Review — Mastering AWS Security"
-  url: "https://www.amazon.com/Mastering-AWS-Security-Strengthen-environment/dp/1805125443"
-  summary: "Technical reviewer for 'Mastering AWS Security' by a fellow AWS Community Builder."
-  tags: [aws, security, book, review, authored]
+- title: 20 Public Sector Partners Achieve Government and Education Competencies
+  url: https://aws.amazon.com/blogs/publicsector/20-public-sector-partners-achieve-government-and-education-competencies/
+  summary: Highlights 20 AWS partners that achieved government and education competencies in the AWS Partner Network.
+  tags:
+    - aws-partner-network
+    - public-sector
+    - competencies
+    - government
+    - education
+    - apn-recognition
+- title: 'A Visit to Latin America: Collaboration with the Cloud'
+  url: https://aws.amazon.com/blogs/publicsector/a-visit-to-latin-america-collaboration-with-the-cloud/
+  summary: Explores AWS cloud collaboration and expansion initiatives across Latin America for the public sector.
+  tags:
+    - aws-partner-network
+    - public-sector
+    - latin-america
+    - cloud-adoption
+    - cloudhesive
+- title: AJE Group Optimizes Analytics Workloads by Adopting AWS
+  url: https://aws.amazon.com/solutions/case-studies/aje-case-study/
+  summary: AWS case study on how AJE Group modernized its contact center with Amazon Connect and GenAI, achieving 60% reduction in wait times.
+  tags:
+    - case-study
+    - cloudhesive
+    - amazon-connect
+    - contact-center
+    - analytics
+    - latin-america
+    - cost-optimization
+- title: Amazon Chime SDK Partners
+  url: https://aws.amazon.com/chime/chime-sdk/partners/
+  summary: AWS partner directory for solutions built on the Amazon Chime SDK.
+  tags:
+    - partner-directory
+    - amazon-chime
+    - communications
+    - messaging
+    - sdk
+- title: Amazon FSx for Windows File Server Partners
+  url: https://aws.amazon.com/fsx/windows/partners/
+  summary: Official directory of AWS partners offering solutions around Amazon FSx for Windows File Server.
+  tags:
+    - partner-directory
+    - windows
+    - file-storage
+    - fsx
+- title: Amazon FSx for Windows File Server Partners Help You Realize the Benefits
+  url: https://aws.amazon.com/blogs/apn/amazon-fsx-for-windows-file-server-partners-help-you-realize-the-benefits-of-windows-file-storage/
+  summary: APN blog on how certified AWS partners help customers migrate to FSx for Windows File Server.
+  tags:
+    - aws-partner-network
+    - windows
+    - file-storage
+    - fsx
+    - blog
+- title: Amazon RDS | APN Blog Category
+  url: https://aws.amazon.com/blogs/apn/category/amazon-rds/
+  summary: APN blog category page aggregating all posts covering Amazon RDS database services.
+  tags:
+    - aws-partner-network
+    - database
+    - rds
+    - blog-category
+- title: Announcing the 2025 Geo and Global AWS Partners of the Year
+  url: https://aws.amazon.com/blogs/apn/announcing-the-2025-geo-and-global-aws-partners-of-the-year/
+  summary: Announces the 2025 geo and global AWS Partner Award winners.
+  tags:
+    - aws-partner-awards
+    - apn-recognition
+    - partner-of-the-year
+    - aws-partner-network
+- title: Announcing the Winners of the 2020 AWS Public Sector Partners Awards
+  url: https://aws.amazon.com/blogs/publicsector/announcing-winners-2020-aws-public-sector-partners-awards/
+  summary: Reveals winners of the 2020 AWS Public Sector Partner Awards.
+  tags:
+    - aws-partner-awards
+    - public-sector
+    - apn-recognition
+    - government
+    - education
+- title: Announcing the Winners of the 2021 AWS Global Public Sector Partner Awards
+  url: https://aws.amazon.com/blogs/publicsector/announcing-winners-2021-aws-global-public-sector-partners-award/
+  summary: Announces the 2021 global public sector partner award winners.
+  tags:
+    - aws-partner-awards
+    - public-sector
+    - apn-recognition
+    - government
+    - education
+- title: AWS Announces the New Amazon Inspector for Continual Vulnerability Management
+  url: https://aws.amazon.com/about-aws/whats-new/2021/11/amazon-inspector-continual-vulnerability-management/
+  summary: AWS announcement of the redesigned Amazon Inspector service for automated vulnerability scanning.
+  tags:
+    - aws-announcement
+    - security
+    - vulnerability-management
+    - amazon-inspector
+- title: 'AWS Partner: Trend Micro Incorporated'
+  url: https://partners.amazonaws.com/partners/001E000000Rl0yAIAR/
+  summary: Official AWS Partner Network profile page for Trend Micro.
+  tags:
+    - partner-profile
+    - aws-partner-network
+    - cybersecurity
+    - trend-micro
+    - security
+- title: AWS Shield Advanced / Amazon Inspector Partners
+  url: https://aws.amazon.com/inspector/partners/
+  summary: Directory of AWS partners offering security solutions around Amazon Inspector.
+  tags:
+    - partner-directory
+    - security
+    - amazon-inspector
+    - aws-partner-network
+- title: CloudHesive Cuts Alert Volume by 50% with Arctic Wolf and AWS
+  url: https://aws.amazon.com/solutions/case-studies/cloudhesive-case-study/
+  summary: AWS case study on how CloudHesive partnered with Arctic Wolf to reduce security alert noise by 50%.
+  tags:
+    - case-study
+    - cloudhesive
+    - security
+    - managed-detection-response
+    - arctic-wolf
+    - msp
+- title: CloudHesive Public Cloud IT Transformation Services — Gartner Peer Insights
+  url: https://www.gartner.com/reviews/market/public-cloud-it-transformation-services/vendor/cloudhesive/product/cloudhesive-public-cloud-it-transformation-services
+  summary: Third-party Gartner Peer Insights reviews for CloudHesive's cloud IT transformation services.
+  tags:
+    - cloudhesive
+    - reviews
+    - gartner
+    - managed-services
+    - third-party-validation
+- title: CloudHesive | APN Blog Tag Page
+  url: https://aws.amazon.com/blogs/apn/tag/cloudhesive/
+  summary: Aggregated APN blog posts tagged with CloudHesive.
+  tags:
+    - cloudhesive
+    - aws-partner-network
+    - blog-category
+- title: Congrats to Our 2024 AWS Ambassador Award Winners
+  url: https://aws.amazon.com/blogs/apn/congrats-to-our-2024-aws-ambassador-award-winners-and-meet-the-newest-aws-ambassadors/
+  summary: Announces the 2024 AWS Ambassador Award winners and newest Ambassadors.
+  tags:
+    - aws-ambassador
+    - apn-recognition
+    - thought-leadership
+    - awards
+    - aws-partner-network
+- title: Congrats to Our 2025 AWS Ambassador Award Winners
+  url: https://aws.amazon.com/blogs/apn/congrats-to-our-2025-aws-ambassador-award-winners-and-meet-our-new-aws-ambassadors/
+  summary: Announces the 2025 AWS Ambassador Award winners and new Ambassadors.
+  tags:
+    - aws-ambassador
+    - apn-recognition
+    - thought-leadership
+    - awards
+    - aws-partner-network
+- title: Contributors — Migrating Magento / Adobe Commerce to AWS (Whitepaper)
+  url: https://docs.aws.amazon.com/whitepapers/latest/migrating-magento-open-source-adobe-commerce-to-aws/contributors.html
+  summary: Credits page for the AWS whitepaper on migrating Magento to AWS, listing CloudHesive as contributing author.
+  tags:
+    - whitepaper
+    - ecommerce
+    - migration
+    - magento
+    - adobe-commerce
+    - cloudhesive
+- title: How the City of Atlanta Transformed Its Customer Service with Amazon Connect
+  url: https://aws.amazon.com/blogs/publicsector/how-the-city-of-atlanta-transformed-its-department-of-customer-service-with-amazon-connect/
+  summary: Atlanta's 311 contact center modernized with Amazon Connect and ConnectPath, cutting after-call work by 50%.
+  tags:
+    - case-study
+    - amazon-connect
+    - contact-center
+    - public-sector
+    - government
+    - connectpath
+    - cloudhesive
+- title: IVR Modernization at Your Pace | Amazon Connect
+  url: https://aws.amazon.com/connect/amazon-connect-accelerate-ivr-modernization/
+  summary: AWS landing page on incremental IVR modernization using Amazon Connect.
+  tags:
+    - amazon-connect
+    - contact-center
+    - ivr
+    - modernization
+    - product-page
+- title: Implementing and Administering Cisco Solutions 200-301 CCNA Exam Guide
+  url: https://www.amazon.com/-/es/Implementing-Administering-Cisco-Solutions-200-301/dp/1835887481
+  summary: CCNA 200-301 certification exam preparation book.
+  tags:
+    - training-resources
+    - networking
+    - certification
+    - cisco
+    - ccna
+    - book
+- title: Improved, Automated Vulnerability Management with a New Amazon Inspector
+  url: https://aws.amazon.com/blogs/aws/improved-automated-vulnerability-management-for-cloud-workloads-with-a-new-amazon-inspector/
+  summary: AWS News Blog on improvements to Amazon Inspector for automated vulnerability scanning.
+  tags:
+    - aws-announcement
+    - security
+    - vulnerability-management
+    - amazon-inspector
+    - blog
+- title: Introducing the AWS Digital Customer Experience Competency
+  url: https://aws.amazon.com/blogs/apn/introducing-the-aws-digital-customer-experience-competency-program/
+  summary: APN blog introducing the AWS Digital Customer Experience Competency program.
+  tags:
+    - aws-partner-network
+    - competencies
+    - customer-experience
+    - digital-cx
+    - amazon-connect
+- title: 'Know Before You Go: AWS Partner''s Guide to re:Invent 2022'
+  url: https://aws.amazon.com/blogs/apn/know-before-you-go-an-aws-partners-guide-to-reinvent-2022/
+  summary: Pre-conference preparation guide for AWS Partners attending re:Invent 2022.
+  tags:
+    - aws-reinvent
+    - conference
+    - aws-partner-network
+    - events
+- title: 'Know Before You Go: AWS Partner''s Guide to re:Invent 2023'
+  url: https://aws.amazon.com/blogs/apn/know-before-you-go-an-aws-partners-guide-to-reinvent-2023/
+  summary: Pre-conference preparation guide for AWS Partners attending re:Invent 2023.
+  tags:
+    - aws-reinvent
+    - conference
+    - aws-partner-network
+    - events
+- title: New APN Programs Available for AWS for Windows Partners
+  url: https://aws.amazon.com/blogs/apn/new-apn-programs-available-for-aws-for-windows-partners/
+  summary: Announces new APN program offerings for AWS partners specializing in Windows workloads.
+  tags:
+    - aws-partner-network
+    - windows
+    - partner-programs
+    - apn-programs
+- title: New AWS Partner Program Launches and Updates at re:Invent 2023
+  url: https://aws.amazon.com/blogs/apn/new-aws-partner-program-launches-and-updates-announced-at-reinvent-2023/
+  summary: Summarizes all new AWS Partner Program launches and updates at re:Invent 2023.
+  tags:
+    - aws-reinvent
+    - aws-partner-network
+    - partner-programs
+    - events
+- title: New AWS Solutions Consulting Offer — Centricity Secure Workplace for Government
+  url: https://aws.amazon.com/ru/about-aws/whats-new/2020/11/New-AWS-Solutions-Consulting-Offer-Centricity-Secure-Workplace-for-Government/
+  summary: AWS announcement of CloudHesive's Centricity Secure Workplace consulting offer for government agencies.
+  tags:
+    - aws-announcement
+    - security
+    - government
+    - remote-work
+    - cloudhesive
+    - consulting-offer
+- title: New AWS Solutions Consulting Offer — Voicemail Queues for Amazon Connect
+  url: https://aws.amazon.com/about-aws/whats-new/2021/01/new-aws-solutions-consulting-offer-voicemail-queues-for-amazon-connect/
+  summary: AWS announcement of CloudHesive's voicemail queues consulting offer for Amazon Connect.
+  tags:
+    - aws-announcement
+    - amazon-connect
+    - contact-center
+    - voicemail
+    - cloudhesive
+    - consulting-offer
+- title: New for AWS CloudFormation — Quickly Retry Stack Operations from the Point of Failure
+  url: https://aws.amazon.com/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/
+  summary: AWS News Blog on new CloudFormation capability to retry failed stack deployments from the point of failure.
+  tags:
+    - aws-announcement
+    - cloudformation
+    - infrastructure-as-code
+    - devops
+    - blog
+- title: New for Amazon GuardDuty — Malware Protection for Amazon EBS Volumes
+  url: https://aws.amazon.com/blogs/aws/new-for-amazon-guardduty-malware-detection-for-amazon-ebs-volumes/
+  summary: Announces new Amazon GuardDuty capability for malware detection on EBS volumes.
+  tags:
+    - aws-announcement
+    - security
+    - amazon-guardduty
+    - malware-detection
+    - blog
+- title: Optimize Your Contact Center Experience with Amazon Connect Ready Partners
+  url: https://aws.amazon.com/blogs/apn/optimize-your-contact-center-experience-with-amazon-connect-ready-partners/
+  summary: APN blog showcasing Amazon Connect Ready program partners.
+  tags:
+    - aws-partner-network
+    - amazon-connect
+    - contact-center
+    - partner-programs
+- title: 'Our Public Sector Partners in Action: Healthcare, Data Visualization, and Remote Work'
+  url: https://aws.amazon.com/blogs/publicsector/public-sector-partners-healthcare-data-visualization-remote-work/
+  summary: Spotlights AWS public sector partners working on healthcare, data visualization, and remote work.
+  tags:
+    - aws-partner-network
+    - public-sector
+    - healthcare
+    - data-visualization
+    - remote-work
+- title: Partners | AWS End User Messaging
+  url: https://aws.amazon.com/end-user-messaging/partners/
+  summary: Directory of AWS partners for End User Messaging (SMS, push, email).
+  tags:
+    - partner-directory
+    - messaging
+    - sms
+    - end-user-messaging
+- title: Partners | Amazon SES
+  url: https://aws.amazon.com/ses/partners/
+  summary: Directory of AWS partners for Amazon SES email delivery.
+  tags:
+    - partner-directory
+    - email
+    - ses
+    - messaging
+- title: Reimagine Customer Experiences with AWS at Customer Contact Week 2024
+  url: https://aws.amazon.com/blogs/contact-center/aws-at-customer-contact-week-2024/
+  summary: Recap of AWS's presence at Customer Contact Week 2024.
+  tags:
+    - amazon-connect
+    - contact-center
+    - customer-experience
+    - conference
+    - events
+- title: 'Remote Workforce, Web Portal, and DevSecOps: Three Focus Areas for Cybersecurity'
+  url: https://aws.amazon.com/blogs/publicsector/remote-workforce-web-portal-devsecops-three-focus-areas-cybersecurity/
+  summary: AWS public sector blog on three critical cybersecurity priorities.
+  tags:
+    - security
+    - devsecops
+    - remote-work
+    - public-sector
+    - cybersecurity
+- title: Say Hello to 165 AWS Specialization Partners Added or Returning in January
+  url: https://aws.amazon.com/blogs/apn/say-hello-to-165-aws-specialization-partners-added-or-returning-in-january/
+  summary: Monthly APN roundup welcoming 165 partners with AWS specialization designations.
+  tags:
+    - aws-partner-network
+    - competencies
+    - partner-announcements
+    - apn-recognition
+- title: Say Hello to 178 AWS Partners Added or Renewed in August
+  url: https://aws.amazon.com/blogs/apn/say-hello-to-178-aws-service-delivery-competency-msp-and-service-ready-partners-added-or-renewed-in-august/
+  summary: Monthly APN roundup welcoming 178 partners including CloudHesive.
+  tags:
+    - aws-partner-network
+    - msp
+    - competencies
+    - partner-announcements
+    - apn-recognition
+    - cloudhesive
+- title: Say Hello to 29 New AWS Competency, MSP, and Service Delivery Partners — January
+  url: https://aws.amazon.com/blogs/apn/say-hello-to-29-new-aws-competency-msp-and-service-delivery-partners-added-in-january/
+  summary: Monthly APN roundup welcoming 29 new partners.
+  tags:
+    - aws-partner-network
+    - msp
+    - competencies
+    - partner-announcements
+    - apn-recognition
+- title: Say Hello to 77 New AWS Competency, MSP, and Service Delivery Partners — March
+  url: https://aws.amazon.com/blogs/apn/say-hello-to-77-new-aws-competency-msp-and-service-delivery-partners-added-in-march/
+  summary: Monthly APN roundup welcoming 77 new partners including CloudHesive.
+  tags:
+    - aws-partner-network
+    - msp
+    - competencies
+    - partner-announcements
+    - apn-recognition
+    - cloudhesive
+- title: 'Transforming Student Communications: Dallas College Modernizes Its Call Center with AWS'
+  url: https://aws.amazon.com/blogs/publicsector/transforming-student-communications-how-dallas-college-modernized-its-call-center-with-aws/
+  summary: Case study on how Dallas College modernized its student communications call center.
+  tags:
+    - case-study
+    - amazon-connect
+    - contact-center
+    - education
+    - public-sector
+- title: Why Next-Generation MSPs Need Next-Generation Monitoring
+  url: https://aws.amazon.com/blogs/apn/why-next-generation-msps-need-next-generation-monitoring/
+  summary: APN blog on why modern MSPs need advanced monitoring tools.
+  tags:
+    - msp
+    - monitoring
+    - managed-services
+    - aws-partner-network
+    - blog
+- title: ON24 Webinar Event
+  url: https://event.on24.com/eventRegistration/console/EventConsoleApollo.jsp?eventid=1593397&sessionid=1
+  summary: Registration console for an ON24-hosted webinar event.
+  tags:
+    - webinar
+    - events
+    - on24
+- title: AWS Elemental Partner Forum Miami
+  url: https://awselemental-forum-miami.splashthat.com/
+  summary: Event landing page for the AWS Elemental Partner Forum in Miami.
+  tags:
+    - events
+    - aws-elemental
+    - media-streaming
+    - conference
+    - south-florida
+- title: Best Practices in Secure Cloud Migration (SecureWorld / Thales)
+  url: https://www.secureworldexpo.com/resources/secure-cloud-migration-thales
+  summary: SecureWorld resource on best practices for secure cloud migration.
+  tags:
+    - security
+    - cloud-migration
+    - best-practices
+    - webinar
+    - thales
+- title: CloudBees Launches New DevOps Managed Services Program — DEVOPSdigest
+  url: http://www.devopsdigest.com/cloudbees-launches-new-devops-managed-services-program
+  summary: News coverage of CloudBees' launch of a new DevOps managed services program.
+  tags:
+    - devops
+    - managed-services
+    - cloudbees
+    - msp
+    - news
+- title: CloudBees Launches New DevOps Managed Services Program — Sweetcode.io
+  url: https://sweetcode.io/cloudbees-launches-new-devops-managed-services-program/
+  summary: Secondary news coverage of CloudBees' DevOps managed services program launch.
+  tags:
+    - devops
+    - managed-services
+    - cloudbees
+    - msp
+    - news
+- title: Doubling Down on Cloud Security (GovLoop)
+  url: https://www.govloop.com/doubling-cloud-security/
+  summary: GovLoop article on strategies for strengthening cloud security posture.
+  tags:
+    - security
+    - government
+    - cloud-adoption
+    - public-sector
+- title: South Florida Tech Hub — Facebook Photo Album
+  url: https://www.facebook.com/media/set/?vanity=SouthFloridaTechHub&set=a.1756461174539544
+  summary: Facebook photo album from the South Florida Tech Hub community event.
+  tags:
+    - community-event
+    - social-media
+    - south-florida
+    - tech-hub
+    - cloudhesive
+- title: SFTA Microservices Summit — September 27, 2018
+  url: https://www.youtube.com/watch?v=cvoQzPM6pvE&feature=share
+  summary: YouTube recording of the SFTA Microservices Summit covering microservices architecture.
+  tags:
+    - video
+    - microservices
+    - conference
+    - south-florida
+    - architecture
+    - events
+- title: Touch the Cloud
+  url: https://www.cloudhesive.com/blog-posts/touch-the-cloud/
+  summary: Blog post reflecting on the physical infrastructure behind AWS cloud services, from undersea fiber to data centers.
+  tags:
+    - cloudhesive
+    - aws
+    - blog
+    - cloud-adoption
+    - authored
+- title: re:Invent Survival Guide
+  url: https://www.cloudhesive.com/blog-posts/reinvent-survival-guide/
+  summary: Practical tips and advice for getting the most out of attending AWS Re:Invent, authored by Patrick Hannah.
+  tags:
+    - cloudhesive
+    - aws-reinvent
+    - conference
+    - events
+    - blog
+    - authored
+- title: CloudHesive to Host a Meet-Up with AWS User Group of Florida
+  url: https://www.cloudhesive.com/blog-posts/cloudhesive-to-host-a-meet-up-in-association-with-amazon-web-services-user-group-of-florida/
+  summary: Announcement of an AWS User Group meetup hosted by CloudHesive, featuring Patrick Hannah presenting on Amazon EC2.
+  tags:
+    - cloudhesive
+    - aws
+    - community
+    - events
+    - south-florida
+    - authored
+- title: Microservice Deployment on Amazon EC2 Container Service — AWS Meet Up
+  url: https://www.cloudhesive.com/blog-posts/learn-everything-you-need-to-know-about-microservice-deployment-on-amazon-ec2-container-service-at-septembers-aws-meet-up-in-weston-fl/
+  summary: AWS User Group meetup covering microservice deployment on ECS, presented by Patrick Hannah.
+  tags:
+    - cloudhesive
+    - aws
+    - microservices
+    - ecs
+    - events
+    - south-florida
+    - devops
+    - authored
+- title: 'CloudHesive at ITExpo 2025: Major Enhancements to ConnectPathCX for Amazon Connect'
+  url: https://www.cloudhesive.com/news/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpathcx/
+  summary: Patrick Hannah presents ConnectPathCX enhancements for Amazon Connect at ITExpo 2025.
+  tags:
+    - cloudhesive
+    - connectpath
+    - amazon-connect
+    - contact-center
+    - conference
+    - events
+    - authored
+- title: CloudHesive Accelerates Amazon Connect Growth with ConnectPath CX
+  url: https://www.cloudhesive.com/news/cloudhesive-accelerates-amazon-connect-growth-with-connectpath-cx-and-strengthens-its-leadership-in-aws-contact-centers/
+  summary: CloudHesive strengthens its position in the cloud contact center ecosystem with ConnectPath CX built on Amazon Connect.
+  tags:
+    - cloudhesive
+    - connectpath
+    - amazon-connect
+    - contact-center
+    - partner-announcements
+- title: CloudHesive Named Top 10 Fastest Growing DevOps Solutions Providers
+  url: https://www.cloudhesive.com/blog-posts/cloudhesive-named-as-one-of-the-top-10-fastest-growing-devops-solutions-providers/
+  summary: CloudHesive recognized by Insights Success magazine as a leading DevOps solutions provider.
+  tags:
+    - cloudhesive
+    - devops
+    - apn-recognition
+    - awards
+- title: Patrick Hannah — CMMC Day Speaker
+  url: https://cmmcday.org/speaker/patrick-hannah/
+  summary: Speaker profile for Patrick Hannah at CMMC Day in Washington, DC, covering cloud compliance and managed services.
+  tags:
+    - conference
+    - events
+    - security
+    - compliance
+    - cmmc
+    - speaking
+    - authored
+- title: CloudHesive CTO to Present at ITExpo 2025 (Press Release)
+  url: https://www.prweb.com/releases/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpath-302373795.html/
+  summary: Press release announcing Patrick Hannah's ITExpo 2025 presentation on ConnectPathCX enhancements.
+  tags:
+    - cloudhesive
+    - connectpath
+    - amazon-connect
+    - conference
+    - events
+    - press-release
+- title: CloudHesive Cuts Alert Volume by 50% with Arctic Wolf and AWS (CloudHesive)
+  url: https://www.cloudhesive.com/news/cloudhesive-cuts-alert-volume-by-50-and-strengthens-customer-security-with-arctic-wolf-and-aws/
+  summary: CloudHesive's own announcement on partnering with Arctic Wolf to reduce security alert noise by 50%.
+  tags:
+    - cloudhesive
+    - security
+    - managed-detection-response
+    - arctic-wolf
+    - msp
+    - partner-announcements
+- title: This Is My Architecture — ConnectPath on AWS
+  url: https://www.youtube.com/watch?v=weT3nKnOFDg&list=PLhr1KZpdzukdeX8mQ2qO73bg6UKQHYsHb&index=1
+  summary: Recorded a 'This Is My Architecture' segment at AWS Re:Invent describing the architecture of the ConnectPath platform.
+  tags:
+    - aws-reinvent
+    - connectpath
+    - amazon-connect
+    - architecture
+    - video
+    - authored
+- title: Modernization of Your AWS-Based SaaS Platform (Fort Lauderdale)
+  url: https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform-short/271322724
+  summary: Presented at AWS User Groups of Florida Meetup in Fort Lauderdale on modernizing AWS-based SaaS platforms.
+  tags:
+    - cloudhesive
+    - aws
+    - saas
+    - modernization
+    - events
+    - south-florida
+    - authored
+- title: Modernization of Your AWS-Based SaaS Platform (New York)
+  url: https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform/270515907
+  summary: Presented at AWS New York Official Meetup on modernizing AWS-based SaaS platforms.
+  tags:
+    - cloudhesive
+    - aws
+    - saas
+    - modernization
+    - events
+    - authored
+- title: Serverless and Generative AI on AWS — AWS User Groups of Florida
+  url: https://www.slideshare.net/slideshows/serverless-generative-ai-on-aws-aws-user-groups-of-florida/266528455
+  summary: Presented at AWS User Group on serverless and generative AI services on AWS.
+  tags:
+    - aws
+    - serverless
+    - generative-ai
+    - events
+    - south-florida
+    - authored
+- title: Amazon Connect AI — Shaping the Future of Customer Interactions (Nov 2023)
+  url: https://www.slideshare.net/CloudHesive/amazon-connect-ai-shaping-the-future-of-customer-interactions-genai-and-the-future-of-customer-experience-2892
+  summary: Presented on the application of Generative AI in the Contact Center space using AWS services.
+  tags:
+    - cloudhesive
+    - amazon-connect
+    - generative-ai
+    - contact-center
+    - events
+    - authored
+- title: Amazon Connect AI — GenAI and the Future of Customer Experience (Oct 2023)
+  url: https://www.slideshare.net/CloudHesive/amazon-connect-ai-shaping-the-future-of-customer-interactions-genai-and-the-future-of-customer-experience
+  summary: Co-presented with AWS at an in-person event on Generative AI and Amazon Connect.
+  tags:
+    - cloudhesive
+    - amazon-connect
+    - generative-ai
+    - contact-center
+    - events
+    - authored
+- title: Amazon Connect — Rethink Your Contact Center with CloudHesive
+  url: https://www.slideshare.net/CloudHesive/amazon-connect-rethink-your-contact-center-with-cloudhesivepptx
+  summary: Presented to a public sector audience on the history and trends of Contact Center as a Service with Amazon Connect.
+  tags:
+    - cloudhesive
+    - amazon-connect
+    - contact-center
+    - public-sector
+    - events
+    - authored
+- title: CMMC Day — Accelerating Business and Research Through Automation and AI
+  url: https://cmmcday.org/wp-content/uploads/2023/05/E02a-HannahP.pdf
+  summary: Presented on Cloud, Security and AI/ML at CMMC Day industry conference in Washington, DC.
+  tags:
+    - security
+    - compliance
+    - cmmc
+    - ai
+    - events
+    - authored
+- title: End User Computing at CloudHesive
+  url: https://www.slideshare.net/CloudHesive/end-user-computing-at-cloudhesivepptx
+  summary: Presented at AWS End User Computing Workshop in Atlanta.
+  tags:
+    - cloudhesive
+    - aws
+    - end-user-computing
+    - events
+    - authored
+- title: Analytics at CloudHesive
+  url: https://www.slideshare.net/CloudHesive/analytics-at-cloudhesive
+  summary: Coordinated, hosted and presented at community event in South Florida focused on AWS Analytics Services.
+  tags:
+    - cloudhesive
+    - aws
+    - analytics
+    - events
+    - south-florida
+    - authored
+- title: ConnectPath Introduction
+  url: https://www.slideshare.net/CloudHesive/connectpath-introduction
+  summary: Overview of Amazon Connect and the ConnectPath platform built on AWS Serverless Services.
+  tags:
+    - cloudhesive
+    - connectpath
+    - amazon-connect
+    - serverless
+    - authored
+- title: Serverless Without Code — Lambda
+  url: https://www.slideshare.net/CloudHesive/serverless-without-code-lambda
+  summary: Created and presented on serverless at SoFlo DevCon.
+  tags:
+    - aws
+    - serverless
+    - lambda
+    - events
+    - south-florida
+    - authored
+- title: re:Invent Recap 2022
+  url: https://www.slideshare.net/CloudHesive/reinvent-recap-2022
+  summary: Hosted, prepared and presented a recap of AWS Re:Invent 2021 at AWS User Group Virtual Meetup.
+  tags:
+    - aws-reinvent
+    - events
+    - community
+    - authored
+- title: Supporting Your CMMC Initiatives with Sumo Logic
+  url: https://www.slideshare.net/CloudHesive/supporting-your-cmmc-initiatives-with-sumo-logic
+  summary: Overview of CMMC, its impact, and how AWS services help address compliance controls.
+  tags:
+    - security
+    - compliance
+    - cmmc
+    - monitoring
+    - events
+    - authored
+- title: Security, Operations and Observability on AWS with Datadog
+  url: https://www.youtube.com/watch?v=FzQmEG7onUg
+  summary: Presented on security, operations and observability on AWS with a co-presenter from Datadog.
+  tags:
+    - cloudhesive
+    - aws
+    - security
+    - monitoring
+    - datadog
+    - webinar
+    - authored
+- title: AWS in the Contact Center — Carahsoft Webinar
+  url: https://vimeo.com/956496240/d211c00469?share=copy
+  summary: Presented on AWS in the Contact Center with a co-presenter from AWS, covering Amazon Connect and AI/ML/GenAI services.
+  tags:
+    - aws
+    - amazon-connect
+    - contact-center
+    - ai
+    - webinar
+    - authored
+- title: Accelerating CMMC Compliance with the Cloud — PreVeil Webinar
+  url: https://www.preveil.com/resources/webinar-accelerating-cmmc-compliance-with-the-cloud/
+  summary: Presented with AWS ISV Partner PreVeil on providing a secure research compute environment on AWS for a university.
+  tags:
+    - aws
+    - security
+    - compliance
+    - cmmc
+    - public-sector
+    - webinar
+    - authored
+- title: MSP Day 2025 — Partner Panel
+  url: https://app.events.ringcentral.com/events/msp-day-2025/replay/cut_10825d4a-fbf0-4d17-b513-4c91c2cb9ffb
+  summary: Panelist at MSP Day 2025 Partner Panel discussing managed services on AWS.
+  tags:
+    - aws
+    - managed-services
+    - msp
+    - events
+    - video
+    - authored
+- title: Amazon Inspector — Service Launch Blog
+  url: https://www.cloudhesive.com/blog-posts/amazon-inspector
+  summary: Wrote a service launch blog based on work with the AWS service team utilizing Amazon Inspector pre-GA.
+  tags:
+    - cloudhesive
+    - aws
+    - security
+    - amazon-inspector
+    - blog
+    - authored
+- title: CloudFormation Disable Rollback — Feature Launch Blog
+  url: https://www.cloudhesive.com/blog-posts/cloudformation-disable-rollback
+  summary: Blog about CloudFormation's Disable Rollback feature with background and example.
+  tags:
+    - cloudhesive
+    - aws
+    - cloudformation
+    - devops
+    - blog
+    - authored
+- title: A Discussion on Migrating to AWS
+  url: https://www.cloudhesive.com/blog-posts/a-discussion-on-migrating-to-aws/
+  summary: Described AWS approach to migration including MAP, MRA, Well Architected and specific services.
+  tags:
+    - cloudhesive
+    - aws
+    - cloud-migration
+    - blog
+    - authored
+- title: 9 Things You Wish You Knew About Securing Your Services on AWS
+  url: https://www.cloudhesive.com/blog-posts/9-things-you-wish-you-knew-about-securing-your-services-on-aws/
+  summary: Co-authored blog on securing workloads on AWS based on a previous presentation.
+  tags:
+    - cloudhesive
+    - aws
+    - security
+    - blog
+    - authored
+- title: New GuardDuty Malware Protection — Service Launch Blog
+  url: https://www.cloudhesive.com/blog-posts/new-guardduty-malware-protection/
+  summary: Service launch blog for Amazon GuardDuty Malware Protection.
+  tags:
+    - cloudhesive
+    - aws
+    - security
+    - amazon-guardduty
+    - blog
+    - authored
+- title: Hybrid Compute Services for Your SaaS App
+  url: https://www.cloudhesive.com/blog-posts/hybrid-compute-services-for-your-saas-app/
+  summary: Blog on hybrid compute approaches for SaaS applications on AWS.
+  tags:
+    - cloudhesive
+    - aws
+    - saas
+    - blog
+    - authored
+- title: You Built a SaaS App, Now What?
+  url: https://www.cloudhesive.com/blog-posts/you-built-a-saas-app-now-what/
+  summary: Blog on next steps after building a SaaS application on AWS.
+  tags:
+    - cloudhesive
+    - aws
+    - saas
+    - blog
+    - authored
+- title: How to Decide — Avaya Edition
+  url: https://www.cloudhesive.com/blog-posts/how-to-decide-avaya-edition/
+  summary: Described the difference between on-premises communications services versus services like Amazon Connect.
+  tags:
+    - cloudhesive
+    - amazon-connect
+    - contact-center
+    - blog
+    - authored
+- title: 'Fix: PSTN Dial-In for Amazon Chime SDK with SIP Media Application'
+  url: https://github.com/aws-samples/chime-sipmediaapplication-samples/pull/1
+  summary: Contributed documentation updates to PSTN dial-in for Amazon Chime SDK with SIP Media Application.
+  tags:
+    - aws
+    - open-source
+    - amazon-chime
+    - github
+    - authored
+- title: 'Fix: Voicemail for Amazon Connect'
+  url: https://github.com/amazon-connect/voicemail-for-amazon-connect/pull/43
+  summary: Pull request fixing issues in the Voicemail for Amazon Connect open source project.
+  tags:
+    - aws
+    - open-source
+    - amazon-connect
+    - github
+    - authored
+- title: 'Fix: CFN QuickStart — Connect Integration Perficient MS Dynamics'
+  url: https://github.com/aws-ia/cfn-ps-connect-integration-perficient-msdynamics/pull/24
+  summary: Corrected issues in the CloudFormation QuickStart for Amazon Connect and MS Dynamics integration.
+  tags:
+    - aws
+    - open-source
+    - amazon-connect
+    - cloudformation
+    - github
+    - authored
+- title: 'Fix: WithSecure Cloud Security Wiki'
+  url: https://github.com/WithSecureLabs/cloud-wiki
+  summary: Pull request correcting content in open source cloud security knowledge base.
+  tags:
+    - open-source
+    - security
+    - github
+    - authored
+- title: Migrating Magento to AWS — Whitepaper (PDF)
+  url: https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf
+  summary: Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS.
+  tags:
+    - aws
+    - whitepaper
+    - ecommerce
+    - migration
+    - authored
+- title: Dallas College Modernizes Its Call Center with AWS
+  url: https://aws.amazon.com/blogs/publicsector/transforming-student-communications-how-dallas-college-modernized-its-call-center-with-aws/
+  summary: Launched customer on Amazon Connect and ConnectPath SaaS platform.
+  tags:
+    - case-study
+    - amazon-connect
+    - contact-center
+    - public-sector
+    - education
+    - cloudhesive
+    - authored
+- title: AWS SaaS Factory Studio NYC 2023 — Fireside Chat
+  url: https://aws-saas-factory-studio-ny-2023.splashthat.com/
+  summary: Participated in fireside chat with AWS and customer, plus presented on SaaS compliance and cost optimization.
+  tags:
+    - aws
+    - saas
+    - compliance
+    - cost-optimization
+    - events
+    - authored
+- title: AWS Summit Atlanta 2022 — Presentation
+  url: https://aws.amazon.com/events/summits/atlanta/agenda/?amer-summit-card.q=dev301
+  summary: Presented at AWS Summit Atlanta 2022.
+  tags:
+    - aws
+    - events
+    - conference
+    - authored
+- title: CIS Benchmark Contributor — AWS End User Compute Services
+  url: https://www.cisecurity.org/cis-benchmarks/
+  summary: Contributor to CIS Benchmark for AWS End User Compute Services.
+  tags:
+    - security
+    - compliance
+    - cis
+    - aws
+    - end-user-computing
+    - authored
+- title: AWS Spotlight Series — Modernization and Security with AWS
+  url: https://carahsoft2.adobeconnect.com/p6x4wol9b4o8/?proto=true
+  summary: Presented on modernization and security with AWS as part of the AWS Spotlight Series webinar.
+  tags:
+    - aws
+    - security
+    - cloud-migration
+    - webinar
+    - authored
+- title: Reclaim Your Cloud Virtual Event — Service Provider Day
+  url: https://cloudcheckr.com/event/reclaim-your-public-cloud-event-service-provider-day-cloudcheckr/
+  summary: Participated in the Reclaim Your Cloud Virtual Event Service Provider Day with CloudCheckr.
+  tags:
+    - aws
+    - cloud-migration
+    - managed-services
+    - msp
+    - webinar
+    - authored
+- title: Technical Review — Mastering AWS Security
+  url: https://www.amazon.com/Mastering-AWS-Security-Strengthen-environment/dp/1805125443
+  summary: Technical reviewer for 'Mastering AWS Security' by a fellow AWS Community Builder.
+  tags:
+    - aws
+    - security
+    - book
+    - review
+    - authored

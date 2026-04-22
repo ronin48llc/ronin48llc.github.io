@@ -1,181 +1,255 @@
-# Skills & Certifications entries with tags for filtering
-
-- title: "AWS Certified AI Practitioner (Early Adopter)"
-  category: "AWS Certifications"
-  tags: [aws, certification, ai]
-
-- title: "AWS Certified Machine Learning Engineer – Associate (Early Adopter)"
-  category: "AWS Certifications"
-  tags: [aws, certification, ai, machine-learning]
-
-- title: "AWS Certified Generative AI Developer – Professional (Early Adopter)"
-  category: "AWS Certifications"
-  tags: [aws, certification, ai, generative-ai]
-
-- title: "AWS Certified CloudOps Engineer"
-  category: "AWS Certifications"
-  tags: [aws, certification, devops]
-
-- title: "AWS Certified Data Engineer – Associate (Beta)"
-  category: "AWS Certifications"
-  tags: [aws, certification, data]
-
-- title: "AWS Certified Cloud Practitioner (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, cloud]
-
-- title: "AWS Certified Solutions Architect – Associate (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, architecture]
-
-- title: "AWS Certified SysOps Administrator – Associate (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, devops]
-
-- title: "AWS Certified Developer – Associate (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, development]
-
-- title: "AWS Certified DevOps Engineer – Professional (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, devops]
-
-- title: "AWS Certified Solutions Architect – Professional (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, architecture]
-
-- title: "AWS Certified Advanced Networking – Specialty (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, networking]
-
-- title: "AWS Certified Big Data – Specialty (Issued at Release)"
-  category: "AWS Certifications"
-  tags: [aws, certification, data]
-
-- title: "AWS Certified Security – Specialty (Issued at Release, Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, security]
-
-- title: "AWS Certified Alexa Skill Builder – Specialty (Issued at Release)"
-  category: "AWS Certifications"
-  tags: [aws, certification, ai]
-
-- title: "AWS Certified Machine Learning – Specialty (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, machine-learning]
-
-- title: "AWS Certified Data Analytics – Specialty (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, data]
-
-- title: "AWS Certified Database – Specialty (Renewed 2023)"
-  category: "AWS Certifications"
-  tags: [aws, certification, data]
-
-- title: "AWS Certified SAP on AWS – Specialty"
-  category: "AWS Certifications"
-  tags: [aws, certification, enterprise]
-
-- title: "ISC2 Certified Cloud Security Professional (CCSP)"
-  category: "Other Certifications"
-  tags: [certification, security, cloud]
-
-- title: "ISC2 Certified Information Systems Security Professional (CISSP)"
-  category: "Other Certifications"
-  tags: [certification, security]
-
-- title: "Cloud Security Alliance (CSA) Certificate of Cloud Security Knowledge (CCSK)"
-  category: "Other Certifications"
-  tags: [certification, security, cloud]
-
-- title: "CMMC Registered Practitioner"
-  category: "Other Certifications"
-  tags: [certification, security, compliance]
-
-- title: "FinOps Certified Practitioner"
-  category: "Other Certifications"
-  tags: [certification, cloud, finops]
-
-- title: "ITIL V3 Practitioner Certified"
-  category: "Other Certifications"
-  tags: [certification, operations]
-
-- title: "Datadog Certified: Datadog Fundamentals"
-  category: "Other Certifications"
-  tags: [certification, monitoring]
-
-- title: "Datadog Certified: CloudSIEM for AWS Fundamentals"
-  category: "Other Certifications"
-  tags: [certification, security, monitoring]
-
-- title: "Amazon Connect Ambassador"
-  category: "Other Certifications"
-  tags: [aws, contact-center]
-
-- title: "EUC on AWS Ambassador"
-  category: "Other Certifications"
-  tags: [aws, end-user-computing]
-
-- title: "Anynode Basic and Advanced"
-  category: "Other Certifications"
-  tags: [certification, telephony]
-
-- title: "Datadog Demo Certification"
-  category: "Other Certifications"
-  tags: [certification, monitoring]
-
-- title: "DPN Support Specialist Certification"
-  category: "Other Certifications"
-  tags: [certification, monitoring]
-
-- title: "K8SUG Certified Awstronaut"
-  category: "Other Certifications"
-  tags: [certification, kubernetes, community]
-
-- title: "AWS, Microsoft Azure, Microsoft 365, IBM Cloud, Google Cloud (GCP), Citrix XenApp/XenDesktop, VMWare, CloudFlare, Akamai"
-  category: "Cloud & Virtualization"
-  tags: [cloud, aws, azure, virtualization]
-
-- title: "Jira, Confluence, BitBucket, GitHub, Stash, RPM, Artifactory, NPM, Packer, Jenkins, Ansible, Octopus, Gradle, jMeter, BlazeMeter, Docker, Elastic, PowerShell, Bash, Python, JavaScript (Node.js), Serverless"
-  category: "Software Development & DevOps"
-  tags: [devops, development, automation]
-
-- title: "Microsoft SQL Server, Oracle, DB2, MySQL, Postgres, Apache, Nginx, HAProxy, Tomcat, Weblogic, Websphere, IIS, MongoDB, Redis, Bedrock, Q"
-  category: "Application & Database"
-  tags: [data, development, ai]
-
-- title: "AlertLogic, Trend Micro Deep Security/Cloud Conformity, Thales/Vormetric DSM, Safenet/CryptoCard, Duo, Okta, Tenable.io/Nessus"
-  category: "Security"
-  tags: [security, monitoring]
-
-- title: "CloudCheckr, Cloudability, CloudHealth, Datadog, SumoLogic, NewRelic, OpsGenie, Zenoss, Splunk, tcpdump/Wireshark"
-  category: "Monitoring & Analysis"
-  tags: [monitoring, finops, operations]
-
-- title: "Microsoft Windows Services (DNS, DHCP, SMTP, RDP, AD), Linux Services (BIND, cPanel/WHM), Routing, Firewalling, Subnetting, SNMP, WMI"
-  category: "Network Services"
-  tags: [networking, operations]
-
-- title: "SoftNAS, Zadara, CommVault, Veeam, Druva"
-  category: "Storage"
-  tags: [cloud, operations]
-
-- title: "Windows, Linux (Amazon, RHEL, OEL, CentOS)"
-  category: "Operating Systems"
-  tags: [operations]
-
-- title: "Checkpoint, Juniper, Cisco, Brocade Vyatta, Citrix Netscaler, Cohesive Networks"
-  category: "Firewalls, Load Balancers, Routers, Switches & Wireless"
-  tags: [networking, security]
-
-- title: "Oracle CCA, Oracle CRM On Demand, Siebel CRM, SalesForce, Verint, PegaRules (PRPC), NetSuite, RingCentral, Amazon Connect, Lex, ServiceNow, Microsoft Dynamics"
-  category: "Contact Center, CRM & ERP"
-  tags: [contact-center, crm]
-
-- title: "Nortel Meridian, Avaya Communication Manager, Brooktrout & Dialogic T1 cards, Quintum Tenor, Adtran, Asterisk, Brekeke SIP Proxy"
-  category: "Telephony"
-  tags: [telephony, contact-center]
-
-- title: "Slack, Joan, Lucid"
-  category: "Office Productivity"
-  tags: [operations]
+- title: AWS Certified AI Practitioner (Early Adopter)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - ai
+- title: AWS Certified Machine Learning Engineer – Associate (Early Adopter)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - ai
+    - machine-learning
+- title: AWS Certified Generative AI Developer – Professional (Early Adopter)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - ai
+    - generative-ai
+- title: AWS Certified CloudOps Engineer
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - devops
+- title: AWS Certified Data Engineer – Associate (Beta)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - data
+- title: AWS Certified Cloud Practitioner (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - cloud
+- title: AWS Certified Solutions Architect – Associate (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - architecture
+- title: AWS Certified SysOps Administrator – Associate (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - devops
+- title: AWS Certified Developer – Associate (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - development
+- title: AWS Certified DevOps Engineer – Professional (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - devops
+- title: AWS Certified Solutions Architect – Professional (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - architecture
+- title: AWS Certified Advanced Networking – Specialty (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - networking
+- title: AWS Certified Big Data – Specialty (Issued at Release)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - data
+- title: AWS Certified Security – Specialty (Issued at Release, Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - security
+- title: AWS Certified Alexa Skill Builder – Specialty (Issued at Release)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - ai
+- title: AWS Certified Machine Learning – Specialty (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - machine-learning
+- title: AWS Certified Data Analytics – Specialty (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - data
+- title: AWS Certified Database – Specialty (Renewed 2023)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - data
+- title: AWS Certified SAP on AWS – Specialty
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - enterprise
+- title: ISC2 Certified Cloud Security Professional (CCSP)
+  category: Other Certifications
+  tags:
+    - certification
+    - security
+    - cloud
+- title: ISC2 Certified Information Systems Security Professional (CISSP)
+  category: Other Certifications
+  tags:
+    - certification
+    - security
+- title: Cloud Security Alliance (CSA) Certificate of Cloud Security Knowledge (CCSK)
+  category: Other Certifications
+  tags:
+    - certification
+    - security
+    - cloud
+- title: CMMC Registered Practitioner
+  category: Other Certifications
+  tags:
+    - certification
+    - security
+    - compliance
+- title: FinOps Certified Practitioner
+  category: Other Certifications
+  tags:
+    - certification
+    - cloud
+    - finops
+- title: ITIL V3 Practitioner Certified
+  category: Other Certifications
+  tags:
+    - certification
+    - operations
+- title: 'Datadog Certified: Datadog Fundamentals'
+  category: Other Certifications
+  tags:
+    - certification
+    - monitoring
+- title: 'Datadog Certified: CloudSIEM for AWS Fundamentals'
+  category: Other Certifications
+  tags:
+    - certification
+    - security
+    - monitoring
+- title: Amazon Connect Ambassador
+  category: Other Certifications
+  tags:
+    - aws
+    - contact-center
+- title: EUC on AWS Ambassador
+  category: Other Certifications
+  tags:
+    - aws
+    - end-user-computing
+- title: Anynode Basic and Advanced
+  category: Other Certifications
+  tags:
+    - certification
+    - telephony
+- title: Datadog Demo Certification
+  category: Other Certifications
+  tags:
+    - certification
+    - monitoring
+- title: DPN Support Specialist Certification
+  category: Other Certifications
+  tags:
+    - certification
+    - monitoring
+- title: K8SUG Certified Awstronaut
+  category: Other Certifications
+  tags:
+    - certification
+    - kubernetes
+    - community
+- title: AWS, Microsoft Azure, Microsoft 365, IBM Cloud, Google Cloud (GCP), Citrix XenApp/XenDesktop, VMWare, CloudFlare, Akamai
+  category: Cloud & Virtualization
+  tags:
+    - cloud
+    - aws
+    - azure
+    - virtualization
+- title: Jira, Confluence, GitHub, Stash, RPM, Artifactory, NPM, Packer, Jenkins, Ansible, Octopus, Gradle, jMeter, BlazeMeter, Docker, Elastic, PowerShell, Bash, Python, JavaScript (Node.js), Serverless
+  category: Software Development & DevOps
+  tags:
+    - devops
+    - development
+    - automation
+- title: Microsoft SQL Server, Oracle, DB2, MySQL, Postgres, Apache, Nginx, HAProxy, Tomcat, Weblogic, Websphere, IIS, MongoDB, Redis, Bedrock, Q
+  category: Application & Database
+  tags:
+    - data
+    - development
+    - ai
+- title: AlertLogic, Trend Micro Deep Security/Cloud Conformity, Thales/Vormetric DSM, Safenet/CryptoCard, Duo, Okta, Tenable.io/Nessus
+  category: Security
+  tags:
+    - security
+    - monitoring
+- title: CloudCheckr, Cloudability, CloudHealth, Datadog, SumoLogic, NewRelic, OpsGenie, Zenoss, Splunk, tcpdump/Wireshark
+  category: Monitoring & Analysis
+  tags:
+    - monitoring
+    - finops
+    - operations
+- title: Microsoft Windows Services (DNS, DHCP, SMTP, RDP, AD), Linux Services (BIND, cPanel/WHM), Routing, Firewalling, Subnetting, SNMP, WMI
+  category: Network Services
+  tags:
+    - networking
+    - operations
+- title: SoftNAS, Zadara, CommVault, Veeam, Druva
+  category: Storage
+  tags:
+    - cloud
+    - operations
+- title: Windows, Linux (Amazon, RHEL, OEL, CentOS, Ubuntu, Debian)
+  category: Operating Systems
+  tags:
+    - operations
+- title: Checkpoint, Juniper, Cisco, Brocade Vyatta, Citrix Netscaler, Cohesive Networks
+  category: Firewalls, Load Balancers, Routers, Switches & Wireless
+  tags:
+    - networking
+    - security
+- title: Oracle CCA, Oracle CRM On Demand, Siebel CRM, SalesForce, Verint, PegaRules (PRPC), NetSuite, RingCentral, Amazon Connect, Lex, ServiceNow, Microsoft Dynamics
+  category: Contact Center, CRM & ERP
+  tags:
+    - contact-center
+    - crm
+- title: Nortel Meridian, Avaya Communication Manager, Brooktrout & Dialogic T1 cards, Quintum Tenor, Adtran, Asterisk, anynode
+  category: Telephony
+  tags:
+    - telephony
+    - contact-center
+- title: Slack, Joan, Lucid
+  category: Office Productivity
+  tags:
+    - operations

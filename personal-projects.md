@@ -24,34 +24,34 @@ Setting up [DerbyNet](https://derbynet.org/) on a Raspberry Pi to run Pinewood D
 
 ### Home SIP Server
 
-Running a local SIP server at home for VoIP. After spending years working with enterprise telephony (Avaya, Nortel, Asterisk, Amazon Connect), it felt right to have my own setup. Useful for intercom, home office lines, and just understanding the protocol at a deeper level.
+Running a local SIP server at home for VoIP. After spending years working with enterprise telephony, it felt right to have my own setup. Useful for intercom, home office lines, and just understanding the protocol at a deeper level.
 
 ---
 
 ### 3D Printing
 
-Getting into 3D printing — designing and printing parts, enclosures, and whatever else seems useful or interesting. Still early days.
+Getting into 3D printing — Mostly printing others' works and troubleshooting spaghetti. Still early days.
 
 ---
 
 ### SDR & Radio
 
-Software-defined radio, scanner monitoring, and exploring the RF spectrum. Considering getting a ham/FCC license to go deeper — HF, VHF, digital modes, the whole thing.
+Software-defined radio, and exploring the RF spectrum. Considering getting a ham/FCC license to go deeper — HF, VHF, digital modes, the whole thing.
 
 ---
 
 ### Gadgetry — Raspberry Pi & M5Stack
 
-Always have a Pi or M5 doing something. Sensor dashboards, home automation glue, portable tools, display widgets. The kind of stuff that starts as "let me just try this real quick" and ends up permanently mounted somewhere.
+Always have a Pi or M5 doing something. The kind of stuff that starts as "let me just try this real quick" and ends up on the desk.
 
 ---
 
 ### Media & Streaming
 
-Experimenting with home media setups, streaming workflows, and content pipelines. Overlaps with the professional side (AWS Elemental, OBS, encoding) but at home it's more about building something that just works for the family.
+Experimenting with home media setups, streaming workflows, and content pipelines. Overlaps with the professional side (AWS Elemental, OBS, encoding) but at home it's more about building something that just works.
 
 ---
 
 ### Camping
 
-Maybe. Too soon to tell. But the gear research has started, which is usually how these things begin.
+Maybe. Too soon to tell.

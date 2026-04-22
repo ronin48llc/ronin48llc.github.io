@@ -152,9 +152,6 @@ permalink: /presentations
           <div class="pres-desc">{{ pres.description }}</div>
         {% endif %}
         <div class="pres-links">
-          {% if pres.pptx %}
-            <a href="{{ cdn }}/{{ pres.pptx }}" download>⬇ PPTX</a>
-          {% endif %}
           {% if pres.pdf %}
             <a href="{{ cdn }}/{{ pres.pdf }}" target="_blank">📄 PDF</a>
           {% endif %}
