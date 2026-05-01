@@ -1,0 +1,226 @@
+# GitHub / Personal Projects
+
+- title: Agentic Dialing
+  directory: agentic-dialing
+  repo: connect-nova-sonic-email-collector
+  github: tbd
+  summary: Outbound call pipeline using Amazon Connect and Nova Sonic to collect email addresses
+  tags:
+    - amazon-connect
+    - ai
+    - nova-sonic
+    - node
+    - typescript
+
+- title: Agent Workspace SDK Demo
+  directory: amazon-connect-agent-workspace-sample-application
+  repo: Amazon Connect Agent Workspace Demo
+  github: tbd
+  summary: Sample app demonstrating all capabilities of the Amazon Connect Agent Workspace SDK for third-party apps — contact management, agent state, communication controls, real-time events
+  tags:
+    - amazon-connect
+    - sdk
+    - frontend
+    - html-js
+
+- title: Amazon Connect + Bedrock Integration
+  directory: amazon-connect-bedrock
+  repo: bedrock-connect-integration
+  github: tbd
+  summary: Amazon Bedrock + Amazon Connect integration for agent assist and customer self-service
+  tags:
+    - amazon-connect
+    - bedrock
+    - ai
+    - cdk
+    - typescript
+
+- title: Sierra AI Chat Connector
+  directory: amazon-connect-chat-sierra-ai-connector
+  repo: Sierra AI Chat Interface
+  github: tbd
+  summary: Production-ready chat interface for Sierra AI's Headless API with optional Amazon Connect integration — includes adapter, bridge API, and React frontend
+  tags:
+    - amazon-connect
+    - ai
+    - react
+    - typescript
+    - websocket
+
+- title: Amazon Connect Nova (CDK)
+  directory: amazon-connect-nova
+  repo: amazon-connect-nova
+  github: tbd
+  summary: CDK TypeScript project for Amazon Connect + Nova integration
+  tags:
+    - amazon-connect
+    - nova
+    - cdk
+    - typescript
+
+- title: Bedrock Streaming Client
+  directory: bedrock-streaming-client
+  repo: bedrock-streaming-client
+  github: tbd
+  summary: Streaming client for Amazon Bedrock with frontend and backend workspaces
+  tags:
+    - bedrock
+    - ai
+    - sam
+    - typescript
+    - monorepo
+
+- title: Blog Publishing Workflow
+  directory: blog-workflow
+  repo: blog-publishing-workflow
+  github: tbd
+  summary: End-to-end blog publishing pipeline — rich text authoring, Markdown conversion, Git workflow automation, and dev.to syndication
+  tags:
+    - node
+    - typescript
+    - publishing
+    - automation
+
+- title: Connect Data Lake → QuickSight
+  directory: connect-datalake-quicksight
+  repo: connect-data-lake-quicksight
+  github: tbd
+  summary: CDK stack to connect Amazon Connect Data Lake to QuickSight
+  tags:
+    - amazon-connect
+    - analytics
+    - quicksight
+    - cdk
+    - typescript
+
+- title: Connect Flow Builder
+  directory: connect-flow-builder
+  repo: connect-resource-orchestrator
+  github: tbd
+  summary: Serverless web app for creating and deploying Amazon Connect resources
+  tags:
+    - amazon-connect
+    - serverless
+    - node
+    - typescript
+
+- title: Connect Event Timeline
+  directory: event-stream
+  repo: connect-event-timeline
+  github: tbd
+  summary: Streaming event timeline system for Amazon Connect
+  tags:
+    - amazon-connect
+    - streaming
+    - typescript
+
+- title: Marketplace Integration
+  directory: marketplace-integration
+  repo: marketplace-integration
+  github: tbd
+  summary: AWS Marketplace integration service
+  tags:
+    - aws
+    - marketplace
+    - typescript
+
+- title: MCP Reference Architecture
+  directory: mcp-sample
+  repo: AWS MCP Server & Client
+  github: tbd
+  summary: MCP (Model Context Protocol) server + AI agent client on AWS — Lambda, API Gateway, DynamoDB, Strands Agents SDK, Bedrock
+  tags:
+    - mcp
+    - ai
+    - bedrock
+    - cdk
+    - typescript
+    - python
+
+- title: Mobile App Starter
+  directory: mobile-app-starter-project
+  repo: ios-mobile-app-backend
+  github: tbd
+  summary: Serverless AWS backend (Lambda + DynamoDB) for an iOS mobile app
+  tags:
+    - sam
+    - typescript
+    - mobile
+    - ios
+
+- title: Smart Number Selection
+  directory: number-management
+  repo: smart-number-selection
+  github: tbd
+  summary: Serverless app for smart outbound phone number selection
+  tags:
+    - amazon-connect
+    - sam
+    - typescript
+    - serverless
+
+- title: Rock Bot / Agentic AI Platform
+  directory: rock-bot
+  repo: aws-agentic-ai-platform
+  github: tbd
+  summary: AWS-native agentic AI orchestration platform
+  tags:
+    - ai
+    - agentic
+    - cdk
+    - typescript
+
+- title: SAM Lambda Hello World
+  directory: sam-lambda-connect-project
+  repo: SAM Lambda Project
+  github: tbd
+  summary: Simple AWS Lambda (Node.js 18) with GET /hello endpoint, deployed via SAM
+  tags:
+    - sam
+    - node
+    - lambda
+
+- title: Starter Project
+  directory: starter-project
+  repo: serverless-project-foundation
+  github: https://github.com/patrickhannah/starter-project
+  summary: Serverless project foundation with frontend, backend, infra, and scripts workspaces
+  tags:
+    - typescript
+    - monorepo
+    - serverless
+    - starter
+
+- title: Twilio Pipecat + Nova Sonic
+  directory: twilio-pipecat-sonic
+  repo: twilio-pipecat-sonic
+  github: tbd
+  summary: Twilio integration with Pipecat framework and Amazon Nova Sonic
+  tags:
+    - twilio
+    - ai
+    - nova-sonic
+    - python
+    - docker
+
+- title: Video Analysis Platform
+  directory: video-grab-analysis
+  repo: video-analysis-platform
+  github: tbd
+  summary: Serverless AWS video analysis platform using CDK
+  tags:
+    - video
+    - ai
+    - cdk
+    - typescript
+
+- title: Connect Phone Manager
+  directory: Working/connect-phone-manager
+  repo: connect-phone-manager
+  github: tbd
+  summary: Phone dialer interface integrating with Amazon Connect Campaigns v2 — eligibility rules by day/time/timezone
+  tags:
+    - amazon-connect
+    - react
+    - typescript
+    - campaigns

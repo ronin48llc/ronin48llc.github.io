@@ -1,27 +1,39 @@
+- title: AWStronaut
+  category: Memberships
+  tags:
+    - aws
+    - community
+    - leadership
+  start: 2026-03
+  url: https://aws.amazon.com/developer/community/stars/
 - title: IEEE
   category: Memberships
   tags:
     - engineering
     - computing
   start: 2026-03
+  url: https://www.ieee.org/
 - title: ACM
   category: Memberships
   tags:
     - computing
     - research
   start: 2026-03
+  url: https://www.acm.org/
 - title: Usenix
   category: Memberships
   tags:
     - computing
     - systems
   start: 2026-03
+  url: https://www.usenix.org/
 - title: OWASP
   category: Memberships
   tags:
     - security
     - appsec
   start: 2026-03
+  url: https://owasp.org/
 - title: CMMC Day Program Committee Member
   category: Memberships
   tags:
@@ -30,29 +42,34 @@
     - security
     - community
   start: 2024-01
+  url: https://cmmcday.com/
 - title: FinOps Foundation
   category: Memberships
   tags:
     - finops
     - cloud
   start: 2021-11
+  url: https://www.finops.org/
 - title: AWS Community Builder
   category: Memberships
   tags:
     - aws
     - community
   start: 2021-05
+  url: https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=patrick%2Bhannah&cb-cards.q_operator=AND
 - title: ISC2 Member
   category: Memberships
   tags:
     - security
   start: 2018-02
+  url: https://www.isc2.org/
 - title: InfraGard Member
   category: Memberships
   tags:
     - security
     - government
   start: 2015-05
+  url: https://www.infragard.org/
 - title: AWS User Group Leader
   category: Memberships
   tags:
@@ -60,6 +77,7 @@
     - community
     - leadership
   start: 2015-01
+  url: https://www.meetup.com/south-florida-aws-user-group/
 - title: AWS Certification SME — Item Development Workshop (Mar 2021)
   category: Former Roles
   tags:
@@ -75,6 +93,7 @@
     - leadership
   start: 2020-09
   end: 2026-03
+  url: https://aws.amazon.com/partners/ambassadors/
 - title: AWS Certification SME — Item Development Workshop (Aug 2020)
   category: Former Roles
   tags:

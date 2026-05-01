@@ -29,6 +29,8 @@ entries:
     url: /selected-works
   - title: personal projects
     url: /personal-projects
+  - title: github projects
+    url: /github-projects
   - title: reading
     url: /reading
   - title: links
