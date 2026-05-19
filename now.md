@@ -6,15 +6,13 @@ permalink: /now
 
 ## What I'm Working On
 
-_Updated April 2026_
+_Updated May 2026_
 
-After spending over a decade as CTO and co-founder of CloudHesive, I'm now consulting independently on the things I know best:
-
-- **Cloud operations & infrastructure** — AWS architecture, migration, managed services, and operational improvement
-- **Security & compliance** — SOC/PCI readiness, managed security services, encryption, and hardening
-- **Contact center modernization** — Amazon Connect implementations, IVR migration, and omnichannel workflows
-- **AI/ML** — Bedrock integration, generative AI for SaaS products, and ML proof-of-concepts
-- **Platform engineering** — SaaS product development, DevOps enablement, and CI/CD pipeline design
+After spending over a decade as CTO and co-founder of CloudHesive, I'm now with Call Center Power (CCP) as a Principal Product & Platform Architect. I joined CCP to deepen the firm's Amazon Connect practice and accelerate cloud contact center delivery for enterprise and public sector customers and by partnering with sales, delivery, and managed services teams across four areas:
+• Amazon Connect practice development — architecture, implementation, and platform strategy
+• Mentoring solutions architects across the delivery team
+• Pre-sales support — enterprise and public sector pursuits, solution design, and technical scoping
+• Product and partner strategy — contributing to CCP's AWS ecosystem roadmapd CI/CD pipeline design
 
 I'm also writing more — sharing what I've learned across 25 years of building and operating platforms at scale.
 

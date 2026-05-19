@@ -12,17 +12,14 @@ A mix of technology, leadership, business, and whatever else catches my attentio
 
 ### Currently Reading
 
-- **The Coming Wave: AI, Power, and Our Future** — Mustafa Suleyman
 - **Security by Design (SbD) + AI: Automating Assurance** — Security by Design Across Clouds with AI & Compliance Blueprints
 - **ARRL's Tech Q&A 8th Edition** — Quick and Easy Path to Your First Ham Radio License
-- **The Four Agreements: A Practical Guide to Personal Freedom** — Don Miguel Ruiz
 
 ### Recently Finished
 
 - **Measure What Matters: The Simple Idea that Drives 10x Growth** — John Doerr
 - **Cloud Economics for Private Equity** — A Practical Guide for Portfolio Companies, Investors, and Advisors
 - **GRC Engineering for AWS** — A Hands-On Guide to Governance, Risk and Compliance Engineering
-- **AWS Solutions Architect – Associate Certification Guide** — A comprehensive guide from certification to real-world applications
 - **Intelligent Equity** — How Private Equity-Backed Companies Can Use A.I. to Supercharge Value Creation
 - **Epicaricacy**
 - **The Blue Flame** — The Remarkably Simple Idea That Can Transform Your Leadership, and Ignite Your Team
@@ -31,6 +28,9 @@ A mix of technology, leadership, business, and whatever else catches my attentio
 
 - **Born to Be Wired** — Lessons from a Lifetime Transforming Television, Wiring America for the Internet, and Growing Formula One, Discovery, Sirius XM, and the Atlanta Braves
 - **Cable Cowboy: John Malone and the Rise of the Modern Cable-TV Business** — Mark Robichaux
+- **The Coming Wave: AI, Power, and Our Future** — Mustafa Suleyman
+- **The Four Agreements: A Practical Guide to Personal Freedom** — Don Miguel Ruiz
+- **AWS Solutions Architect – Associate Certification Guide** — A comprehensive guide from certification to real-world applications
 
 ### Reviewed
 

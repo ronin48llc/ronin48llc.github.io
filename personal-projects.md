@@ -48,7 +48,7 @@ Always have a Pi or M5 doing something. The kind of stuff that starts as "let me
 
 ### Media & Streaming
 
-Experimenting with home media setups, streaming workflows, and content pipelines. Overlaps with the professional side (AWS Elemental, OBS, encoding) but at home it's more about building something that just works.
+Experimenting with home media, streaming workflows, and content pipelines. Overlaps with the professional side (AWS Elemental and Media Services) but at home it's more about building something that just works.
 
 ---
 
