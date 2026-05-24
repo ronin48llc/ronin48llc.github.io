@@ -51,11 +51,12 @@
   start: 2021-11
   url: https://www.finops.org/
 - title: AWS Community Builder
-  category: Memberships
+  category: Former Roles
   tags:
     - aws
     - community
   start: 2021-05
+  end: 2025-05
   url: https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=patrick%2Bhannah&cb-cards.q_operator=AND
 - title: ISC2 Member
   category: Memberships

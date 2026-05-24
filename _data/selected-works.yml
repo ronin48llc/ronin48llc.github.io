@@ -8,24 +8,6 @@
 #   date:    (optional) Date in YYYY-MM-DD format
 #   tags:    (optional) Array of tag strings
 
-- title: 9 Things You Wish You Knew About Securing Your Services on AWS
-  url: https://www.cloudhesive.com/blog-posts/9-things-you-wish-you-knew-about-securing-your-services-on-aws/
-  summary: Co-authored blog on securing workloads on AWS based on a previous presentation.
-  tags:
-    - cloudhesive
-    - aws
-    - security
-    - blog
-    - authored
-- title: A Discussion on Migrating to AWS
-  url: https://www.cloudhesive.com/blog-posts/a-discussion-on-migrating-to-aws/
-  summary: Described AWS approach to migration including MAP, MRA, Well Architected and specific services.
-  tags:
-    - cloudhesive
-    - aws
-    - cloud-migration
-    - blog
-    - authored
 - title: Accelerating CMMC Compliance with the Cloud — PreVeil Webinar
   url: https://www.preveil.com/resources/webinar-accelerating-cmmc-compliance-with-the-cloud/
   summary: Presented with AWS ISV Partner PreVeil on providing a secure research compute environment on AWS for a university.
@@ -66,16 +48,6 @@
     - generative-ai
     - contact-center
     - events
-    - authored
-- title: Amazon Inspector — Service Launch Blog
-  url: https://www.cloudhesive.com/blog-posts/amazon-inspector
-  summary: Wrote a service launch blog based on work with the AWS service team utilizing Amazon Inspector pre-GA.
-  tags:
-    - cloudhesive
-    - aws
-    - security
-    - amazon-inspector
-    - blog
     - authored
 - title: Analytics at CloudHesive
   url: https://www.slideshare.net/CloudHesive/analytics-at-cloudhesive
@@ -133,16 +105,6 @@
     - cis
     - aws
     - end-user-computing
-    - authored
-- title: CloudFormation Disable Rollback — Feature Launch Blog
-  url: https://www.cloudhesive.com/blog-posts/cloudformation-disable-rollback
-  summary: Blog about CloudFormation's Disable Rollback feature with background and example.
-  tags:
-    - cloudhesive
-    - aws
-    - cloudformation
-    - devops
-    - blog
     - authored
 - title: 'CloudHesive at ITExpo 2025: Major Enhancements to ConnectPathCX for Amazon Connect'
   url: https://www.cloudhesive.com/news/cloudhesive-cto-to-present-at-itexpo-2025-announces-major-enhancements-to-connectpathcx/
@@ -240,23 +202,14 @@
     - security
     - github
     - authored
-- title: How to Decide — Avaya Edition
-  url: https://www.cloudhesive.com/blog-posts/how-to-decide-avaya-edition/
-  summary: Described the difference between on-premises communications services versus services like Amazon Connect.
+- title: Migrating Magento to AWS — Whitepaper (PDF)
+  url: https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf
+  summary: Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS.
   tags:
-    - cloudhesive
-    - amazon-connect
-    - contact-center
-    - blog
-    - authored
-- title: Hybrid Compute Services for Your SaaS App
-  url: https://www.cloudhesive.com/blog-posts/hybrid-compute-services-for-your-saas-app/
-  summary: Blog on hybrid compute approaches for SaaS applications on AWS.
-  tags:
-    - cloudhesive
     - aws
-    - saas
-    - blog
+    - whitepaper
+    - ecommerce
+    - migration
     - authored
 - title: Microservice Deployment on Amazon EC2 Container Service — AWS Meet Up
   url: https://www.cloudhesive.com/blog-posts/learn-everything-you-need-to-know-about-microservice-deployment-on-amazon-ec2-container-service-at-septembers-aws-meet-up-in-weston-fl/
@@ -269,15 +222,6 @@
     - events
     - south-florida
     - devops
-    - authored
-- title: Migrating Magento to AWS — Whitepaper (PDF)
-  url: https://d1.awsstatic.com/whitepapers/migrating-magento-to-aws.pdf
-  summary: Co-authored AWS whitepaper on migrating Magento/Adobe Commerce to AWS.
-  tags:
-    - aws
-    - whitepaper
-    - ecommerce
-    - migration
     - authored
 - title: Modernization of Your AWS-Based SaaS Platform (Fort Lauderdale)
   url: https://www.slideshare.net/slideshow/modernization-of-your-aws-based-saas-platform-short/271322724
@@ -310,16 +254,6 @@
     - events
     - video
     - authored
-- title: New GuardDuty Malware Protection — Service Launch Blog
-  url: https://www.cloudhesive.com/blog-posts/new-guardduty-malware-protection/
-  summary: Service launch blog for Amazon GuardDuty Malware Protection.
-  tags:
-    - cloudhesive
-    - aws
-    - security
-    - amazon-guardduty
-    - blog
-    - authored
 - title: Patrick Hannah — CMMC Day Speaker
   url: https://cmmcday.org/speaker/patrick-hannah/
   summary: Speaker profile for Patrick Hannah at CMMC Day in Washington, DC, covering cloud compliance and managed services.
@@ -338,16 +272,6 @@
     - aws-reinvent
     - events
     - community
-    - authored
-- title: re:Invent Survival Guide
-  url: https://www.cloudhesive.com/blog-posts/reinvent-survival-guide/
-  summary: Practical tips and advice for getting the most out of attending AWS Re:Invent, authored by Patrick Hannah.
-  tags:
-    - cloudhesive
-    - aws-reinvent
-    - conference
-    - events
-    - blog
     - authored
 - title: Reclaim Your Cloud Virtual Event — Service Provider Day
   url: https://cloudcheckr.com/event/reclaim-your-public-cloud-event-service-provider-day-cloudcheckr/
@@ -418,24 +342,6 @@
     - amazon-connect
     - architecture
     - video
-    - authored
-- title: Touch the Cloud
-  url: https://www.cloudhesive.com/blog-posts/touch-the-cloud/
-  summary: Blog post reflecting on the physical infrastructure behind AWS cloud services, from undersea fiber to data centers.
-  tags:
-    - cloudhesive
-    - aws
-    - blog
-    - cloud-adoption
-    - authored
-- title: You Built a SaaS App, Now What?
-  url: https://www.cloudhesive.com/blog-posts/you-built-a-saas-app-now-what/
-  summary: Blog on next steps after building a SaaS application on AWS.
-  tags:
-    - cloudhesive
-    - aws
-    - saas
-    - blog
     - authored
 - title: CloudHesive Launches Avaya Rapid Replacement Program
   url: https://www.prweb.com/releases/cloudhesive-launches-avaya-rapid-replacement-program-to-support-businesses-affected-by-avayas-200-seat-minimum-policy-302381085.html/

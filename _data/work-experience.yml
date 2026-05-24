@@ -1,5 +1,23 @@
+- title: Principal Product & Platform Architect — Call Center Power
+  period: May 2026 – Present
+  start: 2026-05
+  location: Remote
+  bullets:
+    - Deepening the firm's Amazon Connect practice and accelerating cloud contact center delivery for enterprise and public sector customers.
+    - Amazon Connect practice development — architecture, implementation, and platform strategy.
+    - Mentoring solutions architects across the delivery team.
+    - Pre-sales support — enterprise and public sector pursuits, solution design, and technical scoping.
+    - Product and partner strategy — contributing to CCP's AWS ecosystem roadmap.
+  tags:
+    - aws
+    - contact-center
+    - architecture
+    - leadership
+    - cloud
 - title: CTO — CloudHesive, LLC
   period: September 2014 – March 2026
+  start: 2014-09
+  end: 2026-03
   location: Fort Lauderdale, FL / Atlanta, GA (Remote)
   bullets:
     - Established AWS partnership and progressed to Premier Tier partner with 17 programs and competencies including multi-year renewals in the AWS MSP Program.
@@ -75,6 +93,8 @@
     - security
 - title: Sr. Systems Engineer — Arise Virtual Solutions, Inc.
   period: July 2006 – July 2010
+  start: 2006-07
+  end: 2010-07
   location: Miramar, FL
   bullets:
     - Responsible for implementation of new customers on Contact Center PaaS environments. Typical implementations involved custom development work in SQL and ASP/JSP.
@@ -130,13 +150,3 @@
     - security
     - qa
     - product-development
-- title: Principal Product & Platform Architect
-  period: May 2026 - Present
-  location: Remote!
-  bullets:
-    - 'Deepening the firm''s Amazon Connect practice and accelerate cloud contact center delivery for enterprise and public sector customers and by partnering with sales, delivery, and managed services teams across four areas:'
-    - • Amazon Connect practice development — architecture, implementation, and platform strategy
-    - • Mentoring solutions architects across the delivery team
-    - • Pre-sales support — enterprise and public sector pursuits, solution design, and technical scoping
-    - • Product and partner strategy — contributing to CCP's AWS ecosystem roadmap
-  tags: []
