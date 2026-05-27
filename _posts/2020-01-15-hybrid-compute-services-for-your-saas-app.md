@@ -1,47 +1,54 @@
 ---
 layout: post
 title: "Hybrid Compute Services for Your SaaS App"
-description: "Exploring hybrid compute approaches for SaaS applications on AWS."
-tags: aws saas hybrid-cloud compute
+description: "How to evolve your SaaS application's compute architecture on AWS — from EC2 to containers and serverless."
+tags: aws saas serverless containers lambda
 date: 2020-01-15
 originally_published: https://www.cloudhesive.com/blog-posts/hybrid-compute-services-for-your-saas-app/
 ---
 
-## Hybrid Compute Services for Your SaaS App
+Your app is under a continual state of change as you iteratively add features and functionality based on your insights in the market you serve or direct feedback from your customers. It's also possible that its architecture has evolved overtime — perhaps it started as a small project built on Spring framework and has grown beyond that.
 
-Building a SaaS application on AWS doesn't always mean running everything in a single region or even entirely in the public cloud. There are legitimate reasons to adopt a hybrid compute approach — latency requirements, data residency, burst capacity, or gradual migration from on-premises infrastructure.
+Amazon Web Services (AWS), as we know, offers a variety of compute services and in the selection of a compute service to fit your needs, you may often find it portrayed as pick the best one for your needs, rather than, pick the best for a given use case (the later approach being often utilized for data persistence tiers where you may select a combination of data persistence solutions for your given application's needs such as an in-memory database for disk latency sensitive applications versus a traditional RDBMS database for transactional data).
 
-### Why Hybrid?
+## Compute Service Categories
 
-- **Latency-sensitive workloads** — Some components need to be closer to end users or on-premises systems
-- **Data residency** — Regulatory requirements may dictate where certain data is processed
-- **Burst capacity** — Use the cloud for peak demand while maintaining a baseline on-premises
-- **Gradual migration** — Move workloads incrementally rather than all at once
+Compute services are generally categorized in 1 of 3 ways:
 
-### AWS Services for Hybrid Compute
+- **Server** — with bare metal and virtual variants, running in an AWS region or at the edge (a definition that continues to be expanded on)
+- **Container** — which may ultimately be leveraging a server-based host running a Docker daemon and orchestrated through Elastic Container Service (ECS), Elastic Kubernetes Service (EKS) or a "Serverless" variant such as Fargate, offering similar capability without the need to manage a server behind it
+- **Code** — executed in an environment such as Lambda (Region and edge based deployments much like Server based compute), offering an entirely new way to deploy and serve API, event or time based requests
 
-**AWS Outposts** — Run AWS infrastructure and services on-premises for a truly consistent hybrid experience. Same APIs, same tools, managed by AWS.
+So while your stack might have started out rather simplistic from the perspective of its infrastructure architecture, you're now finding yourself in a position where, needing to reduce time and effort spent on the infrastructure management aspects of your application or needing to leverage new AWS services to provide for functionality in your app, you're looking to expand your compute options. To do so, it helps to lay down some groundwork first.
 
-**AWS Local Zones** — Extend AWS regions to metropolitan areas for single-digit millisecond latency to end users.
+## First Progression: Automate
 
-**AWS Wavelength** — Embed compute and storage at the edge of 5G networks for ultra-low latency mobile applications.
+The first natural progression, if your software stack supports it and isn't already doing so, is expansion beyond using hand-configured EC2 instances for your compute (and other tiers) and automating your build/deploy pipeline (again if you aren't already doing so). Both can be accomplished by leveraging CodeStar (for your build pipeline) and either Elastic Beanstalk or ECS for your compute platform and moving the supporting services, not part of your core application to Managed Services offered by AWS, such as Application Load Balancer (ALB) or Relational Database Service (RDS). Leveraging these three sets of services you've eliminated much of the manual activities (or highly customized/highly coupled scripting) associated with deploying and running your platform.
 
-**Amazon ECS Anywhere / EKS Anywhere** — Run containers on your own infrastructure while using AWS for orchestration and management.
+## Next Progression: Serverless
 
-**AWS Storage Gateway** — Bridge on-premises storage with cloud storage for seamless data movement.
+The next natural progression we often encounter and the initial driver towards serverless is either:
 
-### Architecture Considerations
+- A **hybrid microservices model** where new functionality is delivered by way of API Gateway and Lambda functions rather than a Java container
+- **Movement of schedule based activities** outside of the primary Java container serving API requests, delivered by way of EventBridge and Lambda
+- Supporting an **event based approach** where asynchronous requests (such as those that do not have a direct effect on the user interface) are delivered by way of a Simple Queue Service (SQS) or EventBridge based solution, ultimately handled by Lambda
 
-When designing a hybrid SaaS architecture, consider:
+Abstraction of this from the user interface is relatively easy if you're already using a framework such as React or Angular and from a request routing perspective, CloudFront can be leveraged alongside ALB and API Gateway to eliminate challenges with Cross Domain access.
 
-- **Control plane vs. data plane** — Keep your control plane in AWS for reliability; distribute data plane components as needed
-- **State management** — Minimize state at the edge; centralize where possible
-- **Networking** — AWS Direct Connect provides dedicated, consistent connectivity between on-premises and AWS
-- **Observability** — Use CloudWatch and X-Ray across all environments for unified monitoring
-- **Deployment** — CI/CD pipelines should deploy consistently across all compute targets
+## Observability
 
-### Conclusion
+An added advantage of utilizing ALB and API Gateway is their integration with the AWS X-Ray Service, which provides distributed application tracing capabilities with minimal up-front setup (these services append an X-Ray header to web requests requiring only your application to be instrumented alongside the X-Ray agent, which is included in Elastic Beanstalk by default). Further each component of your application can be instrumented leveraging CloudWatch Metrics and Logs, allowing for the creation of a comprehensive dashboard and corresponding alarms to measure application health from user experience and back.
 
-The right hybrid approach depends on your specific requirements. AWS provides a spectrum of options from fully cloud-native to on-premises with cloud management, letting you choose the right balance for your SaaS application.
+## Release Management
+
+Your application's release process can be further expanded to support the management of serverless applications leveraging AWS Serverless Application Model (SAM) to manage Lambda functions and associate configurations/code (separately maintained) and related AWS services, providing a streamlined approach to deploying releases to your applications operating environment.
+
+## Data Persistence
+
+From a data persistence perspective, your serverless components can access the same components as your core application components, either directly (through APIs, component specific connection strings or the core application API itself). As a general best practice, however, data persistence tiers should be accessed directly by the service that owns that persistence tier, providing access to other services via API.
+
+## Conclusion
+
+Regardless of where you are in your customer's adoption of your application, your organization size or your application's complexity, if you have an application tier still leveraging EC2 based compute resources, you stand to benefit from the adoption of Container or Serverless based compute services from a cost, scale, operational ease and integration perspective.
 
 *— Patrick Hannah, CTO, CloudHesive*

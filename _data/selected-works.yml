@@ -283,6 +283,15 @@
     - msp
     - webinar
     - authored
+- title: re:Invent Survival Guide
+  url: https://www.cloudhesive.com/blog-posts/reinvent-survival-guide/
+  summary: Practical tips and advice for getting the most out of attending AWS re:Invent, authored by Patrick Hannah.
+  tags:
+    - cloudhesive
+    - aws-reinvent
+    - conference
+    - events
+    - authored
 - title: Security, Operations and Observability on AWS with Datadog
   url: https://www.youtube.com/watch?v=FzQmEG7onUg
   summary: Presented on security, operations and observability on AWS with a co-presenter from Datadog.
