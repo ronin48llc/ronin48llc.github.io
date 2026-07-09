@@ -2,6 +2,32 @@
 # Hosted on cdn.ronin48.io with same directory structure as media-assets/
 # CDN base: https://cdn.ronin48.io
 
+- title: How We Build Now — Amazon Connect User Group (Americas, Virtual)
+  date: '2026-07-07'
+  description: How building on Amazon Connect has shifted from contact flows and Lex intents to agentic AI, model selection, MCP and Bedrock — presented to the Amazon Connect User Group (Americas, virtual).
+  pdf: pdfs/amazon-connect-user-group-americas-virtual-how-we-build-now-july-2026.pdf
+  tags:
+  - agentic-ai
+  - ai
+  - amazon-connect
+  - aws
+  - bedrock
+  - ccaas
+  - community
+  - contact-center
+  - contact-lens
+  - conversational-ai
+  - customer-experience
+  - generative-ai
+  - lambda
+  - lex
+  - llm
+  - machine-learning
+  - mcp
+  - opensearch
+  - s3
+  - serverless
+  - webinar
 - title: This Is My Architecture — Re:Invent Promo
   date: '2024-11-01'
   description: Promotional video for This Is My Architecture segment at AWS Re:Invent.
