@@ -2,10 +2,10 @@
 # Hosted on cdn.ronin48.io with same directory structure as media-assets/
 # CDN base: https://cdn.ronin48.io
 
-- title: 'Well-Architected for Amazon Connect: Building for What''s Next — Amazon Connect User Group (Americas, Virtual)'
+- title: 'Well-Architected for Amazon Connect: Building for What''s Next'
   date: '2026-09-15'
   description: A custom Amazon Connect Well-Architected lens — six pillars, 118 questions and 602 best practices distilled from the 11,948 pages of Connect documentation, plus 281 automated discovery checks and a citation skill — built to catch how an instance drifts from well-architected in the months after go-live. Presented to the Amazon Connect User Group (Americas, virtual).
-  pdf: slides-pdf/well-architected-for-amazon-connect-building-for-what-s-next-amazon-connect-user-group-americas-virtual.pdf
+  pdf: slides-pdf/well-architected-for-amazon-connect-building-for-what-s-next.pdf
   tags:
   - agentic-ai
   - amazon-connect
