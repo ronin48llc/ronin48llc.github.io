@@ -1063,17 +1063,6 @@
   - systems-manager
   - waf
   - well-architected
-- title: Multigenerational Observability and Security for Evolving Cloud Operations
-  date: '2022-01-01'
-  description: Presentation on observability and security across cloud generations.
-  video: videos/Multigenerational Obrservability and Security for Evolving Cloud Operations [biHa3m2_Eck].webm
-  videoUrl: https://www.youtube.com/watch?v=biHa3m2_Eck
-  tags:
-  - aws
-  - security
-  - monitoring
-  - cloud
-  - video
 - title: Doubling Down on Cloud Security
   date: '2022-01-01'
   description: Presentation on strengthening cloud security posture.
@@ -1627,17 +1616,6 @@
   - well-architected
   - windows
   - workspaces
-- title: Exploring Contact Lens and Amazon Connect (Extended)
-  date: '2021-04-09'
-  description: Extended recording of Contact Lens and Amazon Connect exploration.
-  video: videos/Exploring Contact Lens and Amazon Connect [UUSsg2GN1K4].mkv
-  videoUrl: https://www.youtube.com/watch?v=UUSsg2GN1K4
-  tags:
-  - aws
-  - amazon-connect
-  - contact-center
-  - analytics
-  - video
 - title: AWS 2020 Year in Review — Re:Invent Recap
   date: '2021-01-01'
   description: Video recap of AWS Re:Invent 2020.
