@@ -2,6 +2,33 @@
 # Hosted on cdn.ronin48.io with same directory structure as media-assets/
 # CDN base: https://cdn.ronin48.io
 
+- title: 'Well-Architected for Amazon Connect: Building for What''s Next — AWS User Group Alpharetta'
+  date: '2026-10-13'
+  description: 'The in-person edition of the Well-Architected for Amazon Connect talk, opening AWS User Group Alpharetta (hosted by Improving Atlanta): a custom Connect lens — six pillars, 118 questions, 602 cited best practices — plus 281 automated discovery checks and a citation skill, with a live demo.'
+  pdf: slides-pdf/well-architected-for-amazon-connect-building-for-what-s-next-aws-user-group-alpharetta.pdf
+  tags:
+  - agentic-ai
+  - amazon-connect
+  - architecture
+  - automation
+  - aws
+  - best-practices
+  - community
+  - compliance
+  - contact-center
+  - cost-optimization
+  - disaster-recovery
+  - generative-ai
+  - governance
+  - hipaa
+  - kinesis
+  - lambda
+  - lex
+  - observability
+  - pci-dss
+  - security
+  - serverless
+  - well-architected
 - title: 'Well-Architected for Amazon Connect: Building for What''s Next'
   date: '2026-09-15'
   description: A custom Amazon Connect Well-Architected lens — six pillars, 118 questions and 602 best practices distilled from the 11,948 pages of Connect documentation, plus 281 automated discovery checks and a citation skill — built to catch how an instance drifts from well-architected in the months after go-live. Presented to the Amazon Connect User Group (Americas, virtual).
