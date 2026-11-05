@@ -124,8 +124,8 @@
     - cx
     - product-award
 - title: Inc. 5000 — No. 1305
-  summary: Ranked No. 1305 among America's fastest-growing private companies; on the list six consecutive years.
-  start: 2025-01
+  summary: Ranked No. 1305 on the 2024 Inc. 5000 list of America's fastest-growing private companies — the fifth consecutive year on the list.
+  start: 2024-08
   tags:
     - cloudhesive
     - growth
@@ -163,4 +163,84 @@
   tags:
     - cloudhesive
     - growth
+    - company-award
+- title: Deloitte Technology Fast 500 (2023)
+  summary: CloudHesive named a Deloitte Technology Fast 500 award recipient.
+  start: 2023-11
+  tags:
+    - cloudhesive
+    - growth
+    - company-award
+- title: AWS Public Sector Partner of the Year — LATAM (2023)
+  summary: CloudHesive named AWS Public Sector Partner of the Year for Latin America.
+  start: 2023-01
+  tags:
+    - aws
+    - cloudhesive
+    - public-sector
+    - apn-recognition
+    - company-award
+- title: SFBJ Best Places to Work (2023)
+  summary: CloudHesive named one of the South Florida Business Journal's Best Places to Work.
+  start: 2023-01
+  tags:
+    - cloudhesive
+    - culture
+    - company-award
+- title: AWS Public Sector Partner of the Year — Chile (2022)
+  summary: CloudHesive named AWS Public Sector Partner of the Year for Chile.
+  start: 2022-01
+  tags:
+    - aws
+    - cloudhesive
+    - public-sector
+    - apn-recognition
+    - company-award
+- title: AWS Partner of the Year — Argentina (2022)
+  summary: CloudHesive named AWS Partner of the Year for Argentina.
+  start: 2022-01
+  tags:
+    - aws
+    - cloudhesive
+    - apn-recognition
+    - company-award
+- title: SFBJ Best Places to Work (2022)
+  summary: CloudHesive named one of the South Florida Business Journal's Best Places to Work.
+  start: 2022-01
+  tags:
+    - cloudhesive
+    - culture
+    - company-award
+- title: AWS Partner of the Year — Chile (2021)
+  summary: CloudHesive named AWS Partner of the Year for Chile.
+  start: 2021-01
+  tags:
+    - aws
+    - cloudhesive
+    - apn-recognition
+    - company-award
+- title: AWS SaaS Competency (2020)
+  summary: CloudHesive achieved the AWS SaaS Competency.
+  start: 2020-01
+  tags:
+    - aws
+    - saas
+    - cloudhesive
+    - apn-recognition
+    - company-award
+- title: AWS Amazon Connect Partner (2018)
+  summary: CloudHesive recognized by AWS as an Amazon Connect partner.
+  start: 2018-01
+  tags:
+    - aws
+    - contact-center
+    - cloudhesive
+    - apn-recognition
+    - company-award
+- title: ChannelE2E Top 100 Public Cloud MSPs (2018)
+  summary: CloudHesive named to ChannelE2E's Top 100 Public Cloud MSPs.
+  start: 2018-01
+  tags:
+    - cloudhesive
+    - managed-services
     - company-award
