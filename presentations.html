@@ -159,7 +159,7 @@ permalink: /presentations
             <a href="{{ cdn }}/{{ pres.video }}" target="_blank">🎬 Video</a>
           {% endif %}
           {% if pres.videoUrl %}
-            <a href="{{ pres.videoUrl }}" target="_blank" rel="noopener">▶ YouTube</a>
+            <a href="{{ pres.videoUrl }}" target="_blank" rel="noopener">{% if pres.videoUrl contains 'youtu' %}▶ YouTube{% elsif pres.videoUrl contains 'govloop.com' %}↗ GovLoop{% else %}↗ Source{% endif %}</a>
           {% endif %}
         </div>
         {% if pres.tags and pres.tags.size > 0 %}
