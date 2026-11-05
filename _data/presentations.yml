@@ -2,6 +2,61 @@
 # Hosted on cdn.ronin48.io with same directory structure as media-assets/
 # CDN base: https://cdn.ronin48.io
 
+- title: Better Constituent Services Without Breaking the Budget (Full Interview)
+  date: '2026-10-27'
+  description: 'GovLoop Industry Voices interview, produced with Carahsoft, on modernizing government contact centers within existing budgets: serving constituents across voice, chat, text and self-service by shifting from CapEx to OpEx through outsourced or cloud-based services.'
+  video: videos/better-constituent-services-without-breaking-the-budget-full-interview.mp4
+  videoUrl: https://www.govloop.com/better-constituent-services-without-breaking-the-budget/
+  tags:
+  - amazon-connect
+  - aws
+  - cloud
+  - contact-center
+  - cost-optimization
+  - customer-experience
+  - government
+  - managed-services
+  - modernization
+  - omnichannel
+  - public-sector
+  - video
+- title: Better Constituent Services Without Breaking the Budget (Clip)
+  date: '2026-10-27'
+  description: A 4½-minute cut of the GovLoop Industry Voices interview on modernizing government contact centers within existing budgets.
+  video: videos/better-constituent-services-without-breaking-the-budget-clip.mp4
+  videoUrl: https://www.govloop.com/better-constituent-services-without-breaking-the-budget/
+  tags:
+  - amazon-connect
+  - aws
+  - cloud
+  - contact-center
+  - cost-optimization
+  - customer-experience
+  - government
+  - managed-services
+  - modernization
+  - omnichannel
+  - public-sector
+  - video
+- title: Better Constituent Services Without Breaking the Budget (Quick Pitch)
+  date: '2026-10-27'
+  description: A one-minute pitch from the GovLoop Industry Voices interview on modernizing government contact centers within existing budgets.
+  video: videos/better-constituent-services-without-breaking-the-budget-quick-pitch.mp4
+  videoUrl: https://www.govloop.com/better-constituent-services-without-breaking-the-budget/
+  tags:
+  - amazon-connect
+  - aws
+  - cloud
+  - contact-center
+  - cost-optimization
+  - customer-experience
+  - government
+  - managed-services
+  - modernization
+  - omnichannel
+  - promo
+  - public-sector
+  - video
 - title: 'Well-Architected for Amazon Connect: Building for What''s Next — AWS User Group Alpharetta'
   date: '2026-10-13'
   description: 'The in-person edition of the Well-Architected for Amazon Connect talk, opening AWS User Group Alpharetta (hosted by Improving Atlanta): a custom Connect lens — six pillars, 118 questions, 602 cited best practices — plus 281 automated discovery checks and a citation skill, with a live demo.'
