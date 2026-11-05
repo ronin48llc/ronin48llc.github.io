@@ -2,6 +2,35 @@
 # Hosted on cdn.ronin48.io with same directory structure as media-assets/
 # CDN base: https://cdn.ronin48.io
 
+- title: 'What Your Cloud Review Missed: Well-Architected on Amazon Connect Customer'
+  date: '2026-09-23'
+  description: CallCenterPower LinkedIn Live on why a single, generic go-live review misses what matters in Amazon Connect Customer environments, and how a custom Connect lens — six pillars, 118 questions, 602 cited best practices — plus 281 automated checks closes the gap.
+  pdf: slides-pdf/what-your-cloud-review-missed-well-architected-on-amazon-connect-customer.pdf
+  video: videos/what-your-cloud-review-missed-well-architected-on-amazon-connect-customer.mp4
+  tags:
+  - agentic-ai
+  - amazon-connect
+  - architecture
+  - automation
+  - aws
+  - best-practices
+  - compliance
+  - contact-center
+  - cost-optimization
+  - disaster-recovery
+  - generative-ai
+  - governance
+  - hipaa
+  - kinesis
+  - lambda
+  - lex
+  - observability
+  - pci-dss
+  - security
+  - serverless
+  - video
+  - webinar
+  - well-architected
 - title: Better Constituent Services Without Breaking the Budget (Full Interview)
   date: '2026-10-27'
   description: 'GovLoop Industry Voices interview, produced with Carahsoft, on modernizing government contact centers within existing budgets: serving constituents across voice, chat, text and self-service by shifting from CapEx to OpEx through outsourced or cloud-based services.'
