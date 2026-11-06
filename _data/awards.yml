@@ -63,7 +63,7 @@
     - product-award
 - title: 2025 Certification All Stars Recognition
   summary: Recognized in the 2025 AWS Certification All Stars program for outstanding achievement in AWS certifications.
-  start: 2025-01
+  start: 2025-03
   tags:
     - aws
     - certification
@@ -103,8 +103,8 @@
     - contact-center
     - product-award
 - title: AWS Ambassador — Certification All-Star Award
-  summary: Awarded to AWS Ambassadors who possessed all active AWS certifications at the date issued (September 2022).
-  start: 2022-09
+  summary: Awarded to AWS Ambassadors who possessed all active AWS certifications at the date issued (September 2023).
+  start: 2023-09
   tags:
     - aws
     - certification

@@ -6,6 +6,12 @@
     - aws
     - certification
     - networking
+- title: AWS Certified AI Business Strategist (Early Adopter)
+  category: AWS Certifications
+  tags:
+    - aws
+    - certification
+    - ai
 - title: AWS Certified AI Practitioner (Early Adopter)
   category: AWS Certifications
   tags:
@@ -116,6 +122,31 @@
     - aws
     - certification
     - devops
+- title: AWS Agentic AI Demonstrated
+  category: AWS Microcredentials
+  tags:
+    - aws
+    - microcredential
+    - ai
+    - generative-ai
+- title: AWS Application Networking Demonstrated
+  category: AWS Microcredentials
+  tags:
+    - aws
+    - microcredential
+    - networking
+- title: AWS Incident Response Demonstrated
+  category: AWS Microcredentials
+  tags:
+    - aws
+    - microcredential
+    - security
+- title: AWS Serverless Demonstrated
+  category: AWS Microcredentials
+  tags:
+    - aws
+    - microcredential
+    - serverless
 - title: Amazon Connect Ambassador
   category: Other Certifications
   tags:
@@ -164,7 +195,7 @@
   tags:
     - aws
     - end-user-computing
-- title: FinOps Certified Practitioner
+- title: FinOps Certified Practitioner (2021–2026)
   category: Other Certifications
   tags:
     - certification
@@ -192,6 +223,230 @@
     - certification
     - kubernetes
     - community
+- title: 'AWS Partner: Accreditation (Business) (2021)'
+  category: AWS Partner Accreditations
+  tags:
+    - aws
+    - accreditation
+    - sales
+- title: 'AWS Partner: Sales Accredited (2026)'
+  category: AWS Partner Accreditations
+  tags:
+    - aws
+    - accreditation
+    - sales
+- title: 'AWS Partner: Technical Accredited (2021)'
+  category: AWS Partner Accreditations
+  tags:
+    - aws
+    - accreditation
+    - cloud
+- title: Well-Architected Proficient (2021)
+  category: AWS Partner Accreditations
+  tags:
+    - aws
+    - accreditation
+    - architecture
+- title: 'AWS Knowledge: Amazon Connect AI Fundamentals'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+    - ai
+    - generative-ai
+- title: 'AWS Knowledge: Amazon Connect Communications Specialist'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+- title: 'AWS Knowledge: Amazon Connect Developer'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+- title: 'AWS Knowledge: Amazon Connect Fundamentals'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+- title: 'AWS Knowledge: Amazon Connect Outbound Communications'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+- title: 'AWS Knowledge: Amazon Connect Reporting & Analytics'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+    - data
+- title: 'AWS Knowledge: AWS Communication Developer Services Fundamentals'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - contact-center
+    - development
+- title: 'AWS Knowledge: AWS End User Computing'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - end-user-computing
+- title: 'AWS Knowledge: Business Intelligence'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - data
+- title: 'AWS Knowledge: Cloud Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - cloud
+- title: 'AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - media
+- title: 'AWS Partner: Agentic AI - Sales'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - ai
+    - generative-ai
+    - sales
+- title: 'AWS Partner: Agentic AI Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - ai
+    - generative-ai
+- title: 'AWS Partner: AWS GovCloud (US) Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - government
+    - compliance
+- title: 'AWS Partner: Business Value Realization (BVR) Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - finops
+- title: 'AWS Partner: Cloud Economics Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - finops
+- title: 'AWS Partner: Data and Analytics Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - data
+- title: 'AWS Partner: Digital Sovereignty Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - compliance
+- title: 'AWS Partner: Digital Sovereignty for Sellers - Business'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - compliance
+    - sales
+- title: 'AWS Partner: Digital Sovereignty on AWS (Technical)'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - compliance
+- title: 'AWS Partner: Enterprise Modernization Learning Plan Assessment'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - migration
+- title: 'AWS Partner: Generative AI Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - ai
+    - generative-ai
+- title: 'AWS Partner: Generative AI Sales'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - ai
+    - generative-ai
+    - sales
+- title: 'AWS Partner: Generative AI Technical'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - ai
+    - generative-ai
+- title: 'AWS Partner: Managed Services Providers Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - managed-services
+- title: 'AWS Partner: Migration Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - migration
+- title: 'AWS Partner: SAP on AWS (Technical)'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - enterprise
+- title: 'AWS Partner: SAP on AWS Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - enterprise
+- title: 'AWS Partner: Security Essentials'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - security
+- title: 'AWS Partner: Security for Sellers - Business'
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - security
+    - sales
+- title: Migration Ambassador Foundations 2021
+  category: AWS Training Badges
+  tags:
+    - aws
+    - training
+    - migration
 - title: AWS, Microsoft Azure, Microsoft 365, IBM Cloud, Google Cloud (GCP), Citrix XenApp/XenDesktop, VMWare, CloudFlare, Akamai
   category: Cloud & Virtualization
   tags:
