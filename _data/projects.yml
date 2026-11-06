@@ -28,6 +28,14 @@
     - managed-services
     - security
     - compliance
+- title: Contact Center PaaS (Promero)
+  summary: Architected, implemented and managed a 500-agent contact center platform on native SIP, with no TDM or gateways.
+  start: 2010-07
+  end: 2011-02
+  tags:
+    - contact-center
+    - telephony
+    - architecture
 - title: Contact Center PaaS (Arise Virtual Solutions)
   summary: Architected, implemented and managed the contact center platform enabling expansion from South Florida to national and international presence with 2000+ ports and 5000+ remote agents.
   start: 2006-07
