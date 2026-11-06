@@ -219,6 +219,16 @@
     - cloudhesive
     - apn-recognition
     - company-award
+- title: AWS Public Sector Partner Award — Best Cybersecurity Solution (2020)
+  summary: CloudHesive won Best Cybersecurity Solution in the 2020 AWS Public Sector Partner Awards.
+  start: 2020-07
+  tags:
+    - aws
+    - cloudhesive
+    - public-sector
+    - security
+    - apn-recognition
+    - company-award
 - title: AWS SaaS Competency (2020)
   summary: CloudHesive achieved the AWS SaaS Competency.
   start: 2020-01
@@ -227,6 +237,20 @@
     - saas
     - cloudhesive
     - apn-recognition
+    - company-award
+- title: South Florida's 50 Fastest Growing Companies (2019)
+  summary: CloudHesive named one of South Florida's 50 Fastest Growing Companies.
+  start: 2019-01
+  tags:
+    - cloudhesive
+    - growth
+    - company-award
+- title: GrowFL Florida Companies to Watch (2018)
+  summary: CloudHesive named one of GrowFL's 50 Florida Companies to Watch for 2018.
+  start: 2018-09
+  tags:
+    - cloudhesive
+    - growth
     - company-award
 - title: AWS Amazon Connect Partner (2018)
   summary: CloudHesive recognized by AWS as an Amazon Connect partner.
@@ -243,4 +267,17 @@
   tags:
     - cloudhesive
     - managed-services
+    - company-award
+- title: SFBJ Best Places to Work (2018)
+  summary: CloudHesive named one of the South Florida Business Journal's Best Places to Work.
+  start: 2018-01
+  tags:
+    - cloudhesive
+    - culture
+    - company-award
+- title: SFBJ Top Cloud Computing Companies (2018)
+  summary: CloudHesive named to the South Florida Business Journal's list of top cloud computing companies.
+  start: 2018-01
+  tags:
+    - cloudhesive
     - company-award
